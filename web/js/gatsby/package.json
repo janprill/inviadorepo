@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-janprill_com",
+    "janprill_com"
+  ]
+}

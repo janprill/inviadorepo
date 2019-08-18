@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "janprill_com",
+  "version": "1.0.0",
+  "license": "(c) janprill, all rights reserved",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.67",
+    "gatsby-theme-janprill_com": "*",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
