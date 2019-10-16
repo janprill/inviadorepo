@@ -1,4 +1,0 @@
-[build]
-  base    = "web/js/gatsby/blog"
-  command = "gatsby build"
-  publish = "public" 
