@@ -8,7 +8,7 @@ import React from 'react';
 export default function Logo() {
   return (
     <div>
-      custom logo
+      <p>custom logo</p>
       <svg viewBox="0 0 106 28" height="30px">
         <path d="M62.9 12h2.8v10...." />
         <path fill="#fff" d="M25 14h-..." />
