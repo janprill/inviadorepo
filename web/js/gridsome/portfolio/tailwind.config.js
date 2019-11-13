@@ -71,6 +71,9 @@ module.exports = {
       },
     },
     fontFamily: {
+      neuzeit: [
+        'neuzeit-grotesk'
+      ],
       headline: [
         'ff-meta-serif-web-pro',
         'serif'

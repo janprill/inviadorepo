@@ -1,8 +1,8 @@
 <template>
   <div class="m-0">
     <header class="m-0 bg-black p-3">
-      <div class="font-copy text-white text-l">
-       INVIADO
+      <div class="font-neuzeit text-white text-xl">
+       inviado
       </div>
     </header>
 
