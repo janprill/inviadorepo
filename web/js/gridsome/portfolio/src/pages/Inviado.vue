@@ -1,7 +1,5 @@
 <template>
   <Layout>
-    <h1 data-aos="fade">AOS Demo</h1>
-
     <div class="m-8 bg-black pt-8 p-24">
       <div class="max-w-5xl m-auto leading-tight">
         <h1 class="text-center font-neuzeit font-bold text-5xl text-gray-100 tracking-tight leading-none mt-32">
@@ -14,7 +12,7 @@
       </div>
     </div>
 
-    <p data-aos="slide-up" data-aos-easing="ease" class="text-white text-3xl">
+    <p data-aos="slide-up" data-aos-easing="ease" data-aos-duration="1250" class="text-white text-3xl">
       Paragraph with fade up animation and <code>ease</code> easing.
     </p>
 
