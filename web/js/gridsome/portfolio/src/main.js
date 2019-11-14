@@ -5,8 +5,14 @@ import DefaultLayout from '~/layouts/Default.vue'
 import MyLayout from '~/layouts/MyLayout.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 export default function (Vue, { router, head, isClient }) {
+
+  AOS.init({});
+
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
