@@ -72,7 +72,10 @@ module.exports = {
     },
     fontFamily: {
       neuzeit: [
-        'neuzeit-grotesk'
+        '-apple-system', 
+        'BlinkMacSystemFont', 
+        'neuzeit-grotesk',
+        '"Segoe UI"'
       ],
       headline: [
         'ff-meta-serif-web-pro',
@@ -80,6 +83,7 @@ module.exports = {
       ],
       copy: [
         'futura-pt',
+        '-apple-system',
         '"Helvetica Neue"',
         'sans-serif'
       ],
