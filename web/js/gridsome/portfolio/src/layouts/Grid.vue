@@ -127,20 +127,27 @@
     <div class="m-6 mx-auto">
       <div class="flex flex-row">
         <div class="w-full bg-gray-500">
-          Bullet points j
-
+          Bullet points
           <ul>
             <li class="mt-16" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
-              <p>Eins</p>
-              <p>Eins</p>
+              <h3>80-Seiten geballte Informationen</h3>
+              <p>Wie Du jetzt Dein Gehalt verdoppelst und mit dem Vermögenaufbau beginnst.</p>
             </li>
             <li class="mt-16" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
-              <p>Zwei</p>
-              <p>Zwei</p>
+              <h3>Leck-mich-Geld...</h3>
+              <p>sagen einige und es ist für Dich der Einstieg in eine viel größere Freiheit.</p>
+            </li>
+            <li class="mt-16" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
+              <h3>Fünf kreative Wege zur Gehaltserhöhung</h3>
+              <p>von denen Du wahrscheinlich noch nie gehört hast.</p>
+            </li>
+            <li class="mt-16" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
+              <h3>Ein unfairer Vorteil gegenüber Deinen Kollegen</h3>
+              <p>Ohne diese Informationen, werden Sie nie die gleiche Chance auf ein ähnliches Gehalt haben.</p>
             </li>
             <li class="mt-16 mb-32" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
-              <p>Drei</p>
-              <p>Drei</p>
+              <h3>Wut! Nachdem Dir die Schuppen von den Augen fallen</h3>
+              <p>Du wirst staunen, was Deine Vorgesetzten und Geschäftsführer verdienen. Vorsicht, Du könntest wütend werden. Aber darin liegt eine große Chance.</p>
             </li>
           </ul>
         </div>
@@ -148,11 +155,21 @@
     </div>
 
     <div class="m-6 mx-auto">
-      <div class="flex flex-row">
-        <div class="w-full bg-gray-500 h-64">
-          Long copy
+      <div class="flex flex-row mx-10">
+        <div class="flex w-full bg-gray-500 h-screen">
+          <div class="flex flex-col justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
+            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold leading-none">
+              Ich freue mich sehr für Dich!
+            </h1>
+            <p class="text-gray-200 font-copy text-2xl leading-tight text-center mt-6">
+              Das Du diese Seite nun entdeckt hast, kann ein echter Wendepunkt in Deinem Leben sein. Lass Dich doch erstmals ein auf den Gedanken,
+              das Du ethisch korrekt endlich das Geld verdienen kannst, dass Du für Dein Unternehmen tatsächlich wert bist. Einfach die wirklich 
+              faire Kompensation für Deine extrem wertvollen Leistungen. Wir werden das für Dich erreichen. Und dann ist plötzlich nach oben alles offen.
+              Ein paar Beispiele was unsere Kunden mit dieser Freiheit gemacht haben:
+            </p>
+          </div>
         </div>
-      </div>
+      </div>>
       <div class="flex flex-row">
         <div class="w-2/3 h-64 bg-gray-100">
 
@@ -176,6 +193,9 @@
         <div class="w-1/3 h-64 bg-gray-600">
 
         </div>
+      </div>
+      <div class="flex flex-row flex-grow w-full bg-gray-300">
+        Call to action
       </div>
     </div>
 
