@@ -17,25 +17,67 @@
     <div class="m-6 mx-auto">
       <div class="flex flex-row">
         <div class="flex flex-grow h-screen bg-gray-500 w-full mx-10">
-          <div class="flex flex-col justify-center items-center mx-auto" v-prlx>
-            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold">(reich && frei)</h1>
+          <div class="flex flex-col justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
+            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold leading-none">
+              5 Wege, Dein Gehalt in den nächsten drei Jahren zu verdoppeln.
+            </h1>
+            <p class="text-gray-200 font-copy text-2xl leading-tight text-center mt-6">
+              Für zwei davon, die kaum jemand kennt, musst Du nicht einmal verhandeln. Wir zeigen Dir Schritt für Schritt den Weg. Und übernehmen für Dich die gesamte Arbeit,
+              wenn Du das wünschst. Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als gerade jetzt, um Dein Leben auf allen Ebenen massiv zu verbessern.
+              Verpass' diese Gelegenheit nicht!
+            </p>
           </div>
         </div>
       </div>
-      <div class="flex flex-row">
-        <div class="flex-grow h-64 bg-gray-200 w-1/3">
+      <div class="flex flex-row mx-10">
+        <div class="flex-grow h-64 bg-gray-200 w-1/2">
           Left
         </div>
-        <div class="flex-grow bg-gray-400 w-2/3">
-          Right
+        <div class="flex-grow bg-gray-400 w-1/2">
+          <h2 class="text-white text-3xl font-neuzeit">
+            (reich && frei) == true
+          </h2>
+          <p>
+            Seien wir doch mal ehrlich. Wer von uns will nicht, dass der Ausdruck oben wahr ist?
+            In Dir regt sich möglicherweise direkt die langjährige Mittelklassen-Erziehung: "Geld macht doch
+            nicht glücklich. Geld ist mir nicht so wichtig." Wir zeigen Dir, warum ethisch Korrekter Wohlstand
+            nicht nur möglich, sondern Deine Pflicht ist. Du, genau Du, solltest mehr verdienen. Denn andere haben
+            mit Geld weniger hehre Ziele. Wir zeigen Dir, wie Du, in einem ersten Schritt endlich mehr Geld verdienst.
+          </p>
+          <p>
+            (reich && frei) == true als Ausdruck hat Dir direkt Nackenschauer verursacht? 
+            Aber sei bitte ehrlich: was wäre schlimm daran, wenn Geld nicht mehr zu Deinen Problemen gehörte? 
+            Warum soll das nicht zu true evaluieren? 
+          </p>
+
+          <p>
+            Vielleicht hast Du auch eine lange Mittelstandserziehung genossen. 
+            Wie das schon klingt. Du strebst doch auch nicht danach ein Mittelcoder zu sein, 
+            oder ein mittlerer Data Scientist, oder? 
+            Ethisch korrekt Geld zu verdienen ist möglich und erstrebenswert. 
+            Wenn Du es nicht verdienst, dann bekommen es andere Leute. Und die verfolgen weniger hehre Ziele als Du!
+          </p>
         </div>
+      </div>
+      <div class="flex flex-row flex-grow w-full bg-gray-300">
+        Call to action
       </div>
     </div>
 
     <div class="m-6 mx-auto">
-      <div class="flex flex-row">
-        <div class="w-full bg-gray-500 h-64">
-        
+      <div class="flex flex-row mx-10">
+        <div class="flex w-full bg-gray-500 h-screen">
+          <div class="flex flex-col justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
+            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold leading-none">
+              Wir öffnen Dir Türen.
+            </h1>
+            <p class="text-gray-200 font-copy text-2xl leading-tight text-center mt-6">
+              Bereits in unserem kostenlosen eBook zeigen wir Dir, ohne jedes Risiko für Dich, wie Du Deine Karriere auf 
+              Steroide setzt. Du lernst dort die Maßnahmen, die Dich zum wichtigsten Player in Deinem Team machen und wie 
+              Du erreichst, dass dies auch von denjenigen Entscheidern wahrgenommen wird, die über Deine Gehaltserhöhung entscheiden.
+              Du wirst Dich wundern, welche Türen plötzlich aufgehen, sobald Du den glasklaren Maßnahmen aus unserem eBook folgst.
+            </p>
+          </div>
         </div>
       </div>
       <div class="flex flex-row">
@@ -46,28 +88,61 @@
 
         </div>
       </div>
+      <div class="flex flex-row flex-grow w-full bg-gray-300">
+        Call to action
+      </div>
     </div>
 
     <div class="m-6 mx-auto">
-      <div class="flex flex-row">
-        <div class="w-full bg-gray-500 h-64">
-        
+      <div class="flex flex-row mx-10">
+        <div class="flex w-full bg-gray-500 h-screen">
+          <div class="flex flex-col justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
+            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold leading-none">
+              Grüner wird es nicht.
+            </h1>
+            <p class="text-gray-200 font-copy text-2xl leading-tight text-center mt-6">
+              Bitte sieh' den Tatsachen ins Auge. Auch Du hast nicht ewig Zeit. Es wird Zeit, aus dem Quark zu kommen. 
+              Die Zeiten sind für Dich, als Dev, als Tech PM oder als Data Scientist günstig wie nie. Du hast aktuell
+              die absolut realistische Chance Geld zu verdienen, wie Dein Zahnarzt. Du gehörst zu einer Berufsgruppe, 
+              die gesucht ist, wie keine andere. Aber was machst Du derzeit daraus. Bohrst Du so dicke Bretter, wie es
+              Dein Potential erlaubt? Wir helfen Dir, das Leben zu leben, das Du Dir wünschst. Das Geld auf Deinem Konto 
+              eingehen zu sehen, dass Du wirklich verdienst. Zögere nicht zu lange! Du wirst es Dir nicht verzeihen.
+            </p>
+          </div>
         </div>
       </div>
       <div class="flex flex-row">
         <div class="w-2/3 h-64 bg-gray-100">
-
+          But!
         </div>
         <div class="w-1/3 h-64 bg-gray-300">
-
+          We've got your back!
         </div>
+      </div>
+      <div class="flex flex-row flex-grow w-full bg-gray-300">
+        Call to action
       </div>
     </div>
 
     <div class="m-6 mx-auto">
       <div class="flex flex-row">
-        <div class="w-full bg-gray-500 h-64">
-           Bullet points 
+        <div class="w-full bg-gray-500">
+          Bullet points j
+
+          <ul>
+            <li class="mt-16" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
+              <p>Eins</p>
+              <p>Eins</p>
+            </li>
+            <li class="mt-16" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
+              <p>Zwei</p>
+              <p>Zwei</p>
+            </li>
+            <li class="mt-16 mb-32" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
+              <p>Drei</p>
+              <p>Drei</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
