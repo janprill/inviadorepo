@@ -14,14 +14,14 @@
       </div>
     </header>
 
-    <div class="m-6 mx-auto">
+    <div class="m-2 md:m-3 xl:m-6 mx-auto">
       <div class="flex flex-row">
-        <div class="flex flex-grow min-h-screen bg-black w-full mx-10">
-          <div class="flex flex-col flex-grow min-h-screen justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
-            <h1 class="text-white mx-auto text-center text-8xl font-neuzeit font-semibold leading-none w-128">
+        <div class="flex flex-grow min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
+          <div class="flex flex-col flex-grow min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+            <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               5 Wege, Dein Gehalt zu verdoppeln.
             </h1>
-            <p class="text-gray-200 font-copy text-4xl leading-tight text-center mt-6">
+            <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Für zwei davon musst Du nicht einmal verhandeln. Kaum jemand kennt sie. Wir zeigen Dir Schritt für Schritt den Weg. 
               Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als heute, um Dein Leben auf allen Ebenen massiv zu verbessern.
               Verpass' diese Gelegenheit nicht! Es wird Dich im Schlaf verfolgen, wenn Du jetzt die Signale nicht hörst!
@@ -30,10 +30,10 @@
         </div>
       </div>
       <div class="flex flex-row mx-10 mt-32">
-        <div class="flex-grow bg-gray-200 w-1/2">
+        <div class="flex flex-grow bg-gray-200 w-1/2">
           <div class="bg-gradient" />
         </div>
-        <div class="flex-grow bg-gray-400 w-1/2">
+        <div class="flex flex-grow bg-gray-400 w-1/2">
           <h2 class="text-white text-3xl font-neuzeit">
             (reich && frei) == true
           </h2>
