@@ -16,22 +16,22 @@
 
     <div class="m-6 mx-auto">
       <div class="flex flex-row">
-        <div class="flex flex-grow h-screen bg-gray-500 w-full mx-10">
-          <div class="flex flex-col justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
-            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold leading-none">
-              5 Wege, Dein Gehalt in den nächsten drei Jahren zu verdoppeln.
+        <div class="flex flex-grow min-h-screen bg-black w-full mx-10">
+          <div class="flex flex-col flex-grow min-h-screen justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
+            <h1 class="text-white mx-auto text-center text-8xl font-neuzeit font-semibold leading-none w-128">
+              5 Wege, Dein Gehalt zu verdoppeln.
             </h1>
-            <p class="text-gray-200 font-copy text-2xl leading-tight text-center mt-6">
-              Für zwei davon, die kaum jemand kennt, musst Du nicht einmal verhandeln. Wir zeigen Dir Schritt für Schritt den Weg. Und übernehmen für Dich die gesamte Arbeit,
-              wenn Du das wünschst. Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als gerade jetzt, um Dein Leben auf allen Ebenen massiv zu verbessern.
-              Verpass' diese Gelegenheit nicht!
+            <p class="text-gray-200 font-copy text-4xl leading-tight text-center mt-6">
+              Für zwei davon musst Du nicht einmal verhandeln. Kaum jemand kennt sie. Wir zeigen Dir Schritt für Schritt den Weg. 
+              Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als heute, um Dein Leben auf allen Ebenen massiv zu verbessern.
+              Verpass' diese Gelegenheit nicht! Es wird Dich im Schlaf verfolgen, wenn Du jetzt die Signale nicht hörst!
             </p>
           </div>
         </div>
       </div>
-      <div class="flex flex-row mx-10">
-        <div class="flex-grow h-64 bg-gray-200 w-1/2">
-          Left
+      <div class="flex flex-row mx-10 mt-32">
+        <div class="flex-grow bg-gray-200 w-1/2">
+          <div class="bg-gradient" />
         </div>
         <div class="flex-grow bg-gray-400 w-1/2">
           <h2 class="text-white text-3xl font-neuzeit">
@@ -82,10 +82,12 @@
       </div>
       <div class="flex flex-row">
         <div class="w-1/2 h-64 bg-gray-100">
-
+          Wenn Du mit der inviado Methode beginnst, Deine Karriere zu beschleunigen und Dein Gehalt zu erhöhen, dann wirst Du
+          Dein Mindset verändern. Du wirst staunen, welche Türen aufgehen. Ich freue mich sehr darauf, Dich zu begleiten, die zur 
+          helfen, die Hürden aus dem Weg zu räumen und die Türen aufzustoßen.
         </div>
         <div class="w-1/2 h-64 bg-gray-300">
-
+          Bild: Tür auf
         </div>
       </div>
       <div class="flex flex-row flex-grow w-full bg-gray-300">
@@ -167,31 +169,71 @@
               faire Kompensation für Deine extrem wertvollen Leistungen. Wir werden das für Dich erreichen. Und dann ist plötzlich nach oben alles offen.
               Ein paar Beispiele was unsere Kunden mit dieser Freiheit gemacht haben:
             </p>
+            <p>
+              Ein höheres Gehalt bringt Dir klar erkennbare, nicht bestreitbare Vorteile und gerade deswegen ist es so absolut unverständlich, warum 
+              Du Dein Recht, auf ein faire Kompensation, nicht ganz regelmäßig durchsetzt. Du bist es Deinen Lieben, Dir und vor allem Deinem Potential
+              schuldig, jetzt damit zu beginnen, Dich auf eine faire, über dem Marktdurchschnitt liegende Vergütungsstufe zu heben.
+            </p>
+            <ul>
+              <li>Dein aktuelles Gehalt beeinflusst jedes weitere, höhere Gehalt, das Du im Laufe Deiner Karriere erreichst.</li>
+              <li>Dein Gehalt bestimmt Deinen Rentenanspruch und Deine Möglichkeiten zur privaten Altersvorsorge.</li>
+              <li>Dein Verdienst determiniert Status und Deine Möglichkeiten, Freiheit zu kaufen.</li>
+              <li>Deine Kompensation ist die am klarsten sichtbare Wertschätzung, die Dir Dein Arbeitgeber entgegenbringt und bestimmt zwangsläufig auch Dein Selbstwertgefühl. Ob Du willst oder nicht.</li>
+              <li>Dein Gehalt beeinflusst, welche Bildungsmöglichkeiten Du Deinen Kinder eröffnen kannst und wie Du später, in ihrem Alter für Deine Eltern sorgen kannst.</li>
+            </ul>
           </div>
         </div>
       </div>>
       <div class="flex flex-row">
-        <div class="w-2/3 h-64 bg-gray-100">
-
+        <div class="w-2/3 bg-gray-100">
+          <div class="w-108">
+            <h3 class="text-gray-400 font-2xl font-neuzeit">
+              Die Welt umsegeln.
+            </h3>
+            <p>
+              Eine Weltumsegelung ist ein synonym für eines der erreichbaren, letzten Abenteuer unserer Zeit. Und es muss ja nicht gleich die ganze
+              Welt sein. Eine Atlantiküberquerung vorzubereiten, alle Schritte sorgfältig zu planen. Eventuell überhaupt die ersten Schläge zu segeln, 
+              um sich an die große Aufgabe herantasten. Das wäre ein Paradebeispiel, wie Du in Deinem Leben von der Seitenlinie wegtritts und auf das
+              Spielfeld wechselst. Es ist ein Synonym für jede, vielleicht viel kleinere Maßnahme, mit der Du Deine Komfortzone verlässt und Erfahrungen 
+              machst, die Du sonst nur bei anderen bewundert und auf Youtube staunend betrachtet hast. 
+            </p>
+            <p>
+              Was Du auch tust, welches Hobby Du neu erlernst. Sei es Modellbootsegeln, Segelfliegen oder einfach die Leidenschaft, Uhren zu sammeln:
+              Du wirst Geld benötigen, für diese Erfahrung und deswegen ist unser gemeinsamer erster Schritt, das Erhöhen Deines Gehalts und die
+              Beschleunigung Deiner Karriere. -> 
+            </p>
+          </div>
         </div>
         <div class="w-1/3 h-64 bg-gray-200">
-
+          Bild
         </div>
       </div>
       <div class="flex flex-row">
         <div class="w-1/3 h-64 bg-gray-300">
-
+          Bild
         </div>
         <div class="w-2/3 h-64 bg-gray-400">
-
+          <h3>Die Welt retten</h3>
+          <p>
+            Geld, das Du verdienst und nicht für Dein eigenes Wohlergehen brauchst, kannst Du einsetzen, um Gutes zu tun. Häufig wirst Du, wenn ein 
+            Grundstock an Vermögen vorhanden ist, dieses so investieren können, dass es Gutes tut und sich dabei sogar vermehrt. Du wirst Unternehmer und 
+            setzt Dein Kapital ein, um nachhaltig zu wirtschaften und dabei Menschen zu helfen. Klingt das nach einer lohnenswerten Investition Deiner Zeit
+            und Deines Geldes? Dann sieh' zu, dass Du mit unserer Hilfe den ersten Schritt gehst und jetzt damit beginnst, Dein Gehalt so zu erhöhen, das 
+            Vermögensaufbau (endlich) möglich wird. -> 
+          </p>
         </div>
       </div>
       <div class="flex flex-row">
         <div class="w-2/3 h-64 bg-gray-500">
-
+          Weiter wachsen.
         </div>
         <div class="w-1/3 h-64 bg-gray-600">
-
+          <p>
+            Für viele ist mehr Gehalt nur der erste Schritt. Gerade Entwickler, mit ihrem tief verwurzelten Wunsch, neues zu schaffen - eben zu entwickeln, 
+            sind letztlich für angestellte Arbeit nicht geschaffen. Sie möchten etwas eigenes machen. Nicht nur für jemand anderen entwickeln, sondern 
+            ihr eigenes Unternehmen schaffen. Aber auch hier ist die Grundlage eine Vermögensbildung, denn selbst wenn Kapital von Kapitalgebern eingeworben wird,
+            braucht man einige persönliche "Runway". Letztlich also Geld, um seine Träume zu verwirklichen. Wir sorgen dafür, dass Deine Träume freie Fahrt bekommen ->
+          </p>
         </div>
       </div>
       <div class="flex flex-row flex-grow w-full bg-gray-300">
@@ -230,4 +272,5 @@ export default {
 
 <style src="../css/main.css" />
 <link rel="stylesheet" href="https://use.typekit.net/qqr0xyz.css">
+
 

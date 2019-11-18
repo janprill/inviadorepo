@@ -125,3 +125,14 @@ nav .active {
   height: 100%;
   border: 0;
 }
+
+.bg-gradient {
+  margin: auto;
+  border-radius: 50%;
+  width:50vh;
+  height:50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
