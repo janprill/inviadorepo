@@ -35,30 +35,25 @@
             <parallax-element type="translation" perspective="100" parallaxStrength="10" tag="img" src="./balloons/balloons.png" class="parallaximage" />
           </parallax-container>
         </div>
-        <div class="bg-gray-400 lg:w-1/2">
-          <h2 class="text-white text-3xl font-neuzeit">
+        <div class="bg-gray-400 lg:w-1/2 p-6">
+          <h2 class="text-white font-semibold font-neuzeit md:text-3xl lg:text-5xl xl:text-6xl">
             (reich && frei) == true
           </h2>
-          <p>
-            Seien wir doch mal ehrlich. Wer von uns will nicht, dass der Ausdruck oben wahr ist?
-            In Dir regt sich möglicherweise direkt die langjährige Mittelklassen-Erziehung: "Geld macht doch
-            nicht glücklich. Geld ist mir nicht so wichtig." Wir zeigen Dir, warum ethisch Korrekter Wohlstand
-            nicht nur möglich, sondern Deine Pflicht ist. Du, genau Du, solltest mehr verdienen. Denn andere haben
-            mit Geld weniger hehre Ziele. Wir zeigen Dir, wie Du, in einem ersten Schritt endlich mehr Geld verdienst.
-          </p>
-          <p>
-            (reich && frei) == true als Ausdruck hat Dir direkt Nackenschauer verursacht? 
-            Aber sei bitte ehrlich: was wäre schlimm daran, wenn Geld nicht mehr zu Deinen Problemen gehörte? 
-            Warum soll das nicht zu true evaluieren? 
-          </p>
-
-          <p>
-            Vielleicht hast Du auch eine lange Mittelstandserziehung genossen. 
-            Wie das schon klingt. Du strebst doch auch nicht danach ein Mittelcoder zu sein, 
-            oder ein mittlerer Data Scientist, oder? 
-            Ethisch korrekt Geld zu verdienen ist möglich und erstrebenswert. 
-            Wenn Du es nicht verdienst, dann bekommen es andere Leute. Und die verfolgen weniger hehre Ziele als Du!
-          </p>
+          <div class="text-white font-copy text-2xl leading-tight">
+            <p class="mt-6">
+              Wir wollen Dich wohlhabend machen. Wir möchten, dass Du frei bist. 
+              Seien wir doch mal ehrlich. Wer von uns will nicht, dass der Ausdruck oben wahr ist?
+            </p>
+            <p class="mt-6">
+              Oder verursacht Dir der Ausdruck direkt Nackenschauer? Schlägt da eine langjährige Mittelschichterziehung durch?
+              "Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig." Wir sind überzeugt davon, dass ethisch Korrekter
+              Wohlstand nicht nur möglich ist. Er ist sogar Deine Pflicht. Denn - glaube uns - andere haben mit dem Geld weniger 
+              hehre Ziele.
+            </p>
+            <p class="mt-6">
+              Erkläre bitte: Was wäre schlimm daran, wenn Geld nicht mehr zu Deinen Problemen gehören würde? Wir helfen Dir dabei.
+            </p>
+          </div>
         </div>
       </div>
       <div class="flex flex-row flex-grow w-full bg-gray-300">
