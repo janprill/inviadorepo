@@ -95,11 +95,3 @@ export default {
 
 </script>
 
-<style scoped>
-  .parallaximage {
-    position:absolute;top: 0;left: 0;height: 100%;
-  }
-  .transformer {
-    transform: scale(calc(var(--parallax-value) / 70 ));
-  }
-</style>

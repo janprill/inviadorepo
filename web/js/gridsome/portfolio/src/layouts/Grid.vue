@@ -16,24 +16,26 @@
 
     <div class="m-2 md:m-3 xl:m-6 mx-auto">
       <div class="flex flex-row">
-        <div class="flex flex-grow min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
-          <div class="flex flex-col flex-grow min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+        <div class="flex min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
+          <div class="min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
             <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               5 Wege, Dein Gehalt zu verdoppeln.
             </h1>
             <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Für zwei davon musst Du nicht einmal verhandeln. Kaum jemand kennt sie. Wir zeigen Dir Schritt für Schritt den Weg. 
               Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als heute, um Dein Leben auf allen Ebenen massiv zu verbessern.
-              Verpass' diese Gelegenheit nicht! Es wird Dich im Schlaf verfolgen, wenn Du jetzt die Signale nicht hörst!
             </p>
           </div>
         </div>
       </div>
-      <div class="flex flex-row mx-10 mt-32">
-        <div class="flex flex-grow bg-gray-200 w-1/2">
-          <div class="bg-gradient" />
+      <div class="lg:flex lg:flex-row mx-10 mt-32">
+        <div class="bg-gray-200 lg:w-1/2">
+          <parallax-container class="image-container m-auto max-w-6xl" :animationDuration="duration" :easing="easing" style="position: relative;height: 70vh;">
+            <parallax-element type="translation" perspective="100" parallaxStrength="-5" tag="div" class="bg-gradient" />
+            <parallax-element type="translation" perspective="100" parallaxStrength="10" tag="img" src="./balloons/balloons.png" class="parallaximage" />
+          </parallax-container>
         </div>
-        <div class="flex flex-grow bg-gray-400 w-1/2">
+        <div class="bg-gray-400 lg:w-1/2">
           <h2 class="text-white text-3xl font-neuzeit">
             (reich && frei) == true
           </h2>
@@ -255,6 +257,7 @@
 
 
 <script>
+import { ParallaxContainer, ParallaxElement } from 'vue-mouse-parallax'
 export default {
   props: [],
   data() {
@@ -267,10 +270,23 @@ export default {
       this.isOpen = !this.isOpen
     },
   },
+  components: {
+     ParallaxContainer,
+     ParallaxElement,
+  },
 }
 </script>
 
 <style src="../css/main.css" />
 <link rel="stylesheet" href="https://use.typekit.net/qqr0xyz.css">
+
+<style scoped>
+  .parallaximage {
+    position:absolute;top: 0;left: 0;height: 100%;
+  }
+  .transformer {
+    transform: scale(calc(var(--parallax-value) / 70 ));
+  }
+</style
 
 
