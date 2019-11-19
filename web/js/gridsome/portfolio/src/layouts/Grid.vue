@@ -16,19 +16,35 @@
 
     <div class="m-2 md:m-3 xl:m-6 mx-auto">
       <div class="flex flex-row">
-        <div class="flex min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
-          <div class="min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+        <div class="bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4 pb-32">
+          <div class="md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
             <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               5 Wege, Dein Gehalt zu verdoppeln.
             </h1>
-            <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-              Für zwei davon musst Du nicht einmal verhandeln. Kaum jemand kennt sie. Wir zeigen Dir Schritt für Schritt den Weg. 
+            <p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+              Für zwei davon musst Du <span class="font-bold text-white">nicht einmal verhandeln</span>. Kaum jemand kennt sie. Wir zeigen Dir Schritt für Schritt den Weg. 
               Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als heute, um Dein Leben auf allen Ebenen massiv zu verbessern.
             </p>
             <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
             </p>
+            <form class="flex flex-grow w-full mt-16 justify-start">
+              <div class="md:flex md:items-center mb-6 justify-start w-full">
+                <div class="w-1/3 p-2">
+                  <input placeholder="Dein Vorname*" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-email" type="email">
+                </div>
+                <div class="w-1/3 p-2">
+                  <input placeholder="Email*" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-email" type="email">
+                </div>
+                <div class="w-1/3 p-2">
+                  <button class="text-gray-900 font-copy font-bold text-xl ml-4 bg-crystal hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                    Schickt mir 5 Wege, mein Gehalt zu verdoppeln.
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
+
         </div>
       </div>
       <div class="lg:flex lg:flex-row mx-10 mt-32">
@@ -226,16 +242,16 @@
       </div>
       <div class="flex flex-row">
         <div class="w-2/3 h-64 bg-gray-500">
-        </div>
-        <div class="w-1/3 h-64 bg-gray-600">
           <h3>Weiter wachsen.</h3>
-          <h3>Die Welt retten</h3>
           <p>
             Für viele ist mehr Gehalt nur der erste Schritt. Gerade Entwickler, mit ihrem tief verwurzelten Wunsch, neues zu schaffen - eben zu entwickeln, 
             sind letztlich für angestellte Arbeit nicht geschaffen. Sie möchten etwas eigenes machen. Nicht nur für jemand anderen entwickeln, sondern 
             ihr eigenes Unternehmen schaffen. Aber auch hier ist die Grundlage eine Vermögensbildung, denn selbst wenn Kapital von Kapitalgebern eingeworben wird,
             braucht man einige persönliche "Runway". Letztlich also Geld, um seine Träume zu verwirklichen. Wir sorgen dafür, dass Deine Träume freie Fahrt bekommen ->
           </p>
+        </div>
+        <div class="w-1/3 h-64 bg-gray-600">
+          Bild
         </div>
       </div>
       <div class="flex flex-row">
