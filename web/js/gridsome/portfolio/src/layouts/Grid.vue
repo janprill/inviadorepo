@@ -126,12 +126,11 @@
         Call to action
       </div>
     </div>
-
     <div class="m-6 mx-auto">
       <div class="flex flex-row">
-        <div class="w-full bg-gray-500">
+        <div class="w-full bg-gray-500 p-10">
           Bullet points
-          <ul>
+          <ul class="list-disc">
             <li class="mt-16" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
               <h3>80-Seiten geballte Informationen</h3>
               <p>Wie Du jetzt Dein Gehalt verdoppelst und mit dem Vermögenaufbau beginnst.</p>
@@ -158,24 +157,24 @@
     </div>
 
     <div class="m-6 mx-auto">
-      <div class="flex flex-row mx-10">
-        <div class="flex w-full bg-gray-500 h-screen">
-          <div class="flex flex-col justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
-            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold leading-none">
+      <div class="flex flex-row">
+        <div class="flex bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
+          <div class="md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+            <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               Ich freue mich sehr für Dich!
             </h1>
-            <p class="text-gray-200 font-copy text-2xl leading-tight text-center mt-6">
+            <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Das Du diese Seite nun entdeckt hast, kann ein echter Wendepunkt in Deinem Leben sein. Lass Dich doch erstmals ein auf den Gedanken,
               das Du ethisch korrekt endlich das Geld verdienen kannst, dass Du für Dein Unternehmen tatsächlich wert bist. Einfach die wirklich 
               faire Kompensation für Deine extrem wertvollen Leistungen. Wir werden das für Dich erreichen. Und dann ist plötzlich nach oben alles offen.
               Ein paar Beispiele was unsere Kunden mit dieser Freiheit gemacht haben:
             </p>
-            <p>
+            <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Ein höheres Gehalt bringt Dir klar erkennbare, nicht bestreitbare Vorteile und gerade deswegen ist es so absolut unverständlich, warum 
               Du Dein Recht, auf ein faire Kompensation, nicht ganz regelmäßig durchsetzt. Du bist es Deinen Lieben, Dir und vor allem Deinem Potential
               schuldig, jetzt damit zu beginnen, Dich auf eine faire, über dem Marktdurchschnitt liegende Vergütungsstufe zu heben.
             </p>
-            <ul>
+            <ul class="list-disc min-h-screen text-white font-copy text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-16">
               <li>Dein aktuelles Gehalt beeinflusst jedes weitere, höhere Gehalt, das Du im Laufe Deiner Karriere erreichst.</li>
               <li>Dein Gehalt bestimmt Deinen Rentenanspruch und Deine Möglichkeiten zur privaten Altersvorsorge.</li>
               <li>Dein Verdienst determiniert Status und Deine Möglichkeiten, Freiheit zu kaufen.</li>
@@ -184,7 +183,7 @@
             </ul>
           </div>
         </div>
-      </div>>
+      </div>
       <div class="flex flex-row">
         <div class="w-2/3 bg-gray-100">
           <div class="w-108">
@@ -214,21 +213,37 @@
           Bild
         </div>
         <div class="w-2/3 h-64 bg-gray-400">
-          <h3>Die Welt retten</h3>
+          <h3>Deine Villa? Dein Gehalt macht den Unterschied.</h3>
           <p>
-            Geld, das Du verdienst und nicht für Dein eigenes Wohlergehen brauchst, kannst Du einsetzen, um Gutes zu tun. Häufig wirst Du, wenn ein 
-            Grundstock an Vermögen vorhanden ist, dieses so investieren können, dass es Gutes tut und sich dabei sogar vermehrt. Du wirst Unternehmer und 
-            setzt Dein Kapital ein, um nachhaltig zu wirtschaften und dabei Menschen zu helfen. Klingt das nach einer lohnenswerten Investition Deiner Zeit
-            und Deines Geldes? Dann sieh' zu, dass Du mit unserer Hilfe den ersten Schritt gehst und jetzt damit beginnst, Dein Gehalt so zu erhöhen, das 
-            Vermögensaufbau (endlich) möglich wird. -> 
+            Die Immobilienpreise besonders in guten Lagen sind in den letzten Jahren explodiert. Du hast Dich wahrscheinlich auch schon öfter gefragt,
+            wer eigentlich so viel Geld hat, eine Villa in guter Lage zu kaufen. Du könntest dieses Geld haben. Dein Gehalt macht den Unterschied. 
+            Für die meisten ist es ein Traum in weiter Ferne. Aber es gibt Menschen, bei denen macht der Kaufpreis so einer Villa ein Zehntel ihres Jahresgehalts 
+            aus (Vorstandsmitglieder von DAX-Unternehmen), oder aber 3 Jahresgehälter (Geschäftsführer großer Mittelständler), wir können Dich, als Spezialisten
+            in einer extrem gesuchten Berufsgruppe dahin coachen, dass es 6-10 Jahresgehälter für Dich sind und das ist dann schon sehr überschaubar und 
+            bestens finanzierbar. Dein Gehalt macht den Unterschied. Würdest Du so ein Haus nicht gerne Deinen Kindern hinterlassen?
           </p>
         </div>
       </div>
       <div class="flex flex-row">
         <div class="w-2/3 h-64 bg-gray-500">
-          Weiter wachsen.
         </div>
         <div class="w-1/3 h-64 bg-gray-600">
+          <h3>Weiter wachsen.</h3>
+          <h3>Die Welt retten</h3>
+          <p>
+            Für viele ist mehr Gehalt nur der erste Schritt. Gerade Entwickler, mit ihrem tief verwurzelten Wunsch, neues zu schaffen - eben zu entwickeln, 
+            sind letztlich für angestellte Arbeit nicht geschaffen. Sie möchten etwas eigenes machen. Nicht nur für jemand anderen entwickeln, sondern 
+            ihr eigenes Unternehmen schaffen. Aber auch hier ist die Grundlage eine Vermögensbildung, denn selbst wenn Kapital von Kapitalgebern eingeworben wird,
+            braucht man einige persönliche "Runway". Letztlich also Geld, um seine Träume zu verwirklichen. Wir sorgen dafür, dass Deine Träume freie Fahrt bekommen ->
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <div class="w-1/3 h-64 bg-gray-300">
+          Bild
+        </div>
+        <div class="w-2/3 h-64 bg-gray-400">
+          <h3>Weiter wachsen.</h3>
           <p>
             Für viele ist mehr Gehalt nur der erste Schritt. Gerade Entwickler, mit ihrem tief verwurzelten Wunsch, neues zu schaffen - eben zu entwickeln, 
             sind letztlich für angestellte Arbeit nicht geschaffen. Sie möchten etwas eigenes machen. Nicht nur für jemand anderen entwickeln, sondern 
