@@ -25,6 +25,9 @@
               Für zwei davon musst Du nicht einmal verhandeln. Kaum jemand kennt sie. Wir zeigen Dir Schritt für Schritt den Weg. 
               Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als heute, um Dein Leben auf allen Ebenen massiv zu verbessern.
             </p>
+            <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+              Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
+            </p>
           </div>
         </div>
       </div>
@@ -45,10 +48,11 @@
               Seien wir doch mal ehrlich. Wer von uns will nicht, dass der Ausdruck oben wahr ist?
             </p>
             <p class="mt-6">
-              Oder verursacht Dir der Ausdruck direkt Nackenschauer? Schlägt da eine langjährige Mittelschichterziehung durch?
-              "Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig." Wir sind überzeugt davon, dass ethisch Korrekter
-              Wohlstand nicht nur möglich ist. Er ist sogar Deine Pflicht. Denn - glaube uns - andere haben mit dem Geld weniger 
-              hehre Ziele.
+              Oder verursacht Dir diese Vorstellung Nackenschauer? Schlägt Deine langjährige Mittelschichterziehung durch?
+              "Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig." Bitte mach' Dich frei von diesen ablehnenden Gedanken. 
+              Wir sind überzeugt davon, dass ethisch korrekter Wohlstand möglich ist. 
+              Ihn zu erreichen ist Deine Pflicht! Denn - glaube uns - andere haben mit dem Geld weniger 
+              hehre Ziele als Du.
             </p>
             <p class="mt-6">
               Erkläre bitte: Was wäre schlimm daran, wenn Geld nicht mehr zu Deinen Problemen gehören würde? Wir helfen Dir dabei.
@@ -62,13 +66,13 @@
     </div>
 
     <div class="m-6 mx-auto">
-      <div class="flex flex-row mx-10">
-        <div class="flex w-full bg-gray-500 h-screen">
-          <div class="flex flex-col justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
-            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold leading-none">
+      <div class="flex flex-row">
+        <div class="flex min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
+          <div class="min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+            <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               Wir öffnen Dir Türen.
             </h1>
-            <p class="text-gray-200 font-copy text-2xl leading-tight text-center mt-6">
+            <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Bereits in unserem kostenlosen eBook zeigen wir Dir, ohne jedes Risiko für Dich, wie Du Deine Karriere auf 
               Steroide setzt. Du lernst dort die Maßnahmen, die Dich zum wichtigsten Player in Deinem Team machen und wie 
               Du erreichst, dass dies auch von denjenigen Entscheidern wahrgenommen wird, die über Deine Gehaltserhöhung entscheiden.
@@ -93,19 +97,19 @@
     </div>
 
     <div class="m-6 mx-auto">
-      <div class="flex flex-row mx-10">
-        <div class="flex w-full bg-gray-500 h-screen">
-          <div class="flex flex-col justify-center items-center mx-auto w-2/3" v-prlx.mobile="{}">
-            <h1 class="text-white mx-auto text-center text-4xl font-neuzeit font-extrabold leading-none">
-              Grüner wird es nicht.
+      <div class="flex flex-row">
+        <div class="flex min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
+          <div class="min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+            <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
+              Grüner wird es nicht
             </h1>
-            <p class="text-gray-200 font-copy text-2xl leading-tight text-center mt-6">
+            <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Bitte sieh' den Tatsachen ins Auge. Auch Du hast nicht ewig Zeit. Es wird Zeit, aus dem Quark zu kommen. 
               Die Zeiten sind für Dich, als Dev, als Tech PM oder als Data Scientist günstig wie nie. Du hast aktuell
               die absolut realistische Chance Geld zu verdienen, wie Dein Zahnarzt. Du gehörst zu einer Berufsgruppe, 
               die gesucht ist, wie keine andere. Aber was machst Du derzeit daraus. Bohrst Du so dicke Bretter, wie es
               Dein Potential erlaubt? Wir helfen Dir, das Leben zu leben, das Du Dir wünschst. Das Geld auf Deinem Konto 
-              eingehen zu sehen, dass Du wirklich verdienst. Zögere nicht zu lange! Du wirst es Dir nicht verzeihen.
+              eingehen zu sehen, dass Du wirklich verdienst. Zögere nicht zu lange! Du wirst es Dir nicht verzeihen..
             </p>
           </div>
         </div>
