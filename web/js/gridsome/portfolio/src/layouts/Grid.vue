@@ -16,7 +16,7 @@
 
     <div class="m-2 md:m-3 xl:m-6 mx-auto">
       <div class="flex flex-row">
-        <div class="bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4 pb-32">
+        <div class="bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4 pb-64">
           <div class="md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
             <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               5 Wege, Dein Gehalt zu verdoppeln.
@@ -37,51 +37,53 @@
                   <input placeholder="Email*" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-email" type="email">
                 </div>
                 <div class="w-1/3 p-2">
-                  <button class="text-gray-900 font-copy font-bold text-xl ml-4 bg-crystal hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                  <button class="text-white font-copy font-bold leading-none text-xl ml-4 bg-gradient hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                     Schickt mir 5 Wege, mein Gehalt zu verdoppeln.
                   </button>
                 </div>
               </div>
             </form>
           </div>
-
         </div>
       </div>
-      <div class="lg:flex lg:flex-row mx-10 mt-32">
-        <div class="bg-gray-200 lg:w-1/2">
-          <parallax-container class="image-container m-auto max-w-6xl" :animationDuration="duration" :easing="easing" style="position: relative;height: 70vh;">
-            <parallax-element type="translation" perspective="100" parallaxStrength="-5" tag="div" class="bg-gradient" />
-            <parallax-element type="translation" perspective="100" parallaxStrength="10" tag="img" src="./balloons/balloons.png" class="parallaximage" />
+    </div>
+
+    <div class="m-2 md:m-3 xl:m-6 mx-auto mt-64" v-prlx.mobile="{}">
+      <div class="lg:flex lg:flex-row mx-1 md:mx-4 xl:mx-7">
+        <div class="w-full bg-gradient lg:w-1/2 p-8 ">
+          <parallax-container class="image-container" :animationDuration="duration" :easing="easing">
+            <parallax-element type="translation" parallaxStrength="10" tag="img" src="./balloons/balloons.png" class="" />
           </parallax-container>
         </div>
-        <div class="bg-gray-400 lg:w-1/2 p-6">
-          <h2 class="text-white font-semibold font-neuzeit md:text-3xl lg:text-5xl xl:text-6xl">
-            (reich && frei) == true
+        <div class="w-full bg-black lg:w-1/2 p-6">
+          <h2 class="text-white leading-none font-semibold font-neuzeit md:text-3xl lg:text-5xl xl:text-6xl">
+            Frei wie ein Vogel sollst Du sein.
           </h2>
           <div class="text-white font-copy text-2xl leading-tight">
             <p class="mt-6">
-              Wir wollen Dich wohlhabend machen. Wir möchten, dass Du frei bist. 
-              Seien wir doch mal ehrlich. Wer von uns will nicht, dass der Ausdruck oben wahr ist?
+              Wir möchten, dass Du frei bist. Und wir möchten helfen, dass Du reich wirst.
             </p>
             <p class="mt-6">
-              Oder verursacht Dir diese Vorstellung Nackenschauer? Schlägt Deine langjährige Mittelschichterziehung durch?
-              "Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig." Bitte mach' Dich frei von diesen ablehnenden Gedanken. 
-              Wir sind überzeugt davon, dass ethisch korrekter Wohlstand möglich ist. 
-              Ihn zu erreichen ist Deine Pflicht! Denn - glaube uns - andere haben mit dem Geld weniger 
-              hehre Ziele als Du.
+              Ja! Wir haben das wirklich geschrieben. Verursacht Dir diese Vorstellung ein klammes Gefühl? 
+              So das Du direkt vor dem Ausblick auf Wohlstand weglaufen möchtest?
+              Dann lies unbedingt weiter!
             </p>
             <p class="mt-6">
-              Erkläre bitte: Was wäre schlimm daran, wenn Geld nicht mehr zu Deinen Problemen gehören würde? Wir helfen Dir dabei.
+              Du wirst gerade von Deiner langjährigen Mittelschichtserziehung gebeutelt:
+              "Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig."
+            </p>
+            <p class="mt-6">
+              Aber das sollte es, zumindest wenn Du frei sein möchtest.
+              Ethisch korrekter Wohlstand ist möglich. Ihn zu erreichen ist Deine Pflicht.
+              Denn - glaube uns - andere haben mit dem Geld weniger 
+              hehre Ziele als Du. Denk' mal darüber nach!
             </p>
           </div>
         </div>
       </div>
-      <div class="flex flex-row flex-grow w-full bg-gray-300">
-        Call to action
-      </div>
     </div>
 
-    <div class="m-6 mx-auto">
+    <div class="m-6 mx-auto mt-64">
       <div class="flex flex-row">
         <div class="flex min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
           <div class="min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
@@ -308,15 +310,6 @@ export default {
 </script>
 
 <style src="../css/main.css" />
-<link rel="stylesheet" href="https://use.typekit.net/qqr0xyz.css">
 
-<style scoped>
-  .parallaximage {
-    position:absolute;top: 0;left: 0;height: 100%;
-  }
-  .transformer {
-    transform: scale(calc(var(--parallax-value) / 70 ));
-  }
-</style
 
 

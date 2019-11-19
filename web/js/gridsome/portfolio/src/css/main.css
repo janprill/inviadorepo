@@ -127,10 +127,6 @@ nav .active {
 }
 
 .bg-gradient {
-  margin: auto;
-  border-radius: 50%;
-  width:50vh;
-  height:50vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -145,5 +141,5 @@ nav .active {
 }
 
 .bg-crystal {
-  background-image: linear-gradient(to top, #ff0844 75%, #ffb199 100%);
+  background-image: linear-gradient(to top, #00c6fb 30%, #005bea 100%);
 }
