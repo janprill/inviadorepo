@@ -3,8 +3,9 @@
 
     <header class="flex items-center justify-between px-4 py-3 bg-black">
       <div class="text-white font-neuzeit font-bold">
-        inviado
+        <img src="../../static/inviado.png" style="height:40px;"/>
       </div>
+      
       <div>
         <button type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
           <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -85,7 +86,7 @@
       </div>
     </div>
 
-    <div class="m-6 mx-auto mt-64">
+    <div class="m-6 mx-auto">
       <div class="flex flex-row">
         <div class="flex bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
           <div class="md:justify-center mx-auto max-w-6xl">
@@ -107,7 +108,7 @@
         </div>
       </div>
       <div class="flex flex-row">
-        <div class="flex w-full mx-auto justify-center mt-64">
+        <div class="flex w-full mx-auto justify-center mt-24">
           <img src="../../static/door.jpg" />
         </div>
       </div>
@@ -115,10 +116,10 @@
 
     <div class="m-6 mx-auto">
       <div class="flex flex-row">
-        <div class="flex min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
-          <div class="min-h-screen md:justify-center mx-auto max-w-6xl">
+        <div class="flex bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
+          <div class="md:justify-center mx-auto max-w-6xl">
             <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
-              Grüner wird es nicht
+              Grüner wird's nicht
             </h1>
             <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
               Bitte sieh' den Tatsachen ins Auge. Auch Du hast nicht ewig Zeit. Es wird Zeit, aus dem Quark zu kommen. 
@@ -132,15 +133,9 @@
         </div>
       </div>
       <div class="flex flex-row">
-        <div class="w-2/3 h-64 bg-gray-100">
-          But!
+        <div class="flex w-full mx-auto justify-center mt-24">
+          <img src="../../static/green.jpg" />
         </div>
-        <div class="w-1/3 h-64 bg-gray-300">
-          We've got your back!
-        </div>
-      </div>
-      <div class="flex flex-row flex-grow w-full bg-gray-300">
-        Call to action
       </div>
     </div>
     <div class="m-6 mx-auto">
