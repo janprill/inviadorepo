@@ -50,9 +50,11 @@
 
     <div class="m-2 md:m-3 xl:m-6 mx-auto mt-64" v-prlx.mobile="{}">
       <div class="lg:flex lg:flex-row mx-1 md:mx-4 xl:mx-7">
-        <div class="w-full bg-gradient lg:w-1/2 p-8 ">
-          <parallax-container class="image-container" :animationDuration="duration" :easing="easing">
-            <parallax-element type="translation" parallaxStrength="10" tag="img" src="./balloons/balloons.png" class="" />
+        <div class="w-full bg-gradient lg:w-1/2 p-8">
+          <parallax-container class="image-container" :animationDuration=700>
+            <parallax-element type="translation" :parallaxStrength=5 tag="img" src="./balloons/balloons_middle.png" class="parallaximage" />
+            <parallax-element type="translation" :parallaxStrength=10 tag="img" src="./balloons/balloons_left.png" class="parallaximage" />
+            <parallax-element type="translation" :parallaxStrength=-5 tag="img" src="./balloons/balloons_bottom.png" class="parallaximage" />
           </parallax-container>
         </div>
         <div class="w-full bg-black lg:w-1/2 p-6">
@@ -83,10 +85,10 @@
       </div>
     </div>
 
-    <div class="m-6 mx-auto mt-64">
+    <div class="m-6 mx-auto mt-64" v-prlx.mobile="{}">
       <div class="flex flex-row">
-        <div class="flex min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
-          <div class="min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+        <div class="flex bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
+          <div class="md:justify-center mx-auto max-w-6xl">
             <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               Wir öffnen Dir Türen.
             </h1>
@@ -96,21 +98,18 @@
               Du erreichst, dass dies auch von denjenigen Entscheidern wahrgenommen wird, die über Deine Gehaltserhöhung entscheiden.
               Du wirst Dich wundern, welche Türen plötzlich aufgehen, sobald Du den glasklaren Maßnahmen aus unserem eBook folgst.
             </p>
+            <p>
+              Wenn Du mit der inviado Methode beginnst, Deine Karriere zu beschleunigen und Dein Gehalt zu erhöhen, dann wirst Du
+              Dein Mindset verändern. Du wirst staunen, welche Türen aufgehen. Ich freue mich sehr darauf, Dich zu begleiten, die zur 
+              helfen, die Hürden aus dem Weg zu räumen und die Türen aufzustoßen.
+            </p>
           </div>
         </div>
       </div>
       <div class="flex flex-row">
-        <div class="w-1/2 h-64 bg-gray-100">
-          Wenn Du mit der inviado Methode beginnst, Deine Karriere zu beschleunigen und Dein Gehalt zu erhöhen, dann wirst Du
-          Dein Mindset verändern. Du wirst staunen, welche Türen aufgehen. Ich freue mich sehr darauf, Dich zu begleiten, die zur 
-          helfen, die Hürden aus dem Weg zu räumen und die Türen aufzustoßen.
+        <div class="flex w-full mx-auto justify-center mt-64">
+          <img src="../../static/door.jpg" />
         </div>
-        <div class="w-1/2 h-64 bg-gray-300">
-          Bild: Tür auf
-        </div>
-      </div>
-      <div class="flex flex-row flex-grow w-full bg-gray-300">
-        Call to action
       </div>
     </div>
 
