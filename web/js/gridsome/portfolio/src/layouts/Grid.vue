@@ -186,7 +186,7 @@
               Du Dein Recht, auf ein faire Kompensation, nicht ganz regelmäßig durchsetzt. Du bist es Deinen Lieben, Dir und vor allem Deinem Potential
               schuldig, jetzt damit zu beginnen, Dich auf eine faire, über dem Marktdurchschnitt liegende Vergütungsstufe zu heben.
             </p>
-            <ul class="list-disc min-h-screen text-white font-copy text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-16">
+            <ul class="list-disc text-white font-copy text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-16">
               <li>Dein aktuelles Gehalt beeinflusst jedes weitere, höhere Gehalt, das Du im Laufe Deiner Karriere erreichst.</li>
               <li>Dein Gehalt bestimmt Deinen Rentenanspruch und Deine Möglichkeiten zur privaten Altersvorsorge.</li>
               <li>Dein Verdienst determiniert Status und Deine Möglichkeiten, Freiheit zu kaufen.</li>
@@ -269,6 +269,26 @@
       </div>
     </div>
 
+    <div class="m-6 mx-auto">
+      <div class="flex flex-row">
+        <div class="flex bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
+          <div class="md:justify-center mx-auto max-w-6xl">
+            <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
+              Kostenloser Consulting Call mit mir.
+            </h1>
+            <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+              Jada, jada, jada
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <div class="mt-24">
+          <div class="calendly-inline-widget" data-url="https://calendly.com/inviado/free-consulting-call?background_color=4d5055&text_color=ffffff" style="min-width:320px;height:630px;"></div>
+        </div>
+      </div>
+    </div
+
     <main>
     </main>
 
@@ -290,6 +310,11 @@ export default {
     return {
       isOpen: false,
     }
+  },
+  mounted() {
+    let calendly = document.createElement('script')
+    calendly.setAttribute('src', 'https://assets.calendly.com/assets/external/widget.js')
+    document.head.appendChild(calendly)
   },
   methods: {
     toggle() {
