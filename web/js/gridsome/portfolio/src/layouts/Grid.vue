@@ -17,7 +17,7 @@
     <div class="m-2 md:m-3 xl:m-6 mx-auto">
       <div class="flex flex-row">
         <div class="bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4 pb-64">
-          <div class="md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+          <div class="md:justify-center mx-auto max-w-6xl">
             <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               5 Wege, Dein Gehalt zu verdoppeln.
             </h1>
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="m-2 md:m-3 xl:m-6 mx-auto mt-64" v-prlx.mobile="{}">
+    <div class="m-2 md:m-3 xl:m-6 mx-auto mt-64">
       <div class="lg:flex lg:flex-row mx-1 md:mx-4 xl:mx-7">
         <div class="w-full bg-gradient lg:w-1/2 p-8">
           <parallax-container class="image-container" :animationDuration=700>
@@ -85,7 +85,7 @@
       </div>
     </div>
 
-    <div class="m-6 mx-auto mt-64" v-prlx.mobile="{}">
+    <div class="m-6 mx-auto mt-64">
       <div class="flex flex-row">
         <div class="flex bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
           <div class="md:justify-center mx-auto max-w-6xl">
@@ -116,7 +116,7 @@
     <div class="m-6 mx-auto">
       <div class="flex flex-row">
         <div class="flex min-h-screen bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
-          <div class="min-h-screen md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+          <div class="min-h-screen md:justify-center mx-auto max-w-6xl">
             <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               Grüner wird es nicht
             </h1>
@@ -176,7 +176,7 @@
     <div class="m-6 mx-auto">
       <div class="flex flex-row">
         <div class="flex bg-black w-full mx-1 md:mx-4 xl:mx-7 p-4">
-          <div class="md:justify-center mx-auto max-w-6xl" v-prlx.mobile="{}">
+          <div class="md:justify-center mx-auto max-w-6xl">
             <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
               Ich freue mich sehr für Dich!
             </h1>
