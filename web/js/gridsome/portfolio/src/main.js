@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import MyLayout from '~/layouts/MyLayout.vue'
+import SimpleLayout from '~/layouts/Simple.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
 import AOS from "aos";

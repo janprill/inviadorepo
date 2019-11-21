@@ -1,5 +1,5 @@
 <template>
-  <Layout class="bg-white">
+  <Layout class="bg-black">
     <main>
       <header>
         <div class="max-w-xl md:max-w-3xl xl:max-w-4xl mx-auto text-center px-6 py-10 md:py-32 border-b border-gray-300">
