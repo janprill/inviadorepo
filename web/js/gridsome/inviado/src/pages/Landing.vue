@@ -15,49 +15,94 @@
 		</ul>
 	</nav>
 
-	<section class="antialiased font-sans w-full bg-gray-300 text-left text-black py-8">
-		<div class="container mx-auto py-8 font-normal leading-normal">
-			<h3 class="text-2xl">Grow Your Business</h3>
-			<p class="">Build high performing teams, establish design practices, mentor and grow the next generation of great designers, and design interfaces and experiences.</p>
-			<div class="max-w-sm mt-4 sm:flex">
-				<input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2 sm:mb-0" name="email" placeholder="Enter your email" required="">
-				<button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-black hover:bg-gray-900 focus:bg-gray-300 tracking-wide px-6">Subscribe</button>
-			</div>
+
+
+
+  <!-- double your income -->
+	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
+    <div class="container mx-auto py-8 font-normal leading-normal">
+      <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
+        5 Wege, Dein Gehalt zu verdoppeln.
+      </h1>
+      <p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+        Für zwei davon musst Du <span class="font-bold text-white">nicht einmal verhandeln</span>. Kaum jemand kennt sie. Wir zeigen Dir Schritt für Schritt den Weg. 
+        Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als heute, um Dein Leben auf allen Ebenen massiv zu verbessern.
+      </p>
+      <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+        Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
+      </p>
+      <div class="mt-4 sm:flex mt-12">
+        <input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2" name="email" placeholder="Enter your email" required="*">
+        <button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-red-400 hover:bg-gray-900 focus:bg-gray-300 tracking-wide px-6">
+          Schickt mir bitte meine 5 geheimen Wege, mein Gehalt zu verdoppeln
+        </button>
+      </div>
 		</div>
 	</section>
 
-	<section class="bg-gray-300 font-sans">
-		<div class="container m-auto flex flex-col md:flex-row">
-			<div class="flex flex-col w-full lg:w-1/2 justify-center items-start py-8">
-				<label for="tagline" class="uppercase tracking-loose">best app ever</label>
-				<h1 class="my-4 font-normal">Our Work Flow</h1>
-				<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ex ea commodo consequat.   Sed ut
-					perspiciatis unde omnis iste natus error sit voluptatem accusantium natus error sit.</p>
-				<button class="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent">Learn
-					More</button>
-			</div>
-			<div class="w-full lg:w-1/2 lg:py-6"><img src="https://stitches.hyperyolo.com/images/demo-devices.png" alt="image" class="w-full"></div>
-		</div>
+  <!-- fly like an eagle -->
+	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
+    <div class="container mx-auto py-8 font-normal leading-normal bg-blue-500 bg-gradient text-center">
+      <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
+        Eine ganze Menge Freiheit kannst Du kaufen.
+      </h1>
+      <parallax-container class="image-container" :animationDuration=700>
+        <parallax-element type="translation" :parallaxStrength=5 tag="img" src="./balloons/balloons_middle.png" class="parallaximage" />
+        <parallax-element type="translation" :parallaxStrength=10 tag="img" src="./balloons/balloons_left.png" class="parallaximage" />
+        <parallax-element type="translation" :parallaxStrength=-5 tag="img" src="./balloons/balloons_bottom.png" class="parallaximage" />
+      </parallax-container>
+    </div>
+
 	</section>
 
+  <!-- be rich -->
 	<section class="font-sans container m-auto flex flex-col py-8 text-center px-6">
-		<label class="text-sm uppercase">20 Month 2019</label>
-		<h1 class="my-8 max-w-full m-auto text-3xl md:text-4xl lg:text-5xl font-medium">Lorem Ipsum is simply dummy text of the printing</h1>
-		<p class="mt-1 lg:mt-4 max-w-lg m-auto leading-loose mb-6 text-left">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-			McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
-			undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
-			Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-		<p class="max-w-lg m-auto leading-loose mb-6 text-left">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
-			reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+		<label class="text-sm uppercase">Just be rich</label>
+		<h1 class="my-8 max-w-full m-auto font-neuzeit text-8xl md:text-4xl lg:text-5xl font-medium">
+			Wir helfen Dir, zu Verdienen wie Dein Zahnarzt.
+		</h1>
+		<p class="mt-6">
+			Wir möchten, dass Du frei bist. Und wir möchten helfen, dass Du reich wirst.
+		</p>
+		<p class="mt-6">
+			Jawoll! Das haben wir wirklich geschrieben! Bei Dir kommt ein klammes Gefühl hoch?
+			Der Ausblick auf Wohlstand fühlt sich nicht gut an?
+			Dann lies unbedingt weiter!
+		</p>
+		<p class="mt-6">
+			Du wirst gerade von Deiner langjährigen Mittelschichtserziehung gebeutelt:
+			"Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig."
+		</p>
+		<p class="mt-6">
+			Aber Geld sollte Dir wichtig sein. Zumindest wenn Du frei sein möchtest.
+			Ethisch korrekter Wohlstand ist möglich. Ihn zu erreichen ist Deine Pflicht.
+			Denn - glaube uns - andere haben mit dem Geld weniger 
+			hehre Ziele als Du. Denk' darüber nach!
+		</p>
 	</section>
 
-	<section class="font-sans text-center my-8 px-8">
-		<h1 class="capitalize font-medium">Ready to get started?</h1>
-		<p class="text-gray-700 mt-2 mb-6">But I must explain to you how all this mistaken idea of denouncing </p>
-		<button class="bg-black hover:bg-gray-900 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide">Learn More</button>
+  <!-- ebook -->
+	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
+    <div class="container mx-auto py-8 font-normal leading-normal">
+      <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
+        Deinen kostenlosen Report jetzt als eBook herunterladen.
+      </h1>
+      <p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+        TODO - was der so kann, der Report.
+      </p>
+      <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+        Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
+      </p>
+      <div class="mt-4 sm:flex mt-12">
+        <input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2" name="email" placeholder="Enter your email" required="*">
+        <button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-red-400 hover:bg-gray-900 focus:bg-gray-300 tracking-wide px-6">
+          Schickt mir bitte meine 5 geheimen Wege, mein Gehalt zu verdoppeln
+        </button>
+      </div>
+		</div>
 	</section>
 
+	<!-- ebook bullets -->
 	<section class="font-sans container m-auto flex flex-col lg:flex-row justify-center my-8">
 		<div class="order-2 lg:order-1 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 mt-8">
 			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2" alt="Avatar of Jonathan Reinink"></div>
@@ -86,6 +131,42 @@
 		</div>
 	</section>
 
+	<section class="bg-gray-300 font-sans">
+		<div class="container m-auto flex flex-col md:flex-row">
+			<div class="flex flex-col w-full lg:w-1/2 justify-center items-start py-8">
+				<label for="tagline" class="uppercase tracking-loose">best app ever</label>
+				<h1 class="my-4 font-normal">Our Work Flow</h1>
+				<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ex ea commodo consequat.   Sed ut
+					perspiciatis unde omnis iste natus error sit voluptatem accusantium natus error sit.</p>
+				<button class="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent">Learn
+					More</button>
+			</div>
+			<div class="w-full lg:w-1/2 lg:py-6">
+        Potentially an image
+      </div>
+		</div>
+	</section>
+
+	<section class="font-sans container m-auto flex flex-col py-8 text-center px-6">
+		<label class="text-sm uppercase">20 Month 2019</label>
+		<h1 class="my-8 max-w-full m-auto text-3xl md:text-4xl lg:text-5xl font-medium">Lorem Ipsum is simply dummy text of the printing</h1>
+		<p class="mt-1 lg:mt-4 max-w-lg m-auto leading-loose mb-6 text-left">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+			McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+			undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
+			Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+		<p class="max-w-lg m-auto leading-loose mb-6 text-left">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+			reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+	</section>
+
+	<section class="font-sans text-center my-8 px-8">
+		<h1 class="capitalize font-medium">Ready to get started?</h1>
+		<p class="text-gray-700 mt-2 mb-6">But I must explain to you how all this mistaken idea of denouncing </p>
+		<button class="bg-black hover:bg-gray-900 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide">Learn More</button>
+	</section>
+
+
+
 	<section class="font-sans text-center py-8 px-4 lg:px-0 bg-gray-300">
 		<div class="container flex flex-col sm:flex-row bg-white m-auto shadow">
 			<div class="w-full sm:w-3/4 px-6 pt-6 text-left flex flex-col justify-center">
@@ -94,6 +175,19 @@
 			</div>
 			<div class="w-full sm:w-1/4 flex justify-start sm:justify-center items-center pl-6 pb-6 sm:pl-0 sm:pb-0">
 				<button class=" bg-black hover:bg-gray-900 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide">Learn More</button>
+			</div>
+		</div>
+	</section>
+
+
+  <!-- grow your business -->
+	<section class="antialiased font-sans w-full bg-gray-300 text-left text-black py-8">
+		<div class="container mx-auto py-8 font-normal leading-normal">
+			<h3 class="text-2xl">Grow Your Business</h3>
+			<p class="">Build high performing teams, establish design practices, mentor and grow the next generation of great designers, and design interfaces and experiences.</p>
+			<div class="max-w-sm mt-4 sm:flex">
+				<input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2 sm:mb-0" name="email" placeholder="Enter your email" required="">
+				<button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-orange-100 hover:bg-red-400 focus:bg-blue tracking-wide px-6">Subscribe</button>
 			</div>
 		</div>
 	</section>
@@ -114,3 +208,18 @@
 	</footer>
 </Layout>
 </template>
+
+<script>
+import { ParallaxContainer, ParallaxElement } from 'vue-mouse-parallax'
+export default {
+  props: [],
+  data() {
+    return {
+    }
+  },
+  components: {
+     ParallaxContainer,
+     ParallaxElement,
+  },
+}
+</script>

@@ -9,3 +9,21 @@
 @import 'components/markdown';
 
 @import 'tailwindcss/utilities';
+
+
+.image-container {
+  position: relative;
+  height: 70vh;
+  max-height: 800px;
+  width: 70vh;
+  max-width: 800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.parallaximage {
+  position:absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+}
