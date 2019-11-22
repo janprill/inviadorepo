@@ -42,25 +42,26 @@
 
   <!-- fly like an eagle -->
 	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
-    <div class="container mx-auto py-8 font-normal leading-normal bg-blue-500 bg-gradient text-center">
-      <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
+    <div class="container mx-auto py-8 font-normal leading-normal bg-blue-500 bg-gradient">
+			<h1 class="p-6 text-white font-neuzeit font-semibold leading-none w-128 text-xl md:text-3xl lg:text-5xl xl:text-6xl">
         Eine ganze Menge Freiheit kannst Du kaufen.
       </h1>
-      <parallax-container class="image-container" :animationDuration=700>
-        <parallax-element type="translation" :parallaxStrength=5 tag="img" src="./balloons/balloons_middle.png" class="parallaximage" />
-        <parallax-element type="translation" :parallaxStrength=10 tag="img" src="./balloons/balloons_left.png" class="parallaximage" />
-        <parallax-element type="translation" :parallaxStrength=-5 tag="img" src="./balloons/balloons_bottom.png" class="parallaximage" />
-      </parallax-container>
+			<div class="mx-auto text-center overflow-hidden">
+				<parallax-container class="image-container" :animationDuration=700>
+					<parallax-element type="translation" :parallaxStrength=5 tag="img" src="./balloons/balloons_middle.png" class="parallaximage" />
+					<parallax-element type="translation" :parallaxStrength=10 tag="img" src="./balloons/balloons_left.png" class="parallaximage" />
+					<parallax-element type="translation" :parallaxStrength=-5 tag="img" src="./balloons/balloons_bottom.png" class="parallaximage" />
+				</parallax-container>
+			</div>
     </div>
 
 	</section>
 
   <!-- be rich -->
-	<section class="font-sans container m-auto flex flex-col py-8 text-center px-6">
-		<label class="text-sm uppercase">Just be rich</label>
-		<h1 class="my-8 max-w-full m-auto font-neuzeit text-8xl md:text-4xl lg:text-5xl font-medium">
+	<section class="font-sans container m-auto flex flex-col py-8 px-6 text-white font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
 			Wir helfen Dir, zu Verdienen wie Dein Zahnarzt.
-		</h1>
+    </h1>
 		<p class="mt-6">
 			Wir möchten, dass Du frei bist. Und wir möchten helfen, dass Du reich wirst.
 		</p>
@@ -93,12 +94,6 @@
       <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
         Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
       </p>
-      <div class="mt-4 sm:flex mt-12">
-        <input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2" name="email" placeholder="Enter your email" required="*">
-        <button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-red-400 hover:bg-gray-900 focus:bg-gray-300 tracking-wide px-6">
-          Schickt mir bitte meine 5 geheimen Wege, mein Gehalt zu verdoppeln
-        </button>
-      </div>
 		</div>
 	</section>
 
@@ -128,6 +123,18 @@
 			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2" alt="Avatar of Jonathan Reinink"></div>
 			<h2 class="text-black mb-2 font-normal">Nunc dignissim risus id metus.</h2>
 			<p class="text-gray-700 leading-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+	</section>
+
+  <!-- grow your business -->
+	<section class="antialiased font-sans w-full bg-gray-300 text-left text-black py-8">
+		<div class="container mx-auto py-8 font-normal leading-normal">
+			<h3 class="text-2xl">Grow Your Business</h3>
+			<p class="">Build high performing teams, establish design practices, mentor and grow the next generation of great designers, and design interfaces and experiences.</p>
+			<div class="max-w-sm mt-4 sm:flex">
+				<input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2 sm:mb-0" name="email" placeholder="Enter your email" required="">
+				<button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-orange-100 hover:bg-red-400 focus:bg-blue tracking-wide px-6">Subscribe</button>
+			</div>
 		</div>
 	</section>
 
@@ -180,17 +187,7 @@
 	</section>
 
 
-  <!-- grow your business -->
-	<section class="antialiased font-sans w-full bg-gray-300 text-left text-black py-8">
-		<div class="container mx-auto py-8 font-normal leading-normal">
-			<h3 class="text-2xl">Grow Your Business</h3>
-			<p class="">Build high performing teams, establish design practices, mentor and grow the next generation of great designers, and design interfaces and experiences.</p>
-			<div class="max-w-sm mt-4 sm:flex">
-				<input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2 sm:mb-0" name="email" placeholder="Enter your email" required="">
-				<button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-orange-100 hover:bg-red-400 focus:bg-blue tracking-wide px-6">Subscribe</button>
-			</div>
-		</div>
-	</section>
+
 
 	<footer class="font-sans bg-black text-white py-8 px-4">
 		<div class="mx-auto overflow-hidden flex justify-between items-center">
