@@ -33,7 +33,7 @@
       </p>
       <div class="mt-4 sm:flex mt-12">
         <input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2" name="email" placeholder="Enter your email" required="*">
-        <button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-red-400 hover:bg-gray-900 focus:bg-gray-300 tracking-wide px-6">
+        <button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-red-700 hover:bg-gray-900 focus:bg-gray-300 tracking-wide px-6">
           Schickt mir bitte meine 5 geheimen Wege, mein Gehalt zu verdoppeln
         </button>
       </div>
@@ -97,32 +97,35 @@
 		</div>
 	</section>
 
+
+
+
 	<!-- ebook bullets -->
-	<section class="font-sans container m-auto flex flex-col lg:flex-row justify-center my-8">
+	<section class="text-white font-copy text-lg container m-auto flex flex-col lg:flex-row justify-center my-8">
 		<div class="order-2 lg:order-1 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 mt-8">
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2" alt="Avatar of Jonathan Reinink"></div>
-			<h2 class="text-black mb-2 font-normal">Praesent placerat.</h2>
-			<p class="text-gray-700 leading-normal mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2" alt="Avatar of Jonathan Reinink"></div>
-			<h2 class="text-black mb-2 font-normal">Fusce pellentesque suscipit nibh.</h2>
-			<p class="text-gray-700 leading-normal mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2" alt="Avatar of Jonathan Reinink"></div>
-			<h2 class="text-black mb-2 font-normal">Ut aliquam sollicitudin leo.</h2>
-			<p class="text-gray-700 leading-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-2 font-bold">80 Seiten geballte Informationen...</h2>
+			<p class="leading-normal mb-8">wie Du zum high-achiever wirst, dem liebend gern ein viel höheres Gehalt gezahlt wird.</p>
+			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-2 font-bold">Leck-mich-Geld...</h2>
+			<p class="leading-normal mb-8">sagen einige zu dem Vermögensaufbau, der Dir mit massiv höherem Gehalt endlich möglich ist.</p>
+			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-2 font-bold">Fünf kreative Wege zu Deiner Gehaltserhöhung.</h2>
+			<p class="leading-normal">Als Verhandlungsmuffel wirst Du Dich besonders wundern, wie auch Du zu mehr Geld kommen kannst.</p>
 		</div>
 		<div class="order-1 lg:order-2 w-full lg:w-1/2 max-w-sm m-auto mb-6 lg:mb-0">
 			<img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt="">
 		</div>
 		<div class="order-last w-full lg:w-1/4 flex flex-col items-center lg:items-start justify-center text-center lg:text-left mt-8 mr-8">
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2" alt="Avatar of Jonathan Reinink"></div>
-			<h2 class="text-black mb-2 font-normal">Cras iaculis ultricies nulla.</h2>
-			<p class="text-gray-700 leading-normal mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2" alt="Avatar of Jonathan Reinink"></div>
-			<h2 class="text-black mb-2 font-normal">Praesent placerat risus quis eros.</h2>
-			<p class="text-gray-700 leading-normal mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2" alt="Avatar of Jonathan Reinink"></div>
-			<h2 class="text-black mb-2 font-normal">Nunc dignissim risus id metus.</h2>
-			<p class="text-gray-700 leading-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-2 font-bold">Ein unfairer Vorteil gegenüber Deinen Kollegen.</h2>
+			<p class="leading-normal mb-8">Sie werden sich über Deine Performancesteigerung wundern und sich fragen, wie Du so an ihnen vorbeiziehen kannst.</p>
+			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-2 font-bold">Schuppen, die Dir von den Augen fallen.</h2>
+			<p class="leading-normal mb-8">Wir decken auf, was Deine Vorgesetzten und Geschäftsführer verdienen. Vorsicht: Es könnte sein, dass Du wütend wirst.</p>
+			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-2 font-bold">Mindset.</h2>
+			<p class="leading-normal">Wir werden Dir zeigen, wie Du Frustration und Wut in Energie umwandelst, die Du für Dein Fortkommen nutzt.</p>
 		</div>
 	</section>
 
@@ -133,28 +136,12 @@
 			<p class="">Build high performing teams, establish design practices, mentor and grow the next generation of great designers, and design interfaces and experiences.</p>
 			<div class="max-w-sm mt-4 sm:flex">
 				<input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2 sm:mb-0" name="email" placeholder="Enter your email" required="">
-				<button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-orange-100 hover:bg-red-400 focus:bg-blue tracking-wide px-6">Subscribe</button>
+				<button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-red-700 hover:bg-red-400 focus:bg-blue tracking-wide px-6">Subscribe</button>
 			</div>
 		</div>
 	</section>
 
-	<section class="bg-gray-300 font-sans">
-		<div class="container m-auto flex flex-col md:flex-row">
-			<div class="flex flex-col w-full lg:w-1/2 justify-center items-start py-8">
-				<label for="tagline" class="uppercase tracking-loose">best app ever</label>
-				<h1 class="my-4 font-normal">Our Work Flow</h1>
-				<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ex ea commodo consequat.   Sed ut
-					perspiciatis unde omnis iste natus error sit voluptatem accusantium natus error sit.</p>
-				<button class="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent">Learn
-					More</button>
-			</div>
-			<div class="w-full lg:w-1/2 lg:py-6">
-        Potentially an image
-      </div>
-		</div>
-	</section>
-
+  <!-- long copy -->
 	<section class="font-sans container m-auto flex flex-col py-8 text-center px-6">
 		<label class="text-sm uppercase">20 Month 2019</label>
 		<h1 class="my-8 max-w-full m-auto text-3xl md:text-4xl lg:text-5xl font-medium">Lorem Ipsum is simply dummy text of the printing</h1>
@@ -172,8 +159,42 @@
 		<button class="bg-black hover:bg-gray-900 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide">Learn More</button>
 	</section>
 
+	<!-- stories -->
+	<section
+		class="my-8 font-sans container m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
+		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt="" class="w-64" /></div>
+		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
+			<label for="tagline" class="uppercase tracking-wide text-gray-700 font-bold">best app ever</label>
+			<h1 class="my-4 font-normal">Our Work Flow</h1>
+			<p class="leading-normal mb-4 text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</section>
 
 
+	<section
+		class="my-8 pt-8 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center">
+		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
+			<label for="tagline" class="uppercase tracking-wide text-gray-700 font-bold">best app ever</label>
+			<h1 class="my-4 font-normal">Our Work Flow</h1>
+			<p class="leading-normal mb-4 text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt="" class="w-64"/></div>
+	</section>
+
+	<section
+		class="my-8 font-sans container m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
+		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt=""  class="w-64" /></div>
+		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
+			<label for="tagline" class="uppercase tracking-wide text-gray-700 font-bold">best app ever</label>
+			<h1 class="my-4 font-normal">Our Work Flow</h1>
+			<p class="leading-normal mb-4 text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</section>
+
+  <!-- final call to action -->
 	<section class="font-sans text-center py-8 px-4 lg:px-0 bg-gray-300">
 		<div class="container flex flex-col sm:flex-row bg-white m-auto shadow">
 			<div class="w-full sm:w-3/4 px-6 pt-6 text-left flex flex-col justify-center">
