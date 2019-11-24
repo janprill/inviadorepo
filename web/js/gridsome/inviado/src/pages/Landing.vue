@@ -172,34 +172,23 @@
 				eingehen zu sehen, dass Du wirklich verdienst. Zögere nicht zu lange! Du wirst es Dir nicht verzeihen..
 			</p>
 		</div>
-		<p class="mt-1 lg:mt-4 max-w-lg m-auto leading-loose mb-6 text-left">
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-			McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
-			undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
-			Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-		</p>
-		<p class="max-w-lg m-auto leading-loose mb-6 text-left">
-			The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
-			reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-		</p>
 	</section>
 
 	<!-- long copy - multicolumn -->
 	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
     <div class="container mx-auto py-8 font-normal leading-normal flex flex-col md:flex-row">
-			<div class="w-full md:w-1/4 border-b md:border-0 mb-6 md:mb-0 pb-6 md:pb-0 pr-8 flex justify-center items-start flex-col">
-				<label for="" class="font-bold">Important Note</label>
-				<p class="leading-normal mt-4 border-0 md:border-r md:pr-2">Nullam gravida sem vel massa pulvinar cursus. In sagittis enim vitae eros ultrices sagittis</p>
-			</div>
 			<div class="w-full md:w-3/4 leading-normal column-0 lg:column-2"> 
 				<h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl">
 					Deinen kostenlosen Report jetzt als eBook herunterladen.
 				</h1>
-				<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-					TODO - was der so kann, der Report.
-				</p>
 				<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
 					Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
+				</p>
+			</div>
+			<div class="w-full md:w-1/4 border-t md:border-0 mt-6 md:mt-0 pt-6 md:pt-0 pl-8 flex justify-center items-start flex-col text-gray-500">
+				<label for="" class="font-bold">Beginne heute mit der Umsetzung</label>
+				<p class="leading-normal mt-4 border-0 md:border-l md:pl-4">
+					Wir helfen Dir, Dein Gehalt zu erhöhen. Am besten Du fängst noch heute an, unsere Anleitungen umzusetzen.
 				</p>
 			</div>
 		</div>
@@ -261,7 +250,7 @@
 
 	<!-- calendly -->
 	<section class="bg-gray-300 font-sans">
-		<div class="container m-auto flex flex-col md:flex-row max-w-xl">
+		<div class="container m-auto flex flex-col md:flex-row">
 			<div class="flex flex-col w-full lg:w-1/2 justify-center items-start py-8">
 				<label for="tagline" class="uppercase tracking-loose">best app ever</label>
 				<h1 class="my-4 font-normal">Our Work Flow</h1>
