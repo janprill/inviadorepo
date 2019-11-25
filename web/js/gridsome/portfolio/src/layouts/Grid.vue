@@ -300,7 +300,7 @@
           <div class="calendly-inline-widget" data-url="https://calendly.com/inviado/free-consulting-call?background_color=4d5055&text_color=ffffff" style="min-width:320px;height:630px;"></div>
         </div>
       </div>
-    </div
+    </div>
 
     <main>
     </main>

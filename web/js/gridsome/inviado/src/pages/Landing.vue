@@ -15,52 +15,29 @@
 		</div>
 	</header>
 
-
-	<nav class="font-sans bg-white text-center flex justify-between my-4 mx-auto container overflow-hidden">
-		<a href="/" class="block text-left">
-			<img src="https://stitches.hyperyolo.com/images/logo.png" class="h-10 sm:h-10 rounded-full" alt="logo">
-		</a>
-		<ul class="text-sm text-gray-700 list-none p-0 flex items-center">
-			<li><a href="#" class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Products</a></li>
-			<li><a href="#" class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Pricing</a></li>
-			<li class="pr-2"><a href="#" class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">FAQs</a></li>
-			<li class="pl-2 border-l"><a href="#" class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Log In</a></li>
-			<button class="bg-black hover:bg-text-gray-800 text-white ml-4 py-2 px-3">
-				Sign Up
-			</button>
-		</ul>
-	</nav>
-
-
-
-
   <!-- double your income -->
-	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
-    <div class="container mx-auto py-8 font-normal leading-normal">
-      <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
-        5 Wege, Dein Gehalt zu verdoppeln.
-      </h1>
-      <p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-        Für zwei davon musst Du <span class="font-bold text-white">nicht einmal verhandeln</span>. Kaum jemand kennt sie. Wir zeigen Dir Schritt für Schritt den Weg. 
-        Als Entwickler, Tech PM oder Data Scientist gibt es keine bessere Zeit als heute, um Dein Leben auf allen Ebenen massiv zu verbessern.
-      </p>
-      <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-        Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
-      </p>
-      <div class="mt-4 sm:flex mt-12">
-        <input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2" name="email" placeholder="Enter your email" required="*">
-        <button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-red-700 hover:bg-gray-900 focus:bg-gray-300 tracking-wide px-6">
-          Schickt mir bitte meine 5 geheimen Wege, mein Gehalt zu verdoppeln
-        </button>
-      </div>
-		</div>
-	</section>
+	<copy 
+		title="5 Wege, Dein Gehalt zu verdoppeln." 
+		label="Du hast weder Geld, noch Zeit zu verschenken" 
+		margin="An jedem Tag, den Du zögerst, bleibt Geld auf dem Tisch liegen.">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Wieso verdienen andere so viel mehr? Wir lüften das Geheimnis. Und zeigen Dir Schritt-für-Schritt wie Du 
+			endlich verdienst, was Deine Arbeit wirklich wert ist. Für zwei Strategien zur Gehaltserhöhung 
+			musst Du <span class="font-bold text-white">nicht einmal verhandeln</span>. 
+		</p>
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Dein kostenloser, 80-seitiger Report zeigt Dir die Tricks der 'High-Achiever',
+			die bei gleicher Arbeit mehr als das doppelte verdienen.
+		</p>	
+	</copy>
+
+	<CallToAction />
 
   <!-- fly like an eagle -->
 	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
     <div class="container mx-auto py-8 font-normal leading-normal bg-blue-500 bg-gradient">
 			<h1 class="p-6 text-white font-neuzeit font-semibold leading-none w-128 text-xl md:text-3xl lg:text-5xl xl:text-6xl">
-        Eine ganze Menge Freiheit kannst Du kaufen.
+        Freiheit! Ist schwer ohne Geld.
       </h1>
 			<div class="mx-auto text-center overflow-hidden">
 				<parallax-container class="image-container" :animationDuration=700>
@@ -73,164 +50,120 @@
 
 	</section>
 
-  <!-- be rich -->
-	<section class="font-sans container m-auto flex flex-col py-8 px-6 text-white font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-		<h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
-			Wir helfen Dir, zu Verdienen wie Dein Zahnarzt.
-    </h1>
-		<p class="mt-6">
-			Wir möchten, dass Du frei bist. Und wir möchten helfen, dass Du reich wirst.
+  <!-- be as rich as your dentist -->
+	<copy 
+		title="Verdienen wie Dein Zahnarzt." 
+		label="Wenn Du als DEV oder TechPM" 
+		margin="weniger als die Hälfte Deines Zahnarztes verdienst, läuft etwas falsch.">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Wir möchten, dass Du frei bist. Und deswegen möchten wir helfen, dass Du reich und vermögend wirst.
+			Denn es ist doch ein Gerücht, dass man Freiheit und Gesundheit nicht kaufen kann.
 		</p>
-		<p class="mt-6">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
 			Jawoll! Das haben wir wirklich geschrieben! Bei Dir kommt ein klammes Gefühl hoch?
 			Der Ausblick auf Wohlstand fühlt sich nicht gut an?
-			Dann lies unbedingt weiter!
-		</p>
-		<p class="mt-6">
-			Du wirst gerade von Deiner langjährigen Mittelschichtserziehung gebeutelt:
-			"Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig."
-		</p>
-		<p class="mt-6">
-			Aber Geld sollte Dir wichtig sein. Zumindest wenn Du frei sein möchtest.
+			Dann wirst Du gerade von Deiner langjährigen Mittelschichtserziehung gebeutelt:
+			"Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig..."
+		</p>	
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Geld sollte Dir wichtig sein. Zumindest wenn Du frei sein möchtest.
 			Ethisch korrekter Wohlstand ist möglich. Ihn zu erreichen ist Deine Pflicht.
 			Denn - glaube uns - andere haben mit dem Geld weniger 
-			hehre Ziele als Du. Denk' darüber nach!
-		</p>
-	</section>
+			hehre Ziele als Du. Denk' einmal in Ruhe darüber nach!
+		</p>	
+	</copy>
 
   <!-- ebook -->
-	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
-    <div class="container mx-auto py-8 font-normal leading-normal">
-      <h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-5xl xl:text-8xl">
-        Deinen kostenlosen Report jetzt als eBook herunterladen.
-      </h1>
-      <p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-        TODO - was der so kann, der Report.
-      </p>
-      <p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-        Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
-      </p>
-		</div>
-	</section>
-
-
-
+	<copy 
+		title="Im Vertrauen: Soviel verdient Dein Chef." 
+		label="Du hast es nicht verdient..." 
+		margin="...ausgenutzt zu werden. Du hast es verdient, fair entlohnt zu werden.">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Wir haben ein recht gutes Bild davon, was Führungskräfte in Deinem Bereich verdienen. Wir verraten
+			es Dir gerne, damit Du Deinen eigenen Wert für Dein Unternehmen besser einschätzen kannst.
+		</p>
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Dein kostenloser Report wird dafür sorgen, dass Dir einige Schuppen von den Augen fallen. Höre die Signale:
+			Auch Du hast nicht mehr endlos Zeit, Dein Leben zu Deinem Vorteil zu drehen. Es ist genug Zeit vergangen, 
+			in denen Du für den Wohlstand der anderen gesorgt hast.
+		</p>
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			So helfen wir Dir:
+		</p>
+	</copy>
 
 	<!-- ebook bullets -->
-	<section class="text-white font-copy text-lg container m-auto flex flex-col lg:flex-row justify-center my-8">
-		<div class="order-2 lg:order-1 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 mt-8">
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
-			<h2 class="mb-2 font-bold">80 Seiten geballte Informationen...</h2>
-			<p class="leading-normal mb-8">wie Du zum high-achiever wirst, dem liebend gern ein viel höheres Gehalt gezahlt wird.</p>
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
-			<h2 class="mb-2 font-bold">Leck-mich-Geld...</h2>
-			<p class="leading-normal mb-8">sagen einige zu dem Vermögensaufbau, der Dir mit massiv höherem Gehalt endlich möglich ist.</p>
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
-			<h2 class="mb-2 font-bold">Fünf kreative Wege zu Deiner Gehaltserhöhung.</h2>
-			<p class="leading-normal">Als Verhandlungsmuffel wirst Du Dich besonders wundern, wie auch Du zu mehr Geld kommen kannst.</p>
+	<section class="text-white font-copy text-lg container m-auto flex flex-col lg:flex-row justify-center my-8 mb-16">
+		<div class="order-2 lg:order-1 w-full lg:w-1/3 flex flex-col lg:items-end justify-center lg:text-right ml-0 lg:ml-8 mt-0">
+			<div class="w-8 h-8 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-1 font-bold">Du musst nicht mehr um mehr Geld bitten...</h2>
+			<p class="leading-tight mb-8">wir zeigen Dir auf 80 geballten Seiten, wie Dir mehr Geld angetragen wird, damit Du bleibst.</p>
+			<div class="w-8 h-8 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-1 font-bold">Fünf kreative Wege zu Deiner Gehaltserhöhung.</h2>
+			<p class="leading-tight mb-8">Als Verhandlungsmuffel wirst Du Dich besonders wundern, wie auch Du zu mehr Geld kommen kannst.</p>
+			<div class="w-8 h-8 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-1 font-bold">Ein unfairer Vorteil gegenüber Deinen Kollegen.</h2>
+			<p class="leading-tight mb-8">Wo kommt diese Performance her, werden sie sich fragen.</p>
+			<div class="w-8 h-8 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-1 font-bold">Schuppen, die Dir von den Augen fallen.</h2>
+			<p class="leading-tight mb-8">Wir decken auf, was Deine Vorgesetzten verdienen. Vorsicht: Es könnte sein, dass Du wütend wirst.</p>
+			<div class="w-8 h-8 rounded-full bg-gray-300 mb-2"></div>
+			<h2 class="mb-1 font-bold">Mindset.</h2>
+			<p class="leading-tight">Wir werden Dir zeigen, wie Du Frustration und Wut in Energie umwandelst, die Du für Dein Fortkommen nutzt.</p>
 		</div>
-		<div class="order-1 lg:order-2 w-full lg:w-1/2 max-w-sm m-auto mb-6 lg:mb-0">
-			<img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt="">
-		</div>
-		<div class="order-last w-full lg:w-1/4 flex flex-col items-center lg:items-start justify-center text-center lg:text-left mt-8 mr-8">
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
-			<h2 class="mb-2 font-bold">Ein unfairer Vorteil gegenüber Deinen Kollegen.</h2>
-			<p class="leading-normal mb-8">Sie werden sich über Deine Performancesteigerung wundern und sich fragen, wie Du so an ihnen vorbeiziehen kannst.</p>
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
-			<h2 class="mb-2 font-bold">Schuppen, die Dir von den Augen fallen.</h2>
-			<p class="leading-normal mb-8">Wir decken auf, was Deine Vorgesetzten und Geschäftsführer verdienen. Vorsicht: Es könnte sein, dass Du wütend wirst.</p>
-			<div class="w-12 h-12 rounded-full bg-gray-300 mb-2"></div>
-			<h2 class="mb-2 font-bold">Mindset.</h2>
-			<p class="leading-normal">Wir werden Dir zeigen, wie Du Frustration und Wut in Energie umwandelst, die Du für Dein Fortkommen nutzt.</p>
+		<div class="order-1 lg:order-2 w-full lg:w-2/3 m-auto ml-6 mb-6 mt-0">
+			<img src="/images/BookCover.png" alt="">
 		</div>
 	</section>
 
-  <!-- grow your business -->
-	<section class="antialiased font-sans w-full bg-gray-300 text-left text-black py-8">
-		<div class="container mx-auto py-8 font-normal leading-normal">
-			<h3 class="text-2xl">Grow Your Business</h3>
-			<p class="">Build high performing teams, establish design practices, mentor and grow the next generation of great designers, and design interfaces and experiences.</p>
-			<div class="max-w-sm mt-4 sm:flex">
-				<input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2 sm:mb-0" name="email" placeholder="Enter your email" required="">
-				<button class="uppercase text-sm text-white focus:outline-0 w-full sm:w-auto bg-red-700 hover:bg-red-400 focus:bg-blue tracking-wide px-6">Subscribe</button>
-			</div>
-		</div>
-	</section>
-
-  <!-- long copy -->
-	<section class="font-sans container m-auto flex flex-col py-8 px-6">
-		<h1 class="my-8 max-w-full m-auto text-3xl md:text-4xl lg:text-5xl font-medium">
-			Grüner wird's nicht
-		</h1>
-		<div>
-			<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-				Bitte sieh' den Tatsachen ins Auge. Auch Du hast nicht ewig Zeit. Es wird Zeit, aus dem Quark zu kommen. 
-				Die Zeiten sind für Dich, als Dev, als Tech PM oder als Data Scientist günstig wie nie. Du hast aktuell
-				die absolut realistische Chance Geld zu verdienen, wie Dein Zahnarzt. Du gehörst zu einer Berufsgruppe, 
-				die gesucht ist, wie keine andere. Aber was machst Du derzeit daraus. Bohrst Du so dicke Bretter, wie es
-				Dein Potential erlaubt? Wir helfen Dir, das Leben zu leben, das Du Dir wünschst. Das Geld auf Deinem Konto 
-				eingehen zu sehen, dass Du wirklich verdienst. Zögere nicht zu lange! Du wirst es Dir nicht verzeihen..
-			</p>
-		</div>
-	</section>
+	<CallToAction />
 
 	<!-- long copy - multicolumn -->
-	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
-    <div class="container mx-auto py-8 font-normal leading-normal flex flex-col md:flex-row">
-			<div class="w-full md:w-3/4 leading-normal column-0 lg:column-2"> 
-				<h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl">
-					Deinen kostenlosen Report jetzt als eBook herunterladen.
-				</h1>
-				<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-					Lade jetzt Deinen kostenlosen 80-seitigen Report herunter, um die Tricks der 'High-Achiever' zu lernen, die bei gleicher Arbeit mehr als das doppelte verdienen.
-				</p>
-			</div>
-			<div class="w-full md:w-1/4 border-t md:border-0 mt-6 md:mt-0 pt-6 md:pt-0 pl-8 flex justify-center items-start flex-col text-gray-500">
-				<label for="" class="font-bold">Beginne heute mit der Umsetzung</label>
-				<p class="leading-normal mt-4 border-0 md:border-l md:pl-4">
-					Wir helfen Dir, Dein Gehalt zu erhöhen. Am besten Du fängst noch heute an, unsere Anleitungen umzusetzen.
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="font-sans text-center my-8 px-8">
-		<h1 class="capitalize font-medium">Ready to get started?</h1>
-		<p class="text-gray-700 mt-2 mb-6">But I must explain to you how all this mistaken idea of denouncing </p>
-		<button class="bg-black hover:bg-gray-900 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide">Learn More</button>
-	</section>
+	<copy 
+		title="Grüner wird es nicht." 
+		label="Beginne heute" 
+		margin="Du hast nicht ewig Zeit...">
+		<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Bitte sieh den Tatsachen ins Auge. Auch Du hast nicht ewig Zeit. Jeder Tag, an dem Du Geld auf dem Tisch liegen 
+			lässt, holt Dich später doppelt wieder ein. Denn Dein aktuelles Gehalt determiniert nicht nur Deine Rente, sondern
+			auch Deinen Verhandlungsspielraum im nächsten Job.
+		</p>
+		<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Stell Dir einmal einen Moment lang vor, was ein angemessenes Gehalt für Veränderungen für Dich bedeuten kann:
+		</p>
+	</copy>
 
 	<!-- stories -->
 	<section
-		class="my-8 font-sans container m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
+		class="text-white my-8 font-copy container m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
 		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt="" class="w-64" /></div>
 		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
-			<label for="tagline" class="uppercase tracking-wide text-gray-700 font-bold">best app ever</label>
+			<label for="tagline" class="uppercase tracking-wide font-bold">best app ever</label>
 			<h1 class="my-4 font-normal">Our Work Flow</h1>
-			<p class="leading-normal mb-4 text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+			<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 	</section>
 
 
 	<section
-		class="my-8 pt-8 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center">
+		class="text-white my-8 pt-8 font-copy container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center">
 		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
-			<label for="tagline" class="uppercase tracking-wide text-gray-700 font-bold">best app ever</label>
+			<label for="tagline" class="uppercase tracking-wide font-bold">best app ever</label>
 			<h1 class="my-4 font-normal">Our Work Flow</h1>
-			<p class="leading-normal mb-4 text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+			<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt="" class="w-64"/></div>
 	</section>
 
 	<section
-		class="my-8 font-sans container m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
+		class="text-white my-8 font-sans container m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
 		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt=""  class="w-64" /></div>
 		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
-			<label for="tagline" class="uppercase tracking-wide text-gray-700 font-bold">best app ever</label>
+			<label for="tagline" class="uppercase tracking-wide font-bold">best app ever</label>
 			<h1 class="my-4 font-normal">Our Work Flow</h1>
-			<p class="leading-normal mb-4 text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+			<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 	</section>
@@ -287,6 +220,8 @@
 </template>
 
 <script>
+import Copy from '@/components/Copy'
+import CallToAction from '@/components/CallToAction'
 import { ParallaxContainer, ParallaxElement } from 'vue-mouse-parallax'
 export default {
   props: [],
@@ -295,8 +230,10 @@ export default {
     }
   },
   components: {
-     ParallaxContainer,
-     ParallaxElement,
+		Copy,
+		CallToAction,
+		ParallaxContainer,
+		ParallaxElement,
 	},
 	mounted() {
     let calendly = document.createElement('script')
