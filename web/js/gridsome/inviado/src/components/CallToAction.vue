@@ -8,6 +8,9 @@
 					Ja, schickt mir jetzt 5 Wege, mein Gehalt zu verdoppeln.
 				</button>
 			</div>
+			<div class="text-md leading-none mt-4">
+				GDPR and so on Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores eligendi ullam quos minima neque unde dolorem tempore blanditiis a rem, delectus nesciunt, sunt, tempora aperiam corporis consectetur. Ipsa, amet eos!
+			</div>
 		</div>
 	</section>
 </template>

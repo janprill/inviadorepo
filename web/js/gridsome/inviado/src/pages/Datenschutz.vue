@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="text-white container max-w-xl mx-auto">
-      <h1>Datenschutzerklärung</h1>
-      <h2 id="m14">Einleitung</h2>
-      <p>
+    <div class="text-white container max-w-xl mx-auto font-copy text-lg">
+      <h1 class="font-neuzeit text-4xl mt-16 font-bold">Datenschutzerklärung</h1>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m14">Einleitung</h2>
+      <p class="mt-4">
         Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
         aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch
         kurz als "Daten“ bezeichnet) wir zu welchen Zwecken und in welchem
@@ -14,11 +14,11 @@
         Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend
         zusammenfassend bezeichnet als "Onlineangebot“).
       </p>
-      <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
-      <ul></ul>
-      <p>Stand: 25. November 2019</p>
-      <h2>Inhaltsübersicht</h2>
-      <ul>
+      <p class="mt-4">Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
+      <ul class="list-disc mt-4"></ul>
+      <p class="mt-4">Stand: 25. November 2019</p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold">Inhaltsübersicht</h2>
+      <ul class="list-disc mt-4">
         <li><a href="#m14"> Einleitung</a></li>
         <li><a href="#m3"> Verantwortlicher</a></li>
         <li>
@@ -62,62 +62,64 @@
         </li>
         <li><a href="#m42"> Begriffsdefinitionen</a></li>
       </ul>
-      <h2 id="m3">Verantwortlicher</h2>
-      <p>Inviado Ltd & Co KG<br />wie im Impressum - LINK</p>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m3">Verantwortlicher</h2>
+      <p class="mt-4">Inviado Ltd & Co KG<br />wie im Impressum angegeben: 
+        <a href="https://inviado.com/impressum">https://inviado.com/impressum</a>
+      </p>
+      <p class="mt-4">
         <strong>Vertretungsberechtigte Personen</strong>: Jan Prill,
         Babendiekstr. 60b, 22587 Hamburg
       </p>
-      <p>
+      <p class="mt-4">
         <strong>E-Mail-Adresse</strong>:
         <a href="mailto:jan.prill@inviado.com">jan.prill@inviado.com</a>
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Impressum</strong>:
         <a href="https://inviado.com/impressum" target="_blank"
           >https://inviado.com/impressum</a
         >
       </p>
-      <ul></ul>
-      <h2 id="mOverview">Übersicht der Verarbeitungen</h2>
-      <p>
+      <ul class="list-disc mt-4"></ul>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="mOverview">Übersicht der Verarbeitungen</h2>
+      <p class="mt-4">
         Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und
         die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen
         Personen.
       </p>
       <h3>Arten der verarbeiteten Daten</h3>
-      <ul>
-        <li><p>Bestandsdaten (z.B. Namen, Adressen).</p></li>
-        <li><p>Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).</p></li>
-        <li><p>Kontaktdaten (z.B. E-Mail, Telefonnummern).</p></li>
+      <ul class="list-disc mt-4">
+        <li><p class="mt-4">Bestandsdaten (z.B. Namen, Adressen).</p></li>
+        <li><p class="mt-4">Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).</p></li>
+        <li><p class="mt-4">Kontaktdaten (z.B. E-Mail, Telefonnummern).</p></li>
         <li>
-          <p>
+          <p class="mt-4">
             Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten,
             Zugriffszeiten).
           </p>
         </li>
       </ul>
       <h3>Kategorien betroffener Personen</h3>
-      <ul>
-        <li><p>Kommunikationspartner.</p></li>
+      <ul class="list-disc mt-4">
+        <li><p class="mt-4">Kommunikationspartner.</p></li>
         <li>
-          <p>Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</p>
+          <p class="mt-4">Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</p>
         </li>
       </ul>
       <h3>Zwecke der Verarbeitung</h3>
-      <ul>
-        <li><p>Content Delivery Network (CDN).</p></li>
-        <li><p>Direktmarketing (z.B. per E-Mail oder postalisch).</p></li>
-        <li><p>Vertragliche Leistungen und Service.</p></li>
+      <ul class="list-disc mt-4">
+        <li><p class="mt-4">Content Delivery Network (CDN).</p></li>
+        <li><p class="mt-4">Direktmarketing (z.B. per E-Mail oder postalisch).</p></li>
+        <li><p class="mt-4">Vertragliche Leistungen und Service.</p></li>
       </ul>
-      <h2></h2>
+      <h2>Rechtsgrundlagen</h2>
       <h3 id="m13">Maßgebliche Rechtsgrundlagen</h3>
-      <p>
+      <p class="mt-4">
         Im Folgenden teilen wir die Rechtsgrundlagen der
         Datenschutzgrundverordnung (DSGVO), auf deren Basis wir die
         personenbezogenen Daten verarbeiten, mit. Bitte beachten Sie, dass
@@ -125,9 +127,9 @@
         Datenschutzvorgaben in Ihrem bzw. unserem Wohn- und Sitzland gelten
         können.
       </p>
-      <ul>
+      <ul class="list-disc mt-4">
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)</strong> -
             Die betroffene Person hat ihre Einwilligung in die Verarbeitung der
             sie betreffenden personenbezogenen Daten für einen spezifischen
@@ -135,10 +137,8 @@
           </p>
         </li>
         <li>
-          <p>
-            <strong
-              >Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)</strong
-            >
+          <p class="mt-4">
+            <strong>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)</strong>
             - Die Verarbeitung ist zur Wahrung der berechtigten Interessen des
             Verantwortlichen oder eines Dritten erforderlich, sofern nicht die
             Interessen oder Grundrechte und Grundfreiheiten der betroffenen
@@ -147,7 +147,7 @@
           </p>
         </li>
       </ul>
-      <p>
+      <p class="mt-4">
         <strong>Nationale Datenschutzregelungen in Deutschland</strong>:
         Zusätzlich zu den Datenschutzregelungen der Datenschutz-Grundverordnung
         gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu
@@ -165,9 +165,9 @@
         Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur
         Anwendung gelangen.
       </p>
-      <ul></ul>
-      <h2 id="m27">Sicherheitsmaßnahmen</h2>
-      <p>
+      <ul class="list-disc mt-4"></ul>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m27">Sicherheitsmaßnahmen</h2>
+      <p class="mt-4">
         Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter
         Berücksichtigung des Stands der Technik, der Implementierungskosten und
         der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie
@@ -176,7 +176,7 @@
         technische und organisatorische Maßnahmen, um ein dem Risiko
         angemessenes Schutzniveau zu gewährleisten.
       </p>
-      <p>
+      <p class="mt-4">
         Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit,
         Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen
         und elektronischen Zugangs zu den Daten als auch des sie betreffenden
@@ -189,14 +189,14 @@
         entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und
         durch datenschutzfreundliche Voreinstellungen.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>SSL-Verschlüsselung (https)</strong>: Um Ihre via unser
         Online-Angebot übermittelten Daten zu schützen, nutzen wir eine
         SSL-Verschlüsselung. Sie erkennen derart verschlüsselte Verbindungen an
         dem Präfix https:// in der Adresszeile Ihres Browsers.
       </p>
-      <h2 id="m25">Übermittlung und Offenbarung von personenbezogenen Daten</h2>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m25">Übermittlung und Offenbarung von personenbezogenen Daten</h2>
+      <p class="mt-4">
         Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor,
         dass die Daten an andere Stellen, Unternehmen, rechtlich selbstständige
         Organisationseinheiten oder Personen übermittelt oder sie ihnen
@@ -208,8 +208,8 @@
         Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den
         Empfängern Ihrer Daten ab.
       </p>
-      <h2 id="m24">Datenverarbeitung in Drittländern</h2>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m24">Datenverarbeitung in Drittländern</h2>
+      <p class="mt-4">
         Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen
         Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder
         die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder
@@ -217,7 +217,7 @@
         oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den
         gesetzlichen Vorgaben.
       </p>
-      <p>
+      <p class="mt-4">
         Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder
         gesetzlich erforderlicher Übermittlung verarbeiten oder lassen wir die
         Daten nur in Drittländern mit einem anerkannten Datenschutzniveau, zu
@@ -234,8 +234,13 @@
         >
         ).
       </p>
-      <h2 id="m134">Einsatz von Cookies</h2>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m134">Einsatz von Cookies</h2>
+      <p class="mt-4">
+        Auf dieser Website (inviado.com) werden KEINE cookies eingesetzt. Es ist aber nicht ausgeschlossen,
+        dass Drittanbieter Cookies einsetzen. Deswegen informiere ich Sie im folgenden Abschnitt, allgemein 
+        über Cookies.
+      </p>
+      <p class="mt-4">
         Cookies sind Textdateien, die Daten von besuchten Websites oder Domains
         enthalten und von einem Browser auf dem Computer des Benutzers
         gespeichert werden. Ein Cookie dient in erster Linie dazu, die
@@ -248,13 +253,13 @@
         wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen
         gespeichert werden, auch als "Nutzer-IDs" bezeichnet)
       </p>
-      <p>
+      <p class="mt-4">
         <strong
           >Die folgenden Cookie-Typen und Funktionen werden
           unterschieden:</strong
         >
       </p>
-      <ul>
+      <ul class="list-disc mt-4">
         <li>
           <strong
             >Temporäre Cookies (auch: Session- oder Sitzungs-Cookies):</strong
@@ -304,7 +309,7 @@
           Einholung einer Einwilligung.
         </li>
       </ul>
-      <p>
+      <p class="mt-4">
         <strong>Hinweise zu Rechtsgrundlagen: </strong> Auf welcher
         Rechtsgrundlage wir Ihre personenbezogenen Daten mit Hilfe von Cookies
         verarbeiten, hängt davon ab, ob wir Sie um eine Einwilligung bitten.
@@ -316,7 +321,7 @@
         Verbesserung) verarbeitet oder, wenn der Einsatz von Cookies
         erforderlich ist, um unsere vertraglichen Verpflichtungen zu erfüllen.
       </p>
-      <p>
+      <p class="mt-4">
         <strong
           >Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out):
         </strong>
@@ -342,7 +347,7 @@
         Rahmen der Angaben zu den eingesetzten Dienstleistern und Cookies
         erhalten.
       </p>
-      <p>
+      <p class="mt-4">
         <strong
           >Verarbeitung von Cookie-Daten auf Grundlage einer
           Einwilligung</strong
@@ -354,30 +359,30 @@
         Grundlage unseres Interesses und des Interesses der Nutzer an der
         erwarteten Funktionsfähigkeit unseres Onlineangebotes.
       </p>
-      <ul>
+      <ul class="list-disc mt-4">
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z.B.
             besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten),
             Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Betroffene Personen:</strong> Nutzer (z.B.
             Webseitenbesucher, Nutzer von Onlinediensten).
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
             lit. a DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f.
             DSGVO).
           </p>
         </li>
       </ul>
-      <h2 id="m225">Bereitstellung des Onlineangebotes und Webhosting</h2>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m225">Bereitstellung des Onlineangebotes und Webhosting</h2>
+      <p class="mt-4">
         Um unser Onlineangebot sicher und effizient bereitstellen zu können,
         nehmen wir die Leistungen von einem oder mehreren Webhosting-Anbietern
         in Anspruch, von deren Servern (bzw. von ihnen verwalteten Servern) das
@@ -386,7 +391,7 @@
         Speicherplatz und Datenbankdienste sowie Sicherheitsleistungen und
         technische Wartungsleistungen in Anspruch nehmen.
       </p>
-      <p>
+      <p class="mt-4">
         Zu den im Rahmen der Bereitstellung des Hostingangebotes verarbeiteten
         Daten können alle die Nutzer unseres Onlineangebotes betreffenden
         Angaben gehören, die im Rahmen der Nutzung und der Kommunikation
@@ -395,7 +400,7 @@
         alle innerhalb unseres Onlineangebotes oder von Webseiten getätigten
         Eingaben.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Erhebung von Zugriffsdaten und Logfiles</strong>: Wir selbst
         (bzw. unser Webhostinganbieter) erheben Daten zu jedem Zugriff auf den
         Server (sogenannte Serverlogfiles). Zu den Serverlogfiles können die
@@ -405,14 +410,14 @@
         Referrer URL (die zuvor besuchte Seite) und im Regelfall IP-Adressen und
         der anfragende Provider gehören.
       </p>
-      <p>
+      <p class="mt-4">
         Die Serverlogfiles können zum einen zu Zwecken der Sicherheit eingesetzt
         werden, z.B., um eine Überlastung der Server zu vermeiden (insbesondere
         im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken) und
         zum anderen, um die Auslastung der Server und ihre Stabilität
         sicherzustellen.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Content-Delivery-Network</strong>: Wir setzen ein
         "Content-Delivery-Network" (CDN) ein. Ein CDN ist ein Dienst, mit dessen
         Hilfe Inhalte eines Onlineangebotes, insbesondere große Mediendateien,
@@ -420,9 +425,9 @@
         über das Internet verbundener Server schneller und sicherer ausgeliefert
         werden können.
       </p>
-      <ul>
+      <ul class="list-disc mt-4">
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Verarbeitete Datenarten:</strong> Inhaltsdaten (z.B.
             Texteingaben, Fotografien, Videos), Nutzungsdaten (z.B. besuchte
             Webseiten, Interesse an Inhalten, Zugriffszeiten),
@@ -430,47 +435,44 @@
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Betroffene Personen:</strong> Nutzer (z.B.
             Webseitenbesucher, Nutzer von Onlinediensten).
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Zwecke der Verarbeitung:</strong> Content Delivery Network
             (CDN), Vertragliche Leistungen und Service.
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
             Abs. 1 S. 1 lit. f. DSGVO).
           </p>
         </li>
       </ul>
-      <p><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
-      <ul>
+      <p class="mt-4"><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+      <ul class="list-disc mt-4">
         <li>
-          <p>
-            <strong>Wix:</strong> Hostingplattform für Websites; Dienstanbieter:
-            Wix.com ltd., Tel Aviv, 500 Terry A. Francois Boulevard, San
-            Francisco, California 94158, USA; Website:
-            <a href="https://www.wix.com" target="_blank">https://www.wix.com</a
+          <p class="mt-4">
+            <strong>Netlify:</strong> Hostingplattform für Websites; Dienstanbieter:
+            Netlify, Inc. Jurisdiction of Incorporation/Organization DELAWARE, CIK (Filer ID Number): 0001672598; 
+            Netlify, Inc., 2325 3rd Street, Suite 215, 94107, San Francisco, California 
+            Website:
+            <a href="https://www.netlify.com" target="_blank">https://www.netlify.com</a
             >; Datenschutzerklärung:
-            <a href="https://de.wix.com/about/privacy" target="_blank"
-              >https://de.wix.com/about/privacy</a
-            >; Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung
-            von Daten in den USA):
-            <a
-              href="https://www.privacyshield.gov/participant?id=a2zt0000000GnbGAAS&status=Active"
-              target="_blank"
-              >https://www.privacyshield.gov/participant?id=a2zt0000000GnbGAAS&status=Active</a
-            >.
+            <a href="https://www.netlify.com/privacy/" target="_blank"
+              >https://www.netlify.com/privacy/</a> 
+            ; GDPR:
+            <a href="https://www.netlify.com/gdpr/" target="_blank"
+              >https://www.netlify.com/gdpr/</a> 
           </p>
         </li>
       </ul>
-      <h2 id="m17">Newsletter und Breitenkommunikation</h2>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m17">Newsletter und Breitenkommunikation</h2>
+      <p class="mt-4">
         Wir versenden Newsletter, E-Mails und weitere elektronische
         Benachrichtigungen (nachfolgend "Newsletter“) nur mit der Einwilligung
         der Empfänger oder einer gesetzlichen Erlaubnis. Sofern im Rahmen einer
@@ -478,14 +480,14 @@
         sie für die Einwilligung der Nutzer maßgeblich. Im Übrigen enthalten
         unsere Newsletter Informationen zu unseren Leistungen und uns.
       </p>
-      <p>
+      <p class="mt-4">
         Um sich zu unseren Newslettern anzumelden, reicht es grundsätzlich aus,
         wenn Sie Ihre E-Mail-Adresse angeben. Wir können Sie jedoch bitten,
         einen Namen, zwecks persönlicher Ansprache im Newsletter, oder weitere
         Angaben, sofern diese für die Zwecke des Newsletters erforderlich sind,
         zu tätigen.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Double-Opt-In-Verfahren:</strong> Die Anmeldung zu unserem
         Newsletter erfolgt grundsätzlich in einem sogenannte
         Double-Opt-In-Verfahren. D.h., Sie erhalten nach der Anmeldung eine
@@ -498,7 +500,7 @@
         werden die Änderungen Ihrer bei dem Versanddienstleister gespeicherten
         Daten protokolliert.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Löschung und Einschränkung der Verarbeitung: </strong> Wir
         können die ausgetragenen E-Mail-Adressen bis zu drei Jahren auf
         Grundlage unserer berechtigten Interessen speichern, bevor wir sie
@@ -511,14 +513,14 @@
         alleine zu diesem Zweck in einer Sperrliste (sogenannte "Blacklist")
         vor.
       </p>
-      <p>
+      <p class="mt-4">
         Die Protokollierung des Anmeldeverfahrens erfolgt auf Grundlage unserer
         berechtigten Interessen zu Zwecken des Nachweises seines ordnungsgemäßen
         Ablaufs. Soweit wir einen Dienstleister mit dem Versand von E-Mails
         beauftragen, erfolgt dies auf Grundlage unserer berechtigten Interessen
         an einem effizienten und sicheren Versandsystem.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Hinweise zu Rechtsgrundlagen:</strong> Der Versand der
         Newsletter erfolgt auf Grundlage einer Einwilligung der Empfänger oder,
         falls eine Einwilligung nicht erforderlich ist, auf Grundlage unserer
@@ -530,11 +532,11 @@
         Interessen aufgezeichnet, um nachzuweisen, dass es in Übereinstimmung
         mit dem Gesetz durchgeführt wurde.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Inhalte</strong>: Informationen zu uns, unseren Leistungen,
         Aktionen und Angeboten.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Erfolgsmessung</strong>: Die Newsletter enthalten einen
         sogenannte "web-beacon“, d.h., eine pixelgroße Datei, die beim Öffnen
         des Newsletters von unserem Server, bzw., sofern wir einen
@@ -543,7 +545,7 @@
         Informationen zum Browser und Ihrem System, als auch Ihre IP-Adresse und
         der Zeitpunkt des Abrufs, erhoben.
       </p>
-      <p>
+      <p class="mt-4">
         Diese Informationen werden zur technischen Verbesserung unseres
         Newsletters anhand der technischen Daten oder der Zielgruppen und ihres
         Leseverhaltens auf Basis ihrer Abruforte (die mit Hilfe der IP-Adresse
@@ -558,7 +560,7 @@
         an sie anzupassen oder unterschiedliche Inhalte entsprechend den
         Interessen unserer Nutzer zu versenden.
       </p>
-      <p>
+      <p class="mt-4">
         Die Auswertung des Newsletters und die Erfolgsmessung erfolgen,
         vorbehaltlich einer ausdrücklichen Einwilligung der Nutzer, auf
         Grundlage unserer berechtigten Interessen zu Zwecken des Einsatzes eines
@@ -566,12 +568,12 @@
         unseren geschäftlichen Interessen dient, als auch den Erwartungen der
         Nutzer entspricht.
       </p>
-      <p>
+      <p class="mt-4">
         Ein getrennter Widerruf der Erfolgsmessung ist leider nicht möglich, in
         diesem Fall muss das gesamte Newsletterabonnement gekündigt, bzw. muss
         ihm widersprochen werden.
       </p>
-      <p>
+      <p class="mt-4">
         <strong>Voraussetzung der Inanspruchnahme kostenloser Leistungen</strong
         >: Die Einwilligungen in den Versand von Mailings kann als Voraussetzung
         zur Inanspruchnahme kostenloser Leistungen (z.B. Zugang zu bestimmten
@@ -580,9 +582,9 @@
         ohne sich zum Newsletter anzumelden, bitten wir Sie um eine
         Kontaktaufnahme.
       </p>
-      <ul>
+      <ul class="list-disc mt-4">
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Verarbeitete Datenarten:</strong> Bestandsdaten (z.B. Namen,
             Adressen), Kontaktdaten (z.B. E-Mail, Telefonnummern),
             Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen),
@@ -591,26 +593,26 @@
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Betroffene Personen:</strong> Kommunikationspartner, Nutzer
             (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Zwecke der Verarbeitung:</strong> Direktmarketing (z.B. per
             E-Mail oder postalisch), Vertragliche Leistungen und Service.
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
             lit. a DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f.
             DSGVO).
           </p>
         </li>
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Widerspruchsmöglichkeit (Opt-Out):</strong> Sie können den
             Empfang unseres Newsletters jederzeit kündigen, d.h. Ihre
             Einwilligungen widerrufen, bzw. dem weiteren Empfang widersprechen.
@@ -620,10 +622,10 @@
           </p>
         </li>
       </ul>
-      <p><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
-      <ul>
+      <p class="mt-4"><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+      <ul class="list-disc mt-4">
         <li>
-          <p>
+          <p class="mt-4">
             <strong>Mailchimp:</strong> E-Mail-Marketing-Plattform;
             Dienstanbieter: "Mailchimp" - Rocket Science Group, LLC, 675 Ponce
             De Leon Ave NE #5000, Atlanta, GA 30308, USA; Website:
@@ -642,15 +644,15 @@
           </p>
         </li>
       </ul>
-      <h2 id="m12">Löschung von Daten</h2>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m12">Löschung von Daten</h2>
+      <p class="mt-4">
         Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen
         Vorgaben gelöscht, sobald deren zur Verarbeitung erlaubten
         Einwilligungen widerrufen werden oder sonstige Erlaubnisse entfallen
         (z.B., wenn der Zweck der Verarbeitung dieser Daten entfallen ist oder
         sie für den Zweck nicht erforderlich sind).
       </p>
-      <p>
+      <p class="mt-4">
         Sofern die Daten nicht gelöscht werden, weil sie für andere und
         gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung
         auf diese Zwecke beschränkt. D.h., die Daten werden gesperrt und nicht
@@ -660,14 +662,14 @@
         Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen
         oder juristischen Person erforderlich ist.
       </p>
-      <p>
+      <p class="mt-4">
         Weitere Hinweise zu der Löschung von personenbezogenen Daten können
         ferner im Rahmen der einzelnen Datenschutzhinweise dieser
         Datenschutzerklärung erfolgen.
       </p>
-      <ul></ul>
-      <h2 id="m15">Änderung und Aktualisierung der Datenschutzerklärung</h2>
-      <p>
+      <ul class="list-disc mt-4"></ul>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m15">Änderung und Aktualisierung der Datenschutzerklärung</h2>
+      <p class="mt-4">
         Wir bitten Sie, sich regelmäßig über den Inhalt unserer
         Datenschutzerklärung zu informieren. Wir passen die Datenschutzerklärung
         an, sobald die Änderungen der von uns durchgeführten Datenverarbeitungen
@@ -675,18 +677,18 @@
         Änderungen eine Mitwirkungshandlung Ihrerseits (z.B. Einwilligung) oder
         eine sonstige individuelle Benachrichtigung erforderlich wird.
       </p>
-      <p>
+      <p class="mt-4">
         Sofern wir in dieser Datenschutzerklärung Adressen und
         Kontaktinformationen von Unternehmen und Organisationen angeben, bitten
         wir zu beachten, dass die Adressen sich über die Zeit ändern können und
         bitten die Angaben vor Kontaktaufnahme zu prüfen.
       </p>
-      <h2 id="m10">Rechte der betroffenen Personen</h2>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m10">Rechte der betroffenen Personen</h2>
+      <p class="mt-4">
         Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die
         sich insbesondere aus Art. 15 bis 18 und 21 DSGVO ergeben:
       </p>
-      <ul>
+      <ul class="list-disc mt-4">
         <li>
           <strong
             >Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus
@@ -743,8 +745,8 @@
           betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
         </li>
       </ul>
-      <h2 id="m42">Begriffsdefinitionen</h2>
-      <p>
+      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m42">Begriffsdefinitionen</h2>
+      <p class="mt-4">
         In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser
         Datenschutzerklärung verwendeten Begrifflichkeiten. Viele der Begriffe
         sind dem Gesetz entnommen und vor allem im Art. 4 DSGVO definiert. Die
@@ -752,7 +754,7 @@
         Erläuterungen sollen dagegen vor allem dem Verständnis dienen. Die
         Begriffe sind alphabetisch sortiert.
       </p>
-      <ul>
+      <ul class="list-disc mt-4">
         <li>
           <strong>Content Delivery Network (CDN):</strong> Ein "Content Delivery
           Network" (CDN) ist ein Dienst, mit dessen Hilfe Inhalte eines
@@ -789,7 +791,7 @@
           Löschen.
         </li>
       </ul>
-      <p>
+      <p class="mt-4">
         <a
           href="https://datenschutz-generator.de/?l=de"
           title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."

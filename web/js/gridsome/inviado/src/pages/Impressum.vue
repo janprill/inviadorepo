@@ -40,6 +40,13 @@
 
       <h2 class="mt-16 font-neuzeit text-2xl font-bold">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
       <p class="mt-6">
+        Rein vorsorglich, weil der verantwortliche Betreiber dieser Website, Jan Prill, in Deutschlanda als Rechtsanwalt zugelassen ist, 
+        folgen diese ergänzenden Informationen:
+      </p>
+      <p class="mt-6">
+        Jan Prill<br />
+        Babendiekstr. 60b<br />
+        22587 Hamburg <br/>
         Berufsbezeichnung: Rechtsanwalt<br />
         Zust&auml;ndige Kammer: Hanseatische Rechtsanwaltskammer Hamburg<br />
         Verliehen durch: Deutschland<br />
