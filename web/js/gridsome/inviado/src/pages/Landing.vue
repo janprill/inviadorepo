@@ -37,7 +37,7 @@
 
   <!-- fly like an eagle -->
 	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
-    <div class="container mx-auto py-8 font-normal leading-normal bg-blue-500 bg-gradient">
+    <div class="container mx-auto py-8 font-normal leading-normal bg-blue-500 bg-gradient rounded shadow-xl">
 			<h1 class="p-6 text-white font-neuzeit font-semibold leading-none w-128 text-xl md:text-3xl lg:text-5xl xl:text-6xl">
         Freiheit! Ist schwer ohne Geld.
       </h1>
@@ -142,12 +142,12 @@
 			<img src="/images/villa.jpg" alt="" class="rounded shadow-xl" />
 		</div>
 		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start pl-8">
-			<h3 class="font-bold">Our Work Flow</h3>
-			<p class="leading-normal mb-4">
-				Die Immobilienpreise besonders in guten Lagen sind in den letzten Jahren explodiert. Du hast Dich wahrscheinlich auch schon öfter gefragt,
-				wer eigentlich so viel Geld hat, eine Villa in guter Lage zu kaufen. Du könntest dieses Geld haben. Dein Gehalt macht den Unterschied. 
-				Für die meisten ist es ein Traum in weiter Ferne. Aber es gibt Menschen, bei denen macht der Kaufpreis so einer Villa ein Zehntel ihres Jahresgehalts 
-				aus (Vorstandsmitglieder von DAX-Unternehmen), oder aber 3 Jahresgehälter (Geschäftsführer großer Mittelständler), wir können Dich, als Spezialisten
+			<h3 class="font-bold">Villa. Haus. Mietwohnung. Dein Gehalt macht den Unterschied.</h3>
+			<p class="leading-normal mb-4 mt-4">
+				Du hast Dich vielleicht schon einmal gefragt, wer eigentlich das Geld hat, ein Haus in guter Lage zu kaufen. 
+				Die Immobilienpreise sind ja wirklich explodiert. Für die meisten ist es ein Traum in weiter Ferne. Aber es gibt
+				Menschen, bei denen macht der Kaufpreis einer Villa ein Zehntel ihres Jahresgehalts aus (Vorstandsmitglieder von DAX-Unternehmen).
+				Oder aber 3 Jahresgehälter (Geschäftsführer großer Mittelständler). Wir können Dich, als Spezialisten
 				in einer extrem gesuchten Berufsgruppe dahin coachen, dass es 6-10 Jahresgehälter für Dich sind und das ist dann schon sehr überschaubar und 
 				bestens finanzierbar. Dein Gehalt macht den Unterschied. Würdest Du so ein Haus nicht gerne Deinen Kindern hinterlassen?
 			</p>
@@ -157,14 +157,12 @@
 	<section
 		class="text-white text-xl my-16 font-copy container m-auto flex flex-col lg:flex-row text-left">
 		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start lg:items-start pr-8">
-			<h3 class="font-bold">Our Work Flow</h3>
-			<p class="leading-normal mb-4">
-				Die Immobilienpreise besonders in guten Lagen sind in den letzten Jahren explodiert. Du hast Dich wahrscheinlich auch schon öfter gefragt,
-				wer eigentlich so viel Geld hat, eine Villa in guter Lage zu kaufen. Du könntest dieses Geld haben. Dein Gehalt macht den Unterschied. 
-				Für die meisten ist es ein Traum in weiter Ferne. Aber es gibt Menschen, bei denen macht der Kaufpreis so einer Villa ein Zehntel ihres Jahresgehalts 
-				aus (Vorstandsmitglieder von DAX-Unternehmen), oder aber 3 Jahresgehälter (Geschäftsführer großer Mittelständler), wir können Dich, als Spezialisten
-				in einer extrem gesuchten Berufsgruppe dahin coachen, dass es 6-10 Jahresgehälter für Dich sind und das ist dann schon sehr überschaubar und 
-				bestens finanzierbar. Dein Gehalt macht den Unterschied. Würdest Du so ein Haus nicht gerne Deinen Kindern hinterlassen?
+			<h3 class="font-bold">Eine Weltumsegelung. Muss kein Traum bleiben.</h3>
+			<p class="leading-normal mb-4 mt-4">
+				Eine Weltumsegelung ist ein Paradebeispiel für ein echtes Abenteuer. Sie erfordert sorgfältige Vorbereitung und viel Mut, von der Seitenlinie
+				auf das Spielfeld des Lebens zu treten. Vor allem aber braucht man ohne Geld über so ein Abenteuer nicht nachdenken. 
+				Erhöhst Du hingegen Dein Gehalt ganz massiv kannst Du in recht kurzer Zeit ein Vermögen aufbauen, dass Dir ein Jahr Auszeit ermöglicht. 
+				Wir können Dir zeigen, wie Du die ersten, notwendigen Schritte gehst.
 			</p>
 		</div>
 		<div class="w-full lg:w-1/2"><img src="/images/yacht.jpg" alt="" class="rounded shadow-xl"/></div>
@@ -174,14 +172,12 @@
 		class="text-white text-xl my-16 font-copy container m-auto flex flex-col lg:flex-row text-left">
 		<div class="w-full lg:w-1/2"><img src="/images/highrise.jpg" alt=""  class="rounded shadow-xl" /></div>
 		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start pl-8">
-			<h3 class="font-bold">Our Work Flow</h3>
+			<h3 class="font-bold">Weiter wachsen.</h3>
 			<p class="leading-normal mb-4">
-				Die Immobilienpreise besonders in guten Lagen sind in den letzten Jahren explodiert. Du hast Dich wahrscheinlich auch schon öfter gefragt,
-				wer eigentlich so viel Geld hat, eine Villa in guter Lage zu kaufen. Du könntest dieses Geld haben. Dein Gehalt macht den Unterschied. 
-				Für die meisten ist es ein Traum in weiter Ferne. Aber es gibt Menschen, bei denen macht der Kaufpreis so einer Villa ein Zehntel ihres Jahresgehalts 
-				aus (Vorstandsmitglieder von DAX-Unternehmen), oder aber 3 Jahresgehälter (Geschäftsführer großer Mittelständler), wir können Dich, als Spezialisten
-				in einer extrem gesuchten Berufsgruppe dahin coachen, dass es 6-10 Jahresgehälter für Dich sind und das ist dann schon sehr überschaubar und 
-				bestens finanzierbar. Dein Gehalt macht den Unterschied. Würdest Du so ein Haus nicht gerne Deinen Kindern hinterlassen?
+				Für viele ist mehr Gehalt nur der erste Schritt. Viele Entwickler, mit ihrem tief verwurzelten Wunsch, Neues zu schaffen - eben zu entwickeln, 
+				sind letztlich für angestellte Arbeit nicht geschaffen. Sie möchten etwas eigenes machen. Nicht nur für jemand anderen entwickeln, sondern 
+				ihr eigenes Unternehmen schaffen. Aber auch hier ist die Grundlage eine Vermögensbildung, denn selbst wenn Kapital von Kapitalgebern eingeworben wird,
+				braucht man einige persönliche "Runway". Letztlich also Geld, um seine Träume zu verwirklichen. Wir sorgen dafür, dass Deine Träume freie Fahrt bekommen.
 			</p>
 		</div>
 	</section>
@@ -190,18 +186,23 @@
 	<CallToAction class="mb-32" />
 
 	<!-- calendly -->
-	<section class="bg-black font-copy text-white">
+	<section class="bg-black font-copy text-white text-xl">
 		<div class="container m-auto flex flex-col md:flex-row">
-			<div class="flex flex-col w-full lg:w-1/2 justify-center items-start py-8">
-				<label for="tagline" class="uppercase tracking-loose">best app ever</label>
-				<h1 class="my-4 font-normal">Our Work Flow</h1>
+			<div class="flex flex-col w-full lg:w-1/2 items-start pr-8">
+				<h1 class="font-bold font-neuzeit font-xl">
+					Unverbindliche, komplett kostenlose 30-minütige Strategiesitzung. 
+				</h1>
+				<p class="leading-normal mb-4 mt-6">
+					Wenn Du es ernst damit meinst, in den nächsten Monaten massiv mehr Geld zu verdienen (und nur wenn Du es ernst meinst!),
+					dann buche jetzt im Kalender Deinen kostenlosen Strategie-Call.
+				</p>
 				<p class="leading-normal mb-4">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ex ea commodo consequat.   Sed ut
-					perspiciatis unde omnis iste natus error sit voluptatem accusantium natus error sit.</p>
+					Ich empfehle Dir, schnell zu sein, denn ich habe nur eine begrenzte Anzahl von Slots für diese Telefonate. Ich verspreche Dir,
+					der Anruf wird sich für Dich als extrem wertvoll herausstellen.
+				</p>
 			</div>
-			<div class="w-full lg:w-1/2 shadow-xl">
-				<div class="calendly-inline-widget" data-url="https://calendly.com/inviado/free-consulting-call?background_color=4d5055&text_color=ffffff" style="min-width:320px;height:630px"></div>
+			<div class="w-full lg:w-1/2 shadow-2xl border-gray-900">
+				<div class="calendly-inline-widget" data-url="https://calendly.com/inviado/free-consulting-call?background_color=22292f&text_color=ffffff" style="min-width:320px;height:630px"></div>
 			</div>
 		</div>
 	</section>
@@ -214,7 +215,7 @@
 			<ul class="text-sm text-gray-700 list-none p-0 flex items-center">
 				<li>
 					<a href="/" class="block mr-4 w-32">
-						<img src="/images/logo.png" class="" alt="logo">
+						<img src="/images/inviado.png" class="" alt="logo">
 					</a>
 				</li>
 				<li><a href="#" class="inline-block py-2 px-3 text-gray-500 hover:text-gray-500-light no-underline">Product</a></li>
