@@ -6,6 +6,7 @@
 			<img src="/images/inviado.png" style="height:40px;"/>
 		</div>
 		
+		<!--
 		<div>
 			<button type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
 				<svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -13,6 +14,7 @@
 				</svg>
 			</button>
 		</div>
+		-->
 	</header>
 
   <!-- double your income -->
@@ -135,66 +137,71 @@
 
 	<!-- stories -->
 	<section
-		class="text-white my-8 font-copy container m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
-		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt="" class="w-64" /></div>
-		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
-			<label for="tagline" class="uppercase tracking-wide font-bold">best app ever</label>
-			<h1 class="my-4 font-normal">Our Work Flow</h1>
-			<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		class="text-white text-xl my-16 font-copy container m-auto flex flex-col lg:flex-row text-left">
+		<div class="w-full lg:w-1/2 mt-0">
+			<img src="/images/villa.jpg" alt="" class="rounded shadow-xl" />
+		</div>
+		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start pl-8">
+			<h3 class="font-bold">Our Work Flow</h3>
+			<p class="leading-normal mb-4">
+				Die Immobilienpreise besonders in guten Lagen sind in den letzten Jahren explodiert. Du hast Dich wahrscheinlich auch schon öfter gefragt,
+				wer eigentlich so viel Geld hat, eine Villa in guter Lage zu kaufen. Du könntest dieses Geld haben. Dein Gehalt macht den Unterschied. 
+				Für die meisten ist es ein Traum in weiter Ferne. Aber es gibt Menschen, bei denen macht der Kaufpreis so einer Villa ein Zehntel ihres Jahresgehalts 
+				aus (Vorstandsmitglieder von DAX-Unternehmen), oder aber 3 Jahresgehälter (Geschäftsführer großer Mittelständler), wir können Dich, als Spezialisten
+				in einer extrem gesuchten Berufsgruppe dahin coachen, dass es 6-10 Jahresgehälter für Dich sind und das ist dann schon sehr überschaubar und 
+				bestens finanzierbar. Dein Gehalt macht den Unterschied. Würdest Du so ein Haus nicht gerne Deinen Kindern hinterlassen?
+			</p>
 		</div>
 	</section>
 
-
 	<section
-		class="text-white my-8 pt-8 font-copy container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center">
-		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
-			<label for="tagline" class="uppercase tracking-wide font-bold">best app ever</label>
-			<h1 class="my-4 font-normal">Our Work Flow</h1>
-			<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		class="text-white text-xl my-16 font-copy container m-auto flex flex-col lg:flex-row text-left">
+		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start lg:items-start pr-8">
+			<h3 class="font-bold">Our Work Flow</h3>
+			<p class="leading-normal mb-4">
+				Die Immobilienpreise besonders in guten Lagen sind in den letzten Jahren explodiert. Du hast Dich wahrscheinlich auch schon öfter gefragt,
+				wer eigentlich so viel Geld hat, eine Villa in guter Lage zu kaufen. Du könntest dieses Geld haben. Dein Gehalt macht den Unterschied. 
+				Für die meisten ist es ein Traum in weiter Ferne. Aber es gibt Menschen, bei denen macht der Kaufpreis so einer Villa ein Zehntel ihres Jahresgehalts 
+				aus (Vorstandsmitglieder von DAX-Unternehmen), oder aber 3 Jahresgehälter (Geschäftsführer großer Mittelständler), wir können Dich, als Spezialisten
+				in einer extrem gesuchten Berufsgruppe dahin coachen, dass es 6-10 Jahresgehälter für Dich sind und das ist dann schon sehr überschaubar und 
+				bestens finanzierbar. Dein Gehalt macht den Unterschied. Würdest Du so ein Haus nicht gerne Deinen Kindern hinterlassen?
+			</p>
 		</div>
-		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt="" class="w-64"/></div>
+		<div class="w-full lg:w-1/2"><img src="/images/yacht.jpg" alt="" class="rounded shadow-xl"/></div>
 	</section>
 
 	<section
-		class="text-white my-8 font-sans container m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
-		<div class="w-full lg:w-1/2"><img src="https://stitches.hyperyolo.com/images/demo-phone.png" alt=""  class="w-64" /></div>
-		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start">
-			<label for="tagline" class="uppercase tracking-wide font-bold">best app ever</label>
-			<h1 class="my-4 font-normal">Our Work Flow</h1>
-			<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		class="text-white text-xl my-16 font-copy container m-auto flex flex-col lg:flex-row text-left">
+		<div class="w-full lg:w-1/2"><img src="/images/highrise.jpg" alt=""  class="rounded shadow-xl" /></div>
+		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start pl-8">
+			<h3 class="font-bold">Our Work Flow</h3>
+			<p class="leading-normal mb-4">
+				Die Immobilienpreise besonders in guten Lagen sind in den letzten Jahren explodiert. Du hast Dich wahrscheinlich auch schon öfter gefragt,
+				wer eigentlich so viel Geld hat, eine Villa in guter Lage zu kaufen. Du könntest dieses Geld haben. Dein Gehalt macht den Unterschied. 
+				Für die meisten ist es ein Traum in weiter Ferne. Aber es gibt Menschen, bei denen macht der Kaufpreis so einer Villa ein Zehntel ihres Jahresgehalts 
+				aus (Vorstandsmitglieder von DAX-Unternehmen), oder aber 3 Jahresgehälter (Geschäftsführer großer Mittelständler), wir können Dich, als Spezialisten
+				in einer extrem gesuchten Berufsgruppe dahin coachen, dass es 6-10 Jahresgehälter für Dich sind und das ist dann schon sehr überschaubar und 
+				bestens finanzierbar. Dein Gehalt macht den Unterschied. Würdest Du so ein Haus nicht gerne Deinen Kindern hinterlassen?
+			</p>
 		</div>
 	</section>
 
   <!-- final call to action -->
-	<section class="font-sans text-center py-8 px-4 lg:px-0 bg-gray-300">
-		<div class="container flex flex-col sm:flex-row bg-white m-auto shadow">
-			<div class="w-full sm:w-3/4 px-6 pt-6 text-left flex flex-col justify-center">
-				<h2 class="capitalize font-medium">Ready to get started?</h2>
-				<p class="text-gray-700 mt-2 mb-6">But I must explain to you how all this mistaken idea of denouncing </p>
-			</div>
-			<div class="w-full sm:w-1/4 flex justify-start sm:justify-center items-center pl-6 pb-6 sm:pl-0 sm:pb-0">
-				<button class=" bg-black hover:bg-gray-900 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide">Learn More</button>
-			</div>
-		</div>
-	</section>
+	<CallToAction class="mb-32" />
 
 	<!-- calendly -->
-	<section class="bg-gray-300 font-sans">
+	<section class="bg-black font-copy text-white">
 		<div class="container m-auto flex flex-col md:flex-row">
 			<div class="flex flex-col w-full lg:w-1/2 justify-center items-start py-8">
 				<label for="tagline" class="uppercase tracking-loose">best app ever</label>
 				<h1 class="my-4 font-normal">Our Work Flow</h1>
-				<p class="leading-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+				<p class="leading-normal mb-4">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ex ea commodo consequat.   Sed ut
 					perspiciatis unde omnis iste natus error sit voluptatem accusantium natus error sit.</p>
-				<button class="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent">Learn
-					More</button>
 			</div>
-			<div class="w-full lg:w-1/2 lg:py-6">
-				<div class="calendly-inline-widget" data-url="https://calendly.com/inviado/free-consulting-call?background_color=4d5055&text_color=ffffff" style="min-width:320px;height:630px;"></div>
+			<div class="w-full lg:w-1/2 shadow-xl">
+				<div class="calendly-inline-widget" data-url="https://calendly.com/inviado/free-consulting-call?background_color=4d5055&text_color=ffffff" style="min-width:320px;height:630px"></div>
 			</div>
 		</div>
 	</section>
@@ -205,9 +212,11 @@
 	<footer class="font-sans bg-black text-white py-8 px-4">
 		<div class="mx-auto overflow-hidden flex justify-between items-center">
 			<ul class="text-sm text-gray-700 list-none p-0 flex items-center">
-				<li> <a href="/" class="block mr-4 w-32">
-						<img src="https://stitches.hyperyolo.com/images/logo-white.png" class="" alt="logo">
-					</a></li>
+				<li>
+					<a href="/" class="block mr-4 w-32">
+						<img src="/images/logo.png" class="" alt="logo">
+					</a>
+				</li>
 				<li><a href="#" class="inline-block py-2 px-3 text-gray-500 hover:text-gray-500-light no-underline">Product</a></li>
 				<li><a href="#" class="inline-block py-2 px-3 text-gray-500 hover:text-gray-500-light no-underline">Company</a></li>
 				<li><a href="#" class="inline-block py-2 px-3 text-gray-500 hover:text-gray-500-light no-underline">FAQs</a></li>
