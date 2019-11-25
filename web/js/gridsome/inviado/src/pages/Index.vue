@@ -1,8 +1,6 @@
 <template>
 <Layout>
 
-
-
   <!-- double your income -->
 	<copy 
 		title="5 Wege, Dein Gehalt zu verdoppeln." 
@@ -35,8 +33,28 @@
 				</parallax-container>
 			</div>
     </div>
-
 	</section>
+
+	<!-- About -->
+	<copy 
+		title="Wer oder was ist inviado überhaupt?" 
+		label="Jan Prill" 
+		margin="Tech Lead. Entwickler. Rechtsanwalt. Vater.">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Inviado ist meine Einladung an Dich. Du bist ganz herzlich eingeladen, meine ganze Erfahrung dafür zu nutzen, 
+			endlich das Gehalt zu bekommen, dass dem Wert entspricht, den Du für Dein Unternehmen schaffst.
+		</p>	
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Ich bin Jan Prill. Ich habe 10 Jahre Führungserfahrung in Softwareentwicklungsteams. Ich habe unzählige Vorstellungsgespräche
+			mit Kandidaten geführt. Ich habe Topentwickler ausgebildet.
+		</p>
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+			Ich habe meine Karriere, als Quereinsteiger (ursprünglich bin ich Rechtsanwalt) bis zum Entwicklungsleiter in Startups und 
+			mittelständischen Unternehmen gestaltet und nebenbei erfolgreiche Unternehmen gegründet. 
+			Ich habe zahlreiche Entwickler in Positionen mit sechsstelliger Bezahlung gecoached. In Deinem kostenloosen, 80-seitigen Gehaltserhöhungsreport 
+			erfährst Du mehr von mir.
+		</p>	
+	</copy>
 
   <!-- be as rich as your dentist -->
 	<copy 
