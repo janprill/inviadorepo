@@ -1,7 +1,7 @@
 <template>
 	<section class="antialiased font-copy w-full bg-black text-left text-white">
 		<div class="container mx-auto font-normal leading-normal">
-			<h3 class="text-3xl font-neuzeit font-bold">Lade Deinen Report herunter</h3>
+			<h3 class="text-3xl font-neuzeit font-bold">Lade Deinen kostenlosen Report herunter</h3>
 			<div class="mt-4 sm:flex">
 				<input type="email" class="block w-full focus:outline-0 bg-white py-3 px-6 mb-2 sm:mb-0 text-2xl font-neuzeit" name="email" placeholder="Enter your email" required="">
 				<button class="h-16 uppercase text-md text-white font-bold focus:outline-0 w-full sm:w-auto bg-red-700 hover:bg-red-400 focus:bg-blue px-6">
