@@ -1,184 +1,803 @@
 <template>
-<div>
-<h1>Datenschutzerklärung</h1>
-<h2>Datenschutz</h2>
-<p>Wir haben diese Datenschutzerklärung (Fassung 25.11.2019-311131062) verfasst, um Ihnen gemäß der Vorgaben der <a href="https://eur-lex.europa.eu/legal-content/DE/ALL/?tid=1234&amp;uri=celex%3A32016R0679&amp;tid=311131062" target="_blank" rel="noopener">Datenschutz-Grundverordnung (EU) 2016/679</a> zu erklären, welche Informationen wir sammeln, wie wir Daten verwenden und welche Entscheidungsmöglichkeiten Sie als Besucher dieser Webseite haben.</p>
-<p>Leider liegt es in der Natur der Sache, dass diese Erklärungen sehr technisch klingen, wir haben uns bei der Erstellung jedoch bemüht die wichtigsten Dinge so einfach und klar wie möglich zu beschreiben.</p>
-<h2>Automatische Datenspeicherung</h2>
-<p>Wenn Sie heutzutage Webseiten besuchen, werden gewisse Informationen automatisch erstellt und gespeichert, so auch auf dieser Webseite.</p>
-<p>Wenn Sie unsere Webseite so wie jetzt gerade besuchen, speichert unser Webserver (Computer auf dem diese Webseite gespeichert ist) automatisch Daten wie</p>
-<ul>
-<li>die Adresse (URL) der aufgerufenen Webseite</li>
-<li>Browser und Browserversion</li>
-<li>das verwendete Betriebssystem</li>
-<li>die Adresse (URL) der zuvor besuchten Seite (Referrer URL)</li>
-<li>den Hostname und die IP-Adresse des Geräts von welchem aus zugegriffen wird</li>
-<li>Datum und Uhrzeit</li>
-</ul>
-<p>in Dateien (Webserver-Logfiles).</p>
-<p>In der Regel werden Webserver-Logfiles zwei Wochen gespeichert und danach automatisch gelöscht. Wir geben diese Daten nicht weiter, können jedoch nicht ausschließen, dass diese Daten beim Vorliegen von rechtswidrigem Verhalten eingesehen werden.<br />
-Die Rechtsgrundlage besteht nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=311131062" target="_blank" rel="noopener">Artikel 6  Absatz 1 f DSGVO</a> (Rechtmäßigkeit der Verarbeitung) darin, dass berechtigtes Interesse daran besteht, den fehlerfreien Betrieb dieser Webseite durch das Erfassen von Webserver-Logfiles zu ermöglichen.</p>
-<h2>Cookies</h2>
-<p>Unsere Website verwendet HTTP-Cookies um nutzerspezifische Daten zu speichern.<br />
-Im Folgenden erklären wir, was Cookies sind und warum Sie genutzt werden, damit Sie die folgende Datenschutzerklärung besser verstehen.</p>
-<h3>Was genau sind Cookies?</h3>
-<p>Immer wenn Sie durch das Internet surfen, verwenden Sie einen Browser. Bekannte Browser sind beispielsweise Chrome, Safari, Firefox, Internet Explorer und Microsoft Edge. Die meisten Webseiten speichern kleine Text-Dateien in Ihrem Browser. Diese Dateien nennt man Cookies.</p>
-<p>Eines ist nicht von der Hand zu weisen: Cookies sind echt nützliche Helferlein. Fast alle Webseiten verwenden Cookies. Genauer gesprochen sind es HTTP-Cookies, da es auch noch andere Cookies für andere Anwendungsbereiche gibt. HTTP-Cookies sind kleine Dateien, die von unserer Website auf Ihrem Computer gespeichert werden. Diese Cookie-Dateien werden automatisch im Cookie-Ordner, quasi dem &#8220;Hirn&#8221; Ihres Browsers, untergebracht. Ein Cookie besteht aus einem Namen und einem Wert. Bei der Definition eines Cookies müssen zusätzlich ein oder mehrere Attribute angegeben werden.</p>
-<p>Cookies speichern gewisse Nutzerdaten von Ihnen, wie beispielsweise Sprache oder persönliche Seiteneinstellungen. Wenn Sie unsere Seite wieder aufrufen, übermittelt Ihr Browser die „userbezogenen“ Informationen an unsere Seite zurück. Dank der Cookies weiß unsere Website, wer Sie sind und bietet Ihnen Ihre gewohnte Standardeinstellung. In einigen Browsern hat jedes Cookie eine eigene Datei, in anderen wie beispielsweise Firefox sind alle Cookies in einer einzigen Datei gespeichert.</p>
-<p>Es gibt sowohl Erstanbieter Cookies als auch Drittanbieter-Cookies. Erstanbieter-Cookies werden direkt von unserer Seite erstellt, Drittanbieter-Cookies werden von Partner-Webseiten (z.B. Google Analytics) erstellt. Jedes Cookie ist individuell zu bewerten, da jedes Cookie andere Daten speichert. Auch die Ablaufzeit eines Cookies variiert von ein paar Minuten bis hin zu ein paar Jahren. Cookies sind keine Software-Programme und enthalten keine Viren, Trojaner oder andere „Schädlinge“. Cookies können auch nicht auf Informationen Ihres PCs zugreifen.</p>
-<p>So können zum Beispiel Cookie-Daten aussehen:</p>
-<ul>
-<li>Name: _ga</li>
-<li>Ablaufzeit: 2 Jahre</li>
-<li>Verwendung: Unterscheidung der Webseitenbesucher</li>
-<li>Beispielhafter Wert: GA1.2.1326744211.152311131062</li>
-</ul>
-<p>Ein Browser sollte folgende Mindestgrößen unterstützen:</p>
-<ul>
-<li>Ein Cookie soll mindestens 4096 Bytes enthalten können</li>
-<li>Pro Domain sollen mindestens 50 Cookies gespeichert werden können</li>
-<li>Insgesamt sollen mindestens 3000 Cookies gespeichert werden können</li>
-</ul>
-<h3>Welche Arten von Cookies gibt es?</h3>
-<p>Die Frage welche Cookies wir im Speziellen verwenden, hängt von den verwendeten Diensten ab und wird in der folgenden Abschnitten der Datenschutzerklärung geklärt. An dieser Stelle möchten wir kurz auf die verschiedenen Arten von HTTP-Cookies eingehen.</p>
-<p>Man kann 4 Arten von Cookies unterscheiden:</p>
-<p>
-<strong>Unbedingt notwendige Cookies<br />
-</strong>Diese Cookies sind nötig, um grundlegende Funktionen der Website sicherzustellen. Zum Beispiel braucht es diese Cookies, wenn ein User ein Produkt in den Warenkorb legt, dann auf anderen Seiten weitersurft und später erst zur Kasse geht. Durch diese Cookies wird der Warenkorb nicht gelöscht, selbst wenn der User sein Browserfenster schließt.</p>
-<p>
-<strong>Funktionelle Cookies<br />
-</strong>Diese Cookies sammeln Infos über das Userverhalten und ob der User etwaige Fehlermeldungen bekommt. Zudem werden mithilfe dieser Cookies auch die Ladezeit und das Verhalten der Website bei verschiedenen Browsern gemessen.</p>
-<p>
-<strong>Zielorientierte Cookies<br />
-</strong>Diese Cookies sorgen für eine bessere Nutzerfreundlichkeit. Beispielsweise werden eingegebene Standorte, Schriftgrößen oder Formulardaten gespeichert.</p>
-<p>
-<strong>Werbe-Cookies<br />
-</strong>Diese Cookies werden auch Targeting-Cookies genannt. Sie dienen dazu dem User individuell angepasste Werbung zu liefern. Das kann sehr praktisch, aber auch sehr nervig sein.</p>
-<p>Üblicherweise werden Sie beim erstmaligen Besuch einer Webseite gefragt, welche dieser Cookiearten Sie zulassen möchten. Und natürlich wird diese Entscheidung auch in einem Cookie gespeichert.</p>
-<h3>Wie kann ich Cookies löschen?</h3>
-<p>Wie und ob Sie Cookies verwenden wollen, entscheiden Sie selbst. Unabhängig von welchem Service oder welcher Website die Cookies stammen, haben Sie immer die Möglichkeit Cookies zu löschen, nur teilweise zuzulassen oder zu deaktivieren. Zum Beispiel können Sie Cookies von Drittanbietern blockieren, aber alle anderen Cookies zulassen.</p>
-<p>Wenn Sie feststellen möchten, welche Cookies in Ihrem Browser gespeichert wurden, wenn Sie Cookie-Einstellungen ändern oder löschen wollen, können Sie dies in Ihren Browser-Einstellungen finden:</p>
-<p>
-<a href="https://support.google.com/chrome/answer/95647?tid=311131062" target="_blank" rel="noopener">Chrome: Cookies in Chrome löschen, aktivieren und verwalten</a>
-</p>
-<p>
-<a href="https://support.apple.com/de-at/guide/safari/sfri11471/mac?tid=311131062" target="_blank" rel="noopener">Safari: Verwalten von Cookies und Websitedaten mit Safari</a>
-</p>
-<p>
-<a href="https://support.mozilla.org/de/kb/cookies-und-website-daten-in-firefox-loschen?tid=311131062" target="_blank" rel="noopener">Firefox: Cookies löschen, um Daten zu entfernen, die Websites auf Ihrem Computer abgelegt haben</a>
-</p>
-<p>
-<a href="https://support.microsoft.com/de-at/help/17442/windows-internet-explorer-delete-manage-cookies?tid=311131062" target="_blank" rel="noopener">Internet Explorer: Löschen und Verwalten von Cookies</a>
-</p>
-<p>
-<a href="https://support.microsoft.com/de-at/help/4027947/windows-delete-cookies?tid=311131062" target="_blank" rel="noopener">Microsoft Edge: Löschen und Verwalten von Cookies</a>
-</p>
-<p>Falls Sie grundsätzlich keine Cookies haben wollen, können Sie Ihren Browser so einrichten, dass er Sie immer informiert, wenn ein Cookie gesetzt werden soll. So können Sie bei jedem einzelnen Cookie entscheiden, ob Sie das Cookie erlauben oder nicht. Die Vorgangsweise ist je nach Browser verschieden. Am besten ist es Sie suchen die Anleitung in Google mit dem Suchbegriff “Cookies löschen Chrome” oder &#8220;Cookies deaktivieren Chrome&#8221; im Falle eines Chrome Browsers oder tauschen das Wort &#8220;Chrome&#8221; gegen den Namen Ihres Browsers, z.B. Edge, Firefox, Safari aus.</p>
-<h3>Wie sieht es mit meinem Datenschutz aus?</h3>
-<p>Seit 2009 gibt es die sogenannten „Cookie-Richtlinien“. Darin ist festgehalten, dass das Speichern von Cookies eine Einwilligung des Website-Besuchers (also von Ihnen) verlangt. Innerhalb der EU-Länder gibt es allerdings noch sehr unterschiedliche Reaktionen auf diese Richtlinien. In Deutschland wurden die Cookie-Richtlinien nicht als nationales Recht umgesetzt. Stattdessen erfolgte die Umsetzung dieser Richtlinie weitgehend in § 15 Abs.3 des Telemediengesetzes (TMG).</p>
-<p>Wenn Sie mehr über Cookies wissen möchten und vor technischen Dokumentationen nicht zurückscheuen, empfehlen wir <a href="https://tools.ietf.org/html/rfc6265" target="_blank" rel="nofollow noopener">https://tools.ietf.org/html/rfc6265</a>, dem Request for Comments der Internet Engineering Task Force (IETF) namens &#8220;HTTP State Management Mechanism&#8221;.</p>
-<h2>Speicherung persönlicher Daten</h2>
-<p>Persönliche Daten, die Sie uns auf dieser Website elektronisch übermitteln, wie zum Beispiel Name, E-Mail-Adresse, Adresse oder andere persönlichen Angaben im Rahmen der Übermittlung eines Formulars oder Kommentaren im Blog, werden von uns gemeinsam mit dem Zeitpunkt und der IP-Adresse nur zum jeweils angegebenen Zweck verwendet, sicher verwahrt und nicht an Dritte weitergegeben.</p>
-<p>Wir nutzen Ihre persönlichen Daten somit nur für die Kommunikation mit jenen Besuchern, die Kontakt ausdrücklich wünschen und für die Abwicklung der auf dieser Webseite angebotenen Dienstleistungen und Produkte. Wir geben Ihre persönlichen Daten ohne Zustimmung nicht weiter, können jedoch nicht ausschließen, dass diese Daten beim Vorliegen von rechtswidrigem Verhalten eingesehen werden.</p>
-<p>Wenn Sie uns persönliche Daten per E-Mail schicken &#8211; somit abseits dieser Webseite &#8211; können wir keine sichere Übertragung und den Schutz Ihrer Daten garantieren. Wir empfehlen Ihnen, vertrauliche Daten niemals unverschlüsselt per E-Mail zu übermitteln.</p>
-<p>Die Rechtsgrundlage besteht nach <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=311131062" target="_blank" rel="noopener">Artikel 6  Absatz 1 a DSGVO</a> (Rechtmäßigkeit der Verarbeitung) darin, dass Sie uns die Einwilligung zur Verarbeitung der von Ihnen eingegebenen Daten geben. Sie können diesen Einwilligung jederzeit widerrufen &#8211; eine formlose E-Mail reicht aus, Sie finden unsere Kontaktdaten im Impressum.</p>
-<h2>Rechte laut Datenschutzgrundverordnung</h2>
-<p>Ihnen stehen laut den Bestimmungen der DSGVO grundsätzlich die folgende Rechte zu:</p>
-<ul>
-<li>Recht auf Berichtigung (Artikel 16 DSGVO)</li>
-<li>Recht auf Löschung („Recht auf Vergessenwerden“) (Artikel 17 DSGVO)</li>
-<li>Recht auf Einschränkung der Verarbeitung (Artikel 18 DSGVO)</li>
-<li>Recht auf Benachrichtigung &#8211; Mitteilungspflicht im Zusammenhang mit der Berichtigung oder Löschung personenbezogener Daten oder der Einschränkung der Verarbeitung (Artikel 19 DSGVO)</li>
-<li>Recht auf Datenübertragbarkeit (Artikel 20 DSGVO)</li>
-<li>Widerspruchsrecht (Artikel 21 DSGVO)</li>
-<li>Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung — einschließlich Profiling — beruhenden Entscheidung unterworfen zu werden (Artikel 22 DSGVO)</li>
-</ul>
-<p>Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich an die <a href="https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/BeschwerdeBeiDatenschutzbehoereden.html?tid=311131062" target="_blank" rel="noopener">Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)</a> wenden.</p>
-<h2>Auswertung des Besucherverhaltens</h2>
-<p>In der folgenden Datenschutzerklärung informieren wir Sie darüber, ob und wie wir Daten Ihres Besuchs dieser Website auswerten. Die Auswertung der gesammelten Daten erfolgt in der Regel anonym und wir können von Ihrem Verhalten auf dieser Website nicht auf Ihre Person schließen.</p>
-<p>Mehr über Möglichkeiten dieser Auswertung der Besuchsdaten zu widersprechen erfahren Sie in der folgenden Datenschutzerklärung.</p>
-<h2>TLS-Verschlüsselung mit https</h2>
-<p>Wir verwenden https um Daten abhörsicher im Internet zu übertragen (Datenschutz durch Technikgestaltung <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&#038;tid=311131062" target="_blank" rel="noopener">Artikel 25 Absatz 1 DSGVO</a>). Durch den Einsatz von TLS (Transport Layer Security), einem Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet können wir den Schutz vertraulicher Daten sicherstellen. Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schloßsymbol links oben im Browser und der Verwendung des Schemas https (anstatt http) als Teil unserer Internetadresse.</p>
-<h2>Google Fonts Datenschutzerklärung</h2>
-<p>Wir verwenden Google Fonts der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) auf unserer Webseite.</p>
-<p>Für die Verwendung von Google-Schriftarten müssen Sie sich nicht anmelden bzw. ein Passwort hinterlegen. Weiters werden auch keine Cookies in Ihrem Browser gespeichert. Die Dateien (CSS, Schriftarten/Fonts) werden über die Google-Domains fonts.googleapis.com und fonts.gstatic.com angefordert. Laut Google sind die Anfragen nach CSS und Schriften vollkommen getrennt von allen anderen Google-Diensten. Wenn Sie ein Google-Konto haben, brauchen Sie keine Sorge haben, dass Ihre Google-Kontodaten, während der Verwendung von Google Fonts, an Google übermittelt werden. Google erfasst die Nutzung von CSS (Cascading Style Sheets) und der verwendeten Schriftarten und speichert diese Daten sicher. Wie die Datenspeicherung genau aussieht, werden wir uns noch im Detail ansehen.</p>
-<h3>Was sind Google Fonts?</h3>
-<p>Google Fonts (früher Google Web Fonts) ist ein interaktives Verzeichnis mit mehr als 800 Schriftarten, die die <a href="https://de.wikipedia.org/wiki/Google_LLC?tid=311131062" target="_blank" rel="noopener">Google LLC</a> zur freien Verwendung bereitstellt.</p>
-<p>Viele dieser Schriftarten sind unter der SIL Open Font License veröffentlicht, während andere unter der Apache-Lizenz veröffentlicht wurden. Beides sind freie Software-Lizenzen. Somit können wir sie frei verwenden, ohne dafür Lizenzgebühren zu zahlen.</p>
-<h3>Warum verwenden wir Google Fonts auf unserer Webseite?</h3>
-<p>Mit Google Fonts können wir auf der eigenen Webseite Schriften nutzen, und müssen sie nicht auf unserem eigenen Server hochladen. Google Fonts ist ein wichtiger Baustein, um die Qualität unserer Webseite hoch zu halten. Alle Google-Schriften sind automatisch für das Web optimiert und dies spart Datenvolumen und ist speziell für die Verwendung bei mobilen Endgeräten ein großer Vorteil. Wenn Sie unsere Seite besuchen, sorgt die niedrige Dateigröße für eine schnelle Ladezeit. Des Weiteren sind Google Fonts sogenannte sichere Web Fonts. Unterschiedliche Bildsynthese-Systeme (Rendering) in verschiedenen Browsern, Betriebssystemen und mobilen Endgeräten können zu Fehlern führen. Solche Fehler können teilweise Texte bzw. ganze Webseiten optisch verzerren. Dank des schnellen Content Delivery Network (CDN) gibt es mit Google Fonts keine plattformübergreifenden Probleme. Google Fonts unterstützt alle gängigen Browser ( Google Chrome, Mozilla Firefox, Apple Safari, Opera)  und funktioniert zuverlässig auf den meisten modernen mobilen Betriebssystemen, einschließlich Android 2.2+ und iOS 4.2+ (iPhone, iPad, iPod).</p>
-<p>Wir verwenden die Google Fonts also, damit wir unser gesamtes Online-Service so schön und einheitlich wie möglich darstellen können. Nach dem Art. 6 Abs. 1 f lit. F DSGVO stellt das bereits ein „berechtigtes Interesse“ an der Verarbeitung von personenbezogenen Daten dar. Unter „berechtigtem Interesse“ versteht man in diesem Fall sowohl rechtliche als auch wirtschaftliche oder ideelle Interessen, die vom Rechtssystem anerkannt werden.</p>
-<h3>Welche Daten werden von Google gespeichert?</h3>
-<p>Wenn Sie unsere Webseite besuchen, werden die Schriften über einen Google-Server nachgeladen. Durch diesen externen Aufruf werden Daten an die Google-Server übermittelt. So erkennt Google auch, dass Sie bzw. Ihre IP-Adresse unsere Webseite besucht. Die Google Fonts API wurde entwickelt, um die Erfassung, Speicherung und Verwendung von Endnutzerdaten auf das zu reduzieren, was für eine effiziente Bereitstellung von Schriften nötig ist. API steht übrigens für „Application Programming Interface“ und dient unter anderem als Datenübermittler im Softwarebereich.</p>
-<p>Google Fonts speichert CSS- und Font-Anfragen sicher bei Google und ist somit geschützt. Durch die gesammelten Nutzungszahlen kann Google die Beliebtheit der Schriften feststellen. Die Ergebnisse veröffentlicht Google auf internen Analyseseiten, wie beispielsweise Google Analytics. Zudem verwendet Google auch Daten des eigenen Web-Crawlers, um festzustellen, welche Webseiten Google-Schriften verwenden. Diese Daten werden in der BigQuery-Datenbank von Google Fonts veröffentlicht. BigQuery ist ein Webservice von Google für Unternehmen, die große Datenmengen bewegen und analysieren wollen.</p>
-<p>Zu bedenken gilt allerdings noch, dass durch jede Google Font Anfrage auch Informationen wie IP-Adresse, Spracheinstellungen, Bildschirmauflösung des Browsers, Version des Browsers und Name des Browsers automatisch an die Google-Server übertragen werden. Ob diese Daten auch gespeichert werden, ist nicht klar feststellbar bzw. wird von Google nicht eindeutig kommuniziert.</p>
-<h3>Wie lange und wo werden die Daten gespeichert?</h3>
-<p>Anfragen für CSS-Assets speichert Google einen Tag lang auf Ihren Servern, die hauptsächlich außerhalb der EU angesiedelt sind. Das ermöglicht uns, mithilfe eines Google-Stylesheets die Schriftarten zu nutzen. Ein Stylesheet ist eine Formatvorlage, über die man einfach und schnell z.B. das Design bzw. die Schriftart einer Webseite ändern kann.</p>
-<p>Die Font-Dateien werden bei Google ein Jahr gespeichert. Google verfolgt damit das Ziel, die Ladezeit von Webseiten grundsätzlich zu verbessern. Wenn Millionen von Webseiten auf die gleichen Schriften verweisen, werden sie nach dem ersten Besuch zwischengespeichert und erscheinen sofort auf allen anderen später besuchten Webseiten wieder. Manchmal aktualisiert Google Schriftdateien, um die Dateigröße zu reduzieren, die Abdeckung von Sprache zu erhöhen und das Design zu verbessern.</p>
-<h3>Wie kann ich meine Daten löschen bzw. die Datenspeicherung verhindern?</h3>
-<p>Jene Daten, die Google für einen Tag bzw. ein Jahr speichert können nicht einfach gelöscht werden. Die Daten werden beim Seitenaufruf automatisch an Google übermittelt. Um diese Daten vorzeitig löschen zu können, müssen Sie den Google-Support auf <a href="https://support.google.com/?hl=de&amp;tid=311131062" target="_blank" rel="noopener">https://support.google.com/?hl=de&amp;tid=311131062</a> kontaktieren. Datenspeicherung verhindern Sie in diesem Fall nur, wenn Sie unsere Seite nicht besuchen.</p>
-<p>Anders als andere Web-Schriften erlaubt uns Google uneingeschränkten Zugriff auf alle Schriftarten. Wir können also unlimitiert auf ein Meer an Schriftarten zugreifen und so das Optimum für unsere Webseite rausholen. Mehr zu Google Fonts und weiteren Fragen finden Sie auf <a href="https://developers.google.com/fonts/faq?tid=311131062" target="_blank" rel="noopener">https://developers.google.com/fonts/faq?tid=311131062</a>. Dort geht zwar Google auf datenschutzrelevante Angelegenheiten ein, doch wirklich detaillierte Informationen über Datenspeicherung sind nicht enthalten. Es ist relativ schwierig (beinahe unmöglich), von Google wirklich präzise Informationen über gespeicherten Daten zu bekommen.</p>
-<p>Welche Daten grundsätzlich von Google erfasst werden und wofür diese Daten verwendet werden, können Sie auch auf <a href="https://policies.google.com/privacy?hl=de&amp;tid=311131062" target="_blank" rel="noopener">https://www.google.com/intl/de/policies/privacy/</a> nachlesen.</p>
-<h2>Google reCAPTCHA Datenschutzerklärung</h2>
-<p>Unser oberstes Ziel ist es, dass unsere Webseite für Sie und für uns bestmöglich geschützt und sicher ist. Um das zu gewährleisten, verwenden wir Google reCAPTCHA der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Mit reCAPTCHA können wir feststellen, ob Sie auch wirklich ein Mensch aus Fleisch und Blut sind und kein Roboter oder eine andere Spam-Software. Unter Spam verstehen wir jede, auf elektronischen Weg, unerwünschte Information, die uns ungefragter Weise zukommt. Bei den klassischen CAPTCHAS mussten Sie zur Überprüfung meist Text- oder Bildrätsel lösen. Mit reCAPTCHA von Google müssen wir Sie meist nicht mit solchen Rätseln belästigen. Hier reicht es in den meisten Fällen, wenn Sie einfach ein Häkchen setzen und so bestätigen, dass Sie kein Bot sind. Mit der neuen Invisible reCAPTCHA Version müssen Sie nicht mal mehr ein Häkchen setzen. Wie das genau funktioniert und vor allem welche Daten dafür verwendet werden, erfahren Sie im Verlauf dieser Datenschutzerklärung.</p>
-<p>Rechtsgrundlage für die Verwendung ist Artikel 6 (1) f (Rechtmäßigkeit der Verarbeitung), denn es besteht ein berechtigtes Interesse diese Webseite vor Bots und Spam-Software zu schützen.</p>
-<h3>Was ist reCAPTCHA?</h3>
-<p>reCAPTCHA ist ein freier Captcha-Dienst von Google, der Webseiten vor Spam-Software und den Missbrauch durch nicht-menschliche Besucher schützt. Am häufigsten wird dieser Dienst verwendet, wenn Sie Formulare im Internet ausfüllen. Ein Captcha-Dienst ist ein automatischer Turing-Test, der sicherstellen soll, dass eine Handlung im Internet von einem Menschen und nicht von einem Bot vorgenommen wird. Im klassischen Turing-Test (benannt nach dem Informatiker Alan Turing) stellt ein Mensch die Unterscheidung zwischen Bot und Mensch fest. Bei Captchas übernimmt das auch der Computer bzw. ein Softwareprogramm. Klassische Captchas arbeiten mit kleinen Aufgaben, die für Menschen leicht zu lösen sind, doch für Maschinen erhebliche Schwierigkeiten aufweisen. Bei reCAPTCHA müssen Sie aktiv keine Rätsel mehr lösen. Das Tool verwendet moderne Risikotechniken, um Menschen von Bots zu unterscheiden. Hier müssen Sie nur noch das Textfeld „Ich bin kein Roboter“ ankreuzen bzw. bei Invisible reCAPTCHA ist selbst das nicht mehr nötig. Bei reCAPTCHA wird ein JavaScript-Element in den Quelltext eingebunden und dann läuft das Tool im Hintergrund und analysiert Ihr Benutzerverhalten. Aus diesen Useraktionen berechnet die Software einen sogenannten Captcha-Score. Google berechnet mit diesem Score schon vor der Captcha-Eingabe wie hoch die Wahrscheinlichkeit ist, dass Sie ein Mensch sind. ReCAPTCHA bzw. Captchas im Allgemeinen kommen immer dann zum Einsatz, wenn Bots gewisse Aktionen (wie z.B. Registrierungen, Umfragen usw.) manipulieren oder missbrauchen könnten.</p>
-<h3>Warum verwenden wir reCAPTCHA auf unserer Website?</h3>
-<p>Wir wollen nur Menschen aus Fleisch und Blut auf unserer Seite begrüßen. Bots oder Spam-Software unterschiedlichster Art dürfen getrost zuhause bleiben. Darum setzen wir alle Hebel in Bewegung, uns zu schützen und die bestmögliche Benutzerfreundlichkeit für Sie anzubieten. Aus diesem Grund verwenden wir Google reCAPTCHA der Firma Google. So können wir uns ziemlich sicher sein, dass wir eine „botfreie“ Webseite bleiben. Durch die Verwendung von reCAPTCHA werden Daten an Google übermittelt, die Google verwendet, um festzustellen, ob Sie auch wirklich ein Mensch sind. reCAPTCHA dient also der Sicherheit unserer Webseite und in weiterer Folge damit auch Ihrer Sicherheit. Zum Beispiel könnte es ohne reCAPTCHA passieren, dass bei einer Registrierung ein Bot möglichst viele E-Mail-Adressen registriert, um im Anschluss Foren oder Blogs mit unerwünschten Werbeinhalten „zuzuspamen“. Mit reCAPTCHA können wir solche Botangriffe vermeiden.</p>
-<h3>Welche Daten werden von reCAPTCHA gespeichert?</h3>
-<p>ReCAPTCHA sammelt personenbezogene Daten von Usern, um festzustellen, ob die Handlungen auf unserer Webseite auch wirklich von Menschen stammen. Es kann also die IP-Adresse und andere Daten, die Google für den reCAPTCHA-Dienst benötigt, an Google versendet werden. IP-Adressen werden innerhalb der Mitgliedstaaten der EU oder anderer Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum fast immer zuvor gekürzt, bevor die Daten auf einem Server in den USA landen. Die IP-Adresse wird nicht mit anderen Daten von Google kombiniert, sofern Sie nicht während der Verwendung von reCAPTCHA mit Ihrem Google-Konto angemeldet sind. Zuerst prüft der reCAPTCHA-Algorithmus, ob auf Ihrem Browser schon Google-Cookies von anderen Google-Diensten (YouTube. Gmail usw.) platziert sind. Anschließend setzt reCAPTCHA ein zusätzliches Cookie in Ihrem Browser und erfasst einen Schnappschuss Ihres Browserfensters.</p>
-<p>Die folgende Liste von gesammelten Browser- und Userdaten, hat nicht den Anspruch auf Vollständigkeit. Vielmehr sind es Beispiele von Daten, die nach unserer Erkenntnis, von Google verarbeitet werden.</p>
-<ul>
-<li>Referrer URL (die Adresse der Seite von der der Besucher kommt)</li>
-<li>IP-Adresse (z.B. 256.123.123.1)</li>
-<li>Infos über das Betriebssystem (die Software, die den Betrieb Ihres Computers ermöglicht. Bekannte Betriebssysteme sind Windows, Mac OS X oder Linux)</li>
-<li>Cookies (kleine Textdateien, die Daten in Ihrem Browser speichern)</li>
-<li>Maus- und Keyboardverhalten (jede Aktion, die Sie mit der Maus oder der Tastatur ausführen wird gespeichert)</li>
-<li>Datum und Spracheinstellungen (welche Sprache bzw. welches Datum Sie auf Ihrem PC voreingestellt haben wird gespeichert)</li>
-<li>Alle Javascript-Objekte (JavaScript ist eine Programmiersprache, die Webseiten ermöglicht, sich an den User anzupassen. JavaScript-Objekte können alle möglichen Daten unter einem Namen sammeln)</li>
-<li>Bildschirmauflösung (zeigt an aus wie vielen Pixeln die Bilddarstellung besteht)</li>
-</ul>
-<p>Unumstritten ist, dass Google diese Daten verwendet und analysiert noch bevor Sie auf das Häkchen „Ich bin kein Roboter“ klicken. Bei der Invisible reCAPTCHA-Version fällt sogar das Ankreuzen weg und der ganze Erkennungsprozess läuft im Hintergrund ab. Wie viel und welche Daten Google genau speichert, erfährt man von Google nicht im Detail.</p>
-<p>Folgende Cookies werden von reCAPTCHA verwendet: Hierbei beziehen wir uns auf die reCAPTCHA Demo-Version von Google unter <a href="https://www.google.com/recaptcha/api2/demo" target="_blank" rel="noopener">https://www.google.com/recaptcha/api2/demo</a>. All diese Cookies benötigen zu Trackingzwecken eine eindeutige Kennung. Hier ist eine Liste an Cookies, die Google reCAPTCHA auf der Demo-Version gesetzt hat:</p>
-<p>
-<strong>Name:</strong> IDE<br />
-<strong>Ablaufzeit:</strong> nach einem Jahr<br />
-<strong>Verwendung:</strong> Dieses Cookie wird von der Firma DoubleClick (gehört auch Google) gesetzt, um die Aktionen eines Users auf der Webseite im Umgang mit Werbeanzeigen zu registrieren und zu melden. So kann die Werbewirksamkeit gemessen und entsprechende Optimierungsmaßnahmen getroffen werden. IDE wird in Browsern unter der Domain doubleclick.net gespeichert.<br />
-<strong>Beispielwert:</strong> WqTUmlnmv_qXyi_DGNPLESKnRNrpgXoy1K-pAZtAkMbHI-311131062
-<p>
-<strong>Name:</strong> 1P_JAR<br />
-<strong>Ablaufzeit:</strong> nach einem Monat<br />
-<strong>Verwendung:</strong> Dieses Cookie sammelt Statistiken zur Website-Nutzung und misst Conversions. Eine Conversion entsteht z.B., wenn ein User zu einem Käufer wird. Das Cookie wird auch verwendet, um Usern relevante Werbeanzeigen einzublenden. Weiters kann man mit dem Cookie vermeiden, dass ein User dieselbe Anzeige mehr als einmal zu Gesicht bekommt.<br />
-<strong>Beispielwert:</strong> 2019-5-14-12</p>
-<p>
-<strong>Name:</strong> ANID<br />
-<strong>Ablaufzeit:</strong> nach 9 Monaten<br />
-<strong>Verwendung:</strong> Viele Infos konnten wir über dieses Cookie nicht in Erfahrung bringen. In der Datenschutzerklärung von Google wird das Cookie im Zusammenhang mit „Werbecookies“ wie z. B. &#8220;DSID&#8221;, &#8220;FLC&#8221;, &#8220;AID&#8221;, &#8220;TAID&#8221; erwähnt. ANID wird unter Domain google.com gespeichert.<br />
-<strong>Beispielwert:</strong> U7j1v3dZa3111310620xgZFmiqWppRWKOr</p>
-<p>
-<strong>Name:</strong> CONSENT<br />
-<strong>Ablaufzeit:</strong> nach 19 Jahren<br />
-<strong>Verwendung:</strong> Das Cookie speichert den Status der Zustimmung eines Users zur Nutzung unterschiedlicher Services von Google. CONSENT dient auch der Sicherheit, um User zu überprüfen, Betrügereien von Anmeldeinformationen zu verhindern und Userdaten vor unbefugten Angriffen zu schützen.<br />
-<strong>Beispielwert: </strong>YES+AT.de+20150628-20-0</p>
-<p>
-<strong>Name:</strong> NID<br />
-<strong>Ablaufzeit:</strong> nach 6 Monaten<br />
-<strong>Verwendung:</strong> NID wird von Google verwendet, um Werbeanzeigen an Ihre Google-Suche anzupassen. Mit Hilfe des Cookies „erinnert“ sich Google an Ihre meist eingegebenen Suchanfragen oder Ihre frühere Interaktion mit Anzeigen. So bekommen Sie immer maßgeschneiderte Werbeanzeigen. Das Cookie enthält eine einzigartige ID, die Google benutzt um persönliche Einstellungen des Users für Werbezwecke zu sammeln.<br />
-<strong>Beispielwert:</strong> 0WmuWqy311131062zILzqV_nmt3sDXwPeM5Q</p>
-<p>
-<strong>Name:</strong> DV<br />
-<strong>Ablaufzeit:</strong> nach 10 Minuten<br />
-<strong>Verwendung:</strong> Sobald Sie das „Ich bin kein Roboter“-Häkchen angekreuzt haben, wird dieses Cookie gesetzt. Das Cookie wird von Google Analytics für personalisierte Werbung verwendet. DV sammelt Informationen in anonymisierter Form und wird weiters benutzt, um User-Unterscheidungen treffen zu können.<br />
-<strong>Beispielwert:</strong> gEAABBCjJMXcI0dSAAAANbqc311131062
-<p>Anmerkung: Diese Aufzählung kann keinen Anspruch auf Vollständigkeit erheben, da Google erfahrungsgemäß die Wahl ihrer Cookies immer wieder auch verändert.</p>
-<h3>Wie lange und wo werden die Daten gespeichert?</h3>
-<p>Durch das Einfügen von reCAPTCHA werden Daten von Ihnen auf den Google-Server übertragen. Wo genau diese Daten gespeichert werden, stellt Google, selbst nach wiederholtem Nachfragen, nicht klar dar. Ohne eine Bestätigung von Google erhalten zu haben, ist davon auszugehen, dass Daten wie Mausinteraktion, Verweildauer auf der Webseite oder Spracheinstellungen auf den europäischen oder amerikanischen Google-Servern gespeichert werden. Die IP-Adresse, die Ihr Browser an Google übermittelt, wird grundsätzlich nicht mit anderen Google-Daten aus weiteren Google-Diensten zusammengeführt. Wenn Sie allerdings während der Nutzung des reCAPTCHA-Plug-ins bei Ihrem Google-Konto angemeldet sind, werden die Daten zusammengeführt.<strong> </strong>Dafür gelten die abweichenden Datenschutzbestimmungen der Firma Google.</p>
-<h3>Wie kann ich meine Daten löschen bzw. die Datenspeicherung verhindern?</h3>
-<p>Wenn Sie wollen, dass über Sie und über Ihr Verhalten keine Daten an Google übermittelt werden, müssen Sie sich, bevor Sie unsere Webseite besuchen bzw. die reCAPTCHA-Software verwenden, bei Google vollkommen ausloggen und alle Google-Cookies löschen. Grundsätzlich werden die Daten sobald Sie unsere Seite aufrufen automatisch an Google übermittelt. Um diese Daten wieder zu löschen, müssen Sie den Google-Support auf  <a href="https://support.google.com/?hl=de&amp;tid=311131062" target="_blank" rel="noopener">https://support.google.com/?hl=de&amp;tid=311131062</a> kontaktieren.</p>
-<p>Wenn Sie also unsere Webseite verwenden, erklären Sie sich einverstanden, dass Google LLC und deren Vertreter automatisch Daten erheben, bearbeiten und nutzen.</p>
-<p>Etwas mehr über reCAPTCHA erfahren Sie auf der Webentwickler-Seite von Google auf <a href="https://developers.google.com/recaptcha/" target="_blank" rel="noopener">https://developers.google.com/recaptcha/</a>. Google geht hier zwar auf die technische Entwicklung der reCAPTCHA näher ein, doch genaue Informationen über Datenspeicherung und datenschutzrelevanten Themen sucht man auch dort vergeblich. Eine gute Übersicht über die grundsätzliche Verwendung von Daten bei Google finden Sie in der hauseigenen Datenschutzerklärung auf <a href="https://policies.google.com/privacy?hl=de&amp;tid=311131062" target="_blank" rel="noopener">https://www.google.com/intl/de/policies/privacy/</a>.</p>
-<p style="margin-top:15px;">Quelle: Erstellt mit dem <a title="Datenschutz Generator Deutschland" href="https://www.adsimple.de/datenschutz-generator/" target="_blank" rel="follow" style="text-decoration:none;">Datenschutz Generator</a> von AdSimple in Kooperation mit <a href="https://www.bauenwir.de" target="_blank" rel="follow" title="">bauenwir.de</a>
-</p>
-</div>
+  <Layout>
+    <div class="text-white container max-w-xl mx-auto">
+      <h1>Datenschutzerklärung</h1>
+      <h2 id="m14">Einleitung</h2>
+      <p>
+        Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
+        aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch
+        kurz als "Daten“ bezeichnet) wir zu welchen Zwecken und in welchem
+        Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns
+        durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen
+        der Erbringung unserer Leistungen als auch insbesondere auf unseren
+        Webseiten, in mobilen Applikationen sowie innerhalb externer
+        Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend
+        zusammenfassend bezeichnet als "Onlineangebot“).
+      </p>
+      <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
+      <ul></ul>
+      <p>Stand: 25. November 2019</p>
+      <h2>Inhaltsübersicht</h2>
+      <ul>
+        <li><a href="#m14"> Einleitung</a></li>
+        <li><a href="#m3"> Verantwortlicher</a></li>
+        <li>
+          <a href="#mOverview">
+            Übersicht der Verarbeitungen</a
+          >
+        </li>
+        <li>
+          <a href="#m13"> Maßgebliche Rechtsgrundlagen</a>
+        </li>
+        <li><a href="#m27"> Sicherheitsmaßnahmen</a></li>
+        <li>
+          <a href="#m25">
+            Übermittlung und Offenbarung von personenbezogenen Daten</a
+          >
+        </li>
+        <li>
+          <a href="#m24">
+            Datenverarbeitung in Drittländern</a
+          >
+        </li>
+        <li><a href="#m134"> Einsatz von Cookies</a></li>
+        <li>
+          <a href="#m225">
+            Bereitstellung des Onlineangebotes und Webhosting</a
+          >
+        </li>
+        <li>
+          <a href="#m17">
+            Newsletter und Breitenkommunikation</a
+          >
+        </li>
+        <li><a href="#m12"> Löschung von Daten</a></li>
+        <li>
+          <a href="#m15">
+            Änderung und Aktualisierung der Datenschutzerklärung</a
+          >
+        </li>
+        <li>
+          <a href="#m10"> Rechte der betroffenen Personen</a>
+        </li>
+        <li><a href="#m42"> Begriffsdefinitionen</a></li>
+      </ul>
+      <h2 id="m3">Verantwortlicher</h2>
+      <p>Inviado Ltd & Co KG<br />wie im Impressum - LINK</p>
+      <p>
+        <strong>Vertretungsberechtigte Personen</strong>: Jan Prill,
+        Babendiekstr. 60b, 22587 Hamburg
+      </p>
+      <p>
+        <strong>E-Mail-Adresse</strong>:
+        <a href="mailto:jan.prill@inviado.com">jan.prill@inviado.com</a>
+      </p>
+      <p>
+        <strong>Impressum</strong>:
+        <a href="https://inviado.com/impressum" target="_blank"
+          >https://inviado.com/impressum</a
+        >
+      </p>
+      <ul></ul>
+      <h2 id="mOverview">Übersicht der Verarbeitungen</h2>
+      <p>
+        Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und
+        die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen
+        Personen.
+      </p>
+      <h3>Arten der verarbeiteten Daten</h3>
+      <ul>
+        <li><p>Bestandsdaten (z.B. Namen, Adressen).</p></li>
+        <li><p>Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).</p></li>
+        <li><p>Kontaktdaten (z.B. E-Mail, Telefonnummern).</p></li>
+        <li>
+          <p>
+            Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+          </p>
+        </li>
+        <li>
+          <p>
+            Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten,
+            Zugriffszeiten).
+          </p>
+        </li>
+      </ul>
+      <h3>Kategorien betroffener Personen</h3>
+      <ul>
+        <li><p>Kommunikationspartner.</p></li>
+        <li>
+          <p>Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</p>
+        </li>
+      </ul>
+      <h3>Zwecke der Verarbeitung</h3>
+      <ul>
+        <li><p>Content Delivery Network (CDN).</p></li>
+        <li><p>Direktmarketing (z.B. per E-Mail oder postalisch).</p></li>
+        <li><p>Vertragliche Leistungen und Service.</p></li>
+      </ul>
+      <h2></h2>
+      <h3 id="m13">Maßgebliche Rechtsgrundlagen</h3>
+      <p>
+        Im Folgenden teilen wir die Rechtsgrundlagen der
+        Datenschutzgrundverordnung (DSGVO), auf deren Basis wir die
+        personenbezogenen Daten verarbeiten, mit. Bitte beachten Sie, dass
+        zusätzlich zu den Regelungen der DSGVO die nationalen
+        Datenschutzvorgaben in Ihrem bzw. unserem Wohn- und Sitzland gelten
+        können.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)</strong> -
+            Die betroffene Person hat ihre Einwilligung in die Verarbeitung der
+            sie betreffenden personenbezogenen Daten für einen spezifischen
+            Zweck oder mehrere bestimmte Zwecke gegeben.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong
+              >Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)</strong
+            >
+            - Die Verarbeitung ist zur Wahrung der berechtigten Interessen des
+            Verantwortlichen oder eines Dritten erforderlich, sofern nicht die
+            Interessen oder Grundrechte und Grundfreiheiten der betroffenen
+            Person, die den Schutz personenbezogener Daten erfordern,
+            überwiegen.
+          </p>
+        </li>
+      </ul>
+      <p>
+        <strong>Nationale Datenschutzregelungen in Deutschland</strong>:
+        Zusätzlich zu den Datenschutzregelungen der Datenschutz-Grundverordnung
+        gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu
+        gehört insbesondere das Gesetz zum Schutz vor Missbrauch
+        personenbezogener Daten bei der Datenverarbeitung
+        (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere
+        Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum
+        Widerspruchsrecht, zur Verarbeitung besonderer Kategorien
+        personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur
+        Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall
+        einschließlich Profiling. Des Weiteren regelt es die Datenverarbeitung
+        für Zwecke des Beschäftigungsverhältnisses (§ 26 BDSG), insbesondere im
+        Hinblick auf die Begründung, Durchführung oder Beendigung von
+        Beschäftigungsverhältnissen sowie die Einwilligung von Beschäftigten.
+        Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur
+        Anwendung gelangen.
+      </p>
+      <ul></ul>
+      <h2 id="m27">Sicherheitsmaßnahmen</h2>
+      <p>
+        Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter
+        Berücksichtigung des Stands der Technik, der Implementierungskosten und
+        der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie
+        der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der
+        Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete
+        technische und organisatorische Maßnahmen, um ein dem Risiko
+        angemessenes Schutzniveau zu gewährleisten.
+      </p>
+      <p>
+        Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit,
+        Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen
+        und elektronischen Zugangs zu den Daten als auch des sie betreffenden
+        Zugriffs, der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit
+        und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die
+        eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und
+        Reaktionen auf die Gefährdung der Daten gewährleisten. Ferner
+        berücksichtigen wir den Schutz personenbezogener Daten bereits bei der
+        Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren
+        entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und
+        durch datenschutzfreundliche Voreinstellungen.
+      </p>
+      <p>
+        <strong>SSL-Verschlüsselung (https)</strong>: Um Ihre via unser
+        Online-Angebot übermittelten Daten zu schützen, nutzen wir eine
+        SSL-Verschlüsselung. Sie erkennen derart verschlüsselte Verbindungen an
+        dem Präfix https:// in der Adresszeile Ihres Browsers.
+      </p>
+      <h2 id="m25">Übermittlung und Offenbarung von personenbezogenen Daten</h2>
+      <p>
+        Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor,
+        dass die Daten an andere Stellen, Unternehmen, rechtlich selbstständige
+        Organisationseinheiten oder Personen übermittelt oder sie ihnen
+        gegenüber offengelegt werden. Zu den Empfängern dieser Daten können z.B.
+        Zahlungsinstitute im Rahmen von Zahlungsvorgängen, mit IT-Aufgaben
+        beauftragte Dienstleister oder Anbieter von Diensten und Inhalten, die
+        in eine Webseite eingebunden werden, gehören. In solchen Fall beachten
+        wir die gesetzlichen Vorgaben und schließen insbesondere entsprechende
+        Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den
+        Empfängern Ihrer Daten ab.
+      </p>
+      <h2 id="m24">Datenverarbeitung in Drittländern</h2>
+      <p>
+        Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen
+        Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder
+        die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder
+        der Offenlegung bzw. Übermittlung von Daten an andere Personen, Stellen
+        oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den
+        gesetzlichen Vorgaben.
+      </p>
+      <p>
+        Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder
+        gesetzlich erforderlicher Übermittlung verarbeiten oder lassen wir die
+        Daten nur in Drittländern mit einem anerkannten Datenschutzniveau, zu
+        denen die unter dem "Privacy-Shield" zertifizierten US-Verarbeiter
+        gehören, oder auf Grundlage besonderer Garantien, wie z.B. vertraglicher
+        Verpflichtung durch sogenannte Standardschutzklauseln der EU-Kommission,
+        des Vorliegens von Zertifizierungen oder verbindlicher interner
+        Datenschutzvorschriften, verarbeiten (Art. 44 bis 49 DSGVO,
+        Informationsseite der EU-Kommission:
+        <a
+          href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de"
+          target="_blank"
+          >https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de</a
+        >
+        ).
+      </p>
+      <h2 id="m134">Einsatz von Cookies</h2>
+      <p>
+        Cookies sind Textdateien, die Daten von besuchten Websites oder Domains
+        enthalten und von einem Browser auf dem Computer des Benutzers
+        gespeichert werden. Ein Cookie dient in erster Linie dazu, die
+        Informationen über einen Benutzer während oder nach seinem Besuch
+        innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten
+        Angaben können z.B. die Spracheinstellungen auf einer Webseite, der
+        Loginstatus, ein Warenkorb oder die Stelle, an der ein Video geschaut
+        wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere
+        Technologien, die die gleichen Funktionen wie Cookies erfüllen (z.B.,
+        wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen
+        gespeichert werden, auch als "Nutzer-IDs" bezeichnet)
+      </p>
+      <p>
+        <strong
+          >Die folgenden Cookie-Typen und Funktionen werden
+          unterschieden:</strong
+        >
+      </p>
+      <ul>
+        <li>
+          <strong
+            >Temporäre Cookies (auch: Session- oder Sitzungs-Cookies):</strong
+          >
+          Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein
+          Online-Angebot verlassen und seinen Browser geschlossen hat.
+        </li>
+        <li>
+          <strong>Permanente Cookies:</strong> Permanente Cookies bleiben auch
+          nach dem Schließen des Browsers gespeichert. So kann beispielsweise
+          der Login-Status gespeichert oder bevorzugte Inhalte direkt angezeigt
+          werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die
+          Interessen von Nutzern, die zur Reichweitenmessung oder zu
+          Marketingzwecken verwendet werden, in einem solchen Cookie gespeichert
+          werden.
+        </li>
+        <li>
+          <strong>First-Party-Cookies:</strong> First-Party-Cookies werden von
+          uns selbst gesetzt.
+        </li>
+        <li>
+          <strong>Third-Party-Cookies (auch: Drittanbieter-Cookies)</strong>:
+          Drittanbieter-Cookies werden hauptsächlich von Werbetreibenden (sog.
+          Dritten) verwendet, um Benutzerinformationen zu verarbeiten.
+        </li>
+        <li>
+          <strong
+            >Notwendige (auch: essentielle oder unbedingt erforderliche)
+            Cookies:</strong
+          >
+          Cookies können zum einen für den Betrieb einer Webseite unbedingt
+          erforderlich sein (z.B. um Logins oder andere Nutzereingaben zu
+          speichern oder aus Gründen der Sicherheit).
+        </li>
+        <li>
+          <strong>Statistik-, Marketing- und Personalisierungs-Cookies</strong>:
+          Ferner werden Cookies im Regelfall auch im Rahmen der
+          Reichweitenmessung eingesetzt sowie dann, wenn die Interessen eines
+          Nutzers oder sein Verhalten (z.B. Betrachten bestimmter Inhalte,
+          Nutzen von Funktionen etc.) auf einzelnen Webseiten in einem
+          Nutzerprofil gespeichert werden. Solche Profile dienen dazu, den
+          Nutzern z.B. Inhalte anzuzeigen, die ihren potentiellen Interessen
+          entsprechen. Dieses Verfahren wird auch als "Tracking", d.h.,
+          Nachverfolgung der potentiellen Interessen der Nutzer bezeichnet. .
+          Soweit wir Cookies oder "Tracking"-Technologien einsetzen, informieren
+          wir Sie gesondert in unserer Datenschutzerklärung oder im Rahmen der
+          Einholung einer Einwilligung.
+        </li>
+      </ul>
+      <p>
+        <strong>Hinweise zu Rechtsgrundlagen: </strong> Auf welcher
+        Rechtsgrundlage wir Ihre personenbezogenen Daten mit Hilfe von Cookies
+        verarbeiten, hängt davon ab, ob wir Sie um eine Einwilligung bitten.
+        Falls dies zutrifft und Sie in die Nutzung von Cookies einwilligen, ist
+        die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte
+        Einwilligung. Andernfalls werden die mithilfe von Cookies verarbeiteten
+        Daten auf Grundlage unserer berechtigten Interessen (z.B. an einem
+        betriebswirtschaftlichen Betrieb unseres Onlineangebotes und dessen
+        Verbesserung) verarbeitet oder, wenn der Einsatz von Cookies
+        erforderlich ist, um unsere vertraglichen Verpflichtungen zu erfüllen.
+      </p>
+      <p>
+        <strong
+          >Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out):
+        </strong>
+        Abhängig davon, ob die Verarbeitung auf Grundlage einer Einwilligung
+        oder gesetzlichen Erlaubnis erfolgt, haben Sie jederzeit die
+        Möglichkeit, eine erteilte Einwilligung zu widerrufen oder der
+        Verarbeitung Ihrer Daten durch Cookie-Technologien zu widersprechen
+        (zusammenfassend als "Opt-Out" bezeichnet). Sie können Ihren Widerspruch
+        zunächst mittels der Einstellungen Ihres Browsers erklären, z.B., indem
+        Sie die Nutzung von Cookies deaktivieren (wobei hierdurch auch die
+        Funktionsfähigkeit unseres Onlineangebotes eingeschränkt werden kann).
+        Ein Widerspruch gegen den Einsatz von Cookies zu Zwecken des
+        Onlinemarketings kann auch mittels einer Vielzahl von Diensten, vor
+        allem im Fall des Trackings, über die Webseiten
+        <a href="http://optout.aboutads.info" target="_blank"
+          >http://optout.aboutads.info</a
+        >
+        und
+        <a href="http://www.youronlinechoices.com/" target="_blank"
+          >http://www.youronlinechoices.com/</a
+        >
+        erklärt werden. Daneben können Sie weitere Widerspruchshinweise im
+        Rahmen der Angaben zu den eingesetzten Dienstleistern und Cookies
+        erhalten.
+      </p>
+      <p>
+        <strong
+          >Verarbeitung von Cookie-Daten auf Grundlage einer
+          Einwilligung</strong
+        >: Bevor wir Daten im Rahmen der Nutzung von Cookies verarbeiten oder
+        verarbeiten lassen, bitten wir die Nutzer um eine jederzeit widerrufbare
+        Einwilligung. Bevor die Einwilligung nicht ausgesprochen wurde, werden
+        allenfalls Cookies eingesetzt, die für den Betrieb unseres
+        Onlineangebotes erforderlich sind. Deren Einsatz erfolgt auf der
+        Grundlage unseres Interesses und des Interesses der Nutzer an der
+        erwarteten Funktionsfähigkeit unseres Onlineangebotes.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z.B.
+            besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten),
+            Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Betroffene Personen:</strong> Nutzer (z.B.
+            Webseitenbesucher, Nutzer von Onlinediensten).
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
+            lit. a DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f.
+            DSGVO).
+          </p>
+        </li>
+      </ul>
+      <h2 id="m225">Bereitstellung des Onlineangebotes und Webhosting</h2>
+      <p>
+        Um unser Onlineangebot sicher und effizient bereitstellen zu können,
+        nehmen wir die Leistungen von einem oder mehreren Webhosting-Anbietern
+        in Anspruch, von deren Servern (bzw. von ihnen verwalteten Servern) das
+        Onlineangebot abgerufen werden kann. Zu diesen Zwecken können wir
+        Infrastruktur- und Plattformdienstleistungen, Rechenkapazität,
+        Speicherplatz und Datenbankdienste sowie Sicherheitsleistungen und
+        technische Wartungsleistungen in Anspruch nehmen.
+      </p>
+      <p>
+        Zu den im Rahmen der Bereitstellung des Hostingangebotes verarbeiteten
+        Daten können alle die Nutzer unseres Onlineangebotes betreffenden
+        Angaben gehören, die im Rahmen der Nutzung und der Kommunikation
+        anfallen. Hierzu gehören regelmäßig die IP-Adresse, die notwendig ist,
+        um die Inhalte von Onlineangeboten an Browser ausliefern zu können, und
+        alle innerhalb unseres Onlineangebotes oder von Webseiten getätigten
+        Eingaben.
+      </p>
+      <p>
+        <strong>Erhebung von Zugriffsdaten und Logfiles</strong>: Wir selbst
+        (bzw. unser Webhostinganbieter) erheben Daten zu jedem Zugriff auf den
+        Server (sogenannte Serverlogfiles). Zu den Serverlogfiles können die
+        Adresse und Name der abgerufenen Webseiten und Dateien, Datum und
+        Uhrzeit des Abrufs, übertragene Datenmengen, Meldung über erfolgreichen
+        Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers,
+        Referrer URL (die zuvor besuchte Seite) und im Regelfall IP-Adressen und
+        der anfragende Provider gehören.
+      </p>
+      <p>
+        Die Serverlogfiles können zum einen zu Zwecken der Sicherheit eingesetzt
+        werden, z.B., um eine Überlastung der Server zu vermeiden (insbesondere
+        im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken) und
+        zum anderen, um die Auslastung der Server und ihre Stabilität
+        sicherzustellen.
+      </p>
+      <p>
+        <strong>Content-Delivery-Network</strong>: Wir setzen ein
+        "Content-Delivery-Network" (CDN) ein. Ein CDN ist ein Dienst, mit dessen
+        Hilfe Inhalte eines Onlineangebotes, insbesondere große Mediendateien,
+        wie Grafiken oder Programm-Skripte, mit Hilfe regional verteilter und
+        über das Internet verbundener Server schneller und sicherer ausgeliefert
+        werden können.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <strong>Verarbeitete Datenarten:</strong> Inhaltsdaten (z.B.
+            Texteingaben, Fotografien, Videos), Nutzungsdaten (z.B. besuchte
+            Webseiten, Interesse an Inhalten, Zugriffszeiten),
+            Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Betroffene Personen:</strong> Nutzer (z.B.
+            Webseitenbesucher, Nutzer von Onlinediensten).
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Zwecke der Verarbeitung:</strong> Content Delivery Network
+            (CDN), Vertragliche Leistungen und Service.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
+            Abs. 1 S. 1 lit. f. DSGVO).
+          </p>
+        </li>
+      </ul>
+      <p><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+      <ul>
+        <li>
+          <p>
+            <strong>Wix:</strong> Hostingplattform für Websites; Dienstanbieter:
+            Wix.com ltd., Tel Aviv, 500 Terry A. Francois Boulevard, San
+            Francisco, California 94158, USA; Website:
+            <a href="https://www.wix.com" target="_blank">https://www.wix.com</a
+            >; Datenschutzerklärung:
+            <a href="https://de.wix.com/about/privacy" target="_blank"
+              >https://de.wix.com/about/privacy</a
+            >; Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung
+            von Daten in den USA):
+            <a
+              href="https://www.privacyshield.gov/participant?id=a2zt0000000GnbGAAS&status=Active"
+              target="_blank"
+              >https://www.privacyshield.gov/participant?id=a2zt0000000GnbGAAS&status=Active</a
+            >.
+          </p>
+        </li>
+      </ul>
+      <h2 id="m17">Newsletter und Breitenkommunikation</h2>
+      <p>
+        Wir versenden Newsletter, E-Mails und weitere elektronische
+        Benachrichtigungen (nachfolgend "Newsletter“) nur mit der Einwilligung
+        der Empfänger oder einer gesetzlichen Erlaubnis. Sofern im Rahmen einer
+        Anmeldung zum Newsletter dessen Inhalte konkret umschrieben werden, sind
+        sie für die Einwilligung der Nutzer maßgeblich. Im Übrigen enthalten
+        unsere Newsletter Informationen zu unseren Leistungen und uns.
+      </p>
+      <p>
+        Um sich zu unseren Newslettern anzumelden, reicht es grundsätzlich aus,
+        wenn Sie Ihre E-Mail-Adresse angeben. Wir können Sie jedoch bitten,
+        einen Namen, zwecks persönlicher Ansprache im Newsletter, oder weitere
+        Angaben, sofern diese für die Zwecke des Newsletters erforderlich sind,
+        zu tätigen.
+      </p>
+      <p>
+        <strong>Double-Opt-In-Verfahren:</strong> Die Anmeldung zu unserem
+        Newsletter erfolgt grundsätzlich in einem sogenannte
+        Double-Opt-In-Verfahren. D.h., Sie erhalten nach der Anmeldung eine
+        E-Mail, in der Sie um die Bestätigung Ihrer Anmeldung gebeten werden.
+        Diese Bestätigung ist notwendig, damit sich niemand mit fremden
+        E-Mail-Adressen anmelden kann. Die Anmeldungen zum Newsletter werden
+        protokolliert, um den Anmeldeprozess entsprechend den rechtlichen
+        Anforderungen nachweisen zu können. Hierzu gehört die Speicherung des
+        Anmelde- und des Bestätigungszeitpunkts als auch der IP-Adresse. Ebenso
+        werden die Änderungen Ihrer bei dem Versanddienstleister gespeicherten
+        Daten protokolliert.
+      </p>
+      <p>
+        <strong>Löschung und Einschränkung der Verarbeitung: </strong> Wir
+        können die ausgetragenen E-Mail-Adressen bis zu drei Jahren auf
+        Grundlage unserer berechtigten Interessen speichern, bevor wir sie
+        löschen, um eine ehemals gegebene Einwilligung nachweisen zu können. Die
+        Verarbeitung dieser Daten wird auf den Zweck einer möglichen Abwehr von
+        Ansprüchen beschränkt. Ein individueller Löschungsantrag ist jederzeit
+        möglich, sofern zugleich das ehemalige Bestehen einer Einwilligung
+        bestätigt wird. Im Fall von Pflichten zur dauerhaften Beachtung von
+        Widersprüchen behalten wir uns die Speicherung der E-Mail-Adresse
+        alleine zu diesem Zweck in einer Sperrliste (sogenannte "Blacklist")
+        vor.
+      </p>
+      <p>
+        Die Protokollierung des Anmeldeverfahrens erfolgt auf Grundlage unserer
+        berechtigten Interessen zu Zwecken des Nachweises seines ordnungsgemäßen
+        Ablaufs. Soweit wir einen Dienstleister mit dem Versand von E-Mails
+        beauftragen, erfolgt dies auf Grundlage unserer berechtigten Interessen
+        an einem effizienten und sicheren Versandsystem.
+      </p>
+      <p>
+        <strong>Hinweise zu Rechtsgrundlagen:</strong> Der Versand der
+        Newsletter erfolgt auf Grundlage einer Einwilligung der Empfänger oder,
+        falls eine Einwilligung nicht erforderlich ist, auf Grundlage unserer
+        berechtigten Interessen am Direktmarketing, sofern und soweit diese
+        gesetzlich, z.B. im Fall von Bestandskundenwerbung, erlaubt ist. Soweit
+        wir einen Dienstleister mit dem Versand von E-Mails beauftragen,
+        geschieht dies auf der Grundlage unserer berechtigten Interessen. Das
+        Registrierungsverfahren wird auf der Grundlage unserer berechtigten
+        Interessen aufgezeichnet, um nachzuweisen, dass es in Übereinstimmung
+        mit dem Gesetz durchgeführt wurde.
+      </p>
+      <p>
+        <strong>Inhalte</strong>: Informationen zu uns, unseren Leistungen,
+        Aktionen und Angeboten.
+      </p>
+      <p>
+        <strong>Erfolgsmessung</strong>: Die Newsletter enthalten einen
+        sogenannte "web-beacon“, d.h., eine pixelgroße Datei, die beim Öffnen
+        des Newsletters von unserem Server, bzw., sofern wir einen
+        Versanddienstleister einsetzen, von dessen Server abgerufen wird. Im
+        Rahmen dieses Abrufs werden zunächst technische Informationen, wie
+        Informationen zum Browser und Ihrem System, als auch Ihre IP-Adresse und
+        der Zeitpunkt des Abrufs, erhoben.
+      </p>
+      <p>
+        Diese Informationen werden zur technischen Verbesserung unseres
+        Newsletters anhand der technischen Daten oder der Zielgruppen und ihres
+        Leseverhaltens auf Basis ihrer Abruforte (die mit Hilfe der IP-Adresse
+        bestimmbar sind) oder der Zugriffszeiten genutzt. Diese Analyse
+        beinhaltet ebenfalls die Feststellung, ob die Newsletter geöffnet
+        werden, wann sie geöffnet werden und welche Links geklickt werden. Diese
+        Informationen können aus technischen Gründen zwar den einzelnen
+        Newsletterempfängern zugeordnet werden. Es ist jedoch weder unser
+        Bestreben noch, sofern eingesetzt, das des Versanddienstleisters,
+        einzelne Nutzer zu beobachten. Die Auswertungen dienen uns vielmehr
+        dazu, die Lesegewohnheiten unserer Nutzer zu erkennen und unsere Inhalte
+        an sie anzupassen oder unterschiedliche Inhalte entsprechend den
+        Interessen unserer Nutzer zu versenden.
+      </p>
+      <p>
+        Die Auswertung des Newsletters und die Erfolgsmessung erfolgen,
+        vorbehaltlich einer ausdrücklichen Einwilligung der Nutzer, auf
+        Grundlage unserer berechtigten Interessen zu Zwecken des Einsatzes eines
+        nutzerfreundlichen sowie sicheren Newslettersystems, welches sowohl
+        unseren geschäftlichen Interessen dient, als auch den Erwartungen der
+        Nutzer entspricht.
+      </p>
+      <p>
+        Ein getrennter Widerruf der Erfolgsmessung ist leider nicht möglich, in
+        diesem Fall muss das gesamte Newsletterabonnement gekündigt, bzw. muss
+        ihm widersprochen werden.
+      </p>
+      <p>
+        <strong>Voraussetzung der Inanspruchnahme kostenloser Leistungen</strong
+        >: Die Einwilligungen in den Versand von Mailings kann als Voraussetzung
+        zur Inanspruchnahme kostenloser Leistungen (z.B. Zugang zu bestimmten
+        Inhalten oder Teilnahme an bestimmten Aktionen) abhängig gemacht werden.
+        Sofern die Nutzer die kostenlose Leistung in Anspruch nehmen möchten,
+        ohne sich zum Newsletter anzumelden, bitten wir Sie um eine
+        Kontaktaufnahme.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <strong>Verarbeitete Datenarten:</strong> Bestandsdaten (z.B. Namen,
+            Adressen), Kontaktdaten (z.B. E-Mail, Telefonnummern),
+            Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen),
+            Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten,
+            Zugriffszeiten).
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Betroffene Personen:</strong> Kommunikationspartner, Nutzer
+            (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Zwecke der Verarbeitung:</strong> Direktmarketing (z.B. per
+            E-Mail oder postalisch), Vertragliche Leistungen und Service.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
+            lit. a DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f.
+            DSGVO).
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Widerspruchsmöglichkeit (Opt-Out):</strong> Sie können den
+            Empfang unseres Newsletters jederzeit kündigen, d.h. Ihre
+            Einwilligungen widerrufen, bzw. dem weiteren Empfang widersprechen.
+            Einen Link zur Kündigung des Newsletters finden Sie entweder am Ende
+            eines jeden Newsletters oder können sonst eine der oben angegebenen
+            Kontaktmöglichkeiten, vorzugswürdig E-Mail, hierzu nutzen.
+          </p>
+        </li>
+      </ul>
+      <p><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+      <ul>
+        <li>
+          <p>
+            <strong>Mailchimp:</strong> E-Mail-Marketing-Plattform;
+            Dienstanbieter: "Mailchimp" - Rocket Science Group, LLC, 675 Ponce
+            De Leon Ave NE #5000, Atlanta, GA 30308, USA; Website:
+            <a href="https://mailchimp.com" target="_blank"
+              >https://mailchimp.com</a
+            >; Datenschutzerklärung:
+            <a href="https://mailchimp.com/legal/privacy/" target="_blank"
+              >https://mailchimp.com/legal/privacy/</a
+            >; Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung
+            von Daten in den USA):
+            <a
+              href="https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&status=Active"
+              target="_blank"
+              >https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&status=Active</a
+            >.
+          </p>
+        </li>
+      </ul>
+      <h2 id="m12">Löschung von Daten</h2>
+      <p>
+        Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen
+        Vorgaben gelöscht, sobald deren zur Verarbeitung erlaubten
+        Einwilligungen widerrufen werden oder sonstige Erlaubnisse entfallen
+        (z.B., wenn der Zweck der Verarbeitung dieser Daten entfallen ist oder
+        sie für den Zweck nicht erforderlich sind).
+      </p>
+      <p>
+        Sofern die Daten nicht gelöscht werden, weil sie für andere und
+        gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung
+        auf diese Zwecke beschränkt. D.h., die Daten werden gesperrt und nicht
+        für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels-
+        oder steuerrechtlichen Gründen aufbewahrt werden müssen oder deren
+        Speicherung zur Geltendmachung, Ausübung oder Verteidigung von
+        Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen
+        oder juristischen Person erforderlich ist.
+      </p>
+      <p>
+        Weitere Hinweise zu der Löschung von personenbezogenen Daten können
+        ferner im Rahmen der einzelnen Datenschutzhinweise dieser
+        Datenschutzerklärung erfolgen.
+      </p>
+      <ul></ul>
+      <h2 id="m15">Änderung und Aktualisierung der Datenschutzerklärung</h2>
+      <p>
+        Wir bitten Sie, sich regelmäßig über den Inhalt unserer
+        Datenschutzerklärung zu informieren. Wir passen die Datenschutzerklärung
+        an, sobald die Änderungen der von uns durchgeführten Datenverarbeitungen
+        dies erforderlich machen. Wir informieren Sie, sobald durch die
+        Änderungen eine Mitwirkungshandlung Ihrerseits (z.B. Einwilligung) oder
+        eine sonstige individuelle Benachrichtigung erforderlich wird.
+      </p>
+      <p>
+        Sofern wir in dieser Datenschutzerklärung Adressen und
+        Kontaktinformationen von Unternehmen und Organisationen angeben, bitten
+        wir zu beachten, dass die Adressen sich über die Zeit ändern können und
+        bitten die Angaben vor Kontaktaufnahme zu prüfen.
+      </p>
+      <h2 id="m10">Rechte der betroffenen Personen</h2>
+      <p>
+        Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die
+        sich insbesondere aus Art. 15 bis 18 und 21 DSGVO ergeben:
+      </p>
+      <ul>
+        <li>
+          <strong
+            >Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus
+            Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung
+            der Sie betreffenden personenbezogenen Daten, die aufgrund von Art.
+            6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies
+            gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
+            Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um
+            Direktwerbung zu betreiben, haben Sie das Recht, jederzeit
+            Widerspruch gegen die Verarbeitung der Sie betreffenden
+            personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen;
+            dies gilt auch für das Profiling, soweit es mit solcher
+            Direktwerbung in Verbindung steht.</strong
+          >
+        </li>
+        <li>
+          <strong>Widerrufsrecht bei Einwilligungen:</strong> Sie haben das
+          Recht, erteilte Einwilligungen jederzeit zu widerrufen.
+        </li>
+        <li>
+          <strong>Auskunftsrecht:</strong> Sie haben das Recht, eine Bestätigung
+          darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf
+          Auskunft über diese Daten sowie auf weitere Informationen und Kopie
+          der Daten entsprechend den gesetzlichen Vorgaben.
+        </li>
+        <li>
+          <strong>Recht auf Berichtigung:</strong> Sie haben entsprechend den
+          gesetzlichen Vorgaben das Recht, die Vervollständigung der Sie
+          betreffenden Daten oder die Berichtigung der Sie betreffenden
+          unrichtigen Daten zu verlangen.
+        </li>
+        <li>
+          <strong
+            >Recht auf Löschung und Einschränkung der Verarbeitung:</strong
+          >
+          Sie haben nach Maßgabe der gesetzlichen Vorgaben das Recht, zu
+          verlangen, dass Sie betreffende Daten unverzüglich gelöscht werden,
+          bzw. alternativ nach Maßgabe der gesetzlichen Vorgaben eine
+          Einschränkung der Verarbeitung der Daten zu verlangen.
+        </li>
+        <li>
+          <strong>Recht auf Datenübertragbarkeit:</strong> Sie haben das Recht,
+          Sie betreffende Daten, die Sie uns bereitgestellt haben, nach Maßgabe
+          der gesetzlichen Vorgaben in einem strukturierten, gängigen und
+          maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen
+          anderen Verantwortlichen zu fordern.
+        </li>
+        <li>
+          <strong>Beschwerde bei Aufsichtsbehörde:</strong> Sie haben ferner
+          nach Maßgabe der gesetzlichen Vorgaben das Recht, bei einer
+          Aufsichtsbehörde, insbesondere in dem Mitgliedstaat Ihres gewöhnlichen
+          Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen
+          Verstoßes, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie
+          betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
+        </li>
+      </ul>
+      <h2 id="m42">Begriffsdefinitionen</h2>
+      <p>
+        In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser
+        Datenschutzerklärung verwendeten Begrifflichkeiten. Viele der Begriffe
+        sind dem Gesetz entnommen und vor allem im Art. 4 DSGVO definiert. Die
+        gesetzlichen Definitionen sind verbindlich. Die nachfolgenden
+        Erläuterungen sollen dagegen vor allem dem Verständnis dienen. Die
+        Begriffe sind alphabetisch sortiert.
+      </p>
+      <ul>
+        <li>
+          <strong>Content Delivery Network (CDN):</strong> Ein "Content Delivery
+          Network" (CDN) ist ein Dienst, mit dessen Hilfe Inhalte eines
+          Onlineangebotes, insbesondere große Mediendateien, wie Grafiken oder
+          Programm-Skripte mit Hilfe regional verteilter und über das Internet
+          verbundener Server, schneller und sicherer ausgeliefert werden können.
+        </li>
+        <li>
+          <strong>Personenbezogene Daten:</strong> "Personenbezogene Daten“ sind
+          alle Informationen, die sich auf eine identifizierte oder
+          identifizierbare natürliche Person (im Folgenden "betroffene Person“)
+          beziehen; als identifizierbar wird eine natürliche Person angesehen,
+          die direkt oder indirekt, insbesondere mittels Zuordnung zu einer
+          Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu
+          einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren
+          besonderen Merkmalen identifiziert werden kann, die Ausdruck der
+          physischen, physiologischen, genetischen, psychischen,
+          wirtschaftlichen, kulturellen oder sozialen Identität dieser
+          natürlichen Person sind.
+        </li>
+        <li>
+          <strong>Verantwortlicher:</strong> Als "Verantwortlicher“ wird die
+          natürliche oder juristische Person, Behörde, Einrichtung oder andere
+          Stelle, die allein oder gemeinsam mit anderen über die Zwecke und
+          Mittel der Verarbeitung von personenbezogenen Daten entscheidet,
+          bezeichnet.
+        </li>
+        <li>
+          <strong>Verarbeitung:</strong> "Verarbeitung" ist jeder mit oder ohne
+          Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche
+          Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff
+          reicht weit und umfasst praktisch jeden Umgang mit Daten, sei es das
+          Erheben, das Auswerten, das Speichern, das Übermitteln oder das
+          Löschen.
+        </li>
+      </ul>
+      <p>
+        <a
+          href="https://datenschutz-generator.de/?l=de"
+          title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
+          target="_blank"
+          >Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas
+          Schwenke</a
+        >
+      </p>
+    </div>
+  </Layout>
 </template>
