@@ -6,12 +6,12 @@
 		title="5 Wege, Dein Gehalt zu verdoppeln." 
 		label="Du hast weder Geld, noch Zeit zu verschenken" 
 		margin="An jedem Tag, den Du zögerst, bleibt Geld auf dem Tisch liegen. Eine Verdopplung Deines Gehalts in drei Jahren oder weniger ist möglich. Dabei wird Dir (noch) unwohl? Dann fangen wir doch erst einmal mit 12.000 EUR an...">
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Wieso verdienen andere so viel mehr? Wir lüften das Geheimnis. Und zeigen Dir Schritt-für-Schritt wie Du 
 			endlich verdienst, was Deine Arbeit wirklich wert ist. Für zwei Strategien zur Gehaltserhöhung 
 			musst Du <span class="font-bold text-white">nicht einmal verhandeln</span>. 
 		</p>
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Dein kostenloser, 80-seitiger Report zeigt Dir die Tricks der 'High-Achiever',
 			die bei gleicher Arbeit mehr als das doppelte verdienen.
 		</p>	
@@ -43,7 +43,7 @@
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Inviado ist meine Einladung an Dich. Du bist ganz herzlich eingeladen, meine ganze Erfahrung dafür zu nutzen, 
 			endlich das Gehalt zu bekommen, dass dem Wert entspricht, den Du für Dein Unternehmen schaffst. Du bist eingeladen,
-			meine Erfahrung dafür zu nutzen, in Deinem Feld (als Dev, TechPM oder Data Scientist) die Karriere zu machen, von der Du träumst.
+			meine Erfahrung dafür zu nutzen, in Deinem Feld (Software Engineering) die Karriere zu machen, von der Du träumst.
 		</p>	
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Ich bin Jan Prill. Ich habe 10 Jahre Führungserfahrung in Softwareentwicklungsteams. Ich habe unzählige Vorstellungsgespräche
@@ -62,19 +62,19 @@
   <!-- be as rich as your dentist -->
 	<copy 
 		title="Verdienen wie Dein Zahnarzt." 
-		label="Wenn Du als DEV oder TechPM" 
+		label="Wenn Du als DEV" 
 		margin="weniger als die Hälfte Deines Zahnarztes verdienst, läuft etwas falsch.">
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Wir möchten, dass Du frei bist. Und deswegen möchten wir helfen, dass Du reich und vermögend wirst.
 			Denn es ist doch ein Gerücht, dass man Freiheit und Gesundheit nicht kaufen kann.
 		</p>
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Jawoll! Das haben wir wirklich geschrieben! Bei Dir kommt ein klammes Gefühl hoch?
 			Der Ausblick auf Wohlstand fühlt sich nicht gut an?
 			Dann wirst Du gerade von Deiner langjährigen Mittelschichtserziehung gebeutelt:
 			"Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig..."
 		</p>	
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Geld sollte Dir wichtig sein. Zumindest wenn Du frei sein möchtest.
 			Ethisch korrekter Wohlstand ist möglich. Ihn zu erreichen ist Deine Pflicht.
 			Denn - glaube uns - andere haben mit dem Geld weniger 
@@ -87,16 +87,16 @@
 		title="Im Vertrauen: Soviel verdient Dein Chef." 
 		label="Du hast es nicht verdient..." 
 		margin="...ausgenutzt zu werden. Du hast es verdient, fair entlohnt zu werden.">
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Wir haben ein recht gutes Bild davon, was Führungskräfte in Deinem Bereich verdienen. Wir verraten
 			es Dir gerne, damit Du Deinen eigenen Wert für Dein Unternehmen besser einschätzen kannst.
 		</p>
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Dein kostenloser Report wird dafür sorgen, dass Dir einige Schuppen von den Augen fallen. Höre die Signale:
 			Auch Du hast nicht mehr endlos Zeit, Dein Leben zu Deinem Vorteil zu drehen. Es ist genug Zeit vergangen, 
 			in denen Du für den Wohlstand der anderen gesorgt hast.
 		</p>
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			So helfen wir Dir:
 		</p>
 	</copy>
@@ -132,12 +132,12 @@
 		title="Grüner wird es nicht." 
 		label="Beginne heute" 
 		margin="Du hast nicht ewig Zeit...">
-		<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl">
 			Bitte sieh den Tatsachen ins Auge. Auch Du hast nicht ewig Zeit. Jeder Tag, an dem Du Geld auf dem Tisch liegen 
 			lässt, holt Dich später doppelt wieder ein. Denn Dein aktuelles Gehalt determiniert nicht nur Deine Rente, sondern
 			auch Deinen Verhandlungsspielraum im nächsten Job.
 		</p>
-		<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+		<p class="mt-6 text-gray-200 font-copy leading-tight text-xl md:text-2xl">
 			Stell Dir einmal einen Moment lang vor, was ein angemessenes Gehalt für Veränderungen für Dich bedeuten kann:
 		</p>
 	</copy>
