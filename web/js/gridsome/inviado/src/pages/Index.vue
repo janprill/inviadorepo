@@ -5,7 +5,7 @@
 	<copy 
 		title="5 Wege, Dein Gehalt zu verdoppeln." 
 		label="Du hast weder Geld, noch Zeit zu verschenken" 
-		margin="An jedem Tag, den Du zögerst, bleibt Geld auf dem Tisch liegen.">
+		margin="An jedem Tag, den Du zögerst, bleibt Geld auf dem Tisch liegen. Eine Verdopplung Deines Gehalts in drei Jahren oder weniger ist möglich. Dabei wird Dir (noch) unwohl? Dann fangen wir doch erst einmal mit 12.000 EUR an...">
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl lg:text-3xl">
 			Wieso verdienen andere so viel mehr? Wir lüften das Geheimnis. Und zeigen Dir Schritt-für-Schritt wie Du 
 			endlich verdienst, was Deine Arbeit wirklich wert ist. Für zwei Strategien zur Gehaltserhöhung 
@@ -39,18 +39,21 @@
 	<copy 
 		title="Wer oder was ist inviado überhaupt?" 
 		label="Jan Prill" 
-		margin="Tech Lead. Entwickler. Rechtsanwalt. Vater.">
+		margin="Spielerberater für IT-Talente. Tech-Lead. Entwickler. Rechtsanwalt.">
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Inviado ist meine Einladung an Dich. Du bist ganz herzlich eingeladen, meine ganze Erfahrung dafür zu nutzen, 
-			endlich das Gehalt zu bekommen, dass dem Wert entspricht, den Du für Dein Unternehmen schaffst.
+			endlich das Gehalt zu bekommen, dass dem Wert entspricht, den Du für Dein Unternehmen schaffst. Du bist eingeladen,
+			meine Erfahrung dafür zu nutzen, in Deinem Feld (als Dev, TechPM oder Data Scientist) die Karriere zu machen, von der Du träumst.
 		</p>	
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Ich bin Jan Prill. Ich habe 10 Jahre Führungserfahrung in Softwareentwicklungsteams. Ich habe unzählige Vorstellungsgespräche
 			mit Kandidaten geführt. Ich habe Topentwickler ausgebildet.
-		</p>
-		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
 			Ich habe meine Karriere, als Quereinsteiger (ursprünglich bin ich Rechtsanwalt) bis zum Entwicklungsleiter in Startups und 
 			mittelständischen Unternehmen gestaltet und nebenbei erfolgreiche Unternehmen gegründet. 
+		</p>
+		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
+			Mein Elevatorpitch heute: Ich bin ein Spielerberater für IT-Talente. So wie es Spielerberater für Fussballer gibt, brauchen auch viele
+			IT-Talente Hilfe in den Bereichen, die nicht zu ihren Kernkompetenzen zählen. Diese Hilfe gebe ich. Z.B. in Verhandlungen, Unternehmensauswahl, Karriereentwicklung.
 			Ich habe zahlreiche Entwickler in Positionen mit sechsstelliger Bezahlung gecoached. In Deinem kostenlosen, 80-seitigen Gehaltserhöhungsreport 
 			erfährst Du mehr von mir.
 		</p>	
