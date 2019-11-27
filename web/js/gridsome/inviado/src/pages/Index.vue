@@ -120,7 +120,7 @@
 			<h2 class="mb-1 font-bold">Mindset.</h2>
 			<p class="leading-tight">Wir werden Dir zeigen, wie Du Frustration und Wut in Energie umwandelst, die Du für Dein Fortkommen nutzt.</p>
 		</div>
-		<div class="order-1 lg:order-2 w-full lg:w-2/3 m-auto ml-6 mb-6 mt-0">
+		<div class="order-1 lg:order-2 max-w-full lg:w-2/3 md:ml-6 mb-6 mt-0">
 			<img src="/images/BookCover.png" alt="">
 		</div>
 	</section>
@@ -163,7 +163,7 @@
 
 	<section
 		class="text-white text-xl my-16 font-copy container m-auto flex flex-col lg:flex-row text-left">
-		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start lg:items-start pr-8">
+		<div class="order-2 lg:order-1 w-full lg:w-1/2 flex flex-col justify-center items-start lg:items-start pr-8">
 			<h3 class="font-bold">Eine Weltumsegelung. Muss kein Traum bleiben.</h3>
 			<p class="leading-normal mb-4 mt-4">
 				Eine Weltumsegelung ist ein Paradebeispiel für ein echtes Abenteuer. Sie erfordert sorgfältige Vorbereitung und viel Mut, von der Seitenlinie
@@ -172,7 +172,9 @@
 				Wir können Dir zeigen, wie Du die ersten, notwendigen Schritte gehst.
 			</p>
 		</div>
-		<div class="w-full lg:w-1/2"><img src="/images/yacht.jpg" alt="" class="rounded shadow-xl"/></div>
+		<div class="order-1 lg:order-2 w-full lg:w-1/2">
+			<img src="/images/yacht.jpg" alt="" class="rounded shadow-xl"/>
+		</div>
 	</section>
 
 	<section
