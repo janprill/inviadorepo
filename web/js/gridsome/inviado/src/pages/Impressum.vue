@@ -27,8 +27,11 @@
       </p>
 
       <p class="mt-6">
-        Handelsregister: Company number 08299662<br />
-        Registergericht: Companies House
+        Company number 08299662<br />
+        Companies House<br />
+        <a href="https://www.gov.uk/government/organisations/companies-house" class="underline">
+          https://www.gov.uk/government/organisations/companies-house
+        </a>
       </p>
 
       <h2 class="mt-16 font-neuzeit text-2xl font-bold">Kontakt</h2>
