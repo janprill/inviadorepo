@@ -28,9 +28,9 @@
 
       <p class="mt-6">
         Company number 08299662<br />
-        Companies House<br />
+        Companies House:<br />
         <a href="https://www.gov.uk/government/organisations/companies-house" class="underline">
-          https://www.gov.uk/government/organisations/companies-house
+          Link
         </a>
       </p>
 

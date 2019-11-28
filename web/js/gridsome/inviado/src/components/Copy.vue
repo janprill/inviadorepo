@@ -1,7 +1,7 @@
 <template>
 	<section class="antialiased font-sans w-full text-left text-white bg-black py-8">
     <div class="container mx-auto py-8 font-normal leading-normal flex flex-col md:flex-row">
-			<div class="w-full md:w-3/4 leading-normal column-0 lg:column-2 pr-8"> 
+			<div class="w-full md:w-3/4 leading-normal column-0 lg:column-2 pr-0 md:pr-8"> 
 				<h1 class="text-white font-neuzeit font-semibold leading-none w-128 text-2xl md:text-3xl lg:text-6xl">
 					{{ title }}
 				</h1>

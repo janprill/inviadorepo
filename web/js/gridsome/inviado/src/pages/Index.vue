@@ -163,7 +163,7 @@
 
 	<section
 		class="text-white text-xl my-16 font-copy container m-auto flex flex-col lg:flex-row text-left">
-		<div class="order-2 lg:order-1 w-full lg:w-1/2 flex flex-col justify-center items-start lg:items-start pr-8">
+		<div class="order-2 lg:order-1 w-full lg:w-1/2 flex flex-col justify-center items-start lg:items-start pr-0 md:pr-8 mt-6 md:mt-0">
 			<h3 class="font-bold">Eine Weltumsegelung. Muss kein Traum bleiben.</h3>
 			<p class="leading-normal mb-4 mt-4">
 				Eine Weltumsegelung ist ein Paradebeispiel für ein echtes Abenteuer. Sie erfordert sorgfältige Vorbereitung und viel Mut, von der Seitenlinie
@@ -180,7 +180,7 @@
 	<section
 		class="text-white text-xl my-16 font-copy container m-auto flex flex-col lg:flex-row text-left">
 		<div class="w-full lg:w-1/2"><img src="/images/highrise.jpg" alt=""  class="rounded shadow-xl" /></div>
-		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start pl-8">
+		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start pl-0 md:pl-8 mt-6 md:mt-08">
 			<h3 class="font-bold">Weiter wachsen.</h3>
 			<p class="leading-normal mb-4">
 				Für viele ist mehr Gehalt nur der erste Schritt. Viele Entwickler, mit ihrem tief verwurzelten Wunsch, Neues zu schaffen - eben zu entwickeln, 
