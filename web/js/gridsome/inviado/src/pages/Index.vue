@@ -148,7 +148,7 @@
 		<div class="w-full lg:w-1/2 mt-0">
 			<img src="/images/villa.jpg" alt="" class="rounded shadow-xl" />
 		</div>
-		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start pl-8">
+		<div class="w-full lg:w-1/2 flex flex-col justify-center items-start pl-0 md:pl-8 mt-6 md:mt-0">
 			<h3 class="font-bold">Villa. Haus. Mietwohnung. Dein Gehalt macht den Unterschied.</h3>
 			<p class="leading-normal mb-4 mt-4">
 				Du hast Dich vielleicht schon einmal gefragt, wer eigentlich das Geld hat, ein Haus in guter Lage zu kaufen. 
