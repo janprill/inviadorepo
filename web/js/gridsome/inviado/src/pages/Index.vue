@@ -12,8 +12,8 @@
 			musst Du <span class="font-bold text-white">nicht einmal verhandeln</span>. 
 		</p>
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
-			Dein kostenloser, 80-seitiger Report zeigt Dir die Tricks der 'High-Achiever',
-			die bei gleicher Arbeit mehr als das doppelte verdienen.
+			Dein kostenloser, 80-seitiger Report zeigt Dir die Tricks der 'Super-Achiever',
+			die bei gleicher Arbeit mehr als das doppelte Deines Gehalts verdienen.
 		</p>	
 	</copy>
 
@@ -41,8 +41,8 @@
 		label="Jan Prill" 
 		margin="Spielerberater für IT-Talente. Tech-Lead. Entwickler. Rechtsanwalt.">
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
-			Inviado ist meine Einladung an Dich. Du bist ganz herzlich eingeladen, meine ganze Erfahrung dafür zu nutzen, 
-			endlich das Gehalt zu bekommen, dass dem Wert entspricht, den Du für Dein Unternehmen schaffst. Du bist eingeladen,
+			Inviado ist meine Einladung an Dich: Du bist ganz herzlich eingeladen, meine ganze Erfahrung dafür zu nutzen, 
+			das Gehalt zu bekommen, dass dem Wert entspricht, den Du für Dein Unternehmen schaffst. Du bist eingeladen,
 			meine Erfahrung dafür zu nutzen, in Deinem Feld (Software Engineering) die Karriere zu machen, von der Du träumst.
 		</p>	
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
@@ -52,10 +52,10 @@
 			mittelständischen Unternehmen gestaltet und nebenbei erfolgreiche Unternehmen gegründet. 
 		</p>
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
-			Mein Elevatorpitch heute: Ich bin ein Spielerberater für IT-Talente. So wie es Spielerberater für Fussballer gibt, brauchen auch viele
-			IT-Talente Hilfe in den Bereichen, die nicht zu ihren Kernkompetenzen zählen. Diese Hilfe gebe ich. Z.B. in Verhandlungen, Unternehmensauswahl, Karriereentwicklung.
+			Mein Elevatorpitch heute: "Ich bin ein Spielerberater für IT-Talente. So wie es Spielerberater für Fussballer gibt, brauchen auch viele
+			IT-Talente Hilfe in den Bereichen, die nicht zu ihren Kernkompetenzen zählen." Diese Hilfe gebe ich. Z.B. in Verhandlungen, Unternehmensauswahl, Karriereentwicklung.
 			Ich habe zahlreiche Entwickler in Positionen mit sechsstelliger Bezahlung gecoached. In Deinem kostenlosen, 80-seitigen Gehaltserhöhungsreport 
-			erfährst Du mehr von mir.
+			erfährst Du mehr über mich.
 		</p>	
 	</copy>
 
@@ -69,9 +69,9 @@
 			Denn es ist doch ein Gerücht, dass man Freiheit und Gesundheit nicht kaufen kann.
 		</p>
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
-			Jawoll! Das haben wir wirklich geschrieben! Bei Dir kommt ein klammes Gefühl hoch?
+			Jawoll! Das haben wir wirklich geschrieben! Kommt bei Dir jetzt ein klammes Gefühl hoch?
 			Der Ausblick auf Wohlstand fühlt sich nicht gut an?
-			Dann wirst Du gerade von Deiner langjährigen Mittelschichtserziehung gebeutelt:
+			Dann wirst Du wahrscheinlich gerade von Deiner langjährigen Mittelschichtserziehung gebeutelt:
 			"Geld macht doch nicht glücklich. Geld ist mir nicht so wichtig..."
 		</p>	
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
@@ -92,7 +92,7 @@
 			es Dir gerne, damit Du Deinen eigenen Wert für Dein Unternehmen besser einschätzen kannst.
 		</p>
 		<p class="mt-6 text-gray-300 font-copy leading-tight text-xl md:text-2xl">
-			Dein kostenloser Report wird dafür sorgen, dass Dir einige Schuppen von den Augen fallen. Höre die Signale:
+			Dein kostenloser Report wird dafür sorgen, dass Dir einige Schuppen von den Augen fallen. Bitte bedenke:
 			Auch Du hast nicht mehr endlos Zeit, Dein Leben zu Deinem Vorteil zu drehen. Es ist genug Zeit vergangen, 
 			in denen Du für den Wohlstand der anderen gesorgt hast.
 		</p>
@@ -167,8 +167,8 @@
 			<h3 class="font-bold">Eine Weltumsegelung. Muss kein Traum bleiben.</h3>
 			<p class="leading-normal mb-4 mt-4">
 				Eine Weltumsegelung ist ein Paradebeispiel für ein echtes Abenteuer. Sie erfordert sorgfältige Vorbereitung und viel Mut, von der Seitenlinie
-				auf das Spielfeld des Lebens zu treten. Vor allem aber braucht man ohne Geld über so ein Abenteuer nicht nachdenken. 
-				Erhöhst Du hingegen Dein Gehalt ganz massiv kannst Du in recht kurzer Zeit ein Vermögen aufbauen, dass Dir ein Jahr Auszeit ermöglicht. 
+				auf das Spielfeld des Lebens zu treten. Vor allem aber braucht man ohne Geld über so ein Abenteuer überhaupt nicht nachdenken. 
+				Erhöhst Du hingegen Dein Gehalt ganz massiv, kannst Du in recht kurzer Zeit ein Vermögen aufbauen, dass Dir ein Jahr Auszeit ermöglicht. 
 				Wir können Dir zeigen, wie Du die ersten, notwendigen Schritte gehst.
 			</p>
 		</div>
@@ -202,7 +202,7 @@
 					Unverbindliche, komplett kostenlose 30-minütige Strategiesitzung. 
 				</h1>
 				<p class="leading-normal mb-4 mt-6">
-					Wenn Du es ernst damit meinst, in den nächsten Monaten massiv mehr Geld zu verdienen (und nur wenn Du es ernst meinst!),
+					Wenn Du es ernst damit meinst, in den nächsten Monaten massiv mehr Geld zu verdienen (und bitte nur wenn Du es wirklich ernst meinst!!),
 					dann buche jetzt im Kalender Deinen kostenlosen Strategie-Call.
 				</p>
 				<p class="leading-normal mb-4">
@@ -215,8 +215,6 @@
 			</div>
 		</div>
 	</section>
-
-
 
 
 </Layout>
