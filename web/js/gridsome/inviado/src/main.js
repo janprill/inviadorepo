@@ -8,11 +8,6 @@ export default function (Vue, { head }) {
 
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Fira+Sans:400,700%7CCardo'
-  })
-
-  head.link.push({
-    rel: 'stylesheet',
     href: 'https://use.typekit.net/qqr0xyz.css'
   })
 
