@@ -31,9 +31,6 @@
           <li>
             <g-link to="/datenschutz" class="inline-block py-2 px-3 text-gray-500 hover:text-gray-500-light no-underline">Datenschutzerklärung</g-link>
            </li>
-          <li>
-            <g-link to="/" class="inline-block py-2 px-3 text-gray-500 hover:text-gray-500-light no-underline">Dein kostenloser Gehaltserhöhungsreport</g-link>
-           </li>
         </ul>
         <p class="inline-block py-2 px-3 text-gray-700 text-xs"> ©2019 Inviado. All rights reserved.</p>
       </div>
