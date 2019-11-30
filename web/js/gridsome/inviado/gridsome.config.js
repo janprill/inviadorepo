@@ -8,7 +8,7 @@ module.exports = {
   siteName: 'Inviado',
   siteDescription: "Verdoppel Dein Gehalt.",
   siteUrl: 'https://gridsome-starter-bleda.netlify.com',
-  titleTemplate: `%s | Bleda`,
+  titleTemplate: `%s | Spielerberater für IT-Talente`,
   icon: 'src/favicon.png',
 
   transformers: {
