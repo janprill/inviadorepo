@@ -20,7 +20,7 @@
 								</div>
 							</div>
 
-							<div class="mt-4 sm:flex">
+							<div class="mt-4 lg:flex">
 								<ValidationProvider name="E-mail" rules="required|email" v-slot="{ errors }">
 									<input type="email" id="mce-EMAIL" v-model="email" class="h-16 w-full focus:outline-0 bg-white py-3 px-6 mb-2 sm:mb-0 text-2xl font-neuzeit text-gray-900" name="EMAIL" placeholder="Gib Deine E-mail ein*" required="*" />
 									<span class="text-red-500 border-red-500">{{ errors[0] }}</span>
