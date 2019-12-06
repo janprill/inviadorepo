@@ -1,15 +1,16 @@
 <template>
   <Layout>
 
-    <section>
-      <div class=" max-w-lg shadow-primary h-64 mt-64">
-
+    <section class="h-screen mt-48 container mx-auto">
+      <div class="flex flex-row">
+        <div class="bg-primary flex flex-col w-full max-w-xl shadow-primary h-64 mt-0">
+          Moin
+        </div>
+        <div class="bg-primary flex flex-col justify-end w-64 max-w-lg shadow-primary h-64 mt-32 -ml-32">
+          Welt
+        </div>
       </div>
     </section>
-
-
-
-
 
     <section id="hero" class="m-6 p-6 border border-black">
       <p>
