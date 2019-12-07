@@ -1,18 +1,48 @@
 <template>
   <Layout>
 
-    <section class="h-screen mt-48 container mx-auto">
+    <section id="hero" class="min-h-screen mt-48 container mx-auto">
       <div class="flex flex-row">
-        <div class="bg-primary flex flex-col w-full max-w-xl shadow-primary h-64 mt-0">
+        <div class="bg-primary flex flex-col w-full shadow-primary h-64 mt-0">
           Moin
         </div>
-        <div class="bg-primary flex flex-col justify-end w-64 max-w-lg shadow-primary h-64 mt-32 -ml-32">
+        <div class="bg-turkis flex flex-col justify-end w-full rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-32">
           Welt
         </div>
       </div>
     </section>
 
-    <section id="hero" class="m-6 p-6 border border-black">
+
+    <section id="hero" class="min-h-screen container mx-auto">
+      <section class="flex flex-row">
+        <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0">
+          Moin 01
+        </article>
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-32">
+          Welt
+        </article>
+      </section>
+
+      <section class="flex flex-row-reverse mt-32 w-full">
+        <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0 mr-0">
+          Moin 02
+        </article>
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-32">
+          Welt
+        </article>
+      </section>
+
+      <section class="flex flex-row">
+        <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0">
+          Moin 03
+        </article>
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-32">
+          Welt
+        </article>
+      </section>
+    </section>
+
+    <section id="hero_old" class="m-6 p-6 border border-black">
       <p>
         TLDR: Ich helfe Dir, als Softwarentwickler, entsprechend dem Wert bezahlt zu werden, den Du für Dein Unternehmen schaffst.
         Und dabei die Zeit Deines Lebens in Deinem Traumjob zu haben.
@@ -49,7 +79,7 @@
           </h2>
           <p>
             Du hast Dein Gehalt entweder schlecht verhandelt, oder arbeitest in einem Unternehmen mit einem Gehaltsgefüge, dass Deinen herausragenden Leistungen nicht 
-            gerecht wird. Ich kann Dir bei der Lösung beider Probleme helfen. Sie lassen sich lösen und Du solltest das so schnell wie möglich angehen, denn Du lässt 
+            gerecht wird. Ich kann Dir bei der Lösung beider Prkobleme helfen. Sie lassen sich lösen und Du solltest das so schnell wie möglich angehen, denn Du lässt 
             Monat für Monat Geld auf dem Tisch liegen, mit dem Du Vermögen aufbauen könntest.
           </p>
         </article>

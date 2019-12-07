@@ -4,6 +4,7 @@ module.exports = {
     backgroundColor: theme => ({
       ...theme('colors'),
       'primary': '#272727',
+      'turkis': '#3edfcd'
     }),
     fontFamily: {
       neuzeit: [
