@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-    <section id="hero" class="min-h-screen mt-48 container mx-auto">
-      <div class="flex flex-row">
+    <section id="hero" class=" mt-48 container mx-auto">
+      <div class="md:flex md:flex-row">
         <div class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 tracking-wide pb-32">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl">
             Ich helfe IT-Talenten, mehr Geld zu verdienen und Vermögen aufzubauen
@@ -12,7 +12,8 @@
               Problem: 
             </div>
             <div>
-              Du wirst nicht entsprechend des Werts bezahlt, den Du schaffst.
+              Du wirst nicht entsprechend des Werts bezahlt, den Du schaffst. Und weil Du deswegen Monat für Monat
+              Geld auf dem Tisch liegen lässt, verlierst Du auf lange Sicht ein Vermögen.
             </div>
           </h2>
           <h2 class="mt-8 text-lg font-light font-myriad">
@@ -20,7 +21,15 @@
               Solution: 
             </div>
             <div>
-              Du wirst nicht entsprechend des Werts bezahlt, den Du schaffst.
+              <p>Wir analysieren gemeinsam Deine bisherigen Entscheidungen:</p>
+              <ul>
+                <li>Bist Du im richtigen Unternehmen, um bezahlt zu werden, wie Dein Zahnarzt?</li>
+                <li>Bist Du auf der richtigen Position?</li>
+                <li>Läuft Deine Karriere so, dass Du auf Deinem idealen Karrierepfad bist?</li>
+                <li>Bist Du vielleicht eher Entrepreneur als Angestellter?</li>
+                <li>Hast Du Dein Gehalt regelmäßig und ideal verhandelt?</li>
+              </ul>
+              <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld nie mehr zu Deinen Problemen gehört.</p>
             </div>
           </h2>
         </div>
@@ -32,9 +41,16 @@
 
 
     <section id="hero" class="min-h-screen container mx-auto">
-      <section class="flex flex-row">
+      <section class="flex flex-row mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0">
-          Moin 01
+          <div>
+            Moin 01
+          </div>
+          <div>
+            <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
+              Mehr erfahren
+            </button>
+          </div>
         </article>
         <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-32">
           Welt
