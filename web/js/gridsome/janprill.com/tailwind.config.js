@@ -7,6 +7,10 @@ module.exports = {
       'turkis': '#3edfcd'
     }),
     fontFamily: {
+      myriad: [
+        'myriad-pro',
+        'sans-serif'
+      ],
       neuzeit: [
         '-apple-system', 
         'BlinkMacSystemFont', 

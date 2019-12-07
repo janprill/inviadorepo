@@ -3,10 +3,28 @@
 
     <section id="hero" class="min-h-screen mt-48 container mx-auto">
       <div class="flex flex-row">
-        <div class="bg-primary flex flex-col w-full shadow-primary h-64 mt-0">
-          Moin
+        <div class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 tracking-wide pb-32">
+          <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl">
+            Ich helfe IT-Talenten, mehr Geld zu verdienen und Vermögen aufzubauen
+          </h1>
+          <h2 class="mt-8 text-lg font-light font-myriad">
+            <div class="text-purple-400 text-xl font-bold">
+              Problem: 
+            </div>
+            <div>
+              Du wirst nicht entsprechend des Werts bezahlt, den Du schaffst.
+            </div>
+          </h2>
+          <h2 class="mt-8 text-lg font-light font-myriad">
+            <div class="text-teal-400 text-xl font-bold">
+              Solution: 
+            </div>
+            <div>
+              Du wirst nicht entsprechend des Werts bezahlt, den Du schaffst.
+            </div>
+          </h2>
         </div>
-        <div class="bg-turkis flex flex-col justify-end w-full rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-32">
+        <div class="bg-turkis flex flex-col justify-end items-end w-full rounded-sm max-w-xl shadow-primary h-64 -mt-16  -ml-8">
           Welt
         </div>
       </div>
@@ -32,7 +50,7 @@
         </article>
       </section>
 
-      <section class="flex flex-row">
+      <section class="flex flex-row mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0">
           Moin 03
         </article>
