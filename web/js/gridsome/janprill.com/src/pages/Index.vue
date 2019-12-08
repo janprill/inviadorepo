@@ -30,6 +30,11 @@
                 <li>Hast Du Dein Gehalt regelmäßig und ideal verhandelt?</li>
               </ul>
               <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld nie mehr zu Deinen Problemen gehört.</p>
+              <div>
+                <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
+                  Mehr erfahren
+                </button>
+              </div>
             </div>
           </h2>
         </div>
@@ -41,15 +46,10 @@
 
 
     <section id="hero" class="min-h-screen container mx-auto">
-      <section class="flex flex-row mt-32">
+      <section class="md:flex md:flex-row mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0">
           <div>
             Moin 01
-          </div>
-          <div>
-            <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
-              Mehr erfahren
-            </button>
           </div>
         </article>
         <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-32">
@@ -57,7 +57,7 @@
         </article>
       </section>
 
-      <section class="flex flex-row-reverse mt-32 w-full">
+      <section class="md:flex md:flex-row-reverse mt-32 w-full">
         <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0 mr-0">
           Moin 02
         </article>
@@ -66,7 +66,7 @@
         </article>
       </section>
 
-      <section class="flex flex-row mt-32">
+      <section class="md:flex md:flex-row mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0">
           Moin 03
         </article>
