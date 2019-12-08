@@ -3,7 +3,7 @@
 
     <section id="hero" class=" mt-48 container mx-auto">
       <div class="md:flex md:flex-row">
-        <div class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 tracking-wide pb-32">
+        <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 tracking-wide pb-32">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl">
             Ich helfe IT-Talenten, mehr Geld zu verdienen und Vermögen aufzubauen
           </h1>
@@ -30,6 +30,8 @@
                 <li>Hast Du Dein Gehalt regelmäßig und ideal verhandelt?</li>
               </ul>
               <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld nie mehr zu Deinen Problemen gehört.</p>
+              <p>Coaching ist keine Schwäche, sondern logisch. Wenn ich Dich Coache, machst Du keine vermeidbaren Fehler mehr in der Due diligence Deiner Karriere.
+                Und das Beste: Meine Dienstleistung ist für Dich vollkommen kostenlos. Wie das geht? Kontaktiere mich, dann erkläre ich es Dir.
               <div>
                 <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
                   Mehr erfahren
@@ -37,40 +39,128 @@
               </div>
             </div>
           </h2>
-        </div>
-        <div class="bg-turkis flex flex-col justify-end items-end w-full rounded-sm max-w-xl shadow-primary h-64 -mt-16  -ml-8">
+        </article>
+        <article class="bg-turkis flex flex-col justify-end items-end w-full rounded-sm max-w-xl shadow-primary h-64 -mt-16  -ml-8">
           Welt
-        </div>
+        </article>
       </div>
     </section>
 
 
     <section id="hero" class="min-h-screen container mx-auto">
-      <section class="md:flex md:flex-row mt-32">
-        <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0">
-          <div>
-            Moin 01
-          </div>
-        </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-32">
-          Welt
-        </article>
-      </section>
 
       <section class="md:flex md:flex-row-reverse mt-32 w-full">
-        <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0 mr-0">
-          Moin 02
+        <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-12">
+          <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
+            Vielleicht bist Du im falschen Unternehmen. Ich sage Dir, wo Du mehr verdienst.
+          </h1>
+          <h2 class="mt-8 text-lg font-light font-myriad">
+            <div class="text-purple-400 text-xl font-bold">
+              Problem: 
+            </div>
+            <div>
+              Wenn Du in einem Unternehmen arbeitest, dass ein zu niedriges Gehaltsniveau hat, kannst Du 
+              Dich noch so lang machen und beste Leistungen bieten. Du wist weniger bekommen, als Dein
+              schlechterer Kollege in der richtigen Company.
+            </div>
+          </h2>
+          <h2 class="mt-8 text-lg font-light font-myriad">
+            <div class="text-teal-400 text-xl font-bold">
+              Solution: 
+            </div>
+            <div>
+              <p>
+                In der gleichen Stadt, in der gleichen Position bekommst Du plötzlich über 20% mehr für 
+                interessantere und herausforderndere Arbeit. Ich sage Dir genau, welche Unternehmen das sind,
+                wie Du dort genommen wirst und die ideale Karriere hinlegst. Da solltest Du schon genau überlegen, ob Du 
+                es vor Dir und Deinen Lieben rechtfertigen kannst, nicht zu wechseln.
+              </p>
+              <div>
+                <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
+                  Mehr erfahren
+                </button>
+              </div>
+            </div>
+          </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-32">
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8">
           Welt
         </article>
       </section>
 
       <section class="md:flex md:flex-row mt-32">
-        <article class="bg-primary w-full max-w-xl shadow-primary h-64 mt-0">
-          Moin 03
+        <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-12">
+          <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
+            Vielleicht bist Du in der falschen Position, um zu verdienen wie Dein Zahnarzt
+          </h1>
+          <h2 class="mt-8 text-lg font-light font-myriad">
+            <div class="text-purple-400 text-xl font-bold">
+              Problem: 
+            </div>
+            <div>
+              Du trittst auf Deinem Karrierepfad auf der Stelle. Vielleicht hast Du nicht einmal eine Perspektive.
+              Vielleicht wird der lautere Kollege berücksichtigt.
+            </div>
+          </h2>
+          <h2 class="mt-8 text-lg font-light font-myriad">
+            <div class="text-teal-400 text-xl font-bold">
+              Solution: 
+            </div>
+            <div>
+              <p>
+                Für Deine Gehaltsentwicklung ist es essentiell, dass Du Karriere machst. Das kann, aber muss nicht unbedingt heißen, 
+                dass Du in das Management wechselst. Wichtig ist, dass Du stetige Fortschritte auf Deinen Karrierepfad machst. Stillstand
+                ist der Tod. Ich zeige Dir, wie Du Deine Leistungen so verkaufst, dass Fortentwicklungen nur über Dich und niemals an Dir
+                vorbeigehen.
+              </p>
+              <div>
+                <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
+                  Mehr erfahren
+                </button>
+              </div>
+            </div>
+          </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-32">
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-8">
+          Welt
+        </article>
+      </section>
+
+      <section class="md:flex md:flex-row-reverse mt-32">
+        <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-12">
+          <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
+            Vielleicht bist Du im falschen Unternehmen. Ich sage Dir, wo Du mehr verdienst.
+          </h1>
+          <h2 class="mt-8 text-lg font-light font-myriad">
+            <div class="text-purple-400 text-xl font-bold">
+              Problem: 
+            </div>
+            <div>
+              Wenn Du in einem Unternehmen arbeitest, dass ein zu niedriges Gehaltsniveau hat, kannst Du 
+              Dich noch so lang machen und beste Leistungen bieten. Du wist weniger bekommen, als Dein
+              schlechterer Kollege in der richtigen Company.
+            </div>
+          </h2>
+          <h2 class="mt-8 text-lg font-light font-myriad">
+            <div class="text-teal-400 text-xl font-bold">
+              Solution: 
+            </div>
+            <div>
+              <p>
+                In der gleichen Stadt, in der gleichen Position bekommst Du plötzlich über 20% mehr für 
+                interessantere und herausforderndere Arbeit. Ich sage Dir genau, welche Unternehmen das sind,
+                wie Du dort genommen wirst und die ideale Karriere hinlegst. Da solltest Du schon genau überlegen, ob Du 
+                es vor Dir und Deinen Lieben rechtfertigen kannst, nicht zu wechseln.
+              </p>
+              <div>
+                <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
+                  Mehr erfahren
+                </button>
+              </div>
+            </div>
+          </h2>
+        </article>
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8">
           Welt
         </article>
       </section>
