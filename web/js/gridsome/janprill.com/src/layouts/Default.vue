@@ -9,7 +9,19 @@
     <main class="container mx-auto">
   		<slot />
     </main>
-    <footer></footer>
+    <footer class="container mx-auto shadow-primary">
+      <div class="flex bg-primary">
+        <div class="flex-auto text-gray-700 bg-gray-400 px-4 py-2 m-2">
+          Short
+        </div>
+        <div class="flex-auto text-gray-700 bg-gray-400 px-4 py-2 m-2">
+          Medium length
+        </div>
+        <div class="flex-auto text-gray-700 text-right bg-gray-400 px-4 py-2 m-2">
+          Significantly larger amount of content
+        </div>
+      </div>
+    </footer>
 	</main>
 </template>
 
