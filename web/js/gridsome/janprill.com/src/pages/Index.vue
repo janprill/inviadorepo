@@ -129,16 +129,16 @@
       <section class="md:flex md:flex-row-reverse mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-12">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
-            Vielleicht bist Du im falschen Unternehmen. Ich sage Dir, wo Du mehr verdienst.
+            Vielleicht hast Du Dich ans südliche Ende Deiner Gehaltsrange non-negotiated
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold">
               Problem: 
             </div>
             <div>
-              Wenn Du in einem Unternehmen arbeitest, dass ein zu niedriges Gehaltsniveau hat, kannst Du 
-              Dich noch so lang machen und beste Leistungen bieten. Du wist weniger bekommen, als Dein
-              schlechterer Kollege in der richtigen Company.
+              Viele haben Angst vor Gehaltsverhandlungen und Personalgesprächen. Noch mehr machen üble Fehler, wenn
+              es um die Verhandlung des ersten Gehalts, einer Gehaltserhöhung oder eines Bonus geht. Das sorgt dann dafür, 
+              dass sie - unabhängig von ihrer Leistung sich am südlichen Ende der Range wiederfinden.
             </div>
           </h2>
           <h2 class="mt-8 text-lg font-light font-myriad">
