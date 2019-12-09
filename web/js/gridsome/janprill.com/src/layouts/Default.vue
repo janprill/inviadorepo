@@ -9,7 +9,7 @@
     <main class="container mx-auto">
   		<slot />
     </main>
-    <footer class="container mx-auto shadow-primary">
+    <footer class="container mx-auto shadow-primary mb-16">
       <div class="flex bg-primary">
         <div class="flex-auto text-gray-700 bg-gray-400 px-4 py-2 m-2">
           Short
@@ -32,3 +32,10 @@ query {
   }
 }
 </static-query>
+
+<style>
+  body {
+    background-color: #272727;
+    color: #ddd;
+  }
+</style>

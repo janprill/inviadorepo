@@ -84,8 +84,33 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8">
-          Welt
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8 p-2 font-myriad text-sm">
+          <table class="table-auto text-black shadow-xl border-collapse border border-teal-600">
+            <thead>
+              <tr class="text-left">
+                <th class="px-4 py-2">Title</th>
+                <th class="px-4 py-2">Author</th>
+                <th class="px-4 py-2">Views</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border border-teal-600 px-4 py-2">Intro to CSS</td>
+                <td class="border border-teal-600 px-4 py-2">Adam</td>
+                <td class="border border-teal-600 px-4 py-2">858</td>
+              </tr>
+              <tr class="bg-gray-100">
+                <td class="border border-teal-600 px-4 py-2">A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
+                <td class="border border-teal-600 px-4 py-2">Adam</td>
+                <td class="border border-teal-600 px-4 py-2">112</td>
+              </tr>
+              <tr>
+                <td class="border border-teal-600 px-4 py-2">Into to JavaScript</td>
+                <td class="border border-teal-600 px-4 py-2">Chris</td>
+                <td class="border border-teal-600 px-4 py-2">1,280</td>
+              </tr>
+            </tbody>
+          </table>
         </article>
       </section>
 
