@@ -186,8 +186,8 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8">
-          Welt
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8 p-2">
+          <SalaryRange />
         </article>
       </section>
     </section>
@@ -225,9 +225,14 @@
 </template>
 
 <script>
+import SalaryRange from '@/components/SalaryRange'
+
 export default {
   metaInfo: {
     title: 'janprill.com | Players Agent for 2sigma Devs (and better)*'
+  },
+  components: {
+    SalaryRange
   }
 }
 </script>
