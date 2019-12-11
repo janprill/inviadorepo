@@ -84,30 +84,38 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8 p-2 font-myriad text-sm">
-          <table class="table-auto text-black shadow-xl border-collapse border border-teal-600">
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary mt-32 -mr-8 p-2 font-myriad text-sm text-black">
+          <h2>
+            Wo möchtest Du lieber arbeiten?
+          </h2>
+          <p>
+            Beide Unternehmen sitzen in Hamburg. Beide haben als Unternehmensziel die Entwicklung von Software. 
+            Aber, wenn die Wahl des Unternehmens ein Intelligenzkriterium ist, wo arbeiten dann die intelligenteren Menschen?
+            Abgesehen davon, wenn man die Zahlen sieht, wo würdest Du lieber arbeiten?
+          </p>
+          <table class="table-auto shadow-xl border-collapse border border-teal-600 w-full">
             <thead>
               <tr class="text-left">
-                <th class="px-4 py-2">Title</th>
-                <th class="px-4 py-2">Author</th>
-                <th class="px-4 py-2">Views</th>
+                <th class="px-4 py-2">Personalaufwand</th>
+                <th class="px-4 py-2">Pays little</th>
+                <th class="px-4 py-2">Pays well</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="border border-teal-600 px-4 py-2">Intro to CSS</td>
-                <td class="border border-teal-600 px-4 py-2">Adam</td>
-                <td class="border border-teal-600 px-4 py-2">858</td>
+                <td class="border border-teal-600 px-4 py-2">Löhne und Gehälter</td>
+                <td class="border border-teal-600 px-4 py-2">10.080.758,33 EUR</td>
+                <td class="border border-teal-600 px-4 py-2">20.740.512,12 EUR</td>
               </tr>
               <tr class="bg-gray-100">
-                <td class="border border-teal-600 px-4 py-2">A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
-                <td class="border border-teal-600 px-4 py-2">Adam</td>
-                <td class="border border-teal-600 px-4 py-2">112</td>
+                <td class="border border-teal-600 px-4 py-2">Anzahl Mitarbeiter</td>
+                <td class="border border-teal-600 px-4 py-2">262</td>
+                <td class="border border-teal-600 px-4 py-2">134</td>
               </tr>
               <tr>
-                <td class="border border-teal-600 px-4 py-2">Into to JavaScript</td>
-                <td class="border border-teal-600 px-4 py-2">Chris</td>
-                <td class="border border-teal-600 px-4 py-2">1,280</td>
+                <td class="border border-teal-600 px-4 py-2">Gehalt je Mitarbeiter</td>
+                <td class="border border-teal-600 px-4 py-2">TODO</td>
+                <td class="border border-teal-600 px-4 py-2">TODO</td>
               </tr>
             </tbody>
           </table>
@@ -147,8 +155,18 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -ml-8">
-          Welt
+        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary mt-32 -ml-8 p-2">
+          <h2>
+            Wenn Du nicht Karriere machst, macht es ein anderer.
+          </h2>
+          <p>
+            Embrace the unknown. Wir sorgen gemeinsam dafür, dass Du den für Dich bestmöglichen Karrierepfad möglichst schnell
+            nimmst. Ob Du in Deiner Karriere nach oben kommst, oder Dich nur seitwärts bewegst, macht den Unterschied zwischen
+            Weltreisen oder Malle.
+          </p>
+          <div class="mt-8">
+            <g-image src="/career-path.gif" class="bg-animate rounded shadow-lg shadow border-2 border-gray-500" />
+          </div>
         </article>
       </section>
 
@@ -240,5 +258,23 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+
+.bg-animate {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 25s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 </style>
