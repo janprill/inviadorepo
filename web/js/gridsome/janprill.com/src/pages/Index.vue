@@ -165,7 +165,7 @@
             Weltreisen oder Malle.
           </p>
           <div class="mt-8">
-            <g-image src="/career-path.gif" class="bg-animate rounded shadow-lg shadow border-2 border-gray-500" />
+            <g-image src="/career-path.png" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
           </div>
         </article>
       </section>
