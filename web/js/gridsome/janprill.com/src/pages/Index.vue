@@ -41,8 +41,10 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis flex flex-col justify-end items-end w-full rounded-sm max-w-xl shadow-primary h-64 -mt-16  -ml-8">
-          Welt
+        <article class="bg-turkis flex flex-col w-full rounded-sm max-w-xl shadow-primary h-auto -mt-16  -ml-8 h-px">
+          <div>
+            <g-image src="/jan.gif" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
+          </div>
         </article>
       </div>
     </section>
