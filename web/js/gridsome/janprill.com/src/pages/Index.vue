@@ -41,9 +41,24 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis flex flex-col w-full rounded-sm max-w-xl shadow-primary h-auto -mt-16  -ml-8 h-px">
-          <div>
+        <article class="font-copy text-black bg-saint flex flex-col w-full rounded-sm max-w-xl shadow-primary h-auto -mt-16 -ml-8 p-3 mb-auto">
+          <h2 class="text-2xl text-center my-6">
+            Heute ist Dein Glückstag: Ich arbeite kostenlos für Dich.
+          </h2>
+          <div class=" w-2/3 mx-auto">
             <g-image src="/jan.gif" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
+          </div>
+          <div class="text-md">
+            <p class="mt-12">
+              Der Deal ist sehr simpel: Du sendest mir, als eine Art Bewerbung, Dein XING- oder LinkedIn-Profil. Ich mache eine
+              due diligence Deiner bisherigen Karriere. Je nach dem Potential, dass ich sehe, Deine Karriere auf ein ganz anderes
+              Level zu heben und Dein Gehalt massiv zu verbessern, erhältst Du meine Analyse (das Due Diligence Dokument).
+            </p>
+            <p class="mt-8">
+              Der Deal ist sehr simpel: Du sendest mir, als eine Art Bewerbung, Dein XING- oder LinkedIn-Profil. Ich mache eine
+              due diligence Deiner bisherigen Karriere. Je nach dem Potential, dass ich sehe, Deine Karriere auf ein ganz anderes
+              Level zu heben und Dein Gehalt massiv zu verbessern, erhältst Du meine Analyse (das Due Diligence Dokument).
+            </p>
           </div>
         </article>
       </div>
@@ -262,21 +277,44 @@ export default {
   margin-right: 1rem;
 }
 
+.margin-background {
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+
+.bg-saint {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.bg-elegance {
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: screen;
+}
+
+.bg-full-metal {
+  background-color: #CDDCDC;
+  background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+  background-blend-mode: screen, overlay;
+}
+
 .bg-animate {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradientBG 25s ease infinite;
+  will-change: transform;
 }
 
 @keyframes gradientBG {
 	0% {
 		background-position: 0% 50%;
+    transform: rotateZ(360deg);
 	}
 	50% {
 		background-position: 100% 50%;
+    transform: rotateZ(360deg);
 	}
 	100% {
 		background-position: 0% 50%;
+    transform: rotateZ(360deg);
 	}
 }
 </style>
