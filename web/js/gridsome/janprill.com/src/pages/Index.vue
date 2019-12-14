@@ -9,7 +9,7 @@
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-4 h-4 rounded-full bg-purple-400 mr-2"></div>
+              <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
               <div class="">Problem:</div>
             </div>
             <div>
@@ -18,8 +18,9 @@
             </div>
           </h2>
           <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-teal-400 text-xl font-bold">
-              Solution: 
+            <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
+              <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
+              <div class="">Solution:</div>
             </div>
             <div>
               <p>Wir analysieren gemeinsam Deine bisherigen Entscheidungen:</p>
@@ -54,10 +55,13 @@
               due diligence Deiner bisherigen Karriere. Je nach dem Potential, dass ich sehe, Deine Karriere auf ein ganz anderes
               Level zu heben und Dein Gehalt massiv zu verbessern, erhältst Du meine Analyse (das Due Diligence Dokument).
             </p>
-            <p class="mt-8">
-              Der Deal ist sehr simpel: Du sendest mir, als eine Art Bewerbung, Dein XING- oder LinkedIn-Profil. Ich mache eine
-              due diligence Deiner bisherigen Karriere. Je nach dem Potential, dass ich sehe, Deine Karriere auf ein ganz anderes
-              Level zu heben und Dein Gehalt massiv zu verbessern, erhältst Du meine Analyse (das Due Diligence Dokument).
+            <p class="my-8">
+              Im besten Fall ist das eine umfangreiche Analyse Deines aktuellen Arbeitgebers und Deiner bisherigen Position und 
+              enthält dann Vergleiche mit anderen Arbeitgebern und Peer Candidaten mit einem ähnlichen Erfahrungshorizont. 
+              Es enthält dann bereits sehr konkrete Tipps, z.B. um Dein Gehalt in den nächsten drei Jahren zu verdoppeln. Und 
+              selbst im schlechtesten Fall, in dem ich - im aktuellen Status keine so großen Chancen für Dich sehe, Gehalt und 
+              Position massiv zu verbessern, erhältst Du eine Analyse, warum dies so ist, sowie Tipps, welche Maßnahmen Du ergreifen kannst
+              um Dein Karrierepotential zu erhöhen.
             </p>
           </div>
         </article>
@@ -101,7 +105,7 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary mt-32 -mr-8 p-2 font-myriad text-sm text-black">
+        <article class="bg-saint w-full max-w-lg rounded-sm max-w-xl shadow-primary mt-32 -mr-8 p-2 font-myriad text-sm text-black">
           <h2>
             Wo möchtest Du lieber arbeiten?
           </h2>
@@ -172,7 +176,7 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary mt-32 -ml-8 p-2">
+        <article class="bg-saint w-full max-w-lg rounded-sm max-w-xl shadow-primary mt-32 -ml-8 p-2">
           <h2>
             Wenn Du nicht Karriere machst, macht es ein anderer.
           </h2>
@@ -221,7 +225,7 @@
             </div>
           </h2>
         </article>
-        <article class="bg-turkis w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8 p-2">
+        <article class="bg-saint w-full max-w-lg rounded-sm max-w-xl shadow-primary h-64 mt-32 -mr-8 p-2">
           <SalaryRange />
         </article>
       </section>
