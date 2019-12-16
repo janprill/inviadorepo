@@ -12,35 +12,35 @@
               <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
               <div class="">Problem:</div>
             </div>
-            <div>
-              Du wirst nicht entsprechend des Werts bezahlt, den Du schaffst. Und weil Du deswegen Monat für Monat
-              Geld auf dem Tisch liegen lässt, verlierst Du auf lange Sicht ein Vermögen.
-            </div>
           </h2>
+          <div>
+            Du wirst nicht entsprechend des Werts bezahlt, den Du schaffst. Und weil Du deswegen Monat für Monat
+            Geld auf dem Tisch liegen lässt, verlierst Du auf lange Sicht ein Vermögen.
+          </div>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
               <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
               <div class="">Solution:</div>
             </div>
-            <div>
-              <p>Wir analysieren gemeinsam Deine bisherigen Entscheidungen:</p>
-              <ul class="circle">
-                <li>Bist Du im richtigen Unternehmen, um bezahlt zu werden, wie Dein Zahnarzt?</li>
-                <li>Bist Du auf der richtigen Position?</li>
-                <li>Läuft Deine Karriere so, dass Du auf Deinem idealen Karrierepfad bist?</li>
-                <li>Bist Du vielleicht eher Entrepreneur als Angestellter?</li>
-                <li>Hast Du Dein Gehalt regelmäßig und ideal verhandelt?</li>
-              </ul>
-              <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld nicht mehr zu Deinen Problemen gehört.</p>
-              <p>Coaching ist keine Schwäche, sondern logisch. Wenn ich Dich Coache, machst Du keine vermeidbaren Fehler mehr in der due diligence Deiner Karriere.
-                Und das Beste: Meine Dienstleistung ist für Dich vollkommen kostenlos. Wie das geht? Kontaktiere mich, dann erkläre ich es Dir. Link
-              <div>
-                <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
           </h2>
+          <div>
+            <p>Wir analysieren gemeinsam Deine bisherigen Entscheidungen:</p>
+            <ul class="list-disc my-6 ml-8">
+              <li>Bist Du im richtigen Unternehmen, um bezahlt zu werden, wie Dein Zahnarzt?</li>
+              <li>Bist Du auf der richtigen Position?</li>
+              <li>Läuft Deine Karriere so, dass Du auf Deinem idealen Karrierepfad bist?</li>
+              <li>Bist Du vielleicht eher Entrepreneur als Angestellter?</li>
+              <li>Hast Du Dein Gehalt regelmäßig und ideal verhandelt?</li>
+            </ul>
+            <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld nicht mehr zu Deinen Problemen gehört.</p>
+            <p>Coaching ist keine Schwäche, sondern logisch. Wenn ich Dich Coache, machst Du keine vermeidbaren Fehler mehr in der due diligence Deiner Karriere.
+              Und das Beste: Meine Dienstleistung ist für Dich vollkommen kostenlos. Wie das geht? Kontaktiere mich, dann erkläre ich es Dir. Link
+            <div>
+              <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
+                Mehr erfahren
+              </button>
+            </div>
+          </div>
         </article>
         <article class="font-copy text-black bg-saint flex flex-col w-full rounded-sm max-w-xl shadow-primary h-auto -mt-16 -ml-8 p-3 mb-auto">
           <h2 class="text-2xl text-center my-6">
@@ -77,8 +77,9 @@
             Vielleicht bist Du im falschen Unternehmen. Ich sage Dir, wo Du mehr verdienst.
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-purple-400 text-xl font-bold">
-              Problem: 
+            <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
+              <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
+              <div class="">Problem:</div>
             </div>
             <div>
               Wenn Du in einem Unternehmen arbeitest, dass ein zu niedriges Gehaltsniveau hat, kannst Du 
@@ -87,8 +88,9 @@
             </div>
           </h2>
           <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-teal-400 text-xl font-bold">
-              Solution: 
+            <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
+              <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
+              <div class="">Solution:</div>
             </div>
             <div>
               <p>
@@ -149,8 +151,9 @@
             Vielleicht bist Du in der falschen Position, um zu verdienen wie Dein Zahnarzt
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-purple-400 text-xl font-bold">
-              Problem: 
+            <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
+              <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
+              <div class="">Problem:</div>
             </div>
             <div>
               Du trittst auf Deinem Karrierepfad auf der Stelle. Vielleicht hast Du nicht einmal eine Perspektive.
@@ -158,8 +161,9 @@
             </div>
           </h2>
           <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-teal-400 text-xl font-bold">
-              Solution: 
+            <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
+              <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
+              <div class="">Solution:</div>
             </div>
             <div>
               <p>
@@ -197,8 +201,9 @@
             Vielleicht hast Du Dich ans südliche Ende Deiner Gehaltsrange non-negotiated
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-purple-400 text-xl font-bold">
-              Problem: 
+            <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
+              <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
+              <div class="">Problem:</div>
             </div>
             <div>
               Viele haben Angst vor Gehaltsverhandlungen und Personalgesprächen. Noch mehr machen üble Fehler, wenn
@@ -207,8 +212,9 @@
             </div>
           </h2>
           <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-teal-400 text-xl font-bold">
-              Solution: 
+            <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
+              <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
+              <div class="">Solution:</div>
             </div>
             <div>
               <p>
@@ -281,23 +287,8 @@ export default {
   margin-right: 1rem;
 }
 
-.margin-background {
-  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-}
-
 .bg-saint {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-}
-
-.bg-elegance {
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-  background-blend-mode: screen;
-}
-
-.bg-full-metal {
-  background-color: #CDDCDC;
-  background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
-  background-blend-mode: screen, overlay;
 }
 
 .bg-animate {

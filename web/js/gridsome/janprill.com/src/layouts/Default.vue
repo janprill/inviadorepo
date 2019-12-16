@@ -1,12 +1,12 @@
 
 <template>
-	<main class="antialiased bg-primary w-full h-full text-white flex flex-col justify-start items-start font-body">
+	<main class="antialiased bg-primary w-full h-full text-white flex flex-col justify-start items-start font-copy">
     <header class="container mx-auto p-4">
       <div class="text-3xl text-white font-copy font-light">
         janprill
       </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto font-copy text-xl">
   		<slot />
     </main>
     <footer class="container mx-auto shadow-primary mb-16">
