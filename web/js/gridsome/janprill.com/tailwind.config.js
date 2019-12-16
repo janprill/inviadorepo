@@ -23,6 +23,12 @@ module.exports = {
         '"Helvetica Neue"',
         'sans-serif'
       ],
+      neu: [
+        'neuzeit-grotesk'
+      ],
+      meta: [
+        'ff-meta-serif-web-pro'
+      ],
     },
     extend: {
       colors: {

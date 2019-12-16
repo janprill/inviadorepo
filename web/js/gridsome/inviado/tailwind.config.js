@@ -253,6 +253,12 @@ module.exports = {
         'neuzeit-grotesk',
         '"Segoe UI"'
       ],
+      neu: [
+        'neuzeit-grotesk'
+      ],
+      meta: [
+        'ff-meta-serif-web-pro'
+      ],
       headline: [
         'ff-meta-serif-web-pro',
         'serif'

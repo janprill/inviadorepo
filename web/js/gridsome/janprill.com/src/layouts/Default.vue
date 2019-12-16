@@ -12,13 +12,16 @@
     <footer class="container mx-auto shadow-primary mb-16">
       <div class="flex bg-primary">
         <div class="flex-auto text-gray-700 bg-gray-400 px-4 py-2 m-2">
-          Short
+          Impressum
         </div>
         <div class="flex-auto text-gray-700 bg-gray-400 px-4 py-2 m-2">
-          Medium length
+          Datenschutz
         </div>
-        <div class="flex-auto text-gray-700 text-right bg-gray-400 px-4 py-2 m-2">
-          Significantly larger amount of content
+        <div class="flex-auto text-gray-700 text-left bg-gray-400 px-4 py-2 m-2">
+          Jan Prill hat 17+ Jahre Erfahrung in der Softwareentwicklung. 10+ Jahre davon Führungserfahrung in DEV-Teams unterschiedlicher Größe. 
+          Er hat Teams von 3 bis 12 Personen in Internetstartups, bei global agierenden Informationskonzernen, sowie im Softwaremittelstand geleitet.
+          Jan hat - einfach mal so nebenbei - Informationsbusinesses aufgebaut, die digitale Produkte im sechsstelligen Bereich umgesetzt haben.
+          Jan ist außerdem Rechtsanwalt und betreibt seit 2007 seine wohnzimmerkanzlei.com.
         </div>
       </div>
     </footer>

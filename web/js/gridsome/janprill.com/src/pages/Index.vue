@@ -3,8 +3,8 @@
 
     <section id="hero" class=" mt-48 container mx-auto">
       <div class="md:flex md:flex-row">
-        <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 tracking-wide pb-32">
-          <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl">
+        <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 pb-32 pr-20">
+          <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl tracking-wide">
             Ich helfe IT-Talenten, mehr Geld zu verdienen und Vermögen aufzubauen
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
@@ -23,7 +23,7 @@
               <div class="">Solution:</div>
             </div>
           </h2>
-          <div>
+          <div class="font-neu text-xl">
             <p>Wir analysieren gemeinsam Deine bisherigen Entscheidungen:</p>
             <ul class="list-disc my-6 ml-8">
               <li>Bist Du im richtigen Unternehmen, um bezahlt zu werden, wie Dein Zahnarzt?</li>
@@ -32,7 +32,7 @@
               <li>Bist Du vielleicht eher Entrepreneur als Angestellter?</li>
               <li>Hast Du Dein Gehalt regelmäßig und ideal verhandelt?</li>
             </ul>
-            <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld nicht mehr zu Deinen Problemen gehört.</p>
+            <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld etwas ist, das nicht mehr zu Deinen Problemen gehört.</p>
             <p>Coaching ist keine Schwäche, sondern logisch. Wenn ich Dich Coache, machst Du keine vermeidbaren Fehler mehr in der due diligence Deiner Karriere.
               Und das Beste: Meine Dienstleistung ist für Dich vollkommen kostenlos. Wie das geht? Kontaktiere mich, dann erkläre ich es Dir. Link
             <div>
@@ -43,14 +43,14 @@
           </div>
         </article>
         <article class="font-copy text-black bg-saint flex flex-col w-full rounded-sm max-w-xl shadow-primary h-auto -mt-16 -ml-8 p-3 mb-auto">
-          <h2 class="text-2xl text-center my-6">
-            Heute ist Dein Glückstag: Ich arbeite kostenlos für Dich.
-          </h2>
           <div class=" w-2/3 mx-auto">
             <g-image src="/jan.gif" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
           </div>
           <div class="text-md">
-            <p class="mt-8">
+            <h2 class="text-2xl text-center font-meta font-black my-6">
+              Willst Du es Dir wirklich leisten, mehrere 100.000 EUR auf dem Tisch zu lassen?
+            </h2>
+            <p class="mt-8 font-meta font-medium text-lg">
               Für die perfekte Karriere braucht man einen erstklassigen Trainingsplan. Damit man bei den entscheidenden Wettbewerben, 
               um Projekterfolge und Positionen topfit an den Start und als Sieger hervorgeht. 
             </p>
@@ -235,22 +235,6 @@
           <SalaryRange />
         </article>
       </section>
-    </section>
-
-
-    <section id="law" class="m-6 p-6 border border-black">
-      <h1>
-        Wohnzimmerkanzlei
-      </h1>
-      <p>
-        Wenn Entwickler sich mit mit Arbeitgebern oder Auftraggebern streiten, dann sind sie in meiner Wohnzimmerkanzlei herzlich willkommen.
-        Ich entwickle selbst seit über 20 Jahren Software. Habe über 10 Jahre in Führungspositionen in Softwareentwicklungsabteilungen gearbeitet.
-        Ich spreche Deine Sprache und verstehe Deine Probleme. Und genau das ist der erste Schritt: Wir analysieren gemeinsam, wo das Problem liegt 
-        und wie wir es - zu Deinem Vorteil - aus der Welt schaffen können.
-      </p>
-      <p>
-        Alle Informationen findest Du hier, auf den Seiten der Wohnzimmerkanzlei.
-      </p>
     </section>
 
     <section id="lab" class="m-6 p-6 border border-black">
