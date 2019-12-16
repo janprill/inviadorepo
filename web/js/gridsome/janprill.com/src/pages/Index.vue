@@ -24,16 +24,16 @@
             </div>
             <div>
               <p>Wir analysieren gemeinsam Deine bisherigen Entscheidungen:</p>
-              <ul>
+              <ul class="circle">
                 <li>Bist Du im richtigen Unternehmen, um bezahlt zu werden, wie Dein Zahnarzt?</li>
                 <li>Bist Du auf der richtigen Position?</li>
                 <li>Läuft Deine Karriere so, dass Du auf Deinem idealen Karrierepfad bist?</li>
                 <li>Bist Du vielleicht eher Entrepreneur als Angestellter?</li>
                 <li>Hast Du Dein Gehalt regelmäßig und ideal verhandelt?</li>
               </ul>
-              <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld nie mehr zu Deinen Problemen gehört.</p>
-              <p>Coaching ist keine Schwäche, sondern logisch. Wenn ich Dich Coache, machst Du keine vermeidbaren Fehler mehr in der Due diligence Deiner Karriere.
-                Und das Beste: Meine Dienstleistung ist für Dich vollkommen kostenlos. Wie das geht? Kontaktiere mich, dann erkläre ich es Dir.
+              <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld nicht mehr zu Deinen Problemen gehört.</p>
+              <p>Coaching ist keine Schwäche, sondern logisch. Wenn ich Dich Coache, machst Du keine vermeidbaren Fehler mehr in der due diligence Deiner Karriere.
+                Und das Beste: Meine Dienstleistung ist für Dich vollkommen kostenlos. Wie das geht? Kontaktiere mich, dann erkläre ich es Dir. Link
               <div>
                 <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
                   Mehr erfahren
@@ -50,18 +50,18 @@
             <g-image src="/jan.gif" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
           </div>
           <div class="text-md">
-            <p class="mt-12">
-              Der Deal ist sehr simpel: Du sendest mir, als eine Art Bewerbung, Dein XING- oder LinkedIn-Profil. Ich mache eine
-              due diligence Deiner bisherigen Karriere. Je nach dem Potential, dass ich sehe, Deine Karriere auf ein ganz anderes
-              Level zu heben und Dein Gehalt massiv zu verbessern, erhältst Du meine Analyse (das Due Diligence Dokument).
+            <p class="mt-8">
+              Für die perfekte Karriere braucht man einen erstklassigen Trainingsplan. Damit man bei den entscheidenden Wettbewerben, 
+              um Projekterfolge und Positionen topfit an den Start und als Sieger hervorgeht. 
+            </p>
+            <p class="mt-8">
+              Ich erstelle Dir so einen Karriereplan. Und dieser beginnt mit einer Analyse des Status quo. 
+              Einer Due Diligence Deiner bisherigen Entscheidungen in Bezug auf die Auswahl Deines Unternehmens und Deiner Kollegen. 
+              Ich sage Dir, ob es Zeit ist, den Verein zu wechseln und ob Du auf der richtigen Position spielst.
             </p>
             <p class="my-8">
-              Im besten Fall ist das eine umfangreiche Analyse Deines aktuellen Arbeitgebers und Deiner bisherigen Position und 
-              enthält dann Vergleiche mit anderen Arbeitgebern und Peer Candidaten mit einem ähnlichen Erfahrungshorizont. 
-              Es enthält dann bereits sehr konkrete Tipps, z.B. um Dein Gehalt in den nächsten drei Jahren zu verdoppeln. Und 
-              selbst im schlechtesten Fall, in dem ich - im aktuellen Status keine so großen Chancen für Dich sehe, Gehalt und 
-              Position massiv zu verbessern, erhältst Du eine Analyse, warum dies so ist, sowie Tipps, welche Maßnahmen Du ergreifen kannst
-              um Dein Karrierepotential zu erhöhen.
+              Was Du dafür tun musst? Nichts weiter als einen kostenlosen Call mit mir vereinbaren. Nutze dafür den 
+              folgenden Button: 
             </p>
           </div>
         </article>
@@ -135,8 +135,8 @@
               </tr>
               <tr>
                 <td class="border border-teal-600 px-4 py-2">Gehalt je Mitarbeiter</td>
-                <td class="border border-teal-600 px-4 py-2">TODO</td>
-                <td class="border border-teal-600 px-4 py-2">TODO</td>
+                <td class="border border-teal-600 px-4 py-2">38.476,18 EUR</td>
+                <td class="border border-teal-600 px-4 py-2">154.779,94 EUR</td>
               </tr>
             </tbody>
           </table>
