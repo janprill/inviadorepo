@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full text-black font-myriad text-sm mt-16">
-    <h2>
+  <div class="w-full text-gray-800">
+    <h2 class="text-2xl text-center font-myriad font-light my-6">
       On which end of your potential salary range would you rather be?
     </h2>
     <div class="w-full bg-primary h-2 mt-16 shadow-xl shadow-primary">

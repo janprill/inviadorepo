@@ -29,6 +29,9 @@ module.exports = {
       meta: [
         'ff-meta-serif-web-pro'
       ],
+      freight: [
+        'freight-sans-pro'
+      ],
     },
     extend: {
       colors: {

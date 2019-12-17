@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="text-white font-copy text-lg container max-w-xl mx-auto bg-black">
-      <h1 class="font-neuzeit text-4xl mt-16 font-bold">Impressum</h1>
+    <div class="text-white text-lg max-w-xl container mx-auto">
+      <h1 class="text-4xl mt-16 font-bold">Impressum</h1>
 
-      <h2 class="mt-16 font-neuzeit text-2xl font-bold">Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+      <h2 class="mt-16 text-2xl font-bold">Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
       <p class="mt-6">
         Inviado Ltd &amp; Co KG<br />
         Babendiekstr. 60b<br />
@@ -34,14 +34,14 @@
         </a>
       </p>
 
-      <h2 class="mt-16 font-neuzeit text-2xl font-bold">Kontakt</h2>
+      <h2 class="mt-16 text-2xl font-bold">Kontakt</h2>
       <p class="mt-6">
         Telefon: +49 171 3516667<br />
         Telefax: +49 40 380178-730229<br />
         E-Mail: jan.prill@inviado.com
       </p>
 
-      <h2 class="mt-16 font-neuzeit text-2xl font-bold">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
+      <h2 class="mt-16 text-2xl font-bold">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
       <p class="mt-6">
         Rein vorsorglich, weil der verantwortliche Betreiber dieser Website, Jan Prill, in Deutschlanda als Rechtsanwalt zugelassen ist, 
         folgen diese ergänzenden Informationen:
@@ -71,7 +71,7 @@
         vor einer Verbraucherschlichtungsstelle teilzunehmen.
       </p>
 
-      <h3 class="mt-16 font-neuzeit text-xl font-bold">Haftung f&uuml;r Inhalte</h3>
+      <h3 class="mt-16 text-xl font-bold">Haftung f&uuml;r Inhalte</h3>
       <p class="mt-6">
         Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs.1 TMG
         f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
@@ -89,7 +89,7 @@
         Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese
         Inhalte umgehend entfernen.
       </p>
-      <h3 class="mt-16 font-neuzeit text-xl font-bold">Haftung f&uuml;r Links</h3>
+      <h3 class="mt-16 text-xl font-bold">Haftung f&uuml;r Links</h3>
       <p class="mt-6">
         Unser Angebot enth&auml;lt Links zu externen Websites Dritter, auf deren
         Inhalte wir keinen Einfluss haben. Deshalb k&ouml;nnen wir f&uuml;r
@@ -106,7 +106,7 @@
         Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend
         entfernen.
       </p>
-      <h3 class="mt-16 font-neuzeit text-xl font-bold">Urheberrecht</h3>
+      <h3 class="mt-16 text-xl font-bold">Urheberrecht</h3>
       <p class="mt-6">
         Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
         Seiten unterliegen dem deutschen Urheberrecht. Die

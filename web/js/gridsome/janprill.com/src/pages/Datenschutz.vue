@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <div class="text-white container max-w-xl mx-auto font-copy text-lg">
-      <h1 class="font-neuzeit text-4xl mt-16 font-bold">Datenschutzerklärung</h1>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m14">Einleitung</h2>
+      <h1 class="text-4xl mt-16 font-bold">Datenschutzerklärung</h1>
+      <h2 class="text-xl mt-16 font-bold" id="m14">Einleitung</h2>
       <p class="mt-4">
         Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
         aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch
@@ -17,7 +17,7 @@
       <p class="mt-4">Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
       <ul class="list-disc mt-4"></ul>
       <p class="mt-4">Stand: 25. November 2019</p>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold">Inhaltsübersicht</h2>
+      <h2 class="text-xl mt-16 font-bold">Inhaltsübersicht</h2>
       <ul class="list-disc mt-4">
         <li><a href="#m14"> Einleitung</a></li>
         <li><a href="#m3"> Verantwortlicher</a></li>
@@ -62,9 +62,9 @@
         </li>
         <li><a href="#m42"> Begriffsdefinitionen</a></li>
       </ul>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m3">Verantwortlicher</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m3">Verantwortlicher</h2>
       <p class="mt-4">Inviado Ltd & Co KG<br />wie im Impressum angegeben: 
-        <a href="https://inviado.com/impressum">https://inviado.com/impressum</a>
+        <a href="https://janprill.com/impressum">https://inviado.com/impressum</a>
       </p>
       <p class="mt-4">
         <strong>Vertretungsberechtigte Personen</strong>: Jan Prill,
@@ -76,12 +76,12 @@
       </p>
       <p class="mt-4">
         <strong>Impressum</strong>:
-        <a href="https://inviado.com/impressum" target="_blank"
-          >https://inviado.com/impressum</a
+        <a href="https://janprill.com/impressum" target="_blank"
+          >https://janprill.com/impressum</a
         >
       </p>
       <ul class="list-disc mt-4"></ul>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="mOverview">Übersicht der Verarbeitungen</h2>
+      <h2 class="text-xl mt-16 font-bold" id="mOverview">Übersicht der Verarbeitungen</h2>
       <p class="mt-4">
         Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und
         die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen
@@ -166,7 +166,7 @@
         Anwendung gelangen.
       </p>
       <ul class="list-disc mt-4"></ul>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m27">Sicherheitsmaßnahmen</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m27">Sicherheitsmaßnahmen</h2>
       <p class="mt-4">
         Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter
         Berücksichtigung des Stands der Technik, der Implementierungskosten und
@@ -195,7 +195,7 @@
         SSL-Verschlüsselung. Sie erkennen derart verschlüsselte Verbindungen an
         dem Präfix https:// in der Adresszeile Ihres Browsers.
       </p>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m25">Übermittlung und Offenbarung von personenbezogenen Daten</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m25">Übermittlung und Offenbarung von personenbezogenen Daten</h2>
       <p class="mt-4">
         Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor,
         dass die Daten an andere Stellen, Unternehmen, rechtlich selbstständige
@@ -208,7 +208,7 @@
         Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den
         Empfängern Ihrer Daten ab.
       </p>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m24">Datenverarbeitung in Drittländern</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m24">Datenverarbeitung in Drittländern</h2>
       <p class="mt-4">
         Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen
         Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder
@@ -234,9 +234,9 @@
         >
         ).
       </p>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m134">Einsatz von Cookies</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m134">Einsatz von Cookies</h2>
       <p class="mt-4">
-        Auf dieser Website (inviado.com) werden KEINE cookies eingesetzt. Es ist aber nicht ausgeschlossen,
+        Auf dieser Website (janprill.com) werden KEINE cookies eingesetzt. Es ist aber nicht ausgeschlossen,
         dass Drittanbieter Cookies einsetzen. Deswegen informiere ich Sie im folgenden Abschnitt, allgemein 
         über Cookies.
       </p>
@@ -381,7 +381,7 @@
           </p>
         </li>
       </ul>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m225">Bereitstellung des Onlineangebotes und Webhosting</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m225">Bereitstellung des Onlineangebotes und Webhosting</h2>
       <p class="mt-4">
         Um unser Onlineangebot sicher und effizient bereitstellen zu können,
         nehmen wir die Leistungen von einem oder mehreren Webhosting-Anbietern
@@ -471,7 +471,7 @@
           </p>
         </li>
       </ul>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m17">Newsletter und Breitenkommunikation</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m17">Newsletter und Breitenkommunikation</h2>
       <p class="mt-4">
         Wir versenden Newsletter, E-Mails und weitere elektronische
         Benachrichtigungen (nachfolgend "Newsletter“) nur mit der Einwilligung
@@ -644,7 +644,7 @@
           </p>
         </li>
       </ul>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m12">Löschung von Daten</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m12">Löschung von Daten</h2>
       <p class="mt-4">
         Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen
         Vorgaben gelöscht, sobald deren zur Verarbeitung erlaubten
@@ -668,7 +668,7 @@
         Datenschutzerklärung erfolgen.
       </p>
       <ul class="list-disc mt-4"></ul>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m15">Änderung und Aktualisierung der Datenschutzerklärung</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m15">Änderung und Aktualisierung der Datenschutzerklärung</h2>
       <p class="mt-4">
         Wir bitten Sie, sich regelmäßig über den Inhalt unserer
         Datenschutzerklärung zu informieren. Wir passen die Datenschutzerklärung
@@ -683,7 +683,7 @@
         wir zu beachten, dass die Adressen sich über die Zeit ändern können und
         bitten die Angaben vor Kontaktaufnahme zu prüfen.
       </p>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m10">Rechte der betroffenen Personen</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m10">Rechte der betroffenen Personen</h2>
       <p class="mt-4">
         Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die
         sich insbesondere aus Art. 15 bis 18 und 21 DSGVO ergeben:
@@ -745,7 +745,7 @@
           betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
         </li>
       </ul>
-      <h2 class="font-neuzeit text-xl mt-16 font-bold" id="m42">Begriffsdefinitionen</h2>
+      <h2 class="text-xl mt-16 font-bold" id="m42">Begriffsdefinitionen</h2>
       <p class="mt-4">
         In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser
         Datenschutzerklärung verwendeten Begrifflichkeiten. Viele der Begriffe
