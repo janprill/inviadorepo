@@ -5,7 +5,7 @@
       <div class="md:flex md:flex-row">
         <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 pb-32 md:pr-20 mb-auto">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl tracking-wide">
-            I help IT talents earn more money and build assets
+            Ich helfe IT-Talenten, mehr Geld zu verdienen und Vermögen aufzubauen
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -14,8 +14,8 @@
             </div>
           </h2>
           <div class="font-neu text-lg">
-            You are not paid according to the value you create. And that is why, 
-            month after month, you leave money on the table and lose a fortune in the long run.
+            Du wirst nicht entsprechend des Werts bezahlt, den Du schaffst. Und weil Du deswegen Monat für Monat
+            Geld auf dem Tisch liegen lässt, verlierst Du auf lange Sicht ein Vermögen.
           </div>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -24,16 +24,17 @@
             </div>
           </h2>
           <div class="text-lg">
-            <p>We analyze your personal decisions together:</p>
+            <p>Wir analysieren gemeinsam Deine bisherigen Entscheidungen:</p>
             <ul class="list-disc my-6 ml-8">
-              <li>Are you in the right company to get paid, like your dentist?</li>
-              <li>Are you in the right position?</li>
-              <li>Does your career run in such a way that you are on your ideal career path?</li>
-              <li>Are you more of an entrepreneur than an employee?</li>
-              <li>Did you negotiate your salary regularly and in an ideal way?</li>
+              <li>Bist Du im richtigen Unternehmen, um bezahlt zu werden, wie Dein Zahnarzt?</li>
+              <li>Bist Du auf der richtigen Position?</li>
+              <li>Läuft Deine Karriere so, dass Du auf Deinem idealen Karrierepfad bist?</li>
+              <li>Bist Du vielleicht eher Entrepreneur als Angestellter?</li>
+              <li>Hast Du Dein Gehalt regelmäßig und ideal verhandelt?</li>
             </ul>
-            <p>From now on I will help you to make the choices that will ensure that money is no more part of your problems.</p>
-            <p>When I coach you, you no longer make avoidable mistakes in the due diligence of your career. My service is completely free for you. How is that possible? Contact me, and I will explain it to you.</p>
+            <p>Und dann helfe ich Dir, ab heute die Entscheidungen zu treffen, die dafür Sorgen, dass Geld etwas ist, das nicht mehr zu Deinen Problemen gehört.</p>
+            <p>Coaching ist keine Schwäche, sondern logisch. Wenn ich Dich Coache, machst Du keine vermeidbaren Fehler mehr in der due diligence Deiner Karriere.
+              Und das Beste: Meine Dienstleistung ist für Dich vollkommen kostenlos. Wie das geht? Kontaktiere mich, dann erkläre ich es Dir. Link
             <div class="mt-8">
               <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
                 Schedule a call with me
@@ -48,16 +49,20 @@
           </div>
           <div class="text-md">
             <h2 class="text-2xl text-center font-myriad font-light my-6">
-              Do you really want to afford to leave several 100,000 EUR on the table?
+              Willst Du es Dir wirklich leisten, mehrere 100.000 EUR auf dem Tisch zu lassen?
             </h2>
             <p class="mt-8">
-              For the perfect career you need a first class training plan. To win the competition for the most wanted positions.
+              Für die perfekte Karriere braucht man einen erstklassigen Trainingsplan. Damit man bei den entscheidenden Wettbewerben, 
+              um Projekterfolge und Positionen topfit an den Start und als Sieger hervorgeht. 
             </p>
             <p class="mt-8">
-              I will create such a career plan for you. And it starts with an analysis of the status quo. A due diligence of your previous decisions regarding the selection of your company and your colleagues. I'll tell you if it's time to change teams and if you're playing in the right position.
+              Ich erstelle Dir so einen Karriereplan. Und dieser beginnt mit einer Analyse des Status quo. 
+              Einer Due Diligence Deiner bisherigen Entscheidungen in Bezug auf die Auswahl Deines Unternehmens und Deiner Kollegen. 
+              Ich sage Dir, ob es Zeit ist, den Verein zu wechseln und ob Du auf der richtigen Position spielst.
             </p>
             <p class="my-8">
-              Arrange a free call with me, then I will explain to you what I will do for you - completely free of charge:
+              Was Du dafür tun musst? Nichts weiter als einen kostenlosen Call mit mir vereinbaren. Nutze dafür den 
+              folgenden Button: 
             </p>
             <div class="mt-8">
               <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-black hover:border-transparent rounded-3xl">
@@ -75,7 +80,7 @@
       <section class="md:flex md:flex-row-reverse mt-32 w-full">
         <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 md:pl-16 mb-auto">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
-            Maybe you're in the wrong organization. I'll tell you where you earn more.
+            Vielleicht bist Du im falschen Unternehmen. Ich sage Dir, wo Du mehr verdienst.
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -84,7 +89,9 @@
             </div>
           </h2>
           <div>
-            If you work in a company that has a low salary level, you can go on for as long as you want and perform at your best. Nevertheless, you will get less than the worst employee in the company who pays more to each and every employee at your level.
+            Wenn Du in einem Unternehmen arbeitest, dass ein zu niedriges Gehaltsniveau hat, kannst Du 
+            Dich noch so lang machen und beste Leistungen bieten. Du wist weniger bekommen, als Dein
+            schlechterer Kollege in der richtigen Company.
           </div>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -93,30 +100,35 @@
             </div>
           </h2>
           <div>
-            In the same city, in the same position, you suddenly get over 20% more for more interesting and more challenging work. I' ll tell you exactly which companies these are, how you will be recruited there and what your dream career will be. You should consider carefully whether you can justify to yourself and your loved ones not to switch.
+            In der gleichen Stadt, in der gleichen Position bekommst Du plötzlich über 20% mehr für 
+            interessantere und herausforderndere Arbeit. Ich sage Dir genau, welche Unternehmen das sind,
+            wie Du dort genommen wirst und die ideale Karriere hinlegst. Da solltest Du schon genau überlegen, ob Du 
+            es vor Dir und Deinen Lieben rechtfertigen kannst, nicht zu wechseln.
           </div>
         </article>
 
         <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-mr-8 p-6 mb-auto text-base text-gray-800">
           <h2 class="text-2xl text-center font-myriad font-light my-6">
-            Where would you rather work?
+            Wo möchtest Du lieber arbeiten?
           </h2>
           <p>
-            Both companies are based in Hamburg, Germany. Both have software development as their corporate goal. If you look at these figures, where would you rather work?
+            Beide Unternehmen sitzen in Hamburg. Beide haben als Unternehmensziel die Entwicklung von Software. 
+            Aber, wenn die Wahl des Unternehmens ein Intelligenzkriterium ist, wo arbeiten dann die intelligenteren Menschen?
+            Abgesehen davon, wenn man die Zahlen sieht, wo würdest Du lieber arbeiten?
           </p>
           <table class="table-auto shadow-xl border-collapse border border-teal-600 w-full my-8">
             <thead>
               <tr class="text-left">
-                <th class="px-4 py-2">Personnel expenses</th>
+                <th class="px-4 py-2">Personalaufwand</th>
                 <th class="px-4 py-2">Pays little</th>
                 <th class="px-4 py-2">Pays well</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="border border-teal-600 px-4 py-2">Wages and salaries</td>
-                <td class="border border-teal-600 px-4 py-2">10,080,758.33 EUR</td>
-                <td class="border border-teal-600 px-4 py-2">20,740,512.12 EUR</td>
+                <td class="border border-teal-600 px-4 py-2">Löhne und Gehälter</td>
+                <td class="border border-teal-600 px-4 py-2">10.080.758,33 EUR</td>
+                <td class="border border-teal-600 px-4 py-2">20.740.512,12 EUR</td>
               </tr>
               <tr class="bg-gray-100">
                 <td class="border border-teal-600 px-4 py-2">Anzahl Mitarbeiter</td>
@@ -125,8 +137,8 @@
               </tr>
               <tr>
                 <td class="border border-teal-600 px-4 py-2">Gehalt je Mitarbeiter</td>
-                <td class="border border-teal-600 px-4 py-2">38,476.18 EUR</td>
-                <td class="border border-teal-600 px-4 py-2">154,779.94 EUR</td>
+                <td class="border border-teal-600 px-4 py-2">38.476,18 EUR</td>
+                <td class="border border-teal-600 px-4 py-2">154.779,94 EUR</td>
               </tr>
             </tbody>
           </table>
@@ -136,7 +148,7 @@
       <section class="md:flex md:flex-row mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 mb-auto">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
-            Maybe you're in the wrong position to earn like your dentist.
+            Vielleicht bist Du in der falschen Position, um zu verdienen wie Dein Zahnarzt
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -145,7 +157,8 @@
             </div>
           </h2>
           <div>
-            You are treading water on your career path. Maybe you don't even have a perspective. Probably the louder colleague will be considered.
+            Du trittst auf Deinem Karrierepfad auf der Stelle. Vielleicht hast Du nicht einmal eine Perspektive.
+            Vielleicht wird der lautere Kollege berücksichtigt.
           </div>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -155,17 +168,22 @@
           </h2>
           <div>
             <p>
-              For your salary development it is essential that you have a career. This could, but doesn't necessarily, mean that you are moving to management. It is important that you make steady progress on your career path. Stagnation is death. I'll show you how to sell your performance in such a way that you see every opportunity for advancement early on and are considered when opportunities arise.
+              Für Deine Gehaltsentwicklung ist es essentiell, dass Du Karriere machst. Das kann, aber muss nicht unbedingt heißen, 
+              dass Du in das Management wechselst. Wichtig ist, dass Du stetige Fortschritte auf Deinen Karrierepfad machst. Stillstand
+              ist der Tod. Ich zeige Dir, wie Du Deine Leistungen so verkaufst, dass Fortentwicklungen nur über Dich und niemals an Dir
+              vorbeigehen.
             </p>
           </div>
         </article>
 
         <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-ml-8 p-6 mb-auto text-base text-gray-800">
           <h2 class="text-2xl text-center font-myriad font-light my-6">
-            If you don't make a career, someone else will.
+            Wenn Du nicht Karriere machst, macht es ein anderer.
           </h2>
           <p>
-            Embrace the unknown. Together, we will make sure that you take the best possible career path for you as quickly as possible. Whether you get to the top of your career or just move sideways makes all the difference.
+            Embrace the unknown. Wir sorgen gemeinsam dafür, dass Du den für Dich bestmöglichen Karrierepfad möglichst schnell
+            nimmst. Ob Du in Deiner Karriere nach oben kommst, oder Dich nur seitwärts bewegst, macht den Unterschied zwischen
+            Weltreisen oder Malle.
           </p>
           <div class="my-8">
             <g-image src="/career-path.png" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
@@ -176,7 +194,7 @@
       <section class="md:flex md:flex-row-reverse mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 mb-auto md:pl-16">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
-            Maybe you non-negotiated yourself to the southern end of your pay range.
+            Vielleicht hast Du Dich ans südliche Ende Deiner Gehaltsrange non-negotiated
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -185,7 +203,9 @@
             </div>
           </h2>
           <div>
-            Many are afraid of salary negotiations and personnel interviews. Even more people make terrible mistakes when it comes to negotiating their first salary, a salary increase or a bonus. This then ensures that they find themselves - regardless of their performance - at the southern end of the range.
+            Viele haben Angst vor Gehaltsverhandlungen und Personalgesprächen. Noch mehr machen üble Fehler, wenn
+            es um die Verhandlung des ersten Gehalts, einer Gehaltserhöhung oder eines Bonus geht. Das sorgt dann dafür, 
+            dass sie - unabhängig von ihrer Leistung sich am südlichen Ende der Range wiederfinden.
           </div>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -195,7 +215,11 @@
           </h2>
           <div>
             <p>
-              Two things have to be distinguished: You can work in a certain position, on a certain level. And you can stand in this position at a certain position in the salary range. At the top or bottom. As a junior developer you can earn significantly less than your colleague at the same level, or significantly more. You get step by step action plans from me how to improve your salary so that you stay at the top of the range. And while you're doing that, you're also preparing to advance to the next level.
+              Zwei Dinge muss man unterscheiden: Du kannst in einer bestimmten Position, auf einem bestimmten Level arbeiten.
+              Und Du kannst in dieser Position an einer bestimmten Stelle in der Gehaltsrange stehen. Am oberen oder unteren Ende. 
+              Als Junior Entwickler kannst Du als deutlich weniger verdienen als Dein Kollege im gleichen Level, oder auch deutlich mehr.
+              Du bekommst von mir step by step Aktionspläne, wie Du Dein Gehalt so verbesserst, dass Du am oberen Ende der Range stehst. 
+              Und während Du das tust, bereitest Du gleichzeitig alles dafür vor, auch auf das nächste Level aufzusteigen.
             </p>
           </div>
         </article>
@@ -208,16 +232,14 @@
 
     <section id="lab" class="p-6 text-lg shadow-primary mb-8 mt-16">
       <h1 class="max-w-xl leading-tight font-myriad font-light text-4xl tracking-wide">
-        Allow me to introduce: Inviado. My lab.
+        Darf ich vorstellen: Inviado. Mein Lab.
       </h1>
       <p class="mt-6">
-        My playground is called Inviado. This stands for "invitatio ad offerendum", i.e. it is an invitation to submit offers. What does that even mean?
-      </p>
-      <p class="mt-6">
-        I try out ideas on inviado.com. I provide tools that help developers, devleads and software departments build teams. They help you as a developer to get to the companies that value your skills. The Software Engineering Managers help you to raise your development department to a whole new level with the best employees.
-      </p>  
-      <p class="mt-6">
-        My first tool, a database of the companies in which you earn the most as a top talent in Germany, is under construction. Join the mailing list and I'll let you know as soon as it starts.
+        Meine Spielwiese heißt Inviado. Das steht für "invitatio ad offerendum", also auf Deutsch: Es ist eine Einladung zur Abgabe von Angeboten.
+        Was soll das heißen? Ich probiere auf inviado.com Ideen aus. Ich stelle dort Tools zur Verfügung, die Entwicklern, Devleads und Softwareabteilungen 
+        helfen können, als Entwickler schneller und besser zu dem Unternehmen zu kommen, dass Deine Fähigkeiten wertschätzt und als Entwicklungsabteilung 
+        die Entwickler zu finden, die Euch endlich voranbringen. Mein erstes Tool, eine Datenbank der besten Unternehmen um als Entwickler eine fantastische
+        Karriere hinzulegen, befindet sich im Aufbau. Trage Dich gerne auf der Mailingliste ein, dann sage ich Dir Bescheid, sobald es losgeht.
       </p>  
     </section>
 

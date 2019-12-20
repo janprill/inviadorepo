@@ -1,803 +1,521 @@
 <template>
   <Layout>
     <div class="text-white container max-w-xl mx-auto font-copy text-lg">
-      <h1 class="text-4xl mt-16 font-bold">Datenschutzerklärung</h1>
-      <h2 class="text-xl mt-16 font-bold" id="m14">Einleitung</h2>
+      <h1 class="text-4xl mt-16 font-bold">Privacy statement</h1>
+      <small>
+        <g-link to="/datenschutz-de" class="underline">
+          Would you rather read this in German? Lieber auf Deutsch lesen?
+        </g-link>
+      </small>
+      <h2 class="text-xl mt-16 font-bold" id="m14">Introductory remarks</h2>
       <p class="mt-4">
-        Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
-        aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch
-        kurz als "Daten“ bezeichnet) wir zu welchen Zwecken und in welchem
-        Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns
-        durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen
-        der Erbringung unserer Leistungen als auch insbesondere auf unseren
-        Webseiten, in mobilen Applikationen sowie innerhalb externer
-        Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend
-        zusammenfassend bezeichnet als "Onlineangebot“).
+        With the following data protection declaration we would like to inform you which types of your personal data (hereinafter also referred to as "data") we process for which purposes and to what
+        extent. The data protection declaration applies to all processing of personal data carried out by us, both within the framework of the provision of our services and in particular on our
+        websites, in mobile applications and within external online presences, such as our social media profiles (hereinafter collectively referred to as "online offer").
       </p>
-      <p class="mt-4">Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
+      <p class="mt-4">The terms used are not gender-specific.</p>
       <ul class="list-disc mt-4"></ul>
-      <p class="mt-4">Stand: 25. November 2019</p>
-      <h2 class="text-xl mt-16 font-bold">Inhaltsübersicht</h2>
+      <p class="mt-4">Status: December 19, 2019</p>
+      <h2 class="text-xl mt-16 font-bold">Table of contents</h2>
       <ul class="list-disc mt-4">
-        <li><a href="#m14"> Einleitung</a></li>
-        <li><a href="#m3"> Verantwortlicher</a></li>
+        <li><a href="#m14"> Introductory remarks</a></li>
+        <li><a href="#m3"> Person in charge</a></li>
         <li>
-          <a href="#mOverview">
-            Übersicht der Verarbeitungen</a
-          >
+          <a href="#mOverview"> Overview of processing operations</a>
         </li>
         <li>
-          <a href="#m13"> Maßgebliche Rechtsgrundlagen</a>
+          <a href="#m13"> Applicable legal bases</a>
         </li>
-        <li><a href="#m27"> Sicherheitsmaßnahmen</a></li>
+        <li><a href="#m27"> Safety precautions</a></li>
         <li>
-          <a href="#m25">
-            Übermittlung und Offenbarung von personenbezogenen Daten</a
-          >
+          <a href="#m25"> Transmission and disclosure of personal data</a>
         </li>
         <li>
-          <a href="#m24">
-            Datenverarbeitung in Drittländern</a
-          >
+          <a href="#m24"> Data processing in third countries</a>
         </li>
-        <li><a href="#m134"> Einsatz von Cookies</a></li>
+        <li><a href="#m134"> Use of cookies</a></li>
         <li>
-          <a href="#m225">
-            Bereitstellung des Onlineangebotes und Webhosting</a
-          >
+          <a href="#m225"> Provision of online services and web hosting</a>
         </li>
         <li>
-          <a href="#m17">
-            Newsletter und Breitenkommunikation</a
-          >
+          <a href="#m17"> Newsletter and broad communication</a>
         </li>
-        <li><a href="#m12"> Löschung von Daten</a></li>
+        <li><a href="#m12"> Deletion of data</a></li>
         <li>
-          <a href="#m15">
-            Änderung und Aktualisierung der Datenschutzerklärung</a
-          >
+          <a href="#m15"> Modification and updating of the data protection declaration</a>
         </li>
         <li>
-          <a href="#m10"> Rechte der betroffenen Personen</a>
+          <a href="#m10"> Rights of data subjects</a>
         </li>
-        <li><a href="#m42"> Begriffsdefinitionen</a></li>
+        <li><a href="#m42"> Definitions of terms</a></li>
       </ul>
-      <h2 class="text-xl mt-16 font-bold" id="m3">Verantwortlicher</h2>
-      <p class="mt-4">Inviado Ltd & Co KG<br />wie im Impressum angegeben: 
+
+      <h2 class="text-xl mt-16 font-bold" id="m3">Person in charge</h2>
+      <p class="mt-4">
+        Legal entity in charge: Inviado Ltd & Co KG as stated in the imprint:
         <a href="https://janprill.com/impressum">https://inviado.com/impressum</a>
       </p>
+      <p class="mt-4"><strong>Authorised representatives (person in charge)</strong>: Jan Prill, Babendiekstr. 60b, 22587 Hamburg</p>
       <p class="mt-4">
-        <strong>Vertretungsberechtigte Personen</strong>: Jan Prill,
-        Babendiekstr. 60b, 22587 Hamburg
-      </p>
-      <p class="mt-4">
-        <strong>E-Mail-Adresse</strong>:
+        <strong>E-mail address</strong>:
         <a href="mailto:jan.prill@inviado.com">jan.prill@inviado.com</a>
       </p>
       <p class="mt-4">
-        <strong>Impressum</strong>:
-        <a href="https://janprill.com/impressum" target="_blank"
-          >https://janprill.com/impressum</a
-        >
+        <strong>Legal notice</strong>:
+        <a href="https://janprill.com/impressum" target="_blank">https://janprill.com/impressum</a>
       </p>
       <ul class="list-disc mt-4"></ul>
-      <h2 class="text-xl mt-16 font-bold" id="mOverview">Übersicht der Verarbeitungen</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="mOverview">Overview of processing operations</h2>
       <p class="mt-4">
-        Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und
-        die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen
-        Personen.
+        The following table summarises the types of data processed and the purposes of their processing and refers to the data subjects.
       </p>
-      <h3>Arten der verarbeiteten Daten</h3>
+      <h3>Types of data processed</h3>
       <ul class="list-disc mt-4">
-        <li><p class="mt-4">Bestandsdaten (z.B. Namen, Adressen).</p></li>
-        <li><p class="mt-4">Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).</p></li>
-        <li><p class="mt-4">Kontaktdaten (z.B. E-Mail, Telefonnummern).</p></li>
+        <li><p class="mt-4">Inventory data (for example, names, addresses).</p></li>
+        <li><p class="mt-4">Content data (e.g. text entries, photographs, videos).</p></li>
+        <li><p class="mt-4">Contact data (e.g. e-mail, telephone numbers).</p></li>
         <li>
           <p class="mt-4">
-            Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+            Meta/communication data (e.g. device information, IP addresses).
           </p>
         </li>
         <li>
           <p class="mt-4">
-            Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten,
-            Zugriffszeiten).
+            Usage data (e.g. websites visited, interest in content, access times).
           </p>
         </li>
       </ul>
-      <h3>Kategorien betroffener Personen</h3>
+      <h3>Categories of data subjects</h3>
       <ul class="list-disc mt-4">
-        <li><p class="mt-4">Kommunikationspartner.</p></li>
+        <li><p class="mt-4">Communication partner.</p></li>
         <li>
-          <p class="mt-4">Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</p>
+          <p class="mt-4">Users (e.g. website visitors, users of online services).</p>
         </li>
       </ul>
-      <h3>Zwecke der Verarbeitung</h3>
+      <h3>Purposes of processing</h3>
       <ul class="list-disc mt-4">
         <li><p class="mt-4">Content Delivery Network (CDN).</p></li>
-        <li><p class="mt-4">Direktmarketing (z.B. per E-Mail oder postalisch).</p></li>
-        <li><p class="mt-4">Vertragliche Leistungen und Service.</p></li>
+        <li><p class="mt-4">Direct marketing (e.g. by e-mail or post).</p></li>
+        <li><p class="mt-4">Contractual services and service.</p></li>
       </ul>
-      <h2>Rechtsgrundlagen</h2>
-      <h3 id="m13">Maßgebliche Rechtsgrundlagen</h3>
+
+      <h2>Legal basis</h2>
+      <h3 id="m13">Applicable legal bases</h3>
       <p class="mt-4">
-        Im Folgenden teilen wir die Rechtsgrundlagen der
-        Datenschutzgrundverordnung (DSGVO), auf deren Basis wir die
-        personenbezogenen Daten verarbeiten, mit. Bitte beachten Sie, dass
-        zusätzlich zu den Regelungen der DSGVO die nationalen
-        Datenschutzvorgaben in Ihrem bzw. unserem Wohn- und Sitzland gelten
-        können.
+        In the following we inform you about the legal basis of the Data Protection Ordinance (DSGVO), on the basis of which we process personal data. Please note that, in addition to the provisions
+        of the DSGVO, the national data protection regulations in your or our country of residence and domicile may also apply.
       </p>
       <ul class="list-disc mt-4">
         <li>
           <p class="mt-4">
-            <strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)</strong> -
-            Die betroffene Person hat ihre Einwilligung in die Verarbeitung der
-            sie betreffenden personenbezogenen Daten für einen spezifischen
-            Zweck oder mehrere bestimmte Zwecke gegeben.
+            <strong>Consent (Art. 6 para. 1 sentence 1 lit. a DSGVO)</strong> - The data subject has given his/her consent to the processing of his/her personal data for one or more specific purposes.
           </p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)</strong>
-            - Die Verarbeitung ist zur Wahrung der berechtigten Interessen des
-            Verantwortlichen oder eines Dritten erforderlich, sofern nicht die
-            Interessen oder Grundrechte und Grundfreiheiten der betroffenen
-            Person, die den Schutz personenbezogener Daten erfordern,
-            überwiegen.
+            <strong>Legitimate interests (Art. 6 para. 1 sentence 1 lit. f. DSGVO)</strong>
+            - Processing is necessary to safeguard the legitimate interests of the data controller or of a third party, unless the interests or fundamental rights and freedoms of the data subject,
+            which require the protection of personal data, prevail.
           </p>
         </li>
       </ul>
       <p class="mt-4">
-        <strong>Nationale Datenschutzregelungen in Deutschland</strong>:
-        Zusätzlich zu den Datenschutzregelungen der Datenschutz-Grundverordnung
-        gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu
-        gehört insbesondere das Gesetz zum Schutz vor Missbrauch
-        personenbezogener Daten bei der Datenverarbeitung
-        (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere
-        Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum
-        Widerspruchsrecht, zur Verarbeitung besonderer Kategorien
-        personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur
-        Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall
-        einschließlich Profiling. Des Weiteren regelt es die Datenverarbeitung
-        für Zwecke des Beschäftigungsverhältnisses (§ 26 BDSG), insbesondere im
-        Hinblick auf die Begründung, Durchführung oder Beendigung von
-        Beschäftigungsverhältnissen sowie die Einwilligung von Beschäftigten.
-        Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur
-        Anwendung gelangen.
+        <strong>National data protection regulations in Germany</strong>: In addition to the data protection regulations of the Basic Data Protection Regulation, national regulations apply to data
+        protection in Germany. In particular, this includes the Act on Protection against Misuse of Personal Data in Data Processing (Bundesdatenschutzgesetz - BDSG). In particular, the BDSG contains
+        special provisions on the right of information, the right of deletion, the right of objection, the processing of special categories of personal data, processing for other purposes and
+        transmission as well as automated decision-making in individual cases, including profiling. Furthermore, it regulates data processing for the purposes of the employment relationship (§ 26
+        BDSG), in particular with regard to the establishment, execution or termination of employment relationships as well as the consent of employees. Furthermore, state data protection laws of the
+        individual federal states may apply.
       </p>
       <ul class="list-disc mt-4"></ul>
-      <h2 class="text-xl mt-16 font-bold" id="m27">Sicherheitsmaßnahmen</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m27">Safety precautions</h2>
       <p class="mt-4">
-        Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter
-        Berücksichtigung des Stands der Technik, der Implementierungskosten und
-        der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie
-        der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der
-        Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete
-        technische und organisatorische Maßnahmen, um ein dem Risiko
-        angemessenes Schutzniveau zu gewährleisten.
+        We shall take appropriate technical and organisational measures in accordance with the statutory requirements, taking into account the state of the art, the implementation costs and the
+        nature, extent, circumstances and purposes of the processing as well as the different probabilities of occurrence and the extent of the threat to the rights and freedoms of natural persons, in
+        order to ensure a level of protection appropriate to the risk.
       </p>
       <p class="mt-4">
-        Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit,
-        Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen
-        und elektronischen Zugangs zu den Daten als auch des sie betreffenden
-        Zugriffs, der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit
-        und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die
-        eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und
-        Reaktionen auf die Gefährdung der Daten gewährleisten. Ferner
-        berücksichtigen wir den Schutz personenbezogener Daten bereits bei der
-        Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren
-        entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und
-        durch datenschutzfreundliche Voreinstellungen.
+        Such measures shall include, in particular, ensuring the confidentiality, integrity and availability of data by controlling physical and electronic access to, and access to, input,
+        transmission, securing and separation of data. In addition, we have established procedures to ensure the exercise of data subjects' rights, the deletion of data and responses to data threats.
+        Furthermore, we take the protection of personal data into account as early as the development or selection of hardware, software and procedures in accordance with the principle of data
+        protection, through technology design and through data protection-friendly default settings.
       </p>
       <p class="mt-4">
-        <strong>SSL-Verschlüsselung (https)</strong>: Um Ihre via unser
-        Online-Angebot übermittelten Daten zu schützen, nutzen wir eine
-        SSL-Verschlüsselung. Sie erkennen derart verschlüsselte Verbindungen an
-        dem Präfix https:// in der Adresszeile Ihres Browsers.
+        <strong>SSL encryption (https)</strong>: We use SSL encryption to protect your data transmitted via our online service. You can recognize such encrypted connections by the prefix https:// in
+        the address line of your browser.
       </p>
-      <h2 class="text-xl mt-16 font-bold" id="m25">Übermittlung und Offenbarung von personenbezogenen Daten</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m25">Transmission and disclosure of personal data</h2>
       <p class="mt-4">
-        Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor,
-        dass die Daten an andere Stellen, Unternehmen, rechtlich selbstständige
-        Organisationseinheiten oder Personen übermittelt oder sie ihnen
-        gegenüber offengelegt werden. Zu den Empfängern dieser Daten können z.B.
-        Zahlungsinstitute im Rahmen von Zahlungsvorgängen, mit IT-Aufgaben
-        beauftragte Dienstleister oder Anbieter von Diensten und Inhalten, die
-        in eine Webseite eingebunden werden, gehören. In solchen Fall beachten
-        wir die gesetzlichen Vorgaben und schließen insbesondere entsprechende
-        Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den
-        Empfängern Ihrer Daten ab.
+        As part of our processing of personal data, it may happen that the data is transferred to other offices, companies, legally independent organisational units or persons or that it is disclosed
+        to them. Recipients of this data may include, for example, payment institutions within the framework of payment transactions, service providers commissioned with IT tasks or providers of
+        services and content that are integrated into a website. In such cases, we observe the legal requirements and in particular conclude corresponding contracts or agreements with the recipients
+        of your data which serve to protect your data.
       </p>
-      <h2 class="text-xl mt-16 font-bold" id="m24">Datenverarbeitung in Drittländern</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m24">Data processing in third countries</h2>
       <p class="mt-4">
-        Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen
-        Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder
-        die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder
-        der Offenlegung bzw. Übermittlung von Daten an andere Personen, Stellen
-        oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den
-        gesetzlichen Vorgaben.
+        If we process data in a third country (i.e. outside the European Union (EU), the European Economic Area (EEA)) or the processing takes place in the context of the use of services of third
+        parties or the disclosure or transfer of data to other persons, bodies or companies, this is only done in accordance with the legal requirements.
       </p>
       <p class="mt-4">
-        Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder
-        gesetzlich erforderlicher Übermittlung verarbeiten oder lassen wir die
-        Daten nur in Drittländern mit einem anerkannten Datenschutzniveau, zu
-        denen die unter dem "Privacy-Shield" zertifizierten US-Verarbeiter
-        gehören, oder auf Grundlage besonderer Garantien, wie z.B. vertraglicher
-        Verpflichtung durch sogenannte Standardschutzklauseln der EU-Kommission,
-        des Vorliegens von Zertifizierungen oder verbindlicher interner
-        Datenschutzvorschriften, verarbeiten (Art. 44 bis 49 DSGVO,
-        Informationsseite der EU-Kommission:
-        <a
-          href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de"
-          target="_blank"
+        Subject to express consent or transfer required by contract or law, we will only process or have the data processed in third countries with a recognised level of data protection, which
+        includes US processors certified under the "Privacy Shield", or on the basis of special guarantees, such as a contractual obligation through so-called standard protection clauses of the EU
+        Commission, the existence of certifications or binding internal data protection regulations (Art. 44 to 49 DSGVO, information page of the EU Commission:
+        <a href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de" target="_blank"
           >https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de</a
         >
         ).
       </p>
-      <h2 class="text-xl mt-16 font-bold" id="m134">Einsatz von Cookies</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m134">Use of cookies</h2>
       <p class="mt-4">
-        Auf dieser Website (janprill.com) werden KEINE cookies eingesetzt. Es ist aber nicht ausgeschlossen,
-        dass Drittanbieter Cookies einsetzen. Deswegen informiere ich Sie im folgenden Abschnitt, allgemein 
-        über Cookies.
+        No cookies are used on this website (janprill.com). However, it is not excluded that third parties may use cookies. Therefore I inform you in the following section, generally about Cookies.
       </p>
       <p class="mt-4">
-        Cookies sind Textdateien, die Daten von besuchten Websites oder Domains
-        enthalten und von einem Browser auf dem Computer des Benutzers
-        gespeichert werden. Ein Cookie dient in erster Linie dazu, die
-        Informationen über einen Benutzer während oder nach seinem Besuch
-        innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten
-        Angaben können z.B. die Spracheinstellungen auf einer Webseite, der
-        Loginstatus, ein Warenkorb oder die Stelle, an der ein Video geschaut
-        wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere
-        Technologien, die die gleichen Funktionen wie Cookies erfüllen (z.B.,
-        wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen
-        gespeichert werden, auch als "Nutzer-IDs" bezeichnet)
+        Cookies are text files that contain data from visited websites or domains and are stored by a browser on the user's computer. A cookie is primarily used to store information about a user
+        during or after his visit within an online offer. The information stored can include, for example, the language settings on a website, the login status, a shopping cart or the location where a
+        video was viewed. The term "cookies" also includes other technologies that fulfil the same functions as cookies (e.g. if user information is stored using pseudonymous online identifiers, also
+        referred to as "user IDs").
       </p>
       <p class="mt-4">
-        <strong
-          >Die folgenden Cookie-Typen und Funktionen werden
-          unterschieden:</strong
-        >
+        <strong>The following cookie types and functions are distinguished:</strong>
       </p>
       <ul class="list-disc mt-4">
         <li>
-          <strong
-            >Temporäre Cookies (auch: Session- oder Sitzungs-Cookies):</strong
-          >
-          Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein
-          Online-Angebot verlassen und seinen Browser geschlossen hat.
+          <strong>Temporary cookies (also: session cookies):</strong>
+          Temporary cookies are deleted at the latest after a user has left an online offer and closed his browser.
         </li>
         <li>
-          <strong>Permanente Cookies:</strong> Permanente Cookies bleiben auch
-          nach dem Schließen des Browsers gespeichert. So kann beispielsweise
-          der Login-Status gespeichert oder bevorzugte Inhalte direkt angezeigt
-          werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die
-          Interessen von Nutzern, die zur Reichweitenmessung oder zu
-          Marketingzwecken verwendet werden, in einem solchen Cookie gespeichert
-          werden.
+          <strong>Permanent Cookies:</strong>
+          Permanent cookies remain stored even after the browser has been closed. For example, the login status can be saved or preferred content can be displayed directly when the user visits a
+          website again. The interests of users who are used for range measurement or marketing purposes can also be stored in such a cookie.
         </li>
         <li>
-          <strong>First-Party-Cookies:</strong> First-Party-Cookies werden von
-          uns selbst gesetzt.
+          <strong>First-Party-Cookies:</strong>
+          First-Party-Cookies are set by ourselves.
+        </li>
+        <li><strong>Third-Party-Cookies:</strong>: Third-Party-Cookies are mainly used by advertisers (so-called third parties) to process user information.</li>
+        <li>
+          <strong>Necessary (also: essential or absolutely necessary) cookies:</strong>
+          Cookies may be absolutely necessary for the operation of a website (e.g. to save logins or other user inputs or for security reasons).
         </li>
         <li>
-          <strong>Third-Party-Cookies (auch: Drittanbieter-Cookies)</strong>:
-          Drittanbieter-Cookies werden hauptsächlich von Werbetreibenden (sog.
-          Dritten) verwendet, um Benutzerinformationen zu verarbeiten.
-        </li>
-        <li>
-          <strong
-            >Notwendige (auch: essentielle oder unbedingt erforderliche)
-            Cookies:</strong
-          >
-          Cookies können zum einen für den Betrieb einer Webseite unbedingt
-          erforderlich sein (z.B. um Logins oder andere Nutzereingaben zu
-          speichern oder aus Gründen der Sicherheit).
-        </li>
-        <li>
-          <strong>Statistik-, Marketing- und Personalisierungs-Cookies</strong>:
-          Ferner werden Cookies im Regelfall auch im Rahmen der
-          Reichweitenmessung eingesetzt sowie dann, wenn die Interessen eines
-          Nutzers oder sein Verhalten (z.B. Betrachten bestimmter Inhalte,
-          Nutzen von Funktionen etc.) auf einzelnen Webseiten in einem
-          Nutzerprofil gespeichert werden. Solche Profile dienen dazu, den
-          Nutzern z.B. Inhalte anzuzeigen, die ihren potentiellen Interessen
-          entsprechen. Dieses Verfahren wird auch als "Tracking", d.h.,
-          Nachverfolgung der potentiellen Interessen der Nutzer bezeichnet. .
-          Soweit wir Cookies oder "Tracking"-Technologien einsetzen, informieren
-          wir Sie gesondert in unserer Datenschutzerklärung oder im Rahmen der
-          Einholung einer Einwilligung.
+          <strong>Statistical, marketing and personalisation cookies:</strong>: Cookies are also generally used to measure a user's range and when a user's interests or behaviour (e.g. viewing certain
+          content, using functions, etc.) are stored on individual web pages in a user profile. Such profiles are used, for example, to display content to users that corresponds to their potential
+          interests. This procedure is also referred to as "tracking", i.e. tracking the potential interests of users. If we use cookies or "tracking" technologies, we will inform you separately in
+          our privacy policy or in the context of obtaining consent.
         </li>
       </ul>
       <p class="mt-4">
-        <strong>Hinweise zu Rechtsgrundlagen: </strong> Auf welcher
-        Rechtsgrundlage wir Ihre personenbezogenen Daten mit Hilfe von Cookies
-        verarbeiten, hängt davon ab, ob wir Sie um eine Einwilligung bitten.
-        Falls dies zutrifft und Sie in die Nutzung von Cookies einwilligen, ist
-        die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte
-        Einwilligung. Andernfalls werden die mithilfe von Cookies verarbeiteten
-        Daten auf Grundlage unserer berechtigten Interessen (z.B. an einem
-        betriebswirtschaftlichen Betrieb unseres Onlineangebotes und dessen
-        Verbesserung) verarbeitet oder, wenn der Einsatz von Cookies
-        erforderlich ist, um unsere vertraglichen Verpflichtungen zu erfüllen.
+        <strong>Information on legal bases: </strong>
+        The legal basis on which we process your personal data with the aid of cookies depends on whether we ask you for your consent. If this applies and you consent to the use of cookies, the legal
+        basis for processing your data is your declared consent. Otherwise, the data processed with the help of cookies will be processed on the basis of our legitimate interests (e.g. in a business
+        operation of our online service and its improvement) or, if the use of cookies is necessary to fulfill our contractual obligations.
       </p>
       <p class="mt-4">
-        <strong
-          >Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out):
-        </strong>
-        Abhängig davon, ob die Verarbeitung auf Grundlage einer Einwilligung
-        oder gesetzlichen Erlaubnis erfolgt, haben Sie jederzeit die
-        Möglichkeit, eine erteilte Einwilligung zu widerrufen oder der
-        Verarbeitung Ihrer Daten durch Cookie-Technologien zu widersprechen
-        (zusammenfassend als "Opt-Out" bezeichnet). Sie können Ihren Widerspruch
-        zunächst mittels der Einstellungen Ihres Browsers erklären, z.B., indem
-        Sie die Nutzung von Cookies deaktivieren (wobei hierdurch auch die
-        Funktionsfähigkeit unseres Onlineangebotes eingeschränkt werden kann).
-        Ein Widerspruch gegen den Einsatz von Cookies zu Zwecken des
-        Onlinemarketings kann auch mittels einer Vielzahl von Diensten, vor
-        allem im Fall des Trackings, über die Webseiten
-        <a href="http://optout.aboutads.info" target="_blank"
-          >http://optout.aboutads.info</a
-        >
-        und
-        <a href="http://www.youronlinechoices.com/" target="_blank"
-          >http://www.youronlinechoices.com/</a
-        >
-        erklärt werden. Daneben können Sie weitere Widerspruchshinweise im
-        Rahmen der Angaben zu den eingesetzten Dienstleistern und Cookies
-        erhalten.
+        <strong>General information on revocation and objection (opt-out): </strong>
+        Depending on whether processing is carried out on the basis of consent or legal permission, you have the possibility at any time to revoke a consent given or to object to the processing of
+        your data using cookie technologies (collectively referred to as "opt-out"). You can first explain your objection using the settings of your browser, e.g. by deactivating the use of cookies
+        (which may also restrict the functionality of our online service). An objection to the use of cookies for the purposes of online marketing can also be explained by means of a variety of
+        services, above all in the case of tracking, via the websites
+        <a href="http://optout.aboutads.info" target="_blank">http://optout.aboutads.info</a>
+        and
+        <a href="http://www.youronlinechoices.com/" target="_blank">http://www.youronlinechoices.com/</a>
+        In addition, you may receive further objection notices within the scope of the information on the service providers used and cookies.
       </p>
       <p class="mt-4">
-        <strong
-          >Verarbeitung von Cookie-Daten auf Grundlage einer
-          Einwilligung</strong
-        >: Bevor wir Daten im Rahmen der Nutzung von Cookies verarbeiten oder
-        verarbeiten lassen, bitten wir die Nutzer um eine jederzeit widerrufbare
-        Einwilligung. Bevor die Einwilligung nicht ausgesprochen wurde, werden
-        allenfalls Cookies eingesetzt, die für den Betrieb unseres
-        Onlineangebotes erforderlich sind. Deren Einsatz erfolgt auf der
-        Grundlage unseres Interesses und des Interesses der Nutzer an der
-        erwarteten Funktionsfähigkeit unseres Onlineangebotes.
+        <strong>Processing of cookie data on the basis of consent</strong>: Before we process or have processed data in the context of the use of cookies, we ask the user for a consent that can be
+        revoked at any time. Before the consent has not been given, we may use cookies that are necessary for the operation of our online service. Their use is based on our interest and the user's
+        interest in the expected functionality of our online service.
       </p>
       <ul class="list-disc mt-4">
         <li>
           <p class="mt-4">
-            <strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z.B.
-            besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten),
-            Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+            <strong>Processed types of data:</strong>
+            Usage data (e.g. websites visited, interest in content, access times), meta/communication data (e.g. device information, IP addresses).
           </p>
         </li>
         <li>
-          <p class="mt-4">
-            <strong>Betroffene Personen:</strong> Nutzer (z.B.
-            Webseitenbesucher, Nutzer von Onlinediensten).
-          </p>
+          <p class="mt-4"><strong>Persons concerned:</strong> Users (e.g. website visitors, users of online services).</p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
-            lit. a DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f.
-            DSGVO).
+            <strong>Legal basis:</strong>
+            Consent (Art. 6 para. 1 sentence 1 lit. a DSGVO), legitimate interests (Art. 6 para. 1 sentence 1 lit. f. DSGVO).
           </p>
         </li>
       </ul>
-      <h2 class="text-xl mt-16 font-bold" id="m225">Bereitstellung des Onlineangebotes und Webhosting</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m225">Provision of online services and web hosting</h2>
       <p class="mt-4">
-        Um unser Onlineangebot sicher und effizient bereitstellen zu können,
-        nehmen wir die Leistungen von einem oder mehreren Webhosting-Anbietern
-        in Anspruch, von deren Servern (bzw. von ihnen verwalteten Servern) das
-        Onlineangebot abgerufen werden kann. Zu diesen Zwecken können wir
-        Infrastruktur- und Plattformdienstleistungen, Rechenkapazität,
-        Speicherplatz und Datenbankdienste sowie Sicherheitsleistungen und
-        technische Wartungsleistungen in Anspruch nehmen.
+        In order to provide our online services securely and efficiently, we use the services of one or more web hosting providers from whose servers (or servers they manage) the online services can
+        be accessed. For these purposes, we may use infrastructure and platform services, computing capacity, storage space and database services, as well as security and technical maintenance
+        services.
       </p>
       <p class="mt-4">
-        Zu den im Rahmen der Bereitstellung des Hostingangebotes verarbeiteten
-        Daten können alle die Nutzer unseres Onlineangebotes betreffenden
-        Angaben gehören, die im Rahmen der Nutzung und der Kommunikation
-        anfallen. Hierzu gehören regelmäßig die IP-Adresse, die notwendig ist,
-        um die Inhalte von Onlineangeboten an Browser ausliefern zu können, und
-        alle innerhalb unseres Onlineangebotes oder von Webseiten getätigten
-        Eingaben.
+        The data processed within the framework of the provision of the hosting service may include all information relating to the users of our online service that is collected within the scope of
+        use and communication. This regularly includes the IP address, which is necessary in order to be able to deliver the contents of online offers to browsers, and all entries made within our
+        online offer or from websites.
       </p>
       <p class="mt-4">
-        <strong>Erhebung von Zugriffsdaten und Logfiles</strong>: Wir selbst
-        (bzw. unser Webhostinganbieter) erheben Daten zu jedem Zugriff auf den
-        Server (sogenannte Serverlogfiles). Zu den Serverlogfiles können die
-        Adresse und Name der abgerufenen Webseiten und Dateien, Datum und
-        Uhrzeit des Abrufs, übertragene Datenmengen, Meldung über erfolgreichen
-        Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers,
-        Referrer URL (die zuvor besuchte Seite) und im Regelfall IP-Adressen und
-        der anfragende Provider gehören.
+        <strong>Collection of access data and log files</strong>: We (or our web hosting provider) collect data on each access to the server (so-called server log files). Server log files can include
+        the address and name of the websites and files accessed, the date and time of access, the amount of data transferred, notification of successful access, browser type and version, the user's
+        operating system, referrer URL (the previously visited page) and, as a rule, IP addresses and the requesting provider.
       </p>
       <p class="mt-4">
-        Die Serverlogfiles können zum einen zu Zwecken der Sicherheit eingesetzt
-        werden, z.B., um eine Überlastung der Server zu vermeiden (insbesondere
-        im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken) und
-        zum anderen, um die Auslastung der Server und ihre Stabilität
-        sicherzustellen.
+        The server log files can be used for security purposes, e.g. to avoid overloading the server (especially in the case of abusive attacks, so-called DDoS attacks) and to ensure server
+        utilization and stability.
       </p>
       <p class="mt-4">
-        <strong>Content-Delivery-Network</strong>: Wir setzen ein
-        "Content-Delivery-Network" (CDN) ein. Ein CDN ist ein Dienst, mit dessen
-        Hilfe Inhalte eines Onlineangebotes, insbesondere große Mediendateien,
-        wie Grafiken oder Programm-Skripte, mit Hilfe regional verteilter und
-        über das Internet verbundener Server schneller und sicherer ausgeliefert
-        werden können.
+        <strong>Content-Delivery-Network</strong>: We use a "Content-Delivery-Network" (CDN). A CDN is a service with the help of which the contents of an online offer, in particular large media files
+        such as graphics or program scripts, can be delivered faster and more securely with the help of regionally distributed servers connected via the Internet.
       </p>
       <ul class="list-disc mt-4">
         <li>
           <p class="mt-4">
-            <strong>Verarbeitete Datenarten:</strong> Inhaltsdaten (z.B.
-            Texteingaben, Fotografien, Videos), Nutzungsdaten (z.B. besuchte
-            Webseiten, Interesse an Inhalten, Zugriffszeiten),
-            Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+            <strong>Processed data types:</strong>
+            Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos), Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen,
+            IP-Adressen).
           </p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Betroffene Personen:</strong> Nutzer (z.B.
-            Webseitenbesucher, Nutzer von Onlinediensten).
+            <strong>Data subjects:</strong>
+            Users (e.g. website visitors, users of online services).
           </p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Zwecke der Verarbeitung:</strong> Content Delivery Network
-            (CDN), Vertragliche Leistungen und Service.
+            <strong>Purposes of Processing:</strong>
+            Content Delivery Network (CDN), Contractual Services and Service.
           </p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f. DSGVO).
+            <strong>Legal basis:</strong>
+            Legitimate interests (Art. 6 Para. 1 S. 1 lit. f. DSGVO).
           </p>
         </li>
       </ul>
-      <p class="mt-4"><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+      <p class="mt-4"><strong>Used services and service providers:</strong></p>
       <ul class="list-disc mt-4">
         <li>
           <p class="mt-4">
-            <strong>Netlify:</strong> Hostingplattform für Websites; Dienstanbieter:
-            Netlify, Inc. Jurisdiction of Incorporation/Organization DELAWARE, CIK (Filer ID Number): 0001672598; 
-            Netlify, Inc., 2325 3rd Street, Suite 215, 94107, San Francisco, California 
-            Website:
-            <a href="https://www.netlify.com" target="_blank">https://www.netlify.com</a
-            >; Datenschutzerklärung:
-            <a href="https://www.netlify.com/privacy/" target="_blank"
-              >https://www.netlify.com/privacy/</a> 
+            <strong>Netlify:</strong> hosting platform for websites; service provider: Netlify, Inc. jurisdiction of Incorporation/Organization DELAWARE, CIK (Filer ID Number): 0001672598; Netlify,
+            Inc., 2325 3rd Street, Suite 215, 94107, San Francisco, California Website: <a href="https://www.netlify.com" target="_blank">https://www.netlify.com</a>; Privacy Statement:
+            <a href="https://www.netlify.com/privacy/" target="_blank">https://www.netlify.com/privacy/</a>
             ; GDPR:
-            <a href="https://www.netlify.com/gdpr/" target="_blank"
-              >https://www.netlify.com/gdpr/</a> 
+            <a href="https://www.netlify.com/gdpr/" target="_blank">https://www.netlify.com/gdpr/</a>
           </p>
         </li>
       </ul>
-      <h2 class="text-xl mt-16 font-bold" id="m17">Newsletter und Breitenkommunikation</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m17">Newsletter and broad communication</h2>
       <p class="mt-4">
-        Wir versenden Newsletter, E-Mails und weitere elektronische
-        Benachrichtigungen (nachfolgend "Newsletter“) nur mit der Einwilligung
-        der Empfänger oder einer gesetzlichen Erlaubnis. Sofern im Rahmen einer
-        Anmeldung zum Newsletter dessen Inhalte konkret umschrieben werden, sind
-        sie für die Einwilligung der Nutzer maßgeblich. Im Übrigen enthalten
-        unsere Newsletter Informationen zu unseren Leistungen und uns.
+        We send newsletters, e-mails and other electronic notifications (hereinafter referred to as "newsletters") only with the consent of the recipient or a legal permission. If the contents of the
+        newsletter are specifically described within the scope of registration, they are decisive for the consent of the user. In addition, our newsletters contain information about our services and
+        us.
       </p>
       <p class="mt-4">
-        Um sich zu unseren Newslettern anzumelden, reicht es grundsätzlich aus,
-        wenn Sie Ihre E-Mail-Adresse angeben. Wir können Sie jedoch bitten,
-        einen Namen, zwecks persönlicher Ansprache im Newsletter, oder weitere
-        Angaben, sofern diese für die Zwecke des Newsletters erforderlich sind,
-        zu tätigen.
+        In order to subscribe to our newsletters, it is generally sufficient for you to enter your e-mail address. However, we may ask you to provide a name for the purpose of addressing us personally
+        in the newsletter, or other information, if this is required for the purposes of the newsletter.
       </p>
       <p class="mt-4">
-        <strong>Double-Opt-In-Verfahren:</strong> Die Anmeldung zu unserem
-        Newsletter erfolgt grundsätzlich in einem sogenannte
-        Double-Opt-In-Verfahren. D.h., Sie erhalten nach der Anmeldung eine
-        E-Mail, in der Sie um die Bestätigung Ihrer Anmeldung gebeten werden.
-        Diese Bestätigung ist notwendig, damit sich niemand mit fremden
-        E-Mail-Adressen anmelden kann. Die Anmeldungen zum Newsletter werden
-        protokolliert, um den Anmeldeprozess entsprechend den rechtlichen
-        Anforderungen nachweisen zu können. Hierzu gehört die Speicherung des
-        Anmelde- und des Bestätigungszeitpunkts als auch der IP-Adresse. Ebenso
-        werden die Änderungen Ihrer bei dem Versanddienstleister gespeicherten
-        Daten protokolliert.
+        <strong>Double opt-in procedure:</strong>
+        The registration to our newsletter takes place in principle in a so-called Double-Opt-In procedure. This means that you will receive an e-mail after registration asking you to confirm your
+        registration. This confirmation is necessary so that nobody can register with external e-mail addresses. The registrations for the newsletter are logged in order to be able to prove the
+        registration process according to the legal requirements. This includes the storage of the registration and confirmation time as well as the IP address. Likewise the changes of your data
+        stored with the Versanddienstleister are logged.
       </p>
       <p class="mt-4">
-        <strong>Löschung und Einschränkung der Verarbeitung: </strong> Wir
-        können die ausgetragenen E-Mail-Adressen bis zu drei Jahren auf
-        Grundlage unserer berechtigten Interessen speichern, bevor wir sie
-        löschen, um eine ehemals gegebene Einwilligung nachweisen zu können. Die
-        Verarbeitung dieser Daten wird auf den Zweck einer möglichen Abwehr von
-        Ansprüchen beschränkt. Ein individueller Löschungsantrag ist jederzeit
-        möglich, sofern zugleich das ehemalige Bestehen einer Einwilligung
-        bestätigt wird. Im Fall von Pflichten zur dauerhaften Beachtung von
-        Widersprüchen behalten wir uns die Speicherung der E-Mail-Adresse
-        alleine zu diesem Zweck in einer Sperrliste (sogenannte "Blacklist")
-        vor.
+        <strong>Deletion and limitation of processing: </strong>
+        Deletion and limitation of processing: We may store the deleted e-mail addresses for up to three years on the basis of our legitimate interests before we delete them in order to be able to
+        prove a previously given consent. The processing of this data is limited to the purpose of a possible defence against claims. An individual request for deletion is possible at any time,
+        provided that the former existence of a consent is confirmed at the same time. In the case of obligations to permanently observe contradictions, we reserve the right to store the e-mail
+        address solely for this purpose in a blacklist.
       </p>
       <p class="mt-4">
-        Die Protokollierung des Anmeldeverfahrens erfolgt auf Grundlage unserer
-        berechtigten Interessen zu Zwecken des Nachweises seines ordnungsgemäßen
-        Ablaufs. Soweit wir einen Dienstleister mit dem Versand von E-Mails
-        beauftragen, erfolgt dies auf Grundlage unserer berechtigten Interessen
-        an einem effizienten und sicheren Versandsystem.
+        The logging of the registration procedure takes place on the basis of our legitimate interests for the purposes of proving its proper course. If we commission a service provider to send
+        e-mails, this is done on the basis of our legitimate interests in an efficient and secure dispatch system..
       </p>
       <p class="mt-4">
-        <strong>Hinweise zu Rechtsgrundlagen:</strong> Der Versand der
-        Newsletter erfolgt auf Grundlage einer Einwilligung der Empfänger oder,
-        falls eine Einwilligung nicht erforderlich ist, auf Grundlage unserer
-        berechtigten Interessen am Direktmarketing, sofern und soweit diese
-        gesetzlich, z.B. im Fall von Bestandskundenwerbung, erlaubt ist. Soweit
-        wir einen Dienstleister mit dem Versand von E-Mails beauftragen,
-        geschieht dies auf der Grundlage unserer berechtigten Interessen. Das
-        Registrierungsverfahren wird auf der Grundlage unserer berechtigten
-        Interessen aufgezeichnet, um nachzuweisen, dass es in Übereinstimmung
-        mit dem Gesetz durchgeführt wurde.
+        <strong>Information on legal bases:</strong>
+        The newsletter is sent on the basis of the recipient's consent or, if consent is not required, on the basis of our legitimate interests in direct marketing, provided and to the extent that
+        this is permitted by law, e.g. in the case of existing customer advertising. If we commission a service provider to send e-mails, this is done on the basis of our legitimate interests. The
+        registration process is recorded on the basis of our legitimate interests to prove that it was conducted in accordance with the law.
+      </p>
+      <p class="mt-4"><strong>Content</strong>: Information about us, our services, promotions and offers.</p>
+      <p class="mt-4">
+        <strong>Performance measurement</strong>: The newsletters contain a so-called "web beacon", i.e. a file the size of a pixel, which is retrieved from our server or, if we use a dispatch service
+        provider, from its server when the newsletter is opened. In the course of this retrieval, technical information, such as information about the browser and your system, as well as your IP
+        address and the time of retrieval, are first collected.
       </p>
       <p class="mt-4">
-        <strong>Inhalte</strong>: Informationen zu uns, unseren Leistungen,
-        Aktionen und Angeboten.
+        This information is used for the technical improvement of our newsletter on the basis of technical data or target groups and their reading behaviour on the basis of their retrieval locations
+        (which can be determined with the help of the IP address) or access times. This analysis also includes determining whether newsletters are opened, when they are opened and which links are
+        clicked. For technical reasons, this information can be assigned to the individual newsletter recipients. However, it is neither our endeavour nor, if used, that of the dispatch service
+        provider to observe individual users. Rather, the evaluations serve us to recognise the reading habits of our users and to adapt our content to them or to send different content according to
+        the interests of our users.
       </p>
       <p class="mt-4">
-        <strong>Erfolgsmessung</strong>: Die Newsletter enthalten einen
-        sogenannte "web-beacon“, d.h., eine pixelgroße Datei, die beim Öffnen
-        des Newsletters von unserem Server, bzw., sofern wir einen
-        Versanddienstleister einsetzen, von dessen Server abgerufen wird. Im
-        Rahmen dieses Abrufs werden zunächst technische Informationen, wie
-        Informationen zum Browser und Ihrem System, als auch Ihre IP-Adresse und
-        der Zeitpunkt des Abrufs, erhoben.
+        The evaluation of the newsletter and the performance measurement are carried out, subject to the express consent of the users, on the basis of our legitimate interests for the purposes of
+        using a user-friendly and secure newsletter system, which serves both our business interests and the expectations of the users.
       </p>
       <p class="mt-4">
-        Diese Informationen werden zur technischen Verbesserung unseres
-        Newsletters anhand der technischen Daten oder der Zielgruppen und ihres
-        Leseverhaltens auf Basis ihrer Abruforte (die mit Hilfe der IP-Adresse
-        bestimmbar sind) oder der Zugriffszeiten genutzt. Diese Analyse
-        beinhaltet ebenfalls die Feststellung, ob die Newsletter geöffnet
-        werden, wann sie geöffnet werden und welche Links geklickt werden. Diese
-        Informationen können aus technischen Gründen zwar den einzelnen
-        Newsletterempfängern zugeordnet werden. Es ist jedoch weder unser
-        Bestreben noch, sofern eingesetzt, das des Versanddienstleisters,
-        einzelne Nutzer zu beobachten. Die Auswertungen dienen uns vielmehr
-        dazu, die Lesegewohnheiten unserer Nutzer zu erkennen und unsere Inhalte
-        an sie anzupassen oder unterschiedliche Inhalte entsprechend den
-        Interessen unserer Nutzer zu versenden.
+        A separate revocation of the performance measurement is unfortunately not possible, in which case the entire newsletter subscription must be cancelled or contradicted.
       </p>
       <p class="mt-4">
-        Die Auswertung des Newsletters und die Erfolgsmessung erfolgen,
-        vorbehaltlich einer ausdrücklichen Einwilligung der Nutzer, auf
-        Grundlage unserer berechtigten Interessen zu Zwecken des Einsatzes eines
-        nutzerfreundlichen sowie sicheren Newslettersystems, welches sowohl
-        unseren geschäftlichen Interessen dient, als auch den Erwartungen der
-        Nutzer entspricht.
-      </p>
-      <p class="mt-4">
-        Ein getrennter Widerruf der Erfolgsmessung ist leider nicht möglich, in
-        diesem Fall muss das gesamte Newsletterabonnement gekündigt, bzw. muss
-        ihm widersprochen werden.
-      </p>
-      <p class="mt-4">
-        <strong>Voraussetzung der Inanspruchnahme kostenloser Leistungen</strong
-        >: Die Einwilligungen in den Versand von Mailings kann als Voraussetzung
-        zur Inanspruchnahme kostenloser Leistungen (z.B. Zugang zu bestimmten
-        Inhalten oder Teilnahme an bestimmten Aktionen) abhängig gemacht werden.
-        Sofern die Nutzer die kostenlose Leistung in Anspruch nehmen möchten,
-        ohne sich zum Newsletter anzumelden, bitten wir Sie um eine
-        Kontaktaufnahme.
+        <strong>Prerequisite for the use of free services</strong>: Consent to the sending of mailings can be made dependent on the use of free services (e.g. access to certain content or
+        participation in certain campaigns) as a prerequisite. If users wish to make use of the free service without registering for the newsletter, please contact us.
       </p>
       <ul class="list-disc mt-4">
         <li>
           <p class="mt-4">
-            <strong>Verarbeitete Datenarten:</strong> Bestandsdaten (z.B. Namen,
-            Adressen), Kontaktdaten (z.B. E-Mail, Telefonnummern),
-            Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen),
-            Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten,
-            Zugriffszeiten).
+            <strong>Processed data types:</strong>
+            inventory data (e.g. names, addresses), contact data (e.g. e-mail, telephone numbers), meta/communication data (e.g. device information, IP addresses), usage data (e.g. websites visited,
+            interest in content, access times).
           </p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Betroffene Personen:</strong> Kommunikationspartner, Nutzer
-            (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
+            <strong>Persons concerned:</strong>
+            Communication partners, users (e.g. website visitors, users of online services).
           </p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Zwecke der Verarbeitung:</strong> Direktmarketing (z.B. per
-            E-Mail oder postalisch), Vertragliche Leistungen und Service.
+            <strong>Purposes of processing:</strong>
+            direct marketing (e.g. by e-mail or post), contractual services and service.
           </p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
-            lit. a DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f.
-            DSGVO).
+            <strong>Legal basis:</strong>
+            Consent (Art. 6 Para. 1 S. 1 lit. a DSGVO), legitimate interests (Art. 6 Para. 1 S. 1 lit. f. DSGVO).
           </p>
         </li>
         <li>
           <p class="mt-4">
-            <strong>Widerspruchsmöglichkeit (Opt-Out):</strong> Sie können den
-            Empfang unseres Newsletters jederzeit kündigen, d.h. Ihre
-            Einwilligungen widerrufen, bzw. dem weiteren Empfang widersprechen.
-            Einen Link zur Kündigung des Newsletters finden Sie entweder am Ende
-            eines jeden Newsletters oder können sonst eine der oben angegebenen
-            Kontaktmöglichkeiten, vorzugswürdig E-Mail, hierzu nutzen.
+            <strong>Opt-Out:</strong>
+            You can cancel the receipt of our newsletter at any time, i.e. revoke your consent or object to further receipt. You will find a link to cancel the newsletter either at the end of each
+            newsletter or you can otherwise use one of the contact options listed above, preferably e-mail.
           </p>
         </li>
       </ul>
-      <p class="mt-4"><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+      <p class="mt-4"><strong>Used services and service providers:</strong></p>
       <ul class="list-disc mt-4">
         <li>
           <p class="mt-4">
-            <strong>Mailchimp:</strong> E-Mail-Marketing-Plattform;
-            Dienstanbieter: "Mailchimp" - Rocket Science Group, LLC, 675 Ponce
-            De Leon Ave NE #5000, Atlanta, GA 30308, USA; Website:
-            <a href="https://mailchimp.com" target="_blank"
-              >https://mailchimp.com</a
-            >; Datenschutzerklärung:
-            <a href="https://mailchimp.com/legal/privacy/" target="_blank"
-              >https://mailchimp.com/legal/privacy/</a
-            >; Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung
-            von Daten in den USA):
-            <a
-              href="https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&status=Active"
-              target="_blank"
-              >https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&status=Active</a
-            >.
+            <strong>Mailchimp:</strong> e-mail marketing platform; service provider: "Mailchimp" - Rocket Science Group, LLC, 675 Ponce De Leon Ave NE #5000, Atlanta, GA 30308, USA; website: :
+            <a href="https://mailchimp.com" target="_blank">https://mailchimp.com</a>; privacy statement:
+            <a href="https://mailchimp.com/legal/privacy/" target="_blank">https://mailchimp.com/legal/privacy/</a>; Privacy Shield:
+            <a href="https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&status=Active" target="_blank">https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&status=Active</a>.
           </p>
         </li>
       </ul>
-      <h2 class="text-xl mt-16 font-bold" id="m12">Löschung von Daten</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m12">Deletion of data</h2>
       <p class="mt-4">
-        Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen
-        Vorgaben gelöscht, sobald deren zur Verarbeitung erlaubten
-        Einwilligungen widerrufen werden oder sonstige Erlaubnisse entfallen
-        (z.B., wenn der Zweck der Verarbeitung dieser Daten entfallen ist oder
-        sie für den Zweck nicht erforderlich sind).
+        The data processed by us will be deleted in accordance with the statutory provisions as soon as their consent permitted for processing is revoked or other permissions lapse (e.g. if the
+        purpose of processing this data has lapsed or it is not necessary for the purpose).
       </p>
       <p class="mt-4">
-        Sofern die Daten nicht gelöscht werden, weil sie für andere und
-        gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung
-        auf diese Zwecke beschränkt. D.h., die Daten werden gesperrt und nicht
-        für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels-
-        oder steuerrechtlichen Gründen aufbewahrt werden müssen oder deren
-        Speicherung zur Geltendmachung, Ausübung oder Verteidigung von
-        Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen
-        oder juristischen Person erforderlich ist.
+        If the data are not deleted because they are required for other and legally permissible purposes, their processing will be limited to these purposes. This means that the data will be blocked
+        and not processed for other purposes. This applies, for example, to data that must be stored for commercial or tax reasons or whose storage is necessary to assert, exercise or defend legal
+        claims or to protect the rights of another natural or legal person.
       </p>
       <p class="mt-4">
-        Weitere Hinweise zu der Löschung von personenbezogenen Daten können
-        ferner im Rahmen der einzelnen Datenschutzhinweise dieser
-        Datenschutzerklärung erfolgen.
+        Further information on the deletion of personal data can also be found in the individual data protection notices of this data protection declaration.
       </p>
       <ul class="list-disc mt-4"></ul>
-      <h2 class="text-xl mt-16 font-bold" id="m15">Änderung und Aktualisierung der Datenschutzerklärung</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m15">Modification and updating of the data protection declaration</h2>
       <p class="mt-4">
-        Wir bitten Sie, sich regelmäßig über den Inhalt unserer
-        Datenschutzerklärung zu informieren. Wir passen die Datenschutzerklärung
-        an, sobald die Änderungen der von uns durchgeführten Datenverarbeitungen
-        dies erforderlich machen. Wir informieren Sie, sobald durch die
-        Änderungen eine Mitwirkungshandlung Ihrerseits (z.B. Einwilligung) oder
-        eine sonstige individuelle Benachrichtigung erforderlich wird.
+        We ask you to inform yourself regularly about the content of our data protection declaration. We will adapt the data protection declaration as soon as the changes to the data processing
+        carried out by us make this necessary. We will inform you as soon as the changes require your cooperation (e.g. consent) or other individual notification.
       </p>
       <p class="mt-4">
-        Sofern wir in dieser Datenschutzerklärung Adressen und
-        Kontaktinformationen von Unternehmen und Organisationen angeben, bitten
-        wir zu beachten, dass die Adressen sich über die Zeit ändern können und
-        bitten die Angaben vor Kontaktaufnahme zu prüfen.
+        If we provide addresses and contact information of companies and organisations in this data protection declaration, please note that the addresses may change over time and please check this
+        information before contacting us.
       </p>
-      <h2 class="text-xl mt-16 font-bold" id="m10">Rechte der betroffenen Personen</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m10">Rights of data subjects</h2>
       <p class="mt-4">
-        Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die
-        sich insbesondere aus Art. 15 bis 18 und 21 DSGVO ergeben:
+        Under the DSGVO, they are entitled to various rights as affected parties, which result in particular from Articles 15 to 18 and 21 DSGVO:
       </p>
       <ul class="list-disc mt-4">
         <li>
-          <strong
-            >Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus
-            Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung
-            der Sie betreffenden personenbezogenen Daten, die aufgrund von Art.
-            6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies
-            gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
-            Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um
-            Direktwerbung zu betreiben, haben Sie das Recht, jederzeit
-            Widerspruch gegen die Verarbeitung der Sie betreffenden
-            personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen;
-            dies gilt auch für das Profiling, soweit es mit solcher
-            Direktwerbung in Verbindung steht.</strong
-          >
+          <strong>
+            Right of objection: You have the right, for reasons arising from your particular situation, to object at any time to the processing of personal data concerning you on the basis of Art. 6
+            para. 1 lit. e or f DSGVO; this also applies to profiling based on these provisions. If the personal data concerning you are processed for the purpose of direct advertising, you have the
+            right at any time to object to the processing of the personal data concerning you for the purpose of such advertising; this also applies to profiling insofar as it is connected with such
+            direct advertising.
+          </strong>
         </li>
         <li>
-          <strong>Widerrufsrecht bei Einwilligungen:</strong> Sie haben das
-          Recht, erteilte Einwilligungen jederzeit zu widerrufen.
+          <strong>Right of withdrawal for consents:</strong>
+          You have the right to revoke your consent at any time.
         </li>
         <li>
-          <strong>Auskunftsrecht:</strong> Sie haben das Recht, eine Bestätigung
-          darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf
-          Auskunft über diese Daten sowie auf weitere Informationen und Kopie
-          der Daten entsprechend den gesetzlichen Vorgaben.
+          <strong>Right to information:</strong>
+          You have the right to request confirmation as to whether the data concerned will be processed and to request information about this data as well as further information and a copy of the data
+          in accordance with the statutory provisions.
         </li>
         <li>
-          <strong>Recht auf Berichtigung:</strong> Sie haben entsprechend den
-          gesetzlichen Vorgaben das Recht, die Vervollständigung der Sie
-          betreffenden Daten oder die Berichtigung der Sie betreffenden
-          unrichtigen Daten zu verlangen.
+          <strong>Right of rectification:</strong>
+          You have the right, in accordance with the provisions of the law, to request the completion of the data concerning you or the rectification of inaccurate data concerning you.
         </li>
         <li>
-          <strong
-            >Recht auf Löschung und Einschränkung der Verarbeitung:</strong
-          >
-          Sie haben nach Maßgabe der gesetzlichen Vorgaben das Recht, zu
-          verlangen, dass Sie betreffende Daten unverzüglich gelöscht werden,
-          bzw. alternativ nach Maßgabe der gesetzlichen Vorgaben eine
-          Einschränkung der Verarbeitung der Daten zu verlangen.
+          <strong>Right to cancellation and limitation of processing:</strong>
+          You have the right, in accordance with the statutory provisions, to demand that the data relating to you be deleted immediately or, alternatively, to demand that the processing of the data
+          be restricted in accordance with the statutory provisions.
         </li>
         <li>
-          <strong>Recht auf Datenübertragbarkeit:</strong> Sie haben das Recht,
-          Sie betreffende Daten, die Sie uns bereitgestellt haben, nach Maßgabe
-          der gesetzlichen Vorgaben in einem strukturierten, gängigen und
-          maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen
-          anderen Verantwortlichen zu fordern.
+          <strong>Right to data transfer:</strong>
+          You have the right to receive data concerning you which you have made available to us in a structured, common and machine-readable format in accordance with the legal requirements or to
+          demand its transfer to another responsible person.
         </li>
         <li>
-          <strong>Beschwerde bei Aufsichtsbehörde:</strong> Sie haben ferner
-          nach Maßgabe der gesetzlichen Vorgaben das Recht, bei einer
-          Aufsichtsbehörde, insbesondere in dem Mitgliedstaat Ihres gewöhnlichen
-          Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen
-          Verstoßes, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie
-          betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
+          <strong>Complaint to supervisory authority:</strong>
+          You also have the right, in accordance with the statutory provisions, to lodge a complaint with a supervisory authority, in particular in the member state of your habitual residence, your
+          place of work or the place of the presumed infringement, if you are of the opinion that the processing of your personal data violates the DSGVO.
         </li>
       </ul>
-      <h2 class="text-xl mt-16 font-bold" id="m42">Begriffsdefinitionen</h2>
+
+      <h2 class="text-xl mt-16 font-bold" id="m42">Definitions of terms</h2>
       <p class="mt-4">
-        In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser
-        Datenschutzerklärung verwendeten Begrifflichkeiten. Viele der Begriffe
-        sind dem Gesetz entnommen und vor allem im Art. 4 DSGVO definiert. Die
-        gesetzlichen Definitionen sind verbindlich. Die nachfolgenden
-        Erläuterungen sollen dagegen vor allem dem Verständnis dienen. Die
-        Begriffe sind alphabetisch sortiert.
+        This section provides an overview of the terms used in this privacy statement. Many of the terms are taken from the law and defined above all in Art. 4 DSGVO. The legal definitions are
+        binding. The following explanations, on the other hand, are primarily intended to help you understand them. The terms are sorted alphabetically.
       </p>
       <ul class="list-disc mt-4">
         <li>
-          <strong>Content Delivery Network (CDN):</strong> Ein "Content Delivery
-          Network" (CDN) ist ein Dienst, mit dessen Hilfe Inhalte eines
-          Onlineangebotes, insbesondere große Mediendateien, wie Grafiken oder
-          Programm-Skripte mit Hilfe regional verteilter und über das Internet
-          verbundener Server, schneller und sicherer ausgeliefert werden können.
+          <strong>Content Delivery Network (CDN):</strong>
+          A "Content Delivery Network" (CDN) is a service with the help of which the contents of an online offer, in particular large media files such as graphics or program scripts, can be delivered
+          faster and more securely with the help of regionally distributed servers connected via the Internet.
         </li>
         <li>
-          <strong>Personenbezogene Daten:</strong> "Personenbezogene Daten“ sind
-          alle Informationen, die sich auf eine identifizierte oder
-          identifizierbare natürliche Person (im Folgenden "betroffene Person“)
-          beziehen; als identifizierbar wird eine natürliche Person angesehen,
-          die direkt oder indirekt, insbesondere mittels Zuordnung zu einer
-          Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu
-          einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren
-          besonderen Merkmalen identifiziert werden kann, die Ausdruck der
-          physischen, physiologischen, genetischen, psychischen,
-          wirtschaftlichen, kulturellen oder sozialen Identität dieser
-          natürlichen Person sind.
+          <strong>Personal data:</strong>
+          "Personal data" means any information relating to an identified or identifiable natural person (hereinafter "data subject"); an identifiable natural person is one who can be identified
+          directly or indirectly, in particular by association with an identifier such as a name, an identification number, location data, an online identifier (e.g. a cookie) or with one or more
+          specific characteristics that express the physical, physiological, genetic, psychological, economic, cultural or social identity of that natural person.
         </li>
         <li>
-          <strong>Verantwortlicher:</strong> Als "Verantwortlicher“ wird die
-          natürliche oder juristische Person, Behörde, Einrichtung oder andere
-          Stelle, die allein oder gemeinsam mit anderen über die Zwecke und
-          Mittel der Verarbeitung von personenbezogenen Daten entscheidet,
-          bezeichnet.
+          <strong>Data controller (also: person in charge):</strong>
+          a "data controller" is a natural or legal person, public authority, agency or other body which alone or jointly with others determines the purposes and means of the processing of personal
+          data.
         </li>
         <li>
-          <strong>Verarbeitung:</strong> "Verarbeitung" ist jeder mit oder ohne
-          Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche
-          Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff
-          reicht weit und umfasst praktisch jeden Umgang mit Daten, sei es das
-          Erheben, das Auswerten, das Speichern, das Übermitteln oder das
-          Löschen.
+          <strong>Processing:</strong>
+          "processing" means any operation or set of operations which is carried out with or without the aid of automated processes and which is linked to personal data. The term is broad and covers
+          practically all handling of data, be it collection, analysis, storage, transmission or erasure.
         </li>
       </ul>
       <p class="mt-4">
-        <a
-          href="https://datenschutz-generator.de/?l=de"
-          title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
-          target="_blank"
-          >Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas
-          Schwenke</a
+        <a href="https://datenschutz-generator.de/?l=de" title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken." target="_blank"
+          >Created with a free data protection generator by Dr. Thomas Schwenke. Translated by the person in charge of this website (Jan Prill).</a
         >
       </p>
     </div>

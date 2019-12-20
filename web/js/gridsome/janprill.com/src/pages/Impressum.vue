@@ -1,9 +1,16 @@
 <template>
   <Layout>
     <div class="text-white text-lg max-w-xl container mx-auto">
-      <h1 class="text-4xl mt-16 font-bold">Impressum</h1>
+      <h1 class="text-4xl mt-16 font-bold">Legal notice (Imprint / Impressum in German)</h1>
+      <small>
+        <g-link to="/impressum-de" class="underline">
+          Would you rather read this in German? Lieber auf Deutsch lesen?
+        </g-link>
+      </small>
 
-      <h2 class="mt-16 text-2xl font-bold">Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+      <h2 class="mt-16 text-2xl font-bold">
+        Information according to § 5 TMG
+      </h2>
       <p class="mt-6">
         Inviado Ltd &amp; Co KG<br />
         Babendiekstr. 60b<br />
@@ -11,18 +18,18 @@
       </p>
 
       <p class="mt-6">
-        Handelsregister: HRA116020<br />
-        Registergericht: Amtsgericht Hamburg
+        Commercial register: HRA116020<br />
+        Register court: Amtsgericht Hamburg
       </p>
 
       <p class="mt-6">
-        <strong>Vertreten durch:</strong><br />
+        <strong>Represented by:</strong><br />
         Inviado Ltd<br />
         Third Floor, 207 Regent Street, London, W1B 3HH
       </p>
 
       <p class="mt-6">
-        <strong>Diese vertreten durch:</strong><br />
+        <strong>Which is represented by:</strong><br />
         Jan Prill, Babendiekstr. 60b, 22587 Hamburg
       </p>
 
@@ -34,95 +41,62 @@
         </a>
       </p>
 
-      <h2 class="mt-16 text-2xl font-bold">Kontakt</h2>
+      <h2 class="mt-16 text-2xl font-bold">Contact us</h2>
       <p class="mt-6">
-        Telefon: +49 171 3516667<br />
-        Telefax: +49 40 380178-730229<br />
-        E-Mail: jan.prill@inviado.com
+        Phone: +49 171 3516667<br />
+        Fax: +49 40 380178-730229<br />
+        E-mail: jan.prill@inviado.com
       </p>
 
-      <h2 class="mt-16 text-2xl font-bold">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
+      <h2 class="mt-16 text-2xl font-bold">Professional title and professional regulations</h2>
       <p class="mt-6">
-        Rein vorsorglich, weil der verantwortliche Betreiber dieser Website, Jan Prill, in Deutschlanda als Rechtsanwalt zugelassen ist, 
-        folgen diese ergänzenden Informationen:
+        As a precautionary measure, because the responsible operator of this website, Jan Prill, is admitted as a lawyer in Germany, this supplementary information follows:
       </p>
       <p class="mt-6">
         Jan Prill<br />
         Babendiekstr. 60b<br />
-        22587 Hamburg <br/>
-        Berufsbezeichnung: Rechtsanwalt<br />
-        Zust&auml;ndige Kammer: Hanseatische Rechtsanwaltskammer Hamburg<br />
-        Verliehen durch: Deutschland<br />
-        Es gelten folgende berufsrechtliche Regelungen: BRAO -
-        Bundesrechtsanwaltsordnung BORA - Berufsordnung f&uuml;r
-        Rechtsanw&auml;lte RVG - Rechtsanwaltsverg&uuml;tungsgesetz Berufsregeln
-        der Rechtsanw&auml;lte der Europ&auml;ischen Union<br />
-        Regelungen einsehbar unter:
-        <a
-          href="https://www.brak.de/fuer-anwaelte/berufsrecht/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >https://www.brak.de/fuer-anwaelte/berufsrecht/</a
-        >
+        22587 Hamburg<br />
+        Job title: Attorney at Law<br />
+        Responsible Chamber: Hanseatische Rechtsanwaltskammer Hamburg<br />
+        Awarded by: Germany<br />
+        The following professional regulations apply: BRAO - Bundesrechtsanwaltsordnung BORA - Berufsordnung für Rechtsanwälte RVG - Rechtsanwaltsvergütungsgesetz (Lawyers' Fees Act) Professional
+        rules for lawyers in the European Union<br />
+        Regulations available at: https://www.brak.de/fuer-anwaelte/berufsrecht/
+        <a href="https://www.brak.de/fuer-anwaelte/berufsrecht/" target="_blank" rel="noopener noreferrer">https://www.brak.de/fuer-anwaelte/berufsrecht/</a>
+      </p>
+      <p class="mt-6">
+        We are not willing or obliged to participate in dispute resolution proceedings before a consumer mediation body.
       </p>
 
+      <h3 class="mt-16 text-xl font-bold">Liability for contents</h3>
       <p class="mt-6">
-        Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
-        vor einer Verbraucherschlichtungsstelle teilzunehmen.
+        As a service provider we are responsible according to § 7 Abs.1 TMG for our own contents on these pages according to the general laws. According to §§ 8 to 10 TMG, we are not obliged to
+        monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.
+      </p>
+      <p class="mt-6">
+        Obligations to remove or block the use of information in accordance with general laws remain unaffected by this. However, liability in this respect is only possible from the time of knowledge
+        of a concrete violation of the law. As soon as we become aware of such infringements, we will remove the content immediately.
       </p>
 
-      <h3 class="mt-16 text-xl font-bold">Haftung f&uuml;r Inhalte</h3>
+      <h3 class="mt-16 text-xl font-bold">Liability for links</h3>
       <p class="mt-6">
-        Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs.1 TMG
-        f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
-        verantwortlich. Nach &sect;&sect; 8 bis 10 TMG sind wir als
-        Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder
-        gespeicherte fremde Informationen zu &uuml;berwachen oder nach
-        Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit
-        hinweisen.
+        Our offer contains links to external websites of third parties on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective
+        provider or operator of the pages is always responsible for the contents of the linked pages. The linked pages were checked for possible legal infringements at the time of linking. Illegal
+        contents were not recognisable at the time of linking.
       </p>
       <p class="mt-6">
-        Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
-        Informationen nach den allgemeinen Gesetzen bleiben hiervon
-        unber&uuml;hrt. Eine diesbez&uuml;gliche Haftung ist jedoch erst ab dem
-        Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung m&ouml;glich.
-        Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese
-        Inhalte umgehend entfernen.
+        A permanent control of the contents of the linked pages is not reasonable without concrete evidence of an infringement. As soon as we become aware of any legal infringements, we will remove
+        such links immediately.
       </p>
-      <h3 class="mt-16 text-xl font-bold">Haftung f&uuml;r Links</h3>
+      <h3 class="mt-16 text-xl font-bold">Copyright</h3>
       <p class="mt-6">
-        Unser Angebot enth&auml;lt Links zu externen Websites Dritter, auf deren
-        Inhalte wir keinen Einfluss haben. Deshalb k&ouml;nnen wir f&uuml;r
-        diese fremden Inhalte auch keine Gew&auml;hr &uuml;bernehmen. F&uuml;r
-        die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder
-        Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum
-        Zeitpunkt der Verlinkung auf m&ouml;gliche Rechtsverst&ouml;&szlig;e
-        &uuml;berpr&uuml;ft. Rechtswidrige Inhalte waren zum Zeitpunkt der
-        Verlinkung nicht erkennbar.
+        The contents and works on these pages created by the site operators are subject to German copyright law. Duplication, processing, distribution and any form of commercialization of such
+        material beyond the scope of the copyright law shall require the prior written consent of its respective author or creator. Downloads and copies of these pages are only permitted for private,
+        non-commercial use.
       </p>
       <p class="mt-6">
-        Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch
-        ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei
-        Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend
-        entfernen.
-      </p>
-      <h3 class="mt-16 text-xl font-bold">Urheberrecht</h3>
-      <p class="mt-6">
-        Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
-        Seiten unterliegen dem deutschen Urheberrecht. Die
-        Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der
-        Verwertung au&szlig;erhalb der Grenzen des Urheberrechtes bed&uuml;rfen
-        der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
-        Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht
-        kommerziellen Gebrauch gestattet.
-      </p>
-      <p class="mt-6">
-        Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden,
-        werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte
-        Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
-        Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
-        entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
-        wir derartige Inhalte umgehend entfernen.
+        Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, contents of third parties are marked as such. Should you
+        nevertheless become aware of a copyright infringement, please inform us accordingly. As soon as we become aware of any infringements, we will remove such content immediately.
       </p>
     </div>
   </Layout>

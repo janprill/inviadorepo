@@ -15,19 +15,16 @@
       <div class="md:flex bg-primary">
         <div class="flex-auto px-4 py-2 m-2">
           <g-link to="/impressum">
-            Impressum
+            Legal&nbsp;Notice
           </g-link>
         </div>
         <div class="flex-auto px-4 py-2 m-2">
           <g-link to="/datenschutz">
-            Datenschutz
+            Data&nbsp;protection
           </g-link>
         </div>
         <div class="flex-auto text-left px-4 py-2 m-2">
-          Jan Prill hat 17+ Jahre Erfahrung in der Softwareentwicklung. 10+ Jahre davon Führungserfahrung in DEV-Teams unterschiedlicher Größe. 
-          Er hat Teams von 3 bis 12 Personen in Internetstartups, bei global agierenden Informationskonzernen, sowie im Softwaremittelstand geleitet.
-          Jan hat - einfach mal so nebenbei - Informationsbusinesses aufgebaut, die digitale Produkte im sechsstelligen Bereich umgesetzt haben.
-          Jan ist außerdem Rechtsanwalt und betreibt seit 2007 seine wohnzimmerkanzlei.com.
+          Jan Prill has 17+ years of experience in software development. 10+ years of which include leadership experience in DEV teams of various sizes. He has led teams of 3 to 12 people in Internet startups, global information enterprises, and medium-sized software companies. Jan has - as a side hustle - built up information businesses that have turned over six-figures worth of digital products per year. Jan is also a lawyer and has been running his wohnzimmerkanzlei.com since 2007.
         </div>
       </div>
     </footer>
