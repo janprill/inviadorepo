@@ -1,0 +1,17 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "bookshelf",
+      "settings": {
+        "client": "postgres",
+        "database": "inviado",
+        "host": "127.0.0.1",
+        "port": 5432,
+        "username": "jan.prill",
+        "password": ""
+      },
+      "options": {}
+    }
+  }
+}

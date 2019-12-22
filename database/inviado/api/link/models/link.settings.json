@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "links",
+  "info": {
+    "name": "Link"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "uri": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "organization": {
+      "via": "links",
+      "model": "organization"
+    }
+  }
+}
