@@ -10,6 +10,7 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+	jcenter()
 }
 
 dependencies {
@@ -19,6 +20,10 @@ dependencies {
 	compile("com.squareup.moshi", "moshi-kotlin", "1.9.2")
 	compile("com.squareup.moshi", "moshi-kotlin-codegen", "1.9.2")
 	// kapt("com.squareup.moshi:moshi-kotlin-codegen:1.9.2")
+	compile("org.jetbrains.exposed", "exposed-core", "0.19.3")
+	compile("org.jetbrains.exposed", "exposed-dao", "0.19.3")
+	compile("org.jetbrains.exposed", "exposed-jdbc", "0.19.3")
+	compile("org.postgresql:postgresql:42.2.2")
 }
 
 configure<JavaPluginConvention> {

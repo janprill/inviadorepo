@@ -13,7 +13,7 @@ data class Item(
 	val location: String,
 	val number_of_contacts: Int,
 	val number_of_contacts_in_common: Int,
-	val occupation: Occupation,
+	val occupation: Occupation?,
 	val position: Int,
 	val show_add_contact: Boolean,
 	val sid: String,
