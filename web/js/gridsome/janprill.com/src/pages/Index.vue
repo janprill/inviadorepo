@@ -119,12 +119,12 @@
                 <td class="border border-teal-600 px-4 py-2">20,740,512.12 EUR</td>
               </tr>
               <tr class="bg-gray-100">
-                <td class="border border-teal-600 px-4 py-2">Anzahl Mitarbeiter</td>
+                <td class="border border-teal-600 px-4 py-2">Number of employees</td>
                 <td class="border border-teal-600 px-4 py-2">262</td>
                 <td class="border border-teal-600 px-4 py-2">134</td>
               </tr>
               <tr>
-                <td class="border border-teal-600 px-4 py-2">Gehalt je Mitarbeiter</td>
+                <td class="border border-teal-600 px-4 py-2">Salary per employee</td>
                 <td class="border border-teal-600 px-4 py-2">38,476.18 EUR</td>
                 <td class="border border-teal-600 px-4 py-2">154,779.94 EUR</td>
               </tr>
