@@ -5,7 +5,7 @@
       <div class="md:flex md:flex-row">
         <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 pb-32 md:pr-20 mb-auto">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl tracking-wide">
-            I help IT talents earn more money and build assets
+            I help IT talents earn more money and build assets.
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
