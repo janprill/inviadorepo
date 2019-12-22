@@ -35,9 +35,9 @@
             <p>From now on I will help you to make the choices that will ensure that money is no more part of your problems.</p>
             <p>When I coach you, you no longer make avoidable mistakes in the due diligence of your career. My service is completely free for you. How is that possible? Contact me, and I will explain it to you.</p>
             <div class="mt-8">
-              <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl">
+              <a class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl" target="_blank" href="https://calendly.com/inviado/free-consulting-call">
                 Schedule a call with me
-              </button>
+              </a>
             </div>
           </div>
         </article>
@@ -60,9 +60,9 @@
               Arrange a free call with me, then I will explain to you what I will do for you - completely free of charge:
             </p>
             <div class="mt-8">
-              <button class="rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-black hover:border-transparent rounded-3xl">
+              <a class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl" target="_blank" href="https://calendly.com/inviado/free-consulting-call">
                 Schedule a call with me
-              </button>
+              </a>
             </div>
           </div>
         </article>
