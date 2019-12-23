@@ -10,12 +10,11 @@ object Organizations : LongIdTable("organizations") {
 	// val description = text("description")
 }
 
-class Organization(id: EntityID<Long>): LongEntity(id) {
+class Organization(id: EntityID<Long>) : LongEntity(id) {
 	companion object : LongEntityClass<Organization>(Organizations)
 
 	var name by Organizations.name
 	// var description by Organizations.description
 	val links by Link referrersOn Links.organization // make sure to use val and referrersOn
 }
-
 

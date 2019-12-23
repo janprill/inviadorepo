@@ -20,7 +20,7 @@ object XingParser {
 
 	@JvmStatic
 	fun main(args: Array<String>) {
-		val db = Database.connect("jdbc:postgresql://localhost:5432/inviado", driver = "org.postgresql.Driver",
+		Database.connect("jdbc:postgresql://localhost:5432/inviado", driver = "org.postgresql.Driver",
 			user = "jan.prill", password = "")
 
 		val moshi = Moshi.Builder()
@@ -44,7 +44,7 @@ object XingParser {
 					val	source: BufferedSource = Okio.buffer(Okio.source(it.absoluteFile))
 					val fromJson = adapter.nullSafe().fromJson(JsonReader.of(source))
 					println(fromJson)
-					// insert new organization into the db
+					// insert new organizations into the db
 					fromJson!!.items.forEach {
 						val org = Organization.new {
 							name = it.occupation?.link_text?:""
