@@ -18,6 +18,11 @@
     "links": {
       "collection": "link",
       "via": "organization"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
