@@ -5,7 +5,7 @@ import org.jetbrains.exposed.dao.LongEntityClass
 import org.jetbrains.exposed.dao.id.EntityID
 import org.jetbrains.exposed.dao.id.LongIdTable
 
-object Members : LongIdTable("links") {
+object Members : LongIdTable("members") {
 	val name = varchar("name", 255)
 	val type = varchar("type", 255)
 	val extId = varchar("extId", 80)

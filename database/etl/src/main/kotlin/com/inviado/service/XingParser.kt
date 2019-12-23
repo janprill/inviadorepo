@@ -1,6 +1,7 @@
 package com.inviado.service
 
 import com.inviado.model.dao.Links
+import com.inviado.model.dao.Members
 import com.inviado.model.dao.Organizations
 import com.inviado.model.xing.XingPeopleSearch
 import com.squareup.moshi.JsonReader
@@ -34,7 +35,7 @@ object XingParser {
 			// print sql to std-out
 			addLogger (StdOutSqlLogger)
 
-			SchemaUtils.create (Links, Organizations)
+			SchemaUtils.create (Members, Links, Organizations)
 
 
 			File("/Users/jan.prill/Documents/workspace/msp/inviadorepo/data/XING/devs")

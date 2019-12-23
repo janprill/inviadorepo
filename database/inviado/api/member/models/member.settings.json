@@ -1,0 +1,54 @@
+{
+  "connection": "default",
+  "collectionName": "members",
+  "info": {
+    "name": "Member"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "extId": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "imageUri": {
+      "type": "string"
+    },
+    "sid": {
+      "type": "string"
+    },
+    "displayFlag": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "organizations": {
+      "collection": "organization",
+      "via": "members",
+      "dominant": true
+    }
+  }
+}
