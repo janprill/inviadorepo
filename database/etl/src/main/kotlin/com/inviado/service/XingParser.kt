@@ -15,6 +15,7 @@ import org.jetbrains.exposed.sql.StdOutSqlLogger
 import org.jetbrains.exposed.sql.addLogger
 import org.jetbrains.exposed.sql.transactions.transaction
 import java.io.File
+import com.inviado.utils.insertOrUpdate
 
 object XingParser {
 
@@ -46,8 +47,8 @@ object XingParser {
 					println(fromJson)
 					// insert new organizations into the db
 					fromJson!!.items.forEach {
-						val org = Organization.new {
-							name = it.occupation?.link_text?:""
+						Organizations.insertOrUpdate(Organizations.name) { org ->
+							org[name] = it.occupation?.link_text?:""
 						}
 						println(it.occupation?.link_text?:"")
 					}
