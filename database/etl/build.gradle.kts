@@ -24,6 +24,9 @@ dependencies {
 	compile("org.jetbrains.exposed", "exposed-dao", "0.19.3")
 	compile("org.jetbrains.exposed", "exposed-jdbc", "0.19.3")
 	compile("org.postgresql:postgresql:42.2.2")
+	compile("commons-net","commons-net", "3.6")
+	compile("com.microsoft.azure", "azure","1.29.0")
+	compile("com.microsoft.azure.cognitiveservices", "azure-cognitiveservices-websearch", "1.0.2")
 }
 
 configure<JavaPluginConvention> {
