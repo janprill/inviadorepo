@@ -116,7 +116,7 @@ public class BingWebSearchSample {
 			// Authenticate
 			// Set the BING_SEARCH_V7_SUBSCRIPTION_KEY environment variable with your subscription key,
 			// then reopen your command prompt or IDE. If not, you may get an API key not found exception.
-			final String subscriptionKey = System.getenv("BING_SEARCH_V7_SUBSCRIPTION_KEY");
+			// String subscriptionKey = System.getenv("BING_SEARCH_V7_SUBSCRIPTION_KEY");
 
 			BingWebSearchAPI client = BingWebSearchManager.authenticate(subscriptionKey);
 
