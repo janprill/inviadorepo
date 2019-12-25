@@ -1,5 +1,6 @@
 package com.inviado.service;
 
+import com.inviado.model.config.InviadoConfig;
 import com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearchAPI;
 import com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearchManager;
 import com.microsoft.azure.cognitiveservices.search.websearch.models.ImageObject;
@@ -117,9 +118,9 @@ public class BingWebSearchSample {
 			// Set the BING_SEARCH_V7_SUBSCRIPTION_KEY environment variable with your subscription key,
 			// then reopen your command prompt or IDE. If not, you may get an API key not found exception.
 			// String subscriptionKey = System.getenv("BING_SEARCH_V7_SUBSCRIPTION_KEY");
-
+			InviadoConfig config = new InviadoConfig();
+			String subscriptionKey = config.getConfig().getBing().getKey();
 			BingWebSearchAPI client = BingWebSearchManager.authenticate(subscriptionKey);
-
 
 			runSample(client);
 		} catch (Exception e) {
