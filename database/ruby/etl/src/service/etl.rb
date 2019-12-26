@@ -6,17 +6,23 @@ class Link < Sequel::Model(DB[:links])
   many_to_one :organization, :class => :Organization
 end
 
-class Organization < Sequel::Model(DB[:organizations])
-  one_to_many :links, :class => :Link, :key => :organization
+class Searchresult < Sequel::Model(DB[:searchresults])
+  many_to_one :organization, :class => :Organization
 end
 
-# db['select * from organizations'].each do |row|
-#   p row
-# end
+class Organization < Sequel::Model(DB[:organizations])
+  one_to_many :links, :class => :Link
+  one_to_many :searchresults, :class => :Searchresult
+end
+
+
+
 
 org = Organization.first
 p '----------------------'
 p org
+searchresult = Searchresult.create(:query => 'Ja moin')
+org.add_searchresult(searchresult)
 
 orgs = Organization.eager(:links)
 

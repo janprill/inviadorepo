@@ -1,29 +1,29 @@
 {
   "connection": "default",
-  "collectionName": "links",
+  "collectionName": "searchresults",
   "info": {
-    "name": "Link"
+    "name": "searchresults"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "text": {
+    "query": {
       "type": "string"
     },
-    "target": {
+    "querytime": {
+      "type": "datetime"
+    },
+    "engine": {
       "type": "string"
     },
-    "uri": {
-      "type": "string"
-    },
-    "type": {
-      "type": "string"
+    "results": {
+      "type": "json"
     },
     "organization_id": {
       "model": "organization",
-      "via": "links"
+      "via": "searchresults"
     }
   }
 }

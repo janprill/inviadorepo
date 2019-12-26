@@ -15,10 +15,6 @@
     "description": {
       "type": "richtext"
     },
-    "links": {
-      "collection": "link",
-      "via": "organization"
-    },
     "isActive": {
       "type": "boolean",
       "default": true,
@@ -31,6 +27,14 @@
     "numbers": {
       "via": "organization",
       "collection": "numbers"
+    },
+    "links": {
+      "via": "organization_id",
+      "collection": "link"
+    },
+    "searchresults": {
+      "via": "organization_id",
+      "collection": "searchresults"
     }
   }
 }

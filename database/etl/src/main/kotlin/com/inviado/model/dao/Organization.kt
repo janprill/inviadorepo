@@ -18,7 +18,7 @@ class Organization(id: EntityID<Long>) : LongEntity(id) {
 	var description by Organizations.description
 	var isActive by Organizations.isActive
 	/**
-	 * select * from organizations o join links l on (l.organization = o.id);
+	 * select * from organizations o join links l on (l.organization_id = o.id);
 	 */
 	val links by Link referrersOn Links.organization // make sure to use val and referrersOn
 }
