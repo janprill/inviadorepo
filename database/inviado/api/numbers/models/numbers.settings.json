@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "numbers",
+  "info": {
+    "name": "Numbers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "notes": {
+      "type": "richtext"
+    },
+    "personell_expenses": {
+      "type": "float"
+    },
+    "wages": {
+      "type": "float"
+    },
+    "personell_expenses_per_employee": {
+      "type": "float"
+    },
+    "organization": {
+      "model": "organization",
+      "via": "numbers"
+    }
+  }
+}

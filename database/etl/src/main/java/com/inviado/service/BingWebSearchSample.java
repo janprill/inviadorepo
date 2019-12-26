@@ -28,8 +28,8 @@ public class BingWebSearchSample {
 
 			System.out.println("Searched Web for \"Xbox\"");
 			SearchResponse webData = client.bingWebs().search()
-					.withQuery("Xbox")
-					.withMarket("en-us")
+					.withQuery("Bijou+Brigitte+Karriere")
+					.withMarket("de-de")
 					.withCount(10)
 					.execute();
 

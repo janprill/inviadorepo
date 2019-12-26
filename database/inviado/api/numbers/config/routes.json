@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/numbers",
+      "handler": "numbers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/numbers/count",
+      "handler": "numbers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/numbers/:id",
+      "handler": "numbers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/numbers",
+      "handler": "numbers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/numbers/:id",
+      "handler": "numbers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/numbers/:id",
+      "handler": "numbers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
