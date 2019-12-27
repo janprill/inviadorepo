@@ -9,6 +9,3 @@ class Config
   end
   
 end
-
-json = Config.new.json
-p json['bing']['key']
