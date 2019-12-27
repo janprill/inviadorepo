@@ -21,3 +21,15 @@ end
 Then("the uri of this first result should be {string}") do |string|
   expect(@first_result.url).to eq(string)
 end
+
+Given("a query term") do
+  @term = "Seca GmbH"
+end
+
+When("I ask a search object to query this term") do
+  @searcher = Inviado::Etl::Bing::Search.new
+end
+
+Then("I should receive results from the bing api") do
+  @searcher.query(@term)
+end
