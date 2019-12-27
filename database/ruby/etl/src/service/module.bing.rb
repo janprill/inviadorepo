@@ -27,11 +27,17 @@ module Inviado
           end
         end
         
-        def build_uri(term)
+        def build_uri(term, site)
+          searchterm = (site.nil? ? term : build_site_query(term, site))
+
           endpoint = "#{@uri}#{@path}?q=#{URI.escape(term)}&mkt=de-DE"
           puts "Searching the Web for: " + endpoint
 
           URI(endpoint)
+        end
+
+        def build_site_query(term, site) 
+          "site:#{site} AND #{term}"
         end
         
         def query(term)
