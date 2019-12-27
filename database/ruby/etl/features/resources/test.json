@@ -1,0 +1,224 @@
+{
+  "_type": "SearchResponse",
+  "queryContext": {
+    "originalQuery": "seca Hamburg Karriere"
+  },
+  "webPages": {
+    "webSearchUrl": "https://www.bing.com/search?q=seca+Hamburg+Karriere",
+    "totalEstimatedMatches": 40300,
+    "value": [
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.0",
+        "name": "Unternehmen » Karriere · seca",
+        "url": "https://www.seca.com/de_de/unternehmen/karriere.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.seca.com/de_de/unternehmen/karriere.html",
+        "snippet": "An unserem Hauptstandort in Hamburg arbeiten mehr als 200 Mitarbeiter und wir sind stolz darauf, dass wir als Weltmarktführer mit 18 Niederlassungen und insgesamt ca. 500 Mitarbeitern auch international erfolgreich sind. „Wir bieten anspruchsvollen Menschen eine Plattform, mit und bei seca die Marktführerschaft langfristig sicherzustellen.“",
+        "dateLastCrawled": "2019-12-18T19:37:00.0000000Z",
+        "language": "de",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.1",
+        "name": "Medizinische Messsysteme und Waagen · seca",
+        "url": "https://www.seca.com/de_de.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.seca.com/de_de.html",
+        "snippet": "seca veröffentlicht Trendreport Medical Fitness Medica 2019 – seca überzeugt mit neuen Produktlösungen in den Bereichen Integration, Körperzusammensetzung und Software Weltmarktführer setzt auf Zukunftsfähigkeit, optimierte Workflows und Patientensicherheit",
+        "deepLinks": [
+          {
+            "name": "Karriere",
+            "url": "https://www.seca.com/de_de/unternehmen/karriere.html"
+          },
+          {
+            "name": "KontaktWeltweit zu Hause",
+            "url": "https://www.seca.com/de_de/kontakt.html"
+          },
+          {
+            "name": "Übersicht",
+            "url": "https://www.seca.com/de_de/unternehmen/uebersicht.html"
+          },
+          {
+            "name": "Unternehmenswerte",
+            "url": "https://www.seca.com/de_de/unternehmen/unternehmenswerte.html"
+          },
+          {
+            "name": "Seca Schweiz",
+            "url": "https://www.seca.com/de_ch.html"
+          },
+          {
+            "name": "Geschichte",
+            "url": "https://www.seca.com/de_de/unternehmen/geschichte.html"
+          }
+        ],
+        "dateLastCrawled": "2019-12-19T01:28:00.0000000Z",
+        "language": "de",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.2",
+        "name": "Aktuelle Jobs bei seca services gmbh | StepStone",
+        "url": "https://www.stepstone.de/cmp/de/seca-services-gmbh-31612/jobs.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.stepstone.de/cmp/de/seca-services-gmbh-31612/jobs.html",
+        "snippet": "Alle offenen Jobs bei seca services gmbh auf einen Blick. Übersichtlich und immer aktuell. Schauen Sie vorbei und finden Sie Ihren Job bei seca services gmbh.",
+        "dateLastCrawled": "2019-12-21T02:48:00.0000000Z",
+        "language": "de",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.3",
+        "name": "Unternehmen » Übersicht · seca",
+        "url": "https://www.seca.com/de_de/unternehmen/uebersicht.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.seca.com/de_de/unternehmen/uebersicht.html",
+        "snippet": "Umweltschutz beginnt bei seca schon in der Planungsphase. In Hamburg und Hangzhou, genauso wie in Dubai oder Birmingham. Weltweit in jeder seca-Niederlassung. Überall dort, wo das Material für unsere Waagen und Messsysteme anschließend produziert und verarbeitet wird.",
+        "dateLastCrawled": "2019-12-20T20:46:00.0000000Z",
+        "language": "de",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.4",
+        "name": "seca & co kg als Arbeitgeber: Gehalt, Karriere, Benefits ...",
+        "url": "https://www.kununu.com/de/seca-k",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.kununu.com/de/seca",
+        "snippet": "Karriere bei seca. Für seca zu arbeiten ist keine Aufgabe wie jede andere: Die weltweite Marktführerschaft im Bereich medizinisches Messen und Wiegen ist Verantwortung und Verpflichtung zugleich. Das gesamte Team arbeitet täglich daran, dass das Vertrauen, das Ärzte und Pflegepersonal in seca Produkte setzen, nicht enttäuscht wird. Dies ...",
+        "dateLastCrawled": "2019-12-15T20:53:00.0000000Z",
+        "language": "de",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.5",
+        "name": "Unternehmen » Karriere » Benefits · seca",
+        "url": "https://www.seca.com/de_de/unternehmen/karriere/benefits.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.seca.com/de_de/unternehmen/karriere/benefits.html",
+        "snippet": "seca bietet in der Hamburger Firmenzentrale und in zahlreichen Niederlassungen weltweit beste Chancen für neue Mitarbeiter aus den verschiedensten Berufen. Als international agierendes Unternehmen leben wir kulturelle Vielfalt und allein hier am Standort Hamburg sprechen wir 20 verschiedene Sprachen. Wir wissen aus langjähriger Erfahrung ...",
+        "dateLastCrawled": "2019-12-21T20:17:00.0000000Z",
+        "language": "de",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.6",
+        "name": "Kontakt · seca",
+        "url": "https://www.seca.com/de_de/kontakt.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.seca.com/de_de/kontakt.html",
+        "snippet": "Glauben Sie an Zufälle? Als Weltmarktführer medizinischer Waagen und Messsysteme ist seca in der Weltstadt Hamburg zuhause. Mit der seca „Waagenfabrik“ fing 1840 alles an. 1904 wurde der Firmensitz an seinen jetzigen Standort in den Hammer Steindamm im Stadtteil Wandsbek verlagert.",
+        "dateLastCrawled": "2019-12-20T17:44:00.0000000Z",
+        "language": "de",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.7",
+        "name": "Unternehmen » Karriere » HR Team · seca",
+        "url": "https://www.seca.com/de_de/unternehmen/karriere/hr-team.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.seca.com/de_de/unternehmen/karriere/hr-team.html",
+        "snippet": "Volker Pautz unterstützt mit seiner langjährigen Berufserfahrung seit Februar 2019 das Human Resources-Team von seca. Der gelernte Personalfachkaufmann ist Ansprechpartner für unsere Mitarbeiter/-innen in allen personalrelevanten Fragen vom Eintritt bis zum Austritt und verantwortlich für die monatliche Entgeltabrechnung und die Zeitwirtschaft.",
+        "dateLastCrawled": "2019-12-16T19:27:00.0000000Z",
+        "language": "de",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.8",
+        "name": "Impressum · seca",
+        "url": "https://www.seca.com/de_de/impressum.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.seca.com/de_de/impressum.html",
+        "snippet": "seca gmbh & co. kg.HR A 43754 Hamburg PHG Sönke Vogel GmbH HR B 26836 Hamburg WEEE Reg.-Nr. DE 77312633 USt-IdNr. DE118327844 . Geschäftsführer: Frederik Vogel - Geschäftsführung Technik Robert Vogel - Geschäftsführung Vertrieb Thomas Wessels - Geschäftsführung Finanzen. seca Deutschland Medizinische Messsysteme und Waagen seit 1840 Hammer Steindamm 3-25 22089 Hamburg Germany. seca ...",
+        "dateLastCrawled": "2019-12-18T10:42:00.0000000Z",
+        "language": "en",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.9",
+        "name": "Unternehmen » Karriere » Job Details · seca",
+        "url": "https://www.seca.com/de_de/unternehmen/karriere/job-details/article/werkstudenten-mw-campaigns-projects.html",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.seca.com/de_de/unternehmen/karriere/job-details/article/werkstudenten-mw...",
+        "snippet": "seca Service. Wir sind montags bis freitags von 8.00 bis 18.00 Uhr für Sie erreichbar. 0800 20 00 005. oder schreiben Sie uns eine Email.",
+        "dateLastCrawled": "2019-11-24T21:20:00.0000000Z",
+        "language": "en",
+        "isNavigational": false
+      }
+    ]
+  },
+  "rankingResponse": {
+    "mainline": {
+      "items": [
+        {
+          "answerType": "WebPages",
+          "resultIndex": 0,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.0"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 1,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.1"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 2,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.2"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 3,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.3"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 4,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.4"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 5,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.5"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 6,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.6"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 7,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.7"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 8,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.8"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 9,
+          "value": {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.9"
+          }
+        }
+      ]
+    }
+  }
+}
