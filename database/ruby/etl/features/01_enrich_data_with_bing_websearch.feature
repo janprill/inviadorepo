@@ -5,3 +5,4 @@ Feature: Parse bing websearch results
     Given bing responded with a json answer
     When I parse this json
     Then I should be able to extract the first result
+    And the uri of this first result should be "https://www.seca.com/de_de/unternehmen/karriere.html"

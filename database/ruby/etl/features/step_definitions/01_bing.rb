@@ -3,28 +3,21 @@ require "#{__dir__}/../../src/service/module.bing"
 Given("bing responded with a json answer") do
   path = "#{__dir__}/../resources/test.json"
   file = File.open(path).read
-  data = ''
+  @data = ''
   file.each_line do |line|
-    p "#{line}"
-    data += line
+    @data += line
   end
-
-  object = Inviado::Etl::Bing.parse_json_response(data)
-  p "===================================="
-  p object.inspect
-  object.webPages.value.each do |v|
-    p ''
-    p v.displayUrl
-    p v.snippet
-    p '----------------------------'
-  end
-
 end
 
 When("I parse this json") do
-  pending # Write code here that turns the phrase above into concrete actions
+  @object = Inviado::Etl::Bing.parse_json_response(@data)
 end
 
 Then("I should be able to extract the first result") do
-  pending # Write code here that turns the phrase above into concrete actions
+  @first_result = @object.webPages.value[0]
+  expect(@first_result).not_to be_nil
+end
+
+Then("the uri of this first result should be {string}") do |string|
+  expect(@first_result.url).to eq(string)
 end
