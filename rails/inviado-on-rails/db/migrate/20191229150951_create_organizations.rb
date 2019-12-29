@@ -4,8 +4,8 @@ class CreateOrganizations < ActiveRecord::Migration[6.0]
       t.string :type
       t.string :name
       t.text :description
-      t.jsonb :raw
-      t.boolean :is_active
+      t.jsonb :raw, null: false, default: {}
+      t.boolean :is_active, default: true
       t.bigint :corporate_form_id
 
       t.timestamps

@@ -4,7 +4,7 @@ class CreateMembers < ActiveRecord::Migration[6.0]
       t.string :name
       t.text :description
       t.text :bio
-      t.jsonb :raw
+      t.jsonb :raw, null: false, default: {}
 
       t.timestamps
     end

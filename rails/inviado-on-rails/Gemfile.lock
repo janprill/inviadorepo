@@ -142,6 +142,7 @@ GEM
     gherkin (5.1.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    graphql (1.9.17)
     has_scope (0.7.2)
       actionpack (>= 4.1)
       activesupport (>= 4.1)
@@ -321,6 +322,7 @@ DEPENDENCIES
   database_cleaner
   devise
   draper
+  graphql (~> 1.9)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)

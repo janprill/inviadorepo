@@ -5,7 +5,7 @@ ActiveAdmin.register Member do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  permit_params :name, :description, :bio, 
+  permit_params :name, :description, :bio, :raw, 
     organizations_attributes: [:id, :name, :description]
   #
   # or

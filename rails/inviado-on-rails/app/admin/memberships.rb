@@ -5,7 +5,7 @@ ActiveAdmin.register Membership do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  permit_params :description, :member_id, :membershipable_id, :membershipable_type
+  permit_params :description, :raw, :member_id, :membershipable_id, :membershipable_type
   #
   # or
   #
