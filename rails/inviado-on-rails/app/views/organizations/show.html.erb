@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @organization.type %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @organization.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @organization.description %>
+</p>
+
+<p>
+  <strong>Raw:</strong>
+  <%= @organization.raw %>
+</p>
+
+<p>
+  <strong>Is active:</strong>
+  <%= @organization.is_active %>
+</p>
+
+<p>
+  <strong>Corporate form:</strong>
+  <%= @organization.corporate_form_id %>
+</p>
+
+<%= link_to 'Edit', edit_organization_path(@organization) %> |
+<%= link_to 'Back', organizations_path %>
