@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_28_182131) do
+ActiveRecord::Schema.define(version: 2019_12_29_112006) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,6 +44,25 @@ ActiveRecord::Schema.define(version: 2019_12_28_182131) do
   create_table "articles", force: :cascade do |t|
     t.string "title"
     t.text "body"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "members", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.text "bio"
+    t.jsonb "raw"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "memberships", force: :cascade do |t|
+    t.text "description"
+    t.jsonb "raw"
+    t.bigint "member_id"
+    t.bigint "membershipable_id"
+    t.string "membershipable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

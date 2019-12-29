@@ -1,0 +1,13 @@
+{
+  "sqltools.connections": [
+    {
+      "askForPassword": false,
+      "database": "inviado_on_rails_development",
+      "dialect": "PostgreSQL",
+      "name": "jan.prill@inviado_on_rails_development",
+      "port": 5432,
+      "server": "localhost",
+      "username": "jan.prill"
+    }
+  ]
+}
