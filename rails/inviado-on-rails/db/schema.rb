@@ -49,12 +49,14 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
   end
 
   create_table "commentings", force: :cascade do |t|
-    t.bigint "commentable_id"
-    t.bigint "commentable_type"
     t.text "description"
     t.jsonb "raw", default: {}, null: false
+    t.bigint "comment_id"
+    t.bigint "commentable_id"
+    t.bigint "commentable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["comment_id"], name: "index_commentings_on_comment_id"
     t.index ["commentable_id", "commentable_type"], name: "index_commentings_on_commentable_id_and_commentable_type"
   end
 
@@ -67,12 +69,14 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
   end
 
   create_table "linkings", force: :cascade do |t|
-    t.bigint "linkable_id"
-    t.bigint "linkable_type"
     t.text "description"
     t.jsonb "raw", default: {}, null: false
+    t.bigint "link_id"
+    t.bigint "linkable_id"
+    t.bigint "linkable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["link_id"], name: "index_linkings_on_link_id"
     t.index ["linkable_id", "linkable_type"], name: "index_linkings_on_linkable_id_and_linkable_type"
   end
 
@@ -104,6 +108,7 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
     t.string "membershipable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["member_id"], name: "index_memberships_on_member_id"
     t.index ["membershipable_id", "membershipable_type"], name: "index_memberships_on_membershipable_id_and_membershipable_type"
   end
 
@@ -119,13 +124,15 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
   end
 
   create_table "searchings", force: :cascade do |t|
-    t.bigint "searchable_id"
-    t.bigint "searchable_type"
     t.text "description"
     t.jsonb "raw", default: {}, null: false
+    t.bigint "searchresult_id"
+    t.bigint "searchable_id"
+    t.bigint "searchable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["searchable_id", "searchable_type"], name: "index_searchings_on_searchable_id_and_searchable_type"
+    t.index ["searchresult_id"], name: "index_searchings_on_searchresult_id"
   end
 
   create_table "searchresults", force: :cascade do |t|
@@ -138,12 +145,14 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
   end
 
   create_table "taggings", force: :cascade do |t|
-    t.bigint "taggable_id"
-    t.bigint "taggable_type"
     t.text "description"
     t.jsonb "raw", default: {}, null: false
+    t.bigint "tag_id"
+    t.bigint "taggable_id"
+    t.bigint "taggable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["tag_id"], name: "index_taggings_on_tag_id"
     t.index ["taggable_id", "taggable_type"], name: "index_taggings_on_taggable_id_and_taggable_type"
   end
 

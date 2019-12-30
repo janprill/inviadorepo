@@ -12,6 +12,7 @@ class CreateMemberships < ActiveRecord::Migration[6.0]
       t.timestamps
     end
 
+    add_index :memberships, :member_id
     add_index :memberships, [:membershipable_id, :membershipable_type]
   end
 end
