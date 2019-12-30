@@ -10,18 +10,29 @@ module OrganizationHelper
     # map a single item from json to an organization
     def new_with(item) 
       occupation = item.occupation
-      if (occupation.present?)
+      if occupation.present?
         now = Time.now
+        link_text = occupation&.link_text || 'n/a'
         org = Organization.upsert(
           {
             classification: 'commercial',
-            name: occupation&.link_text || 'n/a',
+            name: link_text,
             raw: occupation.to_json,
             created_at: now,
             updated_at: now
           },
           unique_by: :name
         )
+
+        # TODO: upsert on uri
+        p org.rows.first.inspect
+        organization = Organization.find(org.rows.first[0])
+        organization.links << Link.create({
+          title: "#{link_text} (XING)",
+          target: '_blank',
+          uri: occupation&.link || 'n/a',
+          source: 'xing'
+        })
       end
     end
 

@@ -6,7 +6,7 @@ class CreateSearchings < ActiveRecord::Migration[6.0]
 
       t.bigint :searchresult_id
       t.bigint :searchable_id
-      t.bigint :searchable_type
+      t.string :searchable_type
 
       t.timestamps
     end

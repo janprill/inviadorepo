@@ -6,7 +6,7 @@ class CreateTaggings < ActiveRecord::Migration[6.0]
 
       t.bigint :tag_id
       t.bigint :taggable_id
-      t.bigint :taggable_type
+      t.string :taggable_type
 
       t.timestamps
     end

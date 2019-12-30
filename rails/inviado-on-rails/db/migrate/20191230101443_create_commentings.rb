@@ -6,7 +6,7 @@ class CreateCommentings < ActiveRecord::Migration[6.0]
 
       t.bigint :comment_id
       t.bigint :commentable_id
-      t.bigint :commentable_type
+      t.string :commentable_type
 
       t.timestamps
     end

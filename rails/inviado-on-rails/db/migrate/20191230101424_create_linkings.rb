@@ -6,7 +6,7 @@ class CreateLinkings < ActiveRecord::Migration[6.0]
 
       t.bigint :link_id
       t.bigint :linkable_id
-      t.bigint :linkable_type
+      t.string :linkable_type
 
       t.timestamps
     end
