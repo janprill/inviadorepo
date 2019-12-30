@@ -53,7 +53,7 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
     t.jsonb "raw", default: {}, null: false
     t.bigint "comment_id"
     t.bigint "commentable_id"
-    t.bigint "commentable_type"
+    t.string "commentable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["comment_id"], name: "index_commentings_on_comment_id"
@@ -73,7 +73,7 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
     t.jsonb "raw", default: {}, null: false
     t.bigint "link_id"
     t.bigint "linkable_id"
-    t.bigint "linkable_type"
+    t.string "linkable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["link_id"], name: "index_linkings_on_link_id"
@@ -129,7 +129,7 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
     t.jsonb "raw", default: {}, null: false
     t.bigint "searchresult_id"
     t.bigint "searchable_id"
-    t.bigint "searchable_type"
+    t.string "searchable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["searchable_id", "searchable_type"], name: "index_searchings_on_searchable_id_and_searchable_type"
@@ -150,7 +150,7 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
     t.jsonb "raw", default: {}, null: false
     t.bigint "tag_id"
     t.bigint "taggable_id"
-    t.bigint "taggable_type"
+    t.string "taggable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["tag_id"], name: "index_taggings_on_tag_id"
