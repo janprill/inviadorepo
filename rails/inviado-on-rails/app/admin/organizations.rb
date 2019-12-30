@@ -5,7 +5,8 @@ ActiveAdmin.register Organization do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  permit_params :type, :name, :description, :raw, :is_active, :corporate_form_id
+  permit_params :type, :name, :description, :raw, :is_active, :corporate_form_id,
+    links_attributes: [:id, :title, :uri]
   
   #
   # or
@@ -25,6 +26,10 @@ ActiveAdmin.register Organization do
       f.input :name
       f.input :description
       f.input :raw, as: :jsonb
+    end
+    f.has_many :links do |org|
+      org.input :title
+      org.input :uri
     end
     
     f.actions
