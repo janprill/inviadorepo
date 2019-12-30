@@ -6,7 +6,9 @@ ActiveAdmin.register Organization do
   # Uncomment all parameters which should be permitted for assignment
   #
   permit_params :type, :name, :description, :raw, :is_active, :corporate_form_id,
-    links_attributes: [:id, :title, :uri]
+    links_attributes: [:id, :title, :uri],
+    searchresults_attributes: [:id, :query, :source],
+    tags_attributes: [:id, :name, :description]
   
   #
   # or
@@ -30,6 +32,14 @@ ActiveAdmin.register Organization do
     f.has_many :links do |org|
       org.input :title
       org.input :uri
+    end
+    f.has_many :tags do |org|
+      org.input :name
+      org.input :description
+    end
+    f.has_many :searchresults do |org|
+      org.input :query
+      org.input :source
     end
     
     f.actions
