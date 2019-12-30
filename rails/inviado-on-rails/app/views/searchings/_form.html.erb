@@ -1,0 +1,37 @@
+<%= form_with(model: searching, local: true) do |form| %>
+  <% if searching.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(searching.errors.count, "error") %> prohibited this searching from being saved:</h2>
+
+      <ul>
+        <% searching.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :searchable_id %>
+    <%= form.text_field :searchable_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :searchable_type %>
+    <%= form.text_field :searchable_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :raw %>
+    <%= form.text_field :raw %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

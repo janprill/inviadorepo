@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Commentable:</strong>
+  <%= @commenting.commentable_id %>
+</p>
+
+<p>
+  <strong>Commentable type:</strong>
+  <%= @commenting.commentable_type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @commenting.description %>
+</p>
+
+<p>
+  <strong>Raw:</strong>
+  <%= @commenting.raw %>
+</p>
+
+<%= link_to 'Edit', edit_commenting_path(@commenting) %> |
+<%= link_to 'Back', commentings_path %>

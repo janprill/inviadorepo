@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Searchable:</strong>
+  <%= @searching.searchable_id %>
+</p>
+
+<p>
+  <strong>Searchable type:</strong>
+  <%= @searching.searchable_type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @searching.description %>
+</p>
+
+<p>
+  <strong>Raw:</strong>
+  <%= @searching.raw %>
+</p>
+
+<%= link_to 'Edit', edit_searching_path(@searching) %> |
+<%= link_to 'Back', searchings_path %>

@@ -1,0 +1,37 @@
+<%= form_with(model: commenting, local: true) do |form| %>
+  <% if commenting.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(commenting.errors.count, "error") %> prohibited this commenting from being saved:</h2>
+
+      <ul>
+        <% commenting.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :commentable_id %>
+    <%= form.text_field :commentable_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :commentable_type %>
+    <%= form.text_field :commentable_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :raw %>
+    <%= form.text_field :raw %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

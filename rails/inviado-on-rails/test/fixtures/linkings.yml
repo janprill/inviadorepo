@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  linkable_id: 
+  linkable_type: 
+  description: MyText
+  raw: 
+
+two:
+  linkable_id: 
+  linkable_type: 
+  description: MyText
+  raw: 

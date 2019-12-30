@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :taggings
+  resources :commentings
+  resources :linkings
+  resources :searchings
+  resources :comments
+  resources :tags
+  resources :searchresults
+  resources :links
   if Rails.env.development?
     mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql"
   end

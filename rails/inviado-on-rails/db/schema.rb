@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_29_150951) do
+ActiveRecord::Schema.define(version: 2019_12_30_101542) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,32 +48,109 @@ ActiveRecord::Schema.define(version: 2019_12_29_150951) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "commentings", force: :cascade do |t|
+    t.bigint "commentable_id"
+    t.bigint "commentable_type"
+    t.text "description"
+    t.jsonb "raw", default: {}, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["commentable_id", "commentable_type"], name: "index_commentings_on_commentable_id_and_commentable_type"
+  end
+
+  create_table "comments", force: :cascade do |t|
+    t.string "title"
+    t.string "body"
+    t.jsonb "raw", default: {}, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "linkings", force: :cascade do |t|
+    t.bigint "linkable_id"
+    t.bigint "linkable_type"
+    t.text "description"
+    t.jsonb "raw", default: {}, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["linkable_id", "linkable_type"], name: "index_linkings_on_linkable_id_and_linkable_type"
+  end
+
+  create_table "links", force: :cascade do |t|
+    t.string "title"
+    t.string "target"
+    t.string "uri"
+    t.string "description"
+    t.string "source"
+    t.jsonb "raw", default: {}, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "members", force: :cascade do |t|
     t.string "name"
     t.text "description"
     t.text "bio"
-    t.jsonb "raw"
+    t.jsonb "raw", default: {}, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "memberships", force: :cascade do |t|
     t.text "description"
-    t.jsonb "raw"
+    t.jsonb "raw", default: {}, null: false
     t.bigint "member_id"
     t.bigint "membershipable_id"
     t.string "membershipable_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["membershipable_id", "membershipable_type"], name: "index_memberships_on_membershipable_id_and_membershipable_type"
   end
 
   create_table "organizations", force: :cascade do |t|
     t.string "type"
     t.string "name"
     t.text "description"
-    t.jsonb "raw"
-    t.boolean "is_active"
+    t.jsonb "raw", default: {}, null: false
+    t.boolean "is_active", default: true
     t.bigint "corporate_form_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "searchings", force: :cascade do |t|
+    t.bigint "searchable_id"
+    t.bigint "searchable_type"
+    t.text "description"
+    t.jsonb "raw", default: {}, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["searchable_id", "searchable_type"], name: "index_searchings_on_searchable_id_and_searchable_type"
+  end
+
+  create_table "searchresults", force: :cascade do |t|
+    t.string "query"
+    t.string "source"
+    t.jsonb "results", default: {}, null: false
+    t.jsonb "raw", default: {}, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "taggings", force: :cascade do |t|
+    t.bigint "taggable_id"
+    t.bigint "taggable_type"
+    t.text "description"
+    t.jsonb "raw", default: {}, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["taggable_id", "taggable_type"], name: "index_taggings_on_taggable_id_and_taggable_type"
+  end
+
+  create_table "tags", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.jsonb "raw", default: {}, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

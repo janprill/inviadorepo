@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Linkings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Linkable</th>
+      <th>Linkable type</th>
+      <th>Description</th>
+      <th>Raw</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @linkings.each do |linking| %>
+      <tr>
+        <td><%= linking.linkable_id %></td>
+        <td><%= linking.linkable_type %></td>
+        <td><%= linking.description %></td>
+        <td><%= linking.raw %></td>
+        <td><%= link_to 'Show', linking %></td>
+        <td><%= link_to 'Edit', edit_linking_path(linking) %></td>
+        <td><%= link_to 'Destroy', linking, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Linking', new_linking_path %>

@@ -1,0 +1,2 @@
+class Linking < ApplicationRecord
+end

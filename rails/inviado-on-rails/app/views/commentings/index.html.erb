@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Commentings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Commentable</th>
+      <th>Commentable type</th>
+      <th>Description</th>
+      <th>Raw</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @commentings.each do |commenting| %>
+      <tr>
+        <td><%= commenting.commentable_id %></td>
+        <td><%= commenting.commentable_type %></td>
+        <td><%= commenting.description %></td>
+        <td><%= commenting.raw %></td>
+        <td><%= link_to 'Show', commenting %></td>
+        <td><%= link_to 'Edit', edit_commenting_path(commenting) %></td>
+        <td><%= link_to 'Destroy', commenting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Commenting', new_commenting_path %>

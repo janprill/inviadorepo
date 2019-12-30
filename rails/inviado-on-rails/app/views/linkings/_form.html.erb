@@ -1,0 +1,37 @@
+<%= form_with(model: linking, local: true) do |form| %>
+  <% if linking.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(linking.errors.count, "error") %> prohibited this linking from being saved:</h2>
+
+      <ul>
+        <% linking.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :linkable_id %>
+    <%= form.text_field :linkable_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :linkable_type %>
+    <%= form.text_field :linkable_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :raw %>
+    <%= form.text_field :raw %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

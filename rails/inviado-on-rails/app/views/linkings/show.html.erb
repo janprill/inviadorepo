@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Linkable:</strong>
+  <%= @linking.linkable_id %>
+</p>
+
+<p>
+  <strong>Linkable type:</strong>
+  <%= @linking.linkable_type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @linking.description %>
+</p>
+
+<p>
+  <strong>Raw:</strong>
+  <%= @linking.raw %>
+</p>
+
+<%= link_to 'Edit', edit_linking_path(@linking) %> |
+<%= link_to 'Back', linkings_path %>
