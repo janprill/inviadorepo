@@ -5,7 +5,7 @@ ActiveAdmin.register Organization do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  permit_params :type, :name, :description, :raw, :is_active, :corporate_form_id,
+  permit_params :classification, :name, :description, :raw, :is_active, :corporate_form_id,
     links_attributes: [:id, :title, :uri],
     searchresults_attributes: [:id, :query, :source],
     tags_attributes: [:id, :name, :description]

@@ -1,7 +1,7 @@
 class CreateOrganizations < ActiveRecord::Migration[6.0]
   def change
     create_table :organizations do |t|
-      t.string :type
+      t.string :classification
       t.string :name
       t.text :description
       t.jsonb :raw, null: false, default: {}
@@ -10,5 +10,7 @@ class CreateOrganizations < ActiveRecord::Migration[6.0]
 
       t.timestamps
     end
+
+    add_index :organizations, :name, unique: true
   end
 end
