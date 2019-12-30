@@ -1,17 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  type: 
-  name: MyString
+  id: 1
+  classification: commercial
+  name: MyString_one
   description: MyText
-  raw: 
+  raw: {}
   is_active: 
   corporate_form_id: 
 
 two:
-  type: 
-  name: MyString
+  id: 2
+  classification: commercial
+  name: MyString_two
   description: MyText
-  raw: 
+  raw: {}
   is_active: 
   corporate_form_id: 

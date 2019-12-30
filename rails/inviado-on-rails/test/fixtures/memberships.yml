@@ -1,13 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  id: 1
   description: MyText
-  raw: 
+  raw: {}
   membershipable_id: 
   membershipable_type: MyString
 
 two:
+  id: 2
   description: MyText
-  raw: 
+  raw: {}
   membershipable_id: 
   membershipable_type: MyString

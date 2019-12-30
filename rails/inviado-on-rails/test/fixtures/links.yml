@@ -6,7 +6,7 @@ one:
   uri: MyString
   description: MyString
   source: MyString
-  raw: 
+  raw: {}
 
 two:
   title: MyString
@@ -14,4 +14,4 @@ two:
   uri: MyString
   description: MyString
   source: MyString
-  raw: 
+  raw: {}

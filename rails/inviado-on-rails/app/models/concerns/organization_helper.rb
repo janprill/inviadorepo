@@ -3,6 +3,10 @@ module OrganizationHelper
 
   PATH = '/Users/jan.prill/Documents/workspace/msp/inviadorepo/data/XING/devs'
 
+  # enhances the available data utilizing the bing websearch api
+  def enhance_with_bing(term: nil, site: nil)
+    
+  end
 
 
   class_methods do

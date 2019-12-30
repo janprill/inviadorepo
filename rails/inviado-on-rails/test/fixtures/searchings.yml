@@ -1,13 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  id: 1
   searchable_id: 
   searchable_type: 
   description: MyText
-  raw: 
+  raw: {}
 
 two:
+  id: 2
   searchable_id: 
   searchable_type: 
   description: MyText
-  raw: 
+  raw: {}
