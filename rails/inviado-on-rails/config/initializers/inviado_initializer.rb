@@ -1,6 +1,6 @@
-require_relative '../../lib/inviado/config.rb'
 require 'json'
+# require_relative '../../app/services/config_service'
 
-secret = Inviado::Config.new
+secret = ConfigService.new
 json = secret.json
 Rails.application.config.x.inviado.bing_key = json['bing']['key']
