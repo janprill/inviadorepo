@@ -18,7 +18,6 @@
     "gridsome-plugin-rss": "^1.2.0",
     "medium-zoom": "^1.0.4",
     "vee-validate": "^3.1.1",
-    "vue-mouse-parallax": "^1.2.2",
     "vue-parallaxy": "^1.1.1"
   },
   "devDependencies": {
