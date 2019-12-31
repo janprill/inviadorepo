@@ -7,7 +7,6 @@ module Inviado
       require 'net/https'
       require 'uri'
       require 'json'
-      require_relative 'config'
 
       def self.parse_json_response(json)
         object = JSON.parse(json, object_class: OpenStruct)
@@ -17,7 +16,7 @@ module Inviado
       class Search
 
         def initialize()
-          @accessKey = Config.new.json['bing']['key']
+          @accessKey = Rails.application.config.x.inviado.bing_key
           @uri  = "https://api.cognitive.microsoft.com"
           @path = "/bing/v7.0/search"
           if @accessKey.length != 32 then
@@ -41,7 +40,7 @@ module Inviado
         end
         
         def query(term)
-          uri = build_uri(term)
+          uri = build_uri(term, nil)
           request = Net::HTTP::Get.new(uri)
           request['Ocp-Apim-Subscription-Key'] = @accessKey
           
