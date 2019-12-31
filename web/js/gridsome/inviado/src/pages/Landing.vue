@@ -26,11 +26,11 @@
         Freiheit! Ist schwer ohne Geld.
       </h1>
 			<div class="mx-auto text-center overflow-hidden">
-				<parallax-container class="image-container" :animationDuration=700>
-					<parallax-element type="translation" :parallaxStrength=5 tag="img" src="./balloons/balloons_middle.png" class="parallaximage" />
-					<parallax-element type="translation" :parallaxStrength=10 tag="img" src="./balloons/balloons_left.png" class="parallaximage" />
-					<parallax-element type="translation" :parallaxStrength=-5 tag="img" src="./balloons/balloons_bottom.png" class="parallaximage" />
-				</parallax-container>
+				<kinesis-container class="image-container" :animationDuration=700>
+					<kinesis-element type="translation" :strength=5 tag="img" src="./balloons/balloons_middle.png" class="parallaximage" />
+					<kinesis-element type="translation" :strength=10 tag="img" src="./balloons/balloons_left.png" class="parallaximage" />
+					<kinesis-element type="translation" :strength=-5 tag="img" src="./balloons/balloons_bottom.png" class="parallaximage" />
+				</kinesis-container>
 			</div>
     </div>
 	</section>
@@ -223,7 +223,7 @@
 <script>
 import Copy from '@/components/Copy'
 import CallToAction from '@/components/CallToAction'
-import { ParallaxContainer, ParallaxElement } from 'vue-mouse-parallax'
+import { KinesisContainer, KinesisElement } from 'vue-kinesis'
 export default {
   props: [],
   data() {
@@ -233,8 +233,8 @@ export default {
   components: {
 		Copy,
 		CallToAction,
-		ParallaxContainer,
-		ParallaxElement,
+		KinesisContainer,
+		KinesisElement,
 	},
 	mounted() {
     let calendly = document.createElement('script')

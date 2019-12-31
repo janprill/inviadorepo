@@ -9049,6 +9049,14 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
+vue-kinesis@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/vue-kinesis/-/vue-kinesis-0.9.1.tgz#705b4740a212cb4b99b10457dc89e546f97dbf54"
+  integrity sha512-zez/SNz7HQBrBhGXfUvI4/CFflh3NOKo8lGn92Ttycnzx145GRhr7VUWWuZOnqTFGtOYEYUbnE2WY2fHXATyVw==
+  dependencies:
+    core-js "^2.6.5"
+    vue "^2.6.10"
+
 vue-loader@^15.7.1:
   version "15.8.3"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.8.3.tgz#857cb9e30eb5fc25e66db48dce7e4f768602a23c"
