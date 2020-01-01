@@ -25,12 +25,12 @@ Then("the query should be site-scoped like {string}") do |string|
 end
 
 Given("an organization name") do
-
+  @name = 'MSP AG'
 end
 
 When("the websearch api is queried") do
   search_service = SearchService.new
-  search_service.query('MSP AG')
+  search_service.query(@name)
 end
 
 Then("bing answeres with a json response that is parseable") do
