@@ -1,17 +1,19 @@
+
+
 Given("data, here: organizations, retrievable from the db") do
-  pending # Write code here that turns the phrase above into concrete actions
+  @name = 'Inviado Ltd'
 end
 
 When("an organization has the name of {string}") do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+  @name = string
+  @query = string
 end
 
 When("no site-url is known") do
-  pending # Write code here that turns the phrase above into concrete actions
+  @site = nil
 end
 
 Then("a simple query should be constructed {string}") do |string|
-  pending # Write code here that turns the phrase above into concrete actions
 end
 
 When("there is a name like {string} and a site like {string}") do |orgname, website|
@@ -23,11 +25,11 @@ Then("the query should be site-scoped like {string}") do |string|
 end
 
 Given("an organization name") do
-  pending # Write code here that turns the phrase above into concrete actions
 end
 
 When("the websearch api is queried") do
-  pending # Write code here that turns the phrase above into concrete actions
+  search_service = SearchService.new
+  search_service.query('MSP')
 end
 
 Then("bing answeres with a json response that is parseable") do
