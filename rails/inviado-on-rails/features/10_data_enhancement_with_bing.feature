@@ -12,6 +12,7 @@ Feature: Enhance data via bing websearches
     When there is a name like "Inviado Ltd & Co KG" and a site like "inviado.com"
     Then the query should be site-scoped like "todo"
 
+  @vcr
   Scenario: Query the bing websearch api
     Given an organization name
     When the websearch api is queried
