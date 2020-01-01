@@ -28,15 +28,25 @@ module OrganizationHelper
           unique_by: :name
         )
 
-        # TODO: upsert on uri
-        p org.rows.first.inspect
         organization = Organization.find(org.rows.first[0])
-        organization.links << Link.create({
-          title: "#{link_text} (XING)",
-          target: '_blank',
-          uri: occupation&.link || 'n/a',
-          source: 'xing'
-        })
+
+        # find or create the link
+        link_result = Link.upsert(
+          {
+            title: "#{link_text} (XING)",
+            target: '_blank',
+            uri: occupation&.link || 'n/a',
+            source: 'xing',
+            created_at: now,
+            updated_at: now
+          },
+          unique_by: :uri
+        )
+        link = Link.find(link_result.rows.first[0])
+
+        unless organization.links.exists?(link.id) 
+          organization.links << link
+        end
       end
     end
 
