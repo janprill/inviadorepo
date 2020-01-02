@@ -247,6 +247,12 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      copy: [
+        'futura-pt',
+        '-apple-system',
+        '"Helvetica Neue"',
+        'sans-serif'
+      ],
     },
     fontSize: {
       xs: '.75rem',

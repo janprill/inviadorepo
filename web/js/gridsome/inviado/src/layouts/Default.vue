@@ -1,7 +1,8 @@
 <template>
-  <div class="min-h-full bg-black">
+  <div class="min-h-full bg-black font-copy antialiased">
     <slot/>
   </div>
+  
 </template>
 
 <script>
@@ -23,3 +24,5 @@ export default {
     background-color: #22292f;
   }
 </style>
+
+<style src="~/assets/css/typekit.css"></style>
