@@ -45,7 +45,10 @@ class SearchService
     end
     
     puts "\nJSON Response:\n\n"
-    puts JSON::pretty_generate(JSON(response.body))
+    # puts JSON::pretty_generate(JSON(response.body))
+
+    JSON::pretty_generate(JSON(response.body))
   end
+
 
 end

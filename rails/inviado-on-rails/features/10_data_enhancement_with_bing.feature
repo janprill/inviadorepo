@@ -18,6 +18,7 @@ Feature: Enhance data via bing websearches
     When the websearch api is queried
     Then bing answeres with a json response that is parseable
 
+  @vcr
   Scenario: Parsing the result
     Given a json answer
     When the json is parsed
