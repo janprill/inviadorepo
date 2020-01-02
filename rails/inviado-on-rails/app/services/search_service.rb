@@ -34,17 +34,17 @@ class SearchService
     request['Ocp-Apim-Subscription-Key'] = @accessKey
     
     response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
-        http.request(request)
+      http.request(request)
     end
     
     puts "\nRelevant Headers:\n\n"
     response.each_header do |key, value|
-        if key.start_with?("bingapis-") or key.start_with?("x-msedge-") then
-            puts key + ": " + value
-        end
+      if key.start_with?("bingapis-") or key.start_with?("x-msedge-") then
+          # puts key + ": " + value
+      end
     end
     
-    puts "\nJSON Response:\n\n"
+    # puts "\nJSON Response:\n\n"
     # puts JSON::pretty_generate(JSON(response.body))
 
     JSON::pretty_generate(JSON(response.body))

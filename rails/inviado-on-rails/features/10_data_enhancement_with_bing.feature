@@ -7,10 +7,10 @@ Feature: Enhance data via bing websearches
     Given data, here: organizations, retrievable from the db
     When an organization has the name of "Inviado Ltd & Co KG"
     But no site-url is known
-    Then a simple query should be constructed "todo"
+    Then a simple query should be constructed "Inviado Ltd & Co KG"
 
     When there is a name like "Inviado Ltd & Co KG" and a site like "inviado.com"
-    Then the query should be site-scoped like "todo"
+    Then the query should be site-scoped like "site:inviado.com AND Inviado Ltd & Co KG"
 
   @vcr
   Scenario: Query the bing websearch api
@@ -24,5 +24,8 @@ Feature: Enhance data via bing websearches
     When the json is parsed
     Then a url and a description is extractable
 
-    When the url and description are extracted
-    Then this information is persisted as a link to enhance the data
+    When the url and description are extracted and persisted as a link to enhance the data
+    Then the links size is raised
+
+    When the base domain of the url is extracted
+    Then the base domain should be "www.mspag.com"
