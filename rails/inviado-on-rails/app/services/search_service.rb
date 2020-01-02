@@ -27,6 +27,10 @@ class SearchService
   def build_site_query(term, site) 
     "site:#{site} AND #{term}"
   end
+
+  def extract_host(url)
+    URI(url).host
+  end
   
   def query(term)
     uri = build_uri(term, nil)
@@ -50,5 +54,8 @@ class SearchService
     JSON::pretty_generate(JSON(response.body))
   end
 
+  def map_to_struct(json)
+    JSON.parse(@response, object_class: OpenStruct) 
+  end
 
 end
