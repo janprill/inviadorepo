@@ -41,12 +41,12 @@ module.exports = {
         },
       },
     },
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-135446199-1',
-      },
-    },
+    // {
+    //   use: '@gridsome/plugin-google-analytics',
+    //   options: {
+    //     id: 'UA-135446199-1',
+    //   },
+    // },
     {
       use: '@gridsome/plugin-sitemap',
       options: {
