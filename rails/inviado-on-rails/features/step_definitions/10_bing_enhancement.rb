@@ -81,3 +81,19 @@ end
 Then("the base domain should be {string}") do |string|
   assert_equal string, @host
 end
+
+
+Given("an array of scopes like") do |table|
+  # table is a Cucumber::MultilineArgument::DataTable
+  scopes = table.cell_matrix.first.map {|cell| cell.value}
+end
+
+When("a first websearch for the homepage is done") do
+end
+
+Then("combined searches with a site scope might follow as") do |table|
+  # table is a Cucumber::MultilineArgument::DataTable
+  queries = table.cell_matrix.first.map {|cell| cell.value}
+  p queries.inspect
+
+end

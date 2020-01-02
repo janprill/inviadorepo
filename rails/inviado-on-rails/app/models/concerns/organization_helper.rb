@@ -3,15 +3,33 @@ module OrganizationHelper
 
   PATH = '/Users/jan.prill/Documents/workspace/msp/inviadorepo/data/XING/devs'
 
-    # enhance the organization with data from a bing websearch
-    # a value is one result of said search in the form of an openstruct
-    # the scope is what the search has been queried for (like imprint, or homepage)
-    def enhance_with_bing(value, scope)
-      link = find_or_create(value.displayUrl, scope, 'bing', value.url, value.snippet) 
-      unless links.exists?(link.id)
-        links << link
-      end
+  # enhance the organization with data from a bing websearch
+  # a value is one result of said search in the form of an openstruct
+  # the scope is what the search has been queried for (like imprint, or homepage)
+  def enhance_with_bing(value, scope)
+    link = find_or_create(scope, 'bing', value.url, value.snippet) 
+    unless links.exists?(link.id)
+      links << link
     end
+  end
+
+  def search_for
+    search_service = SearchService.new
+    json = search_service.query(name)
+    o = search_service.map_to_struct(json)
+    p o.inspect
+    host = search_service.extract_host(o.webPages.value.first.url)
+    search_for_imprint(host)
+  end
+
+  # TODO: refactor this stuff for generality and best readibility
+  def search_for_imprint(site)
+    search_service = SearchService.new
+    query = "site:#{site} AND Impressum"
+    json = search_service.query(query)
+    o = search_service.map_to_struct(json)
+    p o.webPages.value.first.url
+  end
 
 
   class_methods do
@@ -35,7 +53,7 @@ module OrganizationHelper
 
         organization = Organization.find(org.rows.first[0])
 
-        link = find_or_create(link_text, "XING", "xing", (occupation&.link || 'n/a'))
+        find_or_create("XING", "xing", (occupation&.link || 'n/a'))
 
         unless organization.links.exists?(link.id) 
           organization.links << link
@@ -43,7 +61,7 @@ module OrganizationHelper
       end
     end
 
-    def find_or_create(link_text, scope, source, uri, description = '')
+    def find_or_create(scope, source, uri, description = '')
       now = Time.now
       # find or create the link
       link_result = Link.upsert(

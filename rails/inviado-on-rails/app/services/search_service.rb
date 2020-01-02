@@ -55,7 +55,7 @@ class SearchService
   end
 
   def map_to_struct(json)
-    JSON.parse(@response, object_class: OpenStruct) 
+    JSON.parse(json, object_class: OpenStruct) 
   end
 
 end

@@ -29,3 +29,12 @@ Feature: Enhance data via bing websearches
 
     When the base domain of the url is extracted
     Then the base domain should be "www.mspag.com"
+
+  @vcr
+  Scenario: Enhancement of data
+    Given an array of scopes like 
+      | Impressum | Kununu | Glassdoor |
+    When a first websearch for the homepage is done
+    Then combined searches with a site scope might follow as
+      | site:todo AND Impressum | todo AND Kununu | todo AND Glassdoor |
+
