@@ -62,6 +62,9 @@ module OrganizationHelper
 
       Organization.all.each_with_index do |org, i|
         break if (i >= 10)
+        p '--------------------------------------------'
+        p i
+        p '--------------------------------------------'
         # First: try to determine the organizations main website
         org.retrieve_main_site(search_service)
 
