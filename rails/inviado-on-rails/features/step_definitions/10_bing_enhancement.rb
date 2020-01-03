@@ -1,5 +1,9 @@
 require 'uri'
 
+Given("a database of organizations") do
+  # pending # Write code here that turns the phrase above into concrete actions
+  # TODO
+end
 
 Given("data, here: organizations, retrievable from the db") do
   @name = 'Inviado Ltd'
@@ -30,7 +34,7 @@ end
 Then("the query should be site-scoped like {string}") do |string|
   assert !@site.nil?
   search_service = SearchService.new
-  query = search_service.build_site_query(@name, @site)
+  query = search_service.build_site_query(site: @site, term: @name)
   assert_equal string, query
 end
 
@@ -82,18 +86,28 @@ Then("the base domain should be {string}") do |string|
   assert_equal string, @host
 end
 
-
-Given("an array of scopes like") do |table|
-  # table is a Cucumber::MultilineArgument::DataTable
-  scopes = table.cell_matrix.first.map {|cell| cell.value}
+Given("an org {string} and its site {string} as well as an array of scopes like") do |name, site, table|
+  @orgname = name
+  @site = site
+  @scopes = table.cell_matrix.first.map {|cell| cell.value}
 end
+
 
 When("a first websearch for the homepage is done") do
 end
 
 Then("combined searches with a site scope might follow as") do |table|
-  # table is a Cucumber::MultilineArgument::DataTable
-  queries = table.cell_matrix.first.map {|cell| cell.value}
-  p queries.inspect
+  queries_should_be = table.cell_matrix.first.map {|cell| cell.value}
+  p queries_should_be.inspect
+  search_service = SearchService.new
+  row = []
+  @scopes.each do |query|
+    if ("Impressum".eql? query) 
+      row << search_service.build_site_query(site: @site, term: query)
+    else
+      row << search_service.and_query(@orgname, query)
+    end
+  end
 
+  assert_equal queries_should_be, row
 end

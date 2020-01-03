@@ -9,22 +9,17 @@ class SearchService
     @uri  = "https://api.cognitive.microsoft.com"
     @path = "/bing/v7.0/search"
     if @accessKey.length != 32 then
-        puts "Invalid Bing Search API subscription key!"
-        puts "Please paste yours into the source code."
+        p "Invalid Bing Search API subscription key!"
+        p "Please paste yours into the source code."
         abort
     end
   end
-  
-  def build_uri(term, site)
-    searchterm = (site.nil? ? term : build_site_query(term, site))
 
-    endpoint = "#{@uri}#{@path}?q=#{URI.escape(term)}&mkt=de-DE"
-    puts "Searching the Web for: " + endpoint
-
-    URI(endpoint)
+  def and_query(*args) 
+    args.join(" AND ")
   end
 
-  def build_site_query(term, site) 
+  def build_site_query(site: site, term: term) 
     "site:#{site} AND #{term}"
   end
 
@@ -33,7 +28,7 @@ class SearchService
   end
   
   def query(term)
-    uri = build_uri(term, nil)
+    uri = build_uri(term)
     request = Net::HTTP::Get.new(uri)
     request['Ocp-Apim-Subscription-Key'] = @accessKey
     
@@ -58,4 +53,13 @@ class SearchService
     JSON.parse(json, object_class: OpenStruct) 
   end
 
+  private
+
+    def build_uri(term)
+      endpoint = "#{@uri}#{@path}?q=#{URI.escape(term)}&mkt=de-DE"
+      p "Searching the Web for: " + endpoint
+
+      URI(endpoint)
+    end 
+  
 end

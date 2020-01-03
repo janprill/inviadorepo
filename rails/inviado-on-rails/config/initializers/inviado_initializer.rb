@@ -1,5 +1,5 @@
 require 'json'
-# require_relative '../../app/services/config_service'
+require 'inviado/config_service'
 
 secret = ConfigService.new
 json = secret.json

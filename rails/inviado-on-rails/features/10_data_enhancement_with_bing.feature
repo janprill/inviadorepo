@@ -3,6 +3,9 @@
 
 Feature: Enhance data via bing websearches
 
+  Background: a list of orgs
+    Given a database of organizations
+
   Scenario: Retrieve data from the db and construct queries
     Given data, here: organizations, retrievable from the db
     When an organization has the name of "Inviado Ltd & Co KG"
@@ -32,9 +35,9 @@ Feature: Enhance data via bing websearches
 
   @vcr
   Scenario: Enhancement of data
-    Given an array of scopes like 
+    Given an org "Inviado Ltd" and its site "inviado.com" as well as an array of scopes like 
       | Impressum | Kununu | Glassdoor |
     When a first websearch for the homepage is done
     Then combined searches with a site scope might follow as
-      | site:todo AND Impressum | todo AND Kununu | todo AND Glassdoor |
+      | site:inviado.com AND Impressum | Inviado Ltd AND Kununu | Inviado Ltd AND Glassdoor |
 
