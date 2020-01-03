@@ -1,3 +1,5 @@
+require 'json'
+
 module OrganizationHelper
   extend ActiveSupport::Concern
 
@@ -44,12 +46,26 @@ module OrganizationHelper
   end
 
   def query_bing(search_service, term)
-    search_service.query(term)
+    json = search_service.query(term)
+
+    json
   end
 
   def extract_first_result(search_service, json)
     o = search_service.map_to_struct(json)
+    persist_searchresult(json, o)
+
     o&.webPages&.value&.first || nil
+  end
+
+  def persist_searchresult(json, object)
+    web_search_url = (object&.webPages&.webSearchUrl || '')
+    searchresult = Searchresult.create(
+      query: web_search_url,
+      source: 'bing',
+      raw: JSON.parse(json)
+    )
+    searchresults << searchresult
   end
 
 
@@ -61,7 +77,7 @@ module OrganizationHelper
       search_service = SearchService.new
 
       Organization.all.each_with_index do |org, i|
-        break if (i >= 10)
+        # break if (i >= 10)
         p '--------------------------------------------'
         p i
         p '--------------------------------------------'
