@@ -13,5 +13,6 @@ class CreateLinks < ActiveRecord::Migration[6.0]
     end
 
     add_index :links, :uri, unique: true
+    add_index :links, :title, unique: true
   end
 end

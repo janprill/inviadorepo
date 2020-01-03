@@ -90,6 +90,7 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
     t.jsonb "raw", default: {}, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["title"], name: "index_links_on_title", unique: true
     t.index ["uri"], name: "index_links_on_uri", unique: true
   end
 

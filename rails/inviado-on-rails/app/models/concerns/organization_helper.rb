@@ -8,7 +8,7 @@ module OrganizationHelper
   # the scope is what the search has been queried for (like imprint, or homepage)
   def enhance_with_bing(scope, value)
     link = Organization.find_or_create(name, scope, 'bing', value.url, value.snippet) 
-    unless links.exists?(link.id)
+    unless (link.nil? || links.exists?(link.id))
       links << link
     end
   end
@@ -35,8 +35,8 @@ module OrganizationHelper
   end
 
   # page: e.g. Kununu or Glassdoor
-  def retrieve_links(search_service, page)
-    term = search_service.and_query(name, page)
+  def retrieve_links(search_service, site, page)
+    term = search_service.and_query("site:#{site}", name, page)
     result = extract_first_result(search_service, query_bing(search_service, term))
     unless (result.nil? || result.url.nil?)
       enhance_with_bing(page, result)
@@ -49,7 +49,7 @@ module OrganizationHelper
 
   def extract_first_result(search_service, json)
     o = search_service.map_to_struct(json)
-    o.webPages.value.first
+    o&.webPages&.value&.first || nil
   end
 
 
@@ -59,16 +59,21 @@ module OrganizationHelper
     # results retrieved from the bing websearch api
     def enhance_with_bing
       search_service = SearchService.new
-      org = Organization.first
-      # First: try to determine the organizations main website
-      org.retrieve_main_site(search_service)
 
-      # Second: Search for the impressum of the organization on its main site
-      org.retrieve_legal_notice(search_service)
+      Organization.all.each_with_index do |org, i|
+        break if (i >= 10)
+        # First: try to determine the organizations main website
+        org.retrieve_main_site(search_service)
 
-      # Third: Search for links at kununu and glassdoor
-      org.retrieve_links(search_service, "Kununu")
-      org.retrieve_links(search_service, "Glassdoor")
+        # Second: Search for the impressum of the organization on its main site
+        org.retrieve_legal_notice(search_service)
+
+        # Third: Search for links at kununu and glassdoor
+        org.retrieve_links(search_service, "kununu.com", "Kununu")
+        org.retrieve_links(search_service, "glassdoor.de", "Glassdoor")
+
+        sleep 1
+      end
     end
 
     # map a single item from json to an organization
@@ -92,7 +97,7 @@ module OrganizationHelper
 
         link = find_or_create(link_text, "XING", "xing", (occupation&.link || 'n/a'))
 
-        unless organization.links.exists?(link.id) 
+        unless (link.nil? || organization.links.exists?(link.id))
           organization.links << link
         end
       end
@@ -101,20 +106,25 @@ module OrganizationHelper
     def find_or_create(link_text, scope, source, uri, description = '')
       now = Time.now
       # find or create the link
-      link_result = Link.upsert(
-        {
-          title: "#{link_text} (#{scope})",
-          description: description,
-          target: '_blank',
-          uri: uri,
-          source: source,
-          created_at: now,
-          updated_at: now
-        },
-        unique_by: :uri
-      )
+      begin
+        link_result = Link.upsert(
+          {
+            title: "#{link_text} (#{scope})",
+            description: description,
+            target: '_blank',
+            uri: uri,
+            source: source,
+            created_at: now,
+            updated_at: now
+          },
+          unique_by: :title
+        )
 
-      Link.find(link_result.rows.first[0])
+        return Link.find(link_result.rows.first[0])
+      rescue
+      end
+
+      nil
     end
 
     def parse
