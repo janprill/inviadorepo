@@ -6,6 +6,7 @@ class CreateLinks < ActiveRecord::Migration[6.0]
       t.string :uri
       t.string :description
       t.string :source
+      t.boolean :is_active, default: true
       t.jsonb :raw, null: false, default: {}
 
       t.timestamps
