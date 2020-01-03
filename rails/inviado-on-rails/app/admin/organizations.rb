@@ -6,7 +6,7 @@ ActiveAdmin.register Organization do
   # Uncomment all parameters which should be permitted for assignment
   #
   permit_params :classification, :name, :description, :raw, :is_active, :corporate_form_id,
-    links_attributes: [:id, :title, :uri],
+    links_attributes: [:id, :title, :uri, :is_active],
     searchresults_attributes: [:id, :query, :source],
     tags_attributes: [:id, :name, :description]
   
@@ -27,19 +27,23 @@ ActiveAdmin.register Organization do
     f.inputs "Organizatons" do 
       f.input :name
       f.input :description
+      f.input :is_active
       f.input :raw, as: :jsonb
     end
-    f.has_many :links do |org|
-      org.input :title
-      org.input :uri
+    f.has_many :links do |link|
+      link.input :title
+      link.input :uri
+      link.input :is_active
+      div 
+        a link.object.uri, href:link.object.uri, target: "_blank"
     end
-    f.has_many :tags do |org|
-      org.input :name
-      org.input :description
+    f.has_many :tags do |tag|
+      tag.input :name
+      tag.input :description
     end
-    f.has_many :searchresults do |org|
-      org.input :query
-      org.input :source
+    f.has_many :searchresults do |result|
+      result.input :query
+      result.input :source
     end
     
     f.actions
