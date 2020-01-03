@@ -34,6 +34,18 @@ module OrganizationHelper
 
   class_methods do
 
+    # iterate all organizations and enhance the data with 
+    # results retrieved from the bing websearch api
+    def enhance_with_bing
+      org = Organization.first
+      # First: try to determine the organizations main website
+
+      # Second: Search for the impressum of the organization on its main site
+
+      # Third: Search for links at kununu and glassdoor
+      
+    end
+
     # map a single item from json to an organization
     def new_with(item) 
       occupation = item.occupation
