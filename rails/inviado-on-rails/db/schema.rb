@@ -86,6 +86,7 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
     t.string "uri"
     t.string "description"
     t.string "source"
+    t.boolean "is_active", default: true
     t.jsonb "raw", default: {}, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -117,12 +118,14 @@ ActiveRecord::Schema.define(version: 2019_12_30_101542) do
     t.string "classification"
     t.string "name"
     t.text "description"
+    t.string "uri"
     t.jsonb "raw", default: {}, null: false
     t.boolean "is_active", default: true
     t.bigint "corporate_form_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["name"], name: "index_organizations_on_name", unique: true
+    t.index ["uri"], name: "index_organizations_on_uri"
   end
 
   create_table "searchings", force: :cascade do |t|

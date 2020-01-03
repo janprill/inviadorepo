@@ -6,29 +6,50 @@ module OrganizationHelper
   # enhance the organization with data from a bing websearch
   # a value is one result of said search in the form of an openstruct
   # the scope is what the search has been queried for (like imprint, or homepage)
-  def enhance_with_bing(value, scope)
-    link = find_or_create(scope, 'bing', value.url, value.snippet) 
+  def enhance_with_bing(scope, value)
+    link = Organization.find_or_create(name, scope, 'bing', value.url, value.snippet) 
     unless links.exists?(link.id)
       links << link
     end
   end
 
-  def search_for
-    search_service = SearchService.new
-    json = search_service.query(name)
-    o = search_service.map_to_struct(json)
-    p o.inspect
-    host = search_service.extract_host(o.webPages.value.first.url)
-    search_for_imprint(host)
+  def retrieve_main_site(search_service)
+    result = extract_first_result(search_service, query_bing(search_service, name))
+    unless (result.nil? || result.url.nil?)
+      # main uri on the org table itself
+      update(uri: result.url)
+
+      # plus a link
+      enhance_with_bing("Home", result)
+    end
   end
 
-  # TODO: refactor this stuff for generality and best readibility
-  def search_for_imprint(site)
-    search_service = SearchService.new
-    query = "site:#{site} AND Impressum"
-    json = search_service.query(query)
+  def retrieve_legal_notice(search_service)
+    host = search_service.extract_host(uri)
+    scope = "Impressum"
+    term = search_service.build_site_query(site: host, term: scope)
+    result = extract_first_result(search_service, query_bing(search_service, term))
+    unless (result.nil? || result.url.nil?)
+      enhance_with_bing(scope, result)
+    end
+  end
+
+  # page: e.g. Kununu or Glassdoor
+  def retrieve_links(search_service, page)
+    term = search_service.and_query(name, page)
+    result = extract_first_result(search_service, query_bing(search_service, term))
+    unless (result.nil? || result.url.nil?)
+      enhance_with_bing(page, result)
+    end
+  end
+
+  def query_bing(search_service, term)
+    search_service.query(term)
+  end
+
+  def extract_first_result(search_service, json)
     o = search_service.map_to_struct(json)
-    p o.webPages.value.first.url
+    o.webPages.value.first
   end
 
 
@@ -37,13 +58,17 @@ module OrganizationHelper
     # iterate all organizations and enhance the data with 
     # results retrieved from the bing websearch api
     def enhance_with_bing
+      search_service = SearchService.new
       org = Organization.first
       # First: try to determine the organizations main website
+      org.retrieve_main_site(search_service)
 
       # Second: Search for the impressum of the organization on its main site
+      org.retrieve_legal_notice(search_service)
 
       # Third: Search for links at kununu and glassdoor
-      
+      org.retrieve_links(search_service, "Kununu")
+      org.retrieve_links(search_service, "Glassdoor")
     end
 
     # map a single item from json to an organization
@@ -65,7 +90,7 @@ module OrganizationHelper
 
         organization = Organization.find(org.rows.first[0])
 
-        find_or_create("XING", "xing", (occupation&.link || 'n/a'))
+        link = find_or_create(link_text, "XING", "xing", (occupation&.link || 'n/a'))
 
         unless organization.links.exists?(link.id) 
           organization.links << link
@@ -73,7 +98,7 @@ module OrganizationHelper
       end
     end
 
-    def find_or_create(scope, source, uri, description = '')
+    def find_or_create(link_text, scope, source, uri, description = '')
       now = Time.now
       # find or create the link
       link_result = Link.upsert(
