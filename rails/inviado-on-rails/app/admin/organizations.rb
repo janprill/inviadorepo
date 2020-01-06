@@ -1,11 +1,19 @@
 ActiveAdmin.register Organization do
 
+  index do
+    column :id
+    column :name
+    column :is_active
+    column :uri
+    actions
+  end
+
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  permit_params :classification, :name, :description, :raw, :is_active, :corporate_form_id,
+  permit_params :classification, :name, :description, :raw, :is_active, :corporate_form_id, :source, :notes,
     links_attributes: [:id, :title, :uri, :is_active],
     searchresults_attributes: [:id, :query, :source],
     tags_attributes: [:id, :name, :description]
@@ -27,7 +35,10 @@ ActiveAdmin.register Organization do
     f.inputs "Organizatons" do 
       f.input :name
       f.input :description
+      f.input :notes
       f.input :is_active
+      f.input :source
+      f.input :uri
       f.input :raw, as: :jsonb
     end
     f.has_many :links do |link|
