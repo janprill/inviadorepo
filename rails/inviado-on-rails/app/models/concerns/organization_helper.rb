@@ -1,4 +1,5 @@
 require 'json'
+require 'csv'
 
 module OrganizationHelper
   extend ActiveSupport::Concern
@@ -71,13 +72,20 @@ module OrganizationHelper
 
   class_methods do
 
+    def parse_csv
+      csv = CSV.read('/Users/jan.prill/Downloads/software_hh_gewinn_gteq_1000000.csv', 'r', encoding: 'ISO-8859-1', headers: true, col_sep: ';')
+      p csv.inspect
+
+      csv
+    end
+
     # iterate all organizations and enhance the data with 
     # results retrieved from the bing websearch api
     def enhance_with_bing
       search_service = SearchService.new
 
       Organization.all.each_with_index do |org, i|
-        # break if (i >= 10)
+        break if (i >= 10)
         p '--------------------------------------------'
         p i
         p '--------------------------------------------'
