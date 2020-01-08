@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_04_214538) do
+ActiveRecord::Schema.define(version: 2020_01_08_174314) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -66,6 +66,32 @@ ActiveRecord::Schema.define(version: 2020_01_04_214538) do
     t.jsonb "raw", default: {}, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "features", force: :cascade do |t|
+    t.string "key"
+    t.string "source"
+    t.string "path"
+    t.bigint "version"
+    t.string "period_desc"
+    t.datetime "period"
+    t.string "title"
+    t.text "description"
+    t.jsonb "raw"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "featurings", force: :cascade do |t|
+    t.bigint "featurable_id"
+    t.bigint "featurable_type"
+    t.text "description"
+    t.jsonb "raw"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.bigint "feature_id"
+    t.index ["featurable_id", "featurable_type"], name: "index_featurings_on_featurable_id_and_featurable_type"
+    t.index ["feature_id"], name: "index_featurings_on_feature_id"
   end
 
   create_table "linkings", force: :cascade do |t|
