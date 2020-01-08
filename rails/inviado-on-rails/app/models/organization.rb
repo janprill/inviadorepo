@@ -4,6 +4,7 @@ class Organization < ApplicationRecord
   include Searchable
   include Taggable
   include Commentable
+  include Featurable
   include Membershipable
 
   # helper
