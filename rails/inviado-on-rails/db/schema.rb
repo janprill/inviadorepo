@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_08_084554) do
+ActiveRecord::Schema.define(version: 2020_01_08_211813) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -154,7 +154,11 @@ ActiveRecord::Schema.define(version: 2020_01_08_084554) do
     t.text "notes"
     t.string "source"
     t.boolean "has_devs_on_xing"
+    t.bigint "created_at_epoch"
+    t.bigint "updated_at_epoch"
+    t.index ["created_at_epoch"], name: "index_organizations_on_created_at_epoch"
     t.index ["name"], name: "index_organizations_on_name", unique: true
+    t.index ["updated_at_epoch"], name: "index_organizations_on_updated_at_epoch"
     t.index ["uri"], name: "index_organizations_on_uri"
   end
 

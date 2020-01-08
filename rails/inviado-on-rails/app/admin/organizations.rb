@@ -5,6 +5,7 @@ ActiveAdmin.register Organization do
     column :name
     column :is_active
     column :uri
+    column :updated_at
     actions
   end
 

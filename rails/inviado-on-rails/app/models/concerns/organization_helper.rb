@@ -10,7 +10,7 @@ module OrganizationHelper
   # a value is one result of said search in the form of an openstruct
   # the scope is what the search has been queried for (like imprint, or homepage)
   def enhance_with_bing(scope, value)
-    link = Organization.find_or_create(name, scope, 'bing', value.url, value.snippet) 
+    link = Organization.find_or_create_link(name, scope, 'bing', value.url, value.snippet) 
     unless (link.nil? || links.exists?(link.id))
       links << link
     end
@@ -72,14 +72,48 @@ module OrganizationHelper
 
   class_methods do
 
+    def symbolize(str)
+      str
+        .downcase
+        .gsub('ä', 'ae')
+        .gsub('ü', 'ue')
+        .gsub('ö', 'oe')
+        .gsub('ß', 'ss')
+        .gsub('%', 'prozent')
+        .gsub(/\s/, '_')
+        .gsub(/\W/, '')
+        .to_sym
+    end
+
     def parse_csv
       csv = CSV.read('/Users/jan.prill/Downloads/software_hh_gewinn_gteq_1000000.csv', 'r', encoding: 'ISO-8859-1', headers: true, col_sep: ';')
       p csv.inspect
 
       csv.each do |row|
+        hash = {}
         row.each do |k, v|
-          p "k: #{k.to_sym}, v: #{v}"
+          key = symbolize(k)
+          hash[key] = v
         end
+        # p hash.inspect
+        p "#{hash[:name]} - #{hash[:website]} - #{hash[:gegenstand]}"
+        now = Time.now
+        # TODO: add source / filename in features
+        org = Organization.upsert(
+          {
+            classification: 'commercial',
+            name: hash[:name],
+            description: hash[:gegenstand],
+            uri: hash[:website],
+            created_at: now,
+            updated_at: now,
+            created_at_epoch: now.to_i,
+            updated_at_epoch: now.to_i
+          },
+          unique_by: :name
+        )
+  
+        org = Organization.find(org.rows.first[0])
       end
     end
 
@@ -89,7 +123,7 @@ module OrganizationHelper
       search_service = SearchService.new
 
       Organization.all.each_with_index do |org, i|
-        break if (i vcccccciiiiii= 10)
+        break if (i >= 10)
         p '--------------------------------------------'
         p i
         p '--------------------------------------------'
@@ -111,22 +145,10 @@ module OrganizationHelper
     def new_with(item) 
       occupation = item.occupation
       if occupation.present?
-        now = Time.now
         link_text = occupation&.link_text || 'n/a'
-        org = Organization.upsert(
-          {
-            classification: 'commercial',
-            name: link_text,
-            raw: occupation,
-            created_at: now,
-            updated_at: now
-          },
-          unique_by: :name
-        )
+        organization = find_or_create_org(link_text, occupation)
 
-        organization = Organization.find(org.rows.first[0])
-
-        link = find_or_create(link_text, "XING", "xing", (occupation&.link || 'n/a'))
+        link = find_or_create_link(link_text, "XING", "xing", (occupation&.link || 'n/a'))
 
         unless (link.nil? || organization.links.exists?(link.id))
           organization.links << link
@@ -134,7 +156,26 @@ module OrganizationHelper
       end
     end
 
-    def find_or_create(link_text, scope, source, uri, description = '')
+    def find_or_create_org(link_text, raw)
+      now = Time.now 
+      
+      org = Organization.upsert(
+        {
+          classification: 'commercial',
+          name: link_text,
+          raw: raw,
+          created_at: now,
+          updated_at: now,
+          created_at_epoch: now.to_i,
+          updated_at_epoch: now.to_i
+        },
+        unique_by: :name
+      )
+
+      Organization.find(org.rows.first[0])
+    end
+
+    def find_or_create_link(link_text, scope, source, uri, description = '')
       now = Time.now
       # find or create the link
       begin
