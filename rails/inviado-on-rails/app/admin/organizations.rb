@@ -13,11 +13,11 @@ ActiveAdmin.register Organization do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  permit_params :classification, :name, :description, :raw, :is_active, :corporate_form_id, :source, :notes,
+  permit_params :classification, :name, :description, :raw, :is_active, :corporate_form_id, :source, :notes, :uri,
     links_attributes: [:id, :title, :uri, :is_active],
     searchresults_attributes: [:id, :query, :source],
     tags_attributes: [:id, :name, :description],
-    feature_attributes: [:id, :key, :source, :raw]
+    features_attributes: [:id, :key, :source, :raw]
   
   #
   # or
