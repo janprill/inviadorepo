@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :featurings
+  resources :features
   resources :taggings
   resources :commentings
   resources :linkings
