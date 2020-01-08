@@ -76,7 +76,11 @@ module OrganizationHelper
       csv = CSV.read('/Users/jan.prill/Downloads/software_hh_gewinn_gteq_1000000.csv', 'r', encoding: 'ISO-8859-1', headers: true, col_sep: ';')
       p csv.inspect
 
-      csv
+      csv.each do |row|
+        row.each do |k, v|
+          p "k: #{k.to_sym}, v: #{v}"
+        end
+      end
     end
 
     # iterate all organizations and enhance the data with 
@@ -85,7 +89,7 @@ module OrganizationHelper
       search_service = SearchService.new
 
       Organization.all.each_with_index do |org, i|
-        break if (i >= 10)
+        break if (i vcccccciiiiii= 10)
         p '--------------------------------------------'
         p i
         p '--------------------------------------------'
