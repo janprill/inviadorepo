@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Featurings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Featurable</th>
+      <th>Featurable type</th>
+      <th>Description</th>
+      <th>Raw</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @featurings.each do |featuring| %>
+      <tr>
+        <td><%= featuring.featurable_id %></td>
+        <td><%= featuring.featurable_type %></td>
+        <td><%= featuring.description %></td>
+        <td><%= featuring.raw %></td>
+        <td><%= link_to 'Show', featuring %></td>
+        <td><%= link_to 'Edit', edit_featuring_path(featuring) %></td>
+        <td><%= link_to 'Destroy', featuring, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Featuring', new_featuring_path %>

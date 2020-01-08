@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Featurable:</strong>
+  <%= @featuring.featurable_id %>
+</p>
+
+<p>
+  <strong>Featurable type:</strong>
+  <%= @featuring.featurable_type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @featuring.description %>
+</p>
+
+<p>
+  <strong>Raw:</strong>
+  <%= @featuring.raw %>
+</p>
+
+<%= link_to 'Edit', edit_featuring_path(@featuring) %> |
+<%= link_to 'Back', featurings_path %>
