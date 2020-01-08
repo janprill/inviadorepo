@@ -9,7 +9,7 @@ class CreateFeatures < ActiveRecord::Migration[6.0]
       t.datetime :period
       t.string :title
       t.text :description
-      t.jsonb :raw
+      t.jsonb :raw, null: false, default: {}
 
       t.timestamps
     end
