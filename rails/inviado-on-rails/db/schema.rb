@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_08_211813) do
+ActiveRecord::Schema.define(version: 2020_01_09_065204) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -80,6 +80,7 @@ ActiveRecord::Schema.define(version: 2020_01_08_211813) do
     t.jsonb "raw", default: {}, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["period_desc", "source"], name: "index_features_on_period_desc_and_source", unique: true
   end
 
   create_table "featurings", force: :cascade do |t|

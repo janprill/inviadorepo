@@ -86,7 +86,8 @@ module OrganizationHelper
     end
 
     def parse_csv
-      csv = CSV.read('/Users/jan.prill/Downloads/software_hh_gewinn_gteq_1000000.csv', 'r', encoding: 'ISO-8859-1', headers: true, col_sep: ';')
+      path = '/Users/jan.prill/Downloads/software_hh_gewinn_gteq_1000000.csv'
+      csv = CSV.read(path, 'r', encoding: 'ISO-8859-1', headers: true, col_sep: ';')
       p csv.inspect
 
       csv.each do |row|
@@ -95,8 +96,9 @@ module OrganizationHelper
           key = symbolize(k)
           hash[key] = v
         end
-        # p hash.inspect
-        p "#{hash[:name]} - #{hash[:website]} - #{hash[:gegenstand]}"
+        p hash.inspect
+        p hash.keys.inspect
+        # p "#{hash[:name]} - #{hash[:website]} - #{hash[:gegenstand]}"
         now = Time.now
         # TODO: add source / filename in features
         org = Organization.upsert(
@@ -113,7 +115,17 @@ module OrganizationHelper
           unique_by: :name
         )
   
-        org = Organization.find(org.rows.first[0])
+        organization = Organization.find(org.rows.first[0])
+
+        link = find_or_create_link(hash[:name], 'Northdata', 'northdata', hash[:website])
+        unless (link.nil? || organization.links.exists?(link.id))
+          organization.links << link
+        end
+
+        feature = find_or_create_feature('kpi', path, hash)
+        unless (feature.nil? || organization.features.exists?(feature.id))
+          organization.features << feature
+        end
       end
     end
 
@@ -173,6 +185,23 @@ module OrganizationHelper
       )
 
       Organization.find(org.rows.first[0])
+    end
+
+    def find_or_create_feature(key, path, north_data)
+      now = Time.now
+      feature = Feature.upsert(
+        {
+          key: key,
+          path: path,
+          source: north_data[:north_data_url],
+          period_desc: north_data[:finanzkennzahlen_datum],
+          raw: north_data,
+          created_at: now,
+          updated_at: now
+        }
+      )
+
+      Feature.find(feature.rows.first[0])
     end
 
     def find_or_create_link(link_text, scope, source, uri, description = '')
