@@ -9,4 +9,7 @@ class Organization < ApplicationRecord
 
   # helper
   include OrganizationHelper
+
+  # attachments
+  has_many_attached :screenshots
 end
