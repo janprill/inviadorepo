@@ -1,5 +1,6 @@
 require 'json'
 require 'csv'
+require 'Dhalang'
 
 module OrganizationHelper
   extend ActiveSupport::Concern
@@ -101,6 +102,19 @@ module OrganizationHelper
         .gsub(/\s/, '_')
         .gsub(/\W/, '')
         .to_sym
+    end
+
+    def attach_screenshots
+      Organization.where(is_active: true).all.each_with_index do |org, i| 
+        p '-----------------------------------'
+        p i
+        p '-----------------------------------'
+
+        if (org.uri && org.uri.start_with?('http')) 
+          binary_png = Dhalang::Screenshot.get_from_url_as_png(org.uri)
+          org.screenshots.attach(io: binary_png)
+        end
+      end
     end
 
     def parse_csv
