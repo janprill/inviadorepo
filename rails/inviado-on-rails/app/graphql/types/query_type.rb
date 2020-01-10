@@ -12,12 +12,21 @@ module Types
           null: false,
           description: "Returns a list of organizations from our database"
 
+    field :activeOrganizations,
+          [Types::OrganizationType],
+          null: false,
+          description: 'Returns a list of active organizations'
+
     def test_field
       "Hello World!"
     end
 
     def organizations
       Organization.all
+    end
+
+    def active_organizations
+      Organization.where(is_active: true).all
     end
   end
 end

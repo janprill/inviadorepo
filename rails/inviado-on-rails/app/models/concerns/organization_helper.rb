@@ -28,12 +28,30 @@ module OrganizationHelper
   end
 
   def retrieve_legal_notice(search_service)
-    host = search_service.extract_host(uri)
-    scope = "Impressum"
-    term = search_service.build_site_query(site: host, term: scope)
-    result = extract_first_result(search_service, query_bing(search_service, term))
-    unless (result.nil? || result.url.nil?)
-      enhance_with_bing(scope, result)
+    begin
+      host = search_service.extract_host(uri)
+      scope = "Impressum"
+      term = search_service.build_site_query(site: host, term: scope)
+      result = extract_first_result(search_service, query_bing(search_service, term))
+      unless (result.nil? || result.url.nil?)
+        enhance_with_bing(scope, result)
+      end
+    rescue
+      p "error on #{self.inspect}"
+    end
+  end
+
+  def retrieve_career_page(search_service)
+    begin
+      host = search_service.extract_host(uri)
+      scope = "Karriere"
+      term = search_service.build_site_query(site: host, term: scope)
+      result = extract_first_result(search_service, query_bing(search_service, term))
+      unless (result.nil? || result.url.nil?)
+        enhance_with_bing(scope, result)
+      end
+    rescue
+      p "error on #{self.inspect}"
     end
   end
 
@@ -86,7 +104,7 @@ module OrganizationHelper
     end
 
     def parse_csv
-      path = '/Users/jan.prill/Documents/workspace/msp/inviadorepo/data/northdata/2020-01-07/software_hh_ma_gteq_100.csv'
+      path = '/Users/jan.prill/Documents/workspace/msp/inviadorepo/data/northdata/2020-01-07/software_hh_umsatzrendite_gteq_8.csv'
       csv = CSV.read(path, 'r', encoding: 'ISO-8859-1', headers: true, col_sep: ';')
       p csv.inspect
 
@@ -134,16 +152,17 @@ module OrganizationHelper
     def enhance_with_bing(main_site = nil)
       search_service = SearchService.new
 
-      Organization.all.each_with_index do |org, i|
-        break if (i >= 10)
+      Organization.where(is_active: true).all.each_with_index do |org, i|
+        break if (i >= 100)
         p '--------------------------------------------'
         p i
         p '--------------------------------------------'
         # First: try to determine the organizations main website
         org.retrieve_main_site(search_service) if main_site
 
-        # Second: Search for the impressum of the organization on its main site
+        # Second: Search for the impressum of the organization on its main site, as well its career page
         org.retrieve_legal_notice(search_service)
+        org.retrieve_career_page(search_service)
 
         # Third: Search for links at kununu and glassdoor
         org.retrieve_links(search_service, "kununu.com", "Kununu")
