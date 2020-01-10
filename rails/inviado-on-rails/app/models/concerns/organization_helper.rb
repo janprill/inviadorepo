@@ -86,7 +86,7 @@ module OrganizationHelper
     end
 
     def parse_csv
-      path = '/Users/jan.prill/Downloads/software_hh_gewinn_gteq_1000000.csv'
+      path = '/Users/jan.prill/Documents/workspace/msp/inviadorepo/data/northdata/2020-01-07/software_hh_ma_gteq_100.csv'
       csv = CSV.read(path, 'r', encoding: 'ISO-8859-1', headers: true, col_sep: ';')
       p csv.inspect
 
@@ -131,7 +131,7 @@ module OrganizationHelper
 
     # iterate all organizations and enhance the data with 
     # results retrieved from the bing websearch api
-    def enhance_with_bing
+    def enhance_with_bing(main_site = nil)
       search_service = SearchService.new
 
       Organization.all.each_with_index do |org, i|
@@ -140,7 +140,7 @@ module OrganizationHelper
         p i
         p '--------------------------------------------'
         # First: try to determine the organizations main website
-        org.retrieve_main_site(search_service)
+        org.retrieve_main_site(search_service) if main_site
 
         # Second: Search for the impressum of the organization on its main site
         org.retrieve_legal_notice(search_service)
@@ -188,20 +188,25 @@ module OrganizationHelper
     end
 
     def find_or_create_feature(key, path, north_data)
-      now = Time.now
-      feature = Feature.upsert(
-        {
-          key: key,
-          path: path,
-          source: north_data[:north_data_url],
-          period_desc: north_data[:finanzkennzahlen_datum],
-          raw: north_data,
-          created_at: now,
-          updated_at: now
-        }
-      )
+      begin
+        now = Time.now
+        feature = Feature.upsert(
+          {
+            key: key,
+            path: path,
+            source: north_data[:north_data_url],
+            period_desc: north_data[:finanzkennzahlen_datum],
+            raw: north_data,
+            created_at: now,
+            updated_at: now
+          }
+        )
 
-      Feature.find(feature.rows.first[0])
+        return Feature.find(feature.rows.first[0])
+      rescue
+      end
+
+      nil
     end
 
     def find_or_create_link(link_text, scope, source, uri, description = '')
