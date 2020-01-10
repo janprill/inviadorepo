@@ -107,12 +107,14 @@ module OrganizationHelper
     def attach_screenshots
       Organization.where(is_active: true).all.each_with_index do |org, i| 
         p '-----------------------------------'
-        p i
+        p "#{i}: #{org.uri}"
         p '-----------------------------------'
 
-        if (org.uri && org.uri.start_with?('http')) 
-          binary_png = Dhalang::Screenshot.get_from_url_as_png(org.uri)
-          org.screenshots.attach(io: binary_png)
+        if (org.uri && !org.uri.to_s.strip.empty?)
+          uri = org.uri
+          uri = "http://#{org.uri}" unless uri.start_with?('http')
+          binary_png = Dhalang::Screenshot.get_from_url_as_png(uri)
+          org.screenshots.attach(io: StringIO.new(binary_png), filename: "#{org.id}.png", content_type: 'image/png')
         end
       end
     end
