@@ -1,6 +1,9 @@
 require 'json'
 require 'csv'
 require 'Dhalang'
+require 'vips'
+require "image_processing/vips"
+
 
 module OrganizationHelper
   extend ActiveSupport::Concern

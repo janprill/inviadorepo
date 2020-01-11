@@ -12,4 +12,5 @@ class Organization < ApplicationRecord
 
   # attachments
   has_many_attached :screenshots
+  has_many_attached :thumbs
 end

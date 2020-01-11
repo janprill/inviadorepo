@@ -78,3 +78,6 @@ gem "graphql", "~> 1.9"
 gem 'graphiql-rails', group: :development
 
 gem 'Dhalang'
+
+gem "image_processing"
+gem 'ruby-vips'
