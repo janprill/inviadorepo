@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="relative pb-8 h-auto">
-      <img class="inset-0 rounded-lg shadow-md object-cover" :src="'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'" alt="">
+      <img class="inset-0 rounded-lg shadow-md object-cover" src="/images/hoyer_375.png" alt="" />
     </div>
     <div class="relative px-4 -mt-16">
       <div class="bg-white rounded-lg px-4 py-4 shadow-lg">
