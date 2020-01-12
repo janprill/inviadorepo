@@ -5,8 +5,10 @@
         will launch soon
       </div>
       <div class="max-w-6xl">
-        <div class="sm:mt-0 sm:w-80 sm:flex-shrink-0">
+        <div class="sm:mt-0 sm:w-80 sm:flex-shrink-0 flex">
           <OrganizationCard />
+          <Organization />
+          <Organization />
         </div>
       </div>
     </main>
@@ -15,10 +17,12 @@
 
 <script>
 import OrganizationCard from '@/components/OrganizationCard'
+import Organization from '@/components/Organization'
 
 export default {
   components: {
-    OrganizationCard
+    OrganizationCard,
+    Organization
   }
 }
 </script>

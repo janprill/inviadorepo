@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class=" w-64">
     <div class="relative pb-8 h-auto">
       <img class="inset-0 rounded-lg shadow-md object-cover" src="/images/hoyer_375.png" alt="" />
     </div>
     <div class="relative px-4 -mt-16">
-      <div class="bg-white rounded-lg px-4 py-4 shadow-lg">
+      <div class="bg-white rounded-lg px-4 py-4 shadow-2xl">
         <div class="flex items-baseline">
           <span class="inline-block px-2 py-1 leading-none bg-teal-200 text-teal-800 rounded-full font-semibold uppercase tracking-wide text-xs">Plus</span>
           <div class="ml-2 text-xs text-gray-600 font-semibold uppercase tracking-wide">
