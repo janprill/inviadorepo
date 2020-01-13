@@ -1,11 +1,11 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter, faXingSquare } from '@fortawesome/free-brands-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false;
-library.add(faGithub, faTwitter)
+library.add(faGithub, faTwitter, faXingSquare)
 
 export default function (Vue, { head }) {
   Vue.component('Layout', DefaultLayout)

@@ -12,8 +12,7 @@
           Hoyer Unternehmensgruppe
         </h2>
         <p class="mt-1 text-gray-900 text-lg">
-          Hey! I'm Jan Prill. I'm building a list of potential employers for software devs in Hamburg. I'm doing so by taking the great
-          tailwind.css tutorial "workation as a blueprint"
+          Hey! I'm Jan Prill.
         </p>
         <div class="flex mt-3 rounded rounded-xl border border-gray-600 shadow-xl">
           <div class="flex-shrink bg-gray-100 p-2 rounded rounded-xl">
@@ -21,7 +20,6 @@
           </div>
           <div class="flex-grow bg-gray-400 p-2 rounded rounded-xl">
             What you might not yet know about xy, even though it could be important for your career decisions. 
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
             Read more...
           </div>
         </div>
