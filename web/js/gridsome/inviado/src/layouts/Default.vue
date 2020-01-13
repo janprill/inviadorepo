@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full bg-black font-copy antialiased">
+  <div class="min-h-full bg-primary font-copy antialiased">
     <slot/>
   </div>
   
