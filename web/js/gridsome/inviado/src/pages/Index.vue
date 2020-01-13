@@ -5,10 +5,12 @@
         will launch soon
       </div>
       <div class="max-w-6xl">
-        <div class="sm:mt-0 sm:w-80 sm:flex-shrink-0 flex">
+        <div class="sm:mt-0 sm:w-80 sm:flex-shrink-0 lg:flex">
           <OrganizationCard />
-          <Organization />
-          <Organization />
+          <OrganizationCard />
+          <OrganizationCard />
+          <OrganizationCard />
+          <OrganizationCard />
         </div>
       </div>
     </main>

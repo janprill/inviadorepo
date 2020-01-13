@@ -1,6 +1,5 @@
 <template>
   <div class="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-gray-900">
-    <img class="w-full" src="/images/hoyer_375.png" alt="Sunset in the mountains">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
       <p class="text-gray-700 text-base">
@@ -12,6 +11,7 @@
       <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
       <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
     </div>
+    <img class="w-full" src="/images/hoyer_375.png" alt="Sunset in the mountains">
   </div>
 </template>
 
