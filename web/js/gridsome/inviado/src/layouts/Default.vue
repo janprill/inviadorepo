@@ -17,12 +17,11 @@ export default {
 }
 </script>
 
-<style src="~/assets/css/main.css"></style>
+<style src="~/assets/css/typekit.css"></style>
 
 <style>
   body {
-    background-color: #22292f;
+    background-color: #272727;
+    color: #ddd;
   }
-</style>
-
-<style src="~/assets/css/typekit.css"></style>
+</style

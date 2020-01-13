@@ -1,8 +1,8 @@
 <template>
-  <div class="m-2 lg:w-1/3">
+  <div class="lg:w-1/3 p-2">
     <!-- copy -->
     <div class="relative pb-8 ">
-      <div class="bg-white rounded-lg px-4 py-4 shadow-xl">
+      <div class="bg-white rounded-lg px-4 py-4 shadow-primary shadow-xl">
         <div class="flex items-baseline">
           <span class="inline-block px-2 py-1 leading-none bg-teal-200 text-teal-800 rounded-full font-semibold uppercase tracking-wide text-xs">Plus</span>
           <div class="ml-2 text-xs text-gray-600 font-semibold uppercase tracking-wide">
@@ -16,6 +16,13 @@
           Hey! I'm Jan Prill. I'm building a list of potential employers for software devs in Hamburg. I'm doing so by taking the great
           tailwind.css tutorial "workation as a blueprint"
         </p>
+        <p class="mt-2 text-gray-900 text-lg">
+          <em>
+            What you might not yet know about xy, even though it could be important for your career decisions. 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
+            Read more...
+          </em>
+        </p>
         <div class="mt-1">
           <span class="text-gray-900">5,000</span>
           <span class="ml-1 text-sm text-gray-600">/wk</span>
@@ -26,8 +33,8 @@
       </div>
     </div>
     <!-- image -->
-    <div class="relative px-2 h-auto -mt-16 shadow-2xl">
-      <img class="inset-0 rounded-lg shadow-md object-cover border border-gray-600" src="/images/hoyer_375.png" alt="" />
+    <div class="relative px-2 h-auto -mt-16">
+      <img class="inset-0 rounded-lg shadow-primary shadow-2xl object-cover border border-gray-600" src="/images/hoyer_375.png" alt="" />
     </div>
   </div>
 </template>
