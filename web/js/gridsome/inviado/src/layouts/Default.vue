@@ -18,10 +18,3 @@ export default {
 </script>
 
 <style src="~/assets/css/typekit.css"></style>
-
-<style>
-  body {
-    background-color: #272727;
-    color: #ddd;
-  }
-</style

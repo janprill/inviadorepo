@@ -12,5 +12,5 @@ export default function (Vue, { head }) {
   Vue.component('font-awesome', FontAwesomeIcon)
 
   head.htmlAttrs = { lang: 'en', class: 'h-full' }
-  head.bodyAttrs = { class: 'antialiased font-serif' }
+  head.bodyAttrs = { class: 'antialiased font-copy bg-primary' }
 }
