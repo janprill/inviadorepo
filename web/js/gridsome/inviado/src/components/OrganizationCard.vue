@@ -1,5 +1,5 @@
 <template>
-  <div class="m-2 w-1/3">
+  <div class="m-2 lg:w-1/3">
     <!-- copy -->
     <div class="relative pb-8 ">
       <div class="bg-white rounded-lg px-4 py-4 shadow-xl">
