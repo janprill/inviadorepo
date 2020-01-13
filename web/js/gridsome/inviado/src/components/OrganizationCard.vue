@@ -23,6 +23,10 @@
             Read more...
           </em>
         </p>
+        <p class="mt-2 text-gray-900 text-lg">
+          <font-awesome :icon="['fab', 'github']" class=" text-gray-400"/>
+          <font-awesome :icon="['fab', 'twitter']"/>
+        </p>
         <div class="mt-1">
           <span class="text-gray-900">5,000</span>
           <span class="ml-1 text-sm text-gray-600">/wk</span>
