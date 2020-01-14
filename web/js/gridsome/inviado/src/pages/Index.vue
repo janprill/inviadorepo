@@ -18,12 +18,10 @@
 
 <script>
 import OrganizationCard from '@/components/OrganizationCard'
-import OrganizationCardSmall from '@/components/OrganizationCardSmall'
 import Organization from '@/components/Organization'
 
 export default {
   components: {
-    OrganizationCardSmall,
     OrganizationCard,
     Organization
   }
