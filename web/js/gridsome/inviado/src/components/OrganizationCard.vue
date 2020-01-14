@@ -18,7 +18,7 @@
           </p>
           <div class="flex mt-3 rounded rounded-xl border border-gray-600 shadow-xl">
             <div class="flex-shrink bg-gray-100 p-2 rounded rounded-xl">
-              <font-awesome :icon="['fas', 'mask']" class="text-teal-600" />
+              <font-awesome :icon="['fas', 'mask']" class="text-teal-600 h-6 w-6" />
             </div>
             <div class="flex-grow bg-gray-400 p-2 rounded rounded-xl">
               What you might not yet know about xy, even though it could be important for your career decisions. 
