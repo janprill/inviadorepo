@@ -1,6 +1,9 @@
 <template>
-  <div class="lg:w-1/3">
-    <div class="p-2 mt-10">
+  <div>
+    <div class="text-white mt-10">
+      # {{index}}
+    </div>
+    <div class="p-2">
       <!-- copy -->
       <div class="relative pb-8 ">
         <div class="bg-white rounded-lg px-4 py-4 shadow-primary shadow-xl">
@@ -49,7 +52,7 @@
 
 <script>
 export default {
-  props: ['property'],
+  props: ['index', 'property'],
   computed: {
     formattedPrice() {
       const formatter = new Intl.NumberFormat('en-US', {
