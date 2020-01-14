@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/3">
+  <div class="lg:w-1/3">
     <div class="p-2 mt-10">
       <!-- copy -->
       <div class="relative pb-8 ">
