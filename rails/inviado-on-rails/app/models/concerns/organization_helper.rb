@@ -91,6 +91,15 @@ module OrganizationHelper
     searchresults << searchresult
   end
 
+  # stores a smaller and cropped screenshot on the provided path
+  def store_screenshot(path)
+    screenshot = screenshots.first
+    if (screenshot)
+      variant = screenshot.variant(resize_to_limit: [425, nil], resize_to_fill: [425, 250, { crop: :low }]).processed
+      # variant.download_blob_to(File.new("/tmp/testing/#{id}.png", 'w'))
+    end
+  end
+
 
   class_methods do
 
