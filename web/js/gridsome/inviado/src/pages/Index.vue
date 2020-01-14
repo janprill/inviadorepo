@@ -1,10 +1,12 @@
 <template>
   <Layout class="bg-primary">
     <main class="container mx-auto">
-      <div class="container m-auto min-w-full">
+      <div class="min-w-full">
         <div class="sm:mt-0 sm:w-80 sm:flex-shrink-0 lg:flex lg:flex-wrap">
           <OrganizationCard />
-          <OrganizationCardSmall />
+          <OrganizationCard />
+          <OrganizationCard />
+          <OrganizationCard />
           <OrganizationCard />
           <OrganizationCard />
           <OrganizationCard />
