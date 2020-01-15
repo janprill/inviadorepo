@@ -44,7 +44,7 @@
       </div>
       <!-- image -->
       <div class="relative px-2 h-auto -mt-16">
-        <img class="inset-0 rounded-lg shadow-primary shadow-2xl object-cover border border-gray-600" src="/images/hoyer_375.png" alt="" />
+        <img class="inset-0 rounded-lg shadow-primary shadow-2xl object-cover border border-gray-600" :src="`/images/inviado/${index}.png`" alt="" />
       </div>
     </div>
   </div>

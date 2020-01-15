@@ -41,18 +41,18 @@ module.exports = {
         },
       },
     },
-    // {
-    //   use: '@gridsome/source-graphql',
-    //   options: {
-    //     url: 'http://localhost:3000/graphql',
-    //     fieldName: 'rails',
-    //     headers: {
-    //       'X-CSRF-Token': '7ifNDYdxDwOxUMoi3pM5puUVzTqNmjqmKlx1akN+TIj7MOQ1S1BkObzKwkKwVNWasggtnycaLDBOXE3/5ZENvw==',
-    //     },
+    {
+      use: '@gridsome/source-graphql',
+      options: {
+        url: 'http://localhost:3000/graphql',
+        fieldName: 'rails',
+        headers: {
+          'X-CSRF-Token': '7ifNDYdxDwOxUMoi3pM5puUVzTqNmjqmKlx1akN+TIj7MOQ1S1BkObzKwkKwVNWasggtnycaLDBOXE3/5ZENvw==',
+        },
 
-    //     credentials: 'same-origin'
-    //   },
-    // },
+        credentials: 'same-origin'
+      },
+    },
     //////////////// - dgraph - check later
 
     // {
