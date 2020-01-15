@@ -95,8 +95,13 @@ module OrganizationHelper
   def store_screenshot(path)
     screenshot = screenshots.first
     if (screenshot)
-      variant = screenshot.variant(resize_to_limit: [425, nil], resize_to_fill: [425, 250, { crop: :low }]).processed
-      # variant.download_blob_to(File.new("/tmp/testing/#{id}.png", 'w'))
+      begin 
+        variant = screenshot.variant(resize_to_limit: [425, nil], resize_to_fill: [425, 250, { crop: :low }]).processed
+        path = variant.blob.service.send(:path_for, variant.key)
+        FileUtils.cp(path, "/Users/jan.prill/Documents/workspace/msp/inviadorepo/web/js/gridsome/inviado/src/assets/images/inviado/#{id}.png")
+      rescue
+        p "There is a problem on #{variant}"
+      end
     end
   end
 
