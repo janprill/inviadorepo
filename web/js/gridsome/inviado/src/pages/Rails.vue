@@ -24,6 +24,7 @@ export default {
 }
 </script>
 
+<!--
 <page-query>
   query {
     orgs: rails {
@@ -34,4 +35,13 @@ export default {
               }
             }
           }
+</page-query>
+-->
+
+<page-query>
+  query Home ($page: Int) {
+    org: allPost (page: $page, perPage: 6) @paginate {
+      totalCount
+    }
+  }
 </page-query>
