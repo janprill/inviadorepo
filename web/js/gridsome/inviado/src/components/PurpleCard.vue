@@ -4,7 +4,7 @@
       <em class="font-bold"># {{index}}</em>
     </div>
     <div class="shadow shadow-primary pt-8 mt-4">
-      <section class="flex -ml-6">
+      <section class="flex -ml-4">
         <div class="flex-shrink bg-gray-200 border bg-gray-800">
           <img src="/images/hoyer_150.png" style="width:120px" />
         </div>
