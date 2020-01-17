@@ -24,20 +24,6 @@ export default {
 }
 </script>
 
-<!--
-<page-query>
-  query {
-    orgs: rails {
-              activeOrganizations {
-                id
-                name
-                description
-              }
-            }
-          }
-</page-query>
--->
-
 <page-query>
   query Home ($page: Int) {
     org: allPost (page: $page, perPage: 6) @paginate {
