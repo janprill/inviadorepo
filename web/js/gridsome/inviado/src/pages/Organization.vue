@@ -1,15 +1,23 @@
 <template>
   <Layout>
-    <div class="container mx-auto text-gray-100">
+    <div class="container mx-auto text-gray-200">
       <div class="md:flex mt-8">
         <!-- broader left column -->
         <div class="md:w-2/3">
-          <div class="max-w-lg">
+          <div class="max-w-xl text-xl leading-snug">
             <p>
-              We will help you, as an IT talent, to find a job at one of the software development companies 
+              We will help you, <span class="font-bold text-white">as an IT talent</span>, to find a job at one of the software development companies 
               in Hamburg that shows the highest net profit. A key figure such as a company's net profit can help you find the business 
               that really values you and your work and is willing to pay you according to the outstanding value you can create for the organization.
             </p>
+          </div>
+          <div class="mt-12 flex">
+            <div class="flex-shrink">
+              <img src="/images/inviado/891.png"/> 
+            </div>
+            <div class="flex-grow">
+              header
+            </div>
           </div>
         </div>
         <!-- tighter right column -->
