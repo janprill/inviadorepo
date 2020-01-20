@@ -6,7 +6,7 @@
           <h1 class="text-4xl sm:text-5xl md:text-6xl font-sans font-bold mb-1">
             <g-link to="/" class="text-black">Bleda</g-link>
           </h1>
-          <p class="text-gray-700 text-lg sm:text-3xl">Thoughts, stories, and ideas.</p>
+          <p class="text-gray-200 text-lg sm:text-3xl">Thoughts, stories, and ideas.</p>
         </div>
       </header>
       <section>
