@@ -4,14 +4,15 @@
       <div class="md:flex mt-8">
         <!-- broader left column -->
         <div class="md:w-2/3">
-          <div class="max-w-xl text-xl leading-snug">
+          <section class="max-w-xl text-xl leading-snug">
             <p>
               We will help you, <span class="font-bold text-white">as an IT talent</span>, to find a job at one of the software development companies 
               in Hamburg that shows the highest net profit. A key figure such as a company's net profit can help you find the business 
               that really values you and your work and is willing to pay you according to the outstanding value you can create for the organization.
             </p>
-          </div>
-          <div class="mt-12 flex">
+          </section>
+          <!-- image section -->
+          <section class="mt-12 flex">
             <div class="flex-shrink">
               <img src="/images/inviado/891.png"/> 
             </div>
@@ -30,8 +31,20 @@
                   Scala
                 </a>
               </section>
+              <SocialIcons />
             </div>
-          </div>
+          </section>
+          <!-- Link section -->
+          <section>
+            <h2 class="text-2xl font-bold mt-4">
+              Links
+            </h2>
+            <ul>
+              <li>Impressum der Inviado Ltd &amp; Co KG</li>
+              <li>Karriereseite der Inviado Ltd &amp; Co KG</li>
+              <li>Kununuprofil der Inviado Ltd &amp; Co KG</li>
+            </ul>
+          </section>
         </div>
         <!-- tighter right column -->
         <div class="md:w-1/3">
@@ -76,3 +89,12 @@
     </div>
   </Layout>
 </template>
+
+<script>
+  import SocialIcons from '@/components/SocialIcons'
+  export default {
+    components: {
+      SocialIcons
+    }
+  }
+</script>

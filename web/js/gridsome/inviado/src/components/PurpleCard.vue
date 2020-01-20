@@ -25,10 +25,7 @@
           What you might not yet know...
         </div>
       </section>
-      <section class="m-3 pb-4 text-gray-100 flex flex-wrap">
-        <font-awesome :icon="['fab', 'github']" class="text-white h-5 w-5 shadow-lg m-1 rounded"/>
-        <font-awesome :icon="['fab', 'xing-square']" class="text-white h-5 w-5 shadow-lg m-1 rounded"/>
-      </section>
+      <SocialIcons />
       <section>
         <More />
       </section>
@@ -38,10 +35,12 @@
 
 <script>
 import More from '@/components/More'
+import SocialIcons from '@/components/SocialIcons'
 export default {
   props: ['index', 'property'],
   components: {
-    More
+    More,
+    SocialIcons
   }
 }
 </script>
