@@ -16,7 +16,20 @@
               <img src="/images/inviado/891.png"/> 
             </div>
             <div class="flex-grow">
-              header
+              <h1 class="text-3xl font-bold ml-4">
+                Inviado Ltd &amp; Co KG
+              </h1>
+              <section class="flex ml-1 mt-2">
+                <a class="inline-block bg-red-800 rounded-lg px-2 ml-3">
+                  Java
+                </a>
+                <a class="inline-block bg-red-800 rounded-lg px-2 ml-3">
+                  Javascript
+                </a>
+                <a class="inline-block bg-red-800 rounded-lg px-2 ml-3">
+                  Scala
+                </a>
+              </section>
             </div>
           </div>
         </div>
@@ -45,12 +58,16 @@
             <p class="text-md mt-3">
               It's that simple.
             </p>
-            <div class="flex mt-6">
-              <div class="flex-grow justify-start">
-                button 1
+            <div class="flex justify-between mt-6">
+              <div class="">
+                <button class="bg-transparent hover:bg-green-100 font-semibold hover:text-black py-2 px-4 border border-blue hover:border-transparent rounded">
+                    Schedule a free call
+                </button>
               </div>
-              <div class="flex-grow justify-end">
-                button 1
+              <div class="">
+                <button class="bg-transparent hover:bg-green-100 font-semibold hover:text-black py-2 px-4 border border-blue hover:border-transparent rounded">
+                    Chat with me
+                </button>
               </div>
             </div>
           </article>
