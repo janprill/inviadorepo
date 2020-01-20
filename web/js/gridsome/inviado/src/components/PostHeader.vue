@@ -22,7 +22,7 @@
     <div v-else class="pt-24">
       <div class="max-w-xl md:max-w-3xl xl:max-w-4xl mx-auto text-center px-6">
         <p class="text-gray-200 text-xs mb-2 uppercase">{{ post.timeToRead }} min read</p>
-        <h1 class="text-3xl sm:text-5xl leading-tight font-sans font-bold mb-2 text-black">{{ post.title }}</h1>
+        <h1 class="text-3xl sm:text-5xl leading-tight font-sans font-bold mb-2 text-white">{{ post.title }}</h1>
         <p class="text-gray-200">
           <span v-if="post.author">
             <g-link :to="`${post.author.path}/`" class="text-gray-200 capitalize border-b border-transparent hover:border-gray-400 transition-border-color">{{ titleCase(post.author.title) }}</g-link> &bull;

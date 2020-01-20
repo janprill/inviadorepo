@@ -5,7 +5,7 @@
         <header class="text-center mb-8">
           <time :datetime="post.datetime" class="text-gray-200 text-xs mb-2 uppercase">{{ formatPublishDate(post.datetime) }}</time>
           <h2 class="text-3xl sm:text-4xl leading-tight font-sans mb-1 sm:mb-2">
-            <g-link :to="`${post.path}/`" class="text-black font-bold">{{ post.title }}</g-link>
+            <g-link :to="`${post.path}/`" class="text-white font-bold">{{ post.title }}</g-link>
           </h2>
           <p class="text-gray-200 leading-normal text-sm sm:text-base">
             <span v-if="post.author">by <g-link :to="`${post.author.path}/`" class="text-gray-200 capitalize border-b border-transparent hover:border-gray-400 transition-border-color" v-if="post.author">{{ titleCase(post.author.title) }}</g-link></span>

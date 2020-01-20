@@ -73,12 +73,12 @@
             </p>
             <div class="flex justify-between mt-6">
               <div class="">
-                <button class="bg-transparent hover:bg-green-100 font-semibold hover:text-black py-2 px-4 border border-blue hover:border-transparent rounded">
+                <button class="bg-transparent hover:bg-green-100 font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
                     Schedule a free call
                 </button>
               </div>
               <div class="">
-                <button class="bg-transparent hover:bg-green-100 font-semibold hover:text-black py-2 px-4 border border-blue hover:border-transparent rounded">
+                <button class="bg-transparent hover:bg-green-100 font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
                     Chat with me
                 </button>
               </div>

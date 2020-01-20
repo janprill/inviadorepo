@@ -85,7 +85,7 @@ export default {
   @apply text-grey-darker max-w-sm mx-auto leading-normal font-sans;
 
   h1 {
-    @apply text-black text-4xl;
+    @apply text-white text-4xl;
   }
 }
 </style>
