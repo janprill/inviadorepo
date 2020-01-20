@@ -5,7 +5,10 @@
         <!-- broader left column -->
         <div class="md:w-2/3">
           <section class="max-w-xl text-xl leading-snug">
-            <p>
+            <h2 class="text-2xl font-bold mt-8">
+              Links
+            </h2>
+            <p class="mt-4">
               We will help you, <span class="font-bold text-white">as an IT talent</span>, to find a job at one of the software development companies 
               in Hamburg that shows the highest net profit. A key figure such as a company's net profit can help you find the business 
               that really values you and your work and is willing to pay you according to the outstanding value you can create for the organization.
@@ -36,14 +39,46 @@
           </section>
           <!-- Link section -->
           <section>
-            <h2 class="text-2xl font-bold mt-4">
+            <h2 class="text-2xl font-bold mt-8">
               Links
             </h2>
-            <ul>
-              <li>Impressum der Inviado Ltd &amp; Co KG</li>
-              <li>Karriereseite der Inviado Ltd &amp; Co KG</li>
-              <li>Kununuprofil der Inviado Ltd &amp; Co KG</li>
+            <ul class="mt-2">
+              <li class="list-disc list-inside">
+                <a class="hover:underline" href="https://kununu.com" target="_blank">
+                  Impressum der Inviado Ltd &amp; Co KG
+                </a>
+              </li>
+              <li class="list-disc list-inside">
+                <a class="hover:underline" href="https://kununu.com" target="_blank">
+                  Karriereseite der Inviado Ltd &amp; Co KG
+                </a>
+              </li>
+              <li class="list-disc list-inside">
+                <a class="hover:underline" href="https://kununu.com" target="_blank">
+                  Kununuprofil der Inviado Ltd &amp; Co KG
+                </a>
+              </li>
             </ul>
+          </section>
+          <section>
+            <h2 class="text-2xl font-bold mt-8">
+              Out first impression
+            </h2>
+          </section>
+          <section>
+            <h2 class="text-2xl font-bold mt-8">
+              What people think
+            </h2>
+          </section>
+          <section>
+            <h2 class="text-2xl font-bold mt-8">
+              Key performance indices
+            </h2>
+          </section>
+          <section>
+            <h2 class="text-2xl font-bold mt-8">
+              Who you would work with
+            </h2>
           </section>
         </div>
         <!-- tighter right column -->
