@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container mx-auto text-gray-200">
-      <div class="md:flex mt-8">
+      <div class="md:flex mt-8 m-3">
         <!-- broader left column -->
         <div class="md:w-2/3">
           <section class="max-w-xl text-xl leading-snug">
@@ -114,7 +114,7 @@
         <!-- tighter right column -->
         <div class="md:w-1/3">
           <!-- our service -->
-          <article class="m-3 shadow-service bg-red-800 p-3 leading-tight"> 
+          <article class="mt-8 md:m-3 md:p-3 md:mt-0 shadow-service bg-red-800 leading-tight"> 
             <h2 class="text-2xl font-bold">
               Our service
             </h2>
