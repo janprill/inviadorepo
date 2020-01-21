@@ -86,7 +86,7 @@
             <article>
               <h2 class="text-2xl font-bold mt-10 inline flex">
                 <div class="-ml-10 mr-2 items-center">
-                  <font-awesome :icon="['fas', 'chart-bar']" class="text-white h-4 w-4 shadow-lg m-1 rounded"/>
+                  <font-awesome :icon="['fas', 'eye']" class="text-white h-4 w-4 shadow-lg m-1 rounded"/>
                 </div> 
                 <div>
                   Key performance indices
@@ -142,7 +142,7 @@
           </section>
         </div>
         <!-- tighter right column -->
-        <div class="md:w-1/3">
+        <div class="lg:w-1/3">
           <!-- our service -->
           <article class="mt-8 md:m-3 md:p-3 shadow-service bg-red-800 leading-tight"> 
             <h2 class="text-2xl font-bold">
