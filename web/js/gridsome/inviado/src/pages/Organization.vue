@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container mx-auto text-gray-200">
-      <div class="lg:flex mt-8 m-3">
+      <div class="md:flex mt-8 m-3">
         <!-- broader left column -->
         <div class="md:w-2/3">
           <section class="max-w-xl text-xl leading-snug">
@@ -62,9 +62,19 @@
           </section>
           <section class="max-w-xl text-lg leading-snug text-gray-200">
             <article>
-              <h2 class="text-2xl font-bold mt-8">
-                Out first impression
+              <h2 class="text-2xl font-bold mt-10 inline flex">
+                <div class="-ml-10 mr-2 items-center">
+                  <font-awesome :icon="['fas', 'eye']" class="text-white h-4 w-4 shadow-lg m-1 rounded"/>
+                </div> 
+                <div>
+                  Our first impression
+                </div>
               </h2>
+              <p class="mt-1 pl-3 border-l border-white text-sm">
+                <em>
+                  A short explanaition why this is important and why it needs to be taken with a grain of salt.
+                </em>
+              </p>
               <p class="mt-2">
                 The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
                 They mention <span class="font-bold text-white">usual benefits</span> on their career site and
@@ -74,9 +84,36 @@
               </p>
             </article>
             <article>
-              <h2 class="text-2xl font-bold mt-8">
+              <h2 class="text-2xl font-bold mt-10 inline flex">
+                <div class="-ml-10 mr-2 items-center">
+                  <font-awesome :icon="['fas', 'chart-bar']" class="text-white h-4 w-4 shadow-lg m-1 rounded"/>
+                </div> 
+                <div>
+                  Key performance indices
+                </div>
+              </h2>
+              <p class="mt-1 pl-3 border-l border-white text-sm">
+                <em>
+                  A short explanaition why this is important and why it needs to be taken with a grain of salt.
+                </em>
+              </p>
+              <p class="mt-2">
+                The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
+                They mention <span class="font-bold text-white">usual benefits</span> on their career site and
+                seem to do <span class="font-bold text-white">some employer branding.</span> 
+                The main domain Inviado Ltd is working in seems to be <span class="font-bold text-white">Software Development.</span>
+                They've got some nice case studies and reference customers available. 
+              </p>
+            </article>
+            <article>
+              <h2 class="text-2xl font-bold mt-10">
                 What people think
               </h2>
+              <p class="mt-1 pl-3 border-l border-white text-sm">
+                <em>
+                  A short explanaition why this is important and why it needs to be taken with a grain of salt.
+                </em>
+              </p>
               <p class="mt-2">
                 The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
                 They mention <span class="font-bold text-white">usual benefits</span> on their career site and
@@ -86,21 +123,14 @@
               </p>
             </article>
             <article>
-              <h2 class="text-2xl font-bold mt-8">
-                Key performance indices
-              </h2>
-              <p class="mt-2">
-                The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
-                They mention <span class="font-bold text-white">usual benefits</span> on their career site and
-                seem to do <span class="font-bold text-white">some employer branding.</span> 
-                The main domain Inviado Ltd is working in seems to be <span class="font-bold text-white">Software Development.</span>
-                They've got some nice case studies and reference customers available. 
-              </p>
-            </article>
-            <article>
-              <h2 class="text-2xl font-bold mt-8">
+              <h2 class="text-2xl font-bold mt-10">
                 Who you would work with
               </h2>
+              <p class="mt-1 pl-3 border-l border-white text-sm">
+                <em>
+                  A short explanaition why this is important and why it needs to be taken with a grain of salt.
+                </em>
+              </p>
               <p class="mt-2">
                 The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
                 They mention <span class="font-bold text-white">usual benefits</span> on their career site and
@@ -114,7 +144,7 @@
         <!-- tighter right column -->
         <div class="md:w-1/3">
           <!-- our service -->
-          <article class="mt-8 md:m-3 p-3 md:mt-0 shadow-service bg-red-800 leading-tight"> 
+          <article class="mt-8 md:m-3 md:p-3 shadow-service bg-red-800 leading-tight"> 
             <h2 class="text-2xl font-bold">
               Our service
             </h2>
