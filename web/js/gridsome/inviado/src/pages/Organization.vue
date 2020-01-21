@@ -60,25 +60,55 @@
               </li>
             </ul>
           </section>
-          <section>
-            <h2 class="text-2xl font-bold mt-8">
-              Out first impression
-            </h2>
-          </section>
-          <section>
-            <h2 class="text-2xl font-bold mt-8">
-              What people think
-            </h2>
-          </section>
-          <section>
-            <h2 class="text-2xl font-bold mt-8">
-              Key performance indices
-            </h2>
-          </section>
-          <section>
-            <h2 class="text-2xl font-bold mt-8">
-              Who you would work with
-            </h2>
+          <section class="max-w-xl text-lg leading-snug text-gray-200">
+            <article>
+              <h2 class="text-2xl font-bold mt-8">
+                Out first impression
+              </h2>
+              <p class="mt-2">
+                The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
+                They mention <span class="font-bold text-white">usual benefits</span> on their career site and
+                seem to do <span class="font-bold text-white">some employer branding.</span> 
+                The main domain Inviado Ltd is working in seems to be <span class="font-bold text-white">Software Development.</span>
+                They've got some nice case studies and reference customers available. 
+              </p>
+            </article>
+            <article>
+              <h2 class="text-2xl font-bold mt-8">
+                What people think
+              </h2>
+              <p class="mt-2">
+                The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
+                They mention <span class="font-bold text-white">usual benefits</span> on their career site and
+                seem to do <span class="font-bold text-white">some employer branding.</span> 
+                The main domain Inviado Ltd is working in seems to be <span class="font-bold text-white">Software Development.</span>
+                They've got some nice case studies and reference customers available. 
+              </p>
+            </article>
+            <article>
+              <h2 class="text-2xl font-bold mt-8">
+                Key performance indices
+              </h2>
+              <p class="mt-2">
+                The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
+                They mention <span class="font-bold text-white">usual benefits</span> on their career site and
+                seem to do <span class="font-bold text-white">some employer branding.</span> 
+                The main domain Inviado Ltd is working in seems to be <span class="font-bold text-white">Software Development.</span>
+                They've got some nice case studies and reference customers available. 
+              </p>
+            </article>
+            <article>
+              <h2 class="text-2xl font-bold mt-8">
+                Who you would work with
+              </h2>
+              <p class="mt-2">
+                The Inviado Ltd provides a <span class="font-bold text-white">modern looking responsive website</span>. 
+                They mention <span class="font-bold text-white">usual benefits</span> on their career site and
+                seem to do <span class="font-bold text-white">some employer branding.</span> 
+                The main domain Inviado Ltd is working in seems to be <span class="font-bold text-white">Software Development.</span>
+                They've got some nice case studies and reference customers available. 
+              </p>
+            </article>
           </section>
         </div>
         <!-- tighter right column -->
