@@ -4,12 +4,13 @@
       <section class="flex items-end">
         <section class="mt-32 text-5xl font-hairline leading-tight">
           <h1>
-            We help you to earn so 
+            We help you to earn 
             much more money
             with your IT career in 
-            Germany that it almost 
+            Germany. <br />
+            “It almost 
             feels like an illegal
-            hack.
+            hack.”
           </h1>
         </section>
         <section class="ml-24 italic">
