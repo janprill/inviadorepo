@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main class="font-neuzeit text-white container mx-auto">
-      <section class="flex items-end">
+      <section class="lg:flex items-end">
         <section class="mt-32 text-5xl font-hairline leading-tight">
           <h1>
             We help you to earn 
