@@ -14,4 +14,8 @@ export default function (Vue, { head }) {
 
   head.htmlAttrs = { lang: 'en', class: 'h-full' }
   head.bodyAttrs = { class: 'antialiased font-copy bg-primary' }
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://rsms.me/inter/inter.css'
+  })
 }

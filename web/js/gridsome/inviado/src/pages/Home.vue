@@ -3,7 +3,7 @@
     <main class="font-neuzeit text-white container mx-auto">
       <!-- header -->
       <section class="lg:flex items-end">
-        <section class="mt-32 text-5xl font-hairline leading-tight">
+        <section class="mt-32 text-5xl font-thin tracking-tight leading-tight">
           <h1>
             We help you to earn 
             much more money

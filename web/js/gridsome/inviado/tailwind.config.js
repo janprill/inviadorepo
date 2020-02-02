@@ -12,6 +12,7 @@ module.exports = {
         'sans-serif'
       ],
       neuzeit: [
+        'inter',
         '-apple-system', 
         'BlinkMacSystemFont', 
         'neuzeit-grotesk',
