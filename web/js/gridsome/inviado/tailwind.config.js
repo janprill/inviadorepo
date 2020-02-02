@@ -12,11 +12,11 @@ module.exports = {
         'sans-serif'
       ],
       neuzeit: [
-        'inter',
         '-apple-system', 
         'BlinkMacSystemFont', 
-        'neuzeit-grotesk',
-        '"Segoe UI"'
+        'inter',
+        '"Segoe UI"',
+        'neuzeit-grotesk'
       ],
       sans: [
         'futura-pt',
