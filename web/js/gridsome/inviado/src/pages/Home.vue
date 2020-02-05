@@ -15,7 +15,7 @@
             feels like an illegal hack.
           </h1>
         </section>
-        <section class="ml-24 italic">
+        <section class="ml-24 italic text-pink-800">
           An outstanding career consists of a series of right decisions. 
           Starting with choosing the right employer at the right time. 
           With our career due diligence we help you to make the right 
@@ -28,40 +28,35 @@
         <h2 class="text-2xl">
           This community earns you moeny by providing:
         </h2>
-        <ol>
-          <li>
+        <ol class="mt-8">
+          <NumBullet index="1">
             A Chat - invitation only. 
             We arrange jobs for each other, give each other tips and earn 
             the placement bonus that would otherwise go to recruitment agencies. Fully encrypted and highly confidential.
-          </li>
-          <li>
+          </NumBullet>
+          <NumBullet index="2">
             Financial figures of the most interesting companies and other tools for your "career due diligence", so that you can make the best decisions in your career.
-          </li>
+          </NumBullet>
         </ol>
       </section>
 
-      <section class="mt-64">
+      <section class="mt-24">
         <h2 class="text-2xl">
           How does this work exactly?
         </h2>
-        <ol>
-          <li class="flex">
-            <div class="">
-              1
-            </div>
-            <div class="ml-3">
-              Sign up for the newsletter or contact Jan Prill (Founder of Inviado) directly (XING, LinkedIn)
-            </div>
-          </li>
-          <li>
+        <ol class="mt-8">
+          <NumBullet index="1">
+            Sign up for the newsletter or contact Jan Prill (Founder of Inviado) directly (XING, LinkedIn)
+          </NumBullet>
+          <NumBullet index="2">
             You are invited to the chat if your an IT Talent and bring something to the table.
-          </li>
-          <li>
+          </NumBullet>
+          <NumBullet index="3">
             You yourself and every person invited by you, if placed in a great job will earn you a massive placement bonus. The reward scheme is as simple as it is ingenious and has already proven its effectiveness in the DARPA Network Challenge (Red Balloon Challenge).
-          </li>
-          <li>
+          </NumBullet>
+          <NumBullet index="4">
             See what you can earn and plan what you will do with the earnings.
-          </li>
+          </NumBullet>
         </ol>
       </section>
 
@@ -71,3 +66,12 @@
     </main>
   </Layout>
 </template>
+
+<script>
+import NumBullet from '@/components/NumBullet'
+export default {
+  components: {
+    NumBullet
+  }
+}
+</script>
