@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     backgroundColor: theme => ({
       ...theme('colors'),
-      'primary': '#272727',
+      'primary': '#000',
       'turkis': '#3edfcd'
     }),
     fontFamily: {

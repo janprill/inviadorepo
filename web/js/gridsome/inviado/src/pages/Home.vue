@@ -3,19 +3,16 @@
     <main class="font-neuzeit text-white container mx-auto">
       <!-- header -->
       <section class="lg:flex items-end">
-        <section class="mt-32 text-5xl font-thin leading-tight">
-          <div class="text-sm uppercase tracking-wide">
-            welcome @ inviado! Your IT-Talent community
-          </div>
-          <h1>
+        <section class="mt-32 text-5xl font-light leading-tight">
+          <h1 class=" text-gray-300">
             We are a community of IT 
             talents and help each 
             other to earn much
-            more money. It almost
+            better. It almost
             feels like an illegal hack.
           </h1>
         </section>
-        <section class="ml-24 italic text-pink-800">
+        <section class="ml-24 italic text-pink-700">
           An outstanding career consists of a series of right decisions. 
           Starting with choosing the right employer at the right time. 
           With our career due diligence we help you to make the right 

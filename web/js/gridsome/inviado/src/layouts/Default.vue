@@ -2,7 +2,7 @@
   <div class="min-h-full bg-primary font-copy antialiased">
     <header class="mt-3">
       <div class="text-white container mx-auto text-2xl">
-        Inviado
+        inviado
       </div>
     </header>
     <slot/>

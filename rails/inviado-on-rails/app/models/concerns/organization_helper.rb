@@ -130,14 +130,20 @@ module OrganizationHelper
         if (org.uri && !org.uri.to_s.strip.empty?)
           uri = org.uri
           uri = "http://#{org.uri}" unless uri.start_with?('http')
-          binary_png = Dhalang::Screenshot.get_from_url_as_png(uri)
-          org.screenshots.attach(io: StringIO.new(binary_png), filename: "#{org.id}.png", content_type: 'image/png')
+          begin
+            Timeout::timeout(15) do
+              binary_png = Dhalang::Screenshot.get_from_url_as_png(uri)
+              org.screenshots.attach(io: StringIO.new(binary_png), filename: "#{org.id}.png", content_type: 'image/png')
+            end
+          rescue
+            p 'Timeout'
+          end
         end
       end
     end
 
     def parse_csv
-      path = '/Users/jan.prill/Documents/workspace/msp/inviadorepo/data/northdata/2020-01-07/software_hh_umsatzrendite_gteq_8.csv'
+      path = '/Users/jan.prill/Documents/workspace/msp/inviadorepo/data/northdata/2020-02-05/hh_personalaufwand_gteq_70_000.csv'
       csv = CSV.read(path, 'r', encoding: 'ISO-8859-1', headers: true, col_sep: ';')
       p csv.inspect
 
