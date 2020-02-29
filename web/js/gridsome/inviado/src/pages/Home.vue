@@ -5,25 +5,36 @@
       <section class="lg:flex">
         <section class="w-5/12">
           <div>
-            <h1 class="leading-tight text-gray-300 text-5xl font-light">
+            <h1 class="leading-tight text-gray-300 text-5xl font-semibold font-light">
               We are a community of IT 
               talents and help each 
               other to earn much
               better. It almost
               feels like an illegal hack.
             </h1>
-            <p>
+            <p class="text-gray-400 mt-8">
               Earning more money. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, delectus ipsam nam sapiente expedita placeat quas, cumque culpa magni sit rem accusamus sint consequatur nisi ipsum fugit maxime quis quibusdam?
             </p>
           </div>
           <div class="mt-8">
-            <h2 class="text-xl">Career due diligence</h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nobis quia repellendus obcaecati tempore, ullam explicabo distinctio tempora consequatur, id accusamus voluptatem quod similique natus, nesciunt reiciendis inventore sapiente minus.
+            <h2 class="text-4xl font-semibold">Career due diligence</h2>
+            <div class="flex">
+              <div class="flex-shrink">
+                "
+              </div>
+              <div class="flex-grow italic text-pink-700">
+                An outstanding career consists of a series of right decisions. 
+                Starting with choosing the right employer at the right time. 
+                With our career due diligence we help you to make the right 
+                decisions and avoid the wrong ones. And here is the hack: 
+                It is not you who pays for this service, but the employers in your career do.
+              </div>
+            </div>
           </div>
           <section class="mt-8">
-            <h2 class="text-2xl">
-              This community earns you moeny by providing:
-            </h2>
+            <h3 class="text-2xl font-semibold leading-tight">
+              The most important part in your career is to inform yourself. Research companies
+            </h3>
             <ol class="mt-4">
               <NumBullet index="1">
                 A Chat - invitation only. 
@@ -39,24 +50,24 @@
         <section class="ml-24 w-7/12">
           <section id="services">
             <div>
-              <h1 class="text-3xl">Our services: free as in beer</h1>
+              <h1 class="text-3xl font-semibold">Our services: free as in beer</h1>
             </div>
             <div class="bg-gray-900 mt-8 p-4">
-              <h2>Protection</h2>
+              <h2 class="text-2xl font-semibold">Protection</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis commodi corporis suscipit ea unde eaque vero optio sunt. Quasi, ipsa quisquam! Eos autem aperiam dolor, quam alias debitis ipsa optio.</p>
             </div>
             <div class="bg-gray-900 mt-8 p-4">
-              <h2>Coaching</h2>
+              <h2 class="text-2xl font-semibold">Coaching</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis commodi corporis suscipit ea unde eaque vero optio sunt. Quasi, ipsa quisquam! Eos autem aperiam dolor, quam alias debitis ipsa optio.</p>
             </div>
             <div class="bg-gray-900 mt-8 p-4">
-              <h2>Thinking outside the box</h2>
+              <h2 class="text-2xl font-semibold">Thinking outside the box</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis commodi corporis suscipit ea unde eaque vero optio sunt. Quasi, ipsa quisquam! Eos autem aperiam dolor, quam alias debitis ipsa optio.</p>
             </div>
           </section>
           <section class="mt-8">
-            <h2 class="text-2xl">
-              How does this work exactly?
+            <h2 class="text-2xl font-semibold leading-tight">
+              Join us and get loads of help totally free of charge:
             </h2>
             <ol class="mt-4">
               <NumBullet index="1">
