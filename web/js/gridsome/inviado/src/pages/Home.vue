@@ -5,19 +5,19 @@
       <section class="lg:flex">
         <section class="w-5/12">
           <div>
-            <h1 class="leading-tight text-gray-300 text-5xl font-semibold font-light">
+            <h1 class="leading-none text-gray-400 text-5xl font-semibold">
               We are a community of IT 
               talents and help each 
               other to earn much
               better. It almost
               feels like an illegal hack.
             </h1>
-            <p class="text-gray-400 mt-8">
+            <p class="text-gray-500 mt-8">
               Earning more money. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, delectus ipsam nam sapiente expedita placeat quas, cumque culpa magni sit rem accusamus sint consequatur nisi ipsum fugit maxime quis quibusdam?
             </p>
           </div>
           <div class="mt-8">
-            <h2 class="text-4xl font-semibold">Career due diligence</h2>
+            <h2 class="text-gray-400 text-3xl font-semibold">Career due diligence</h2>
             <div class="flex">
               <div class="flex-shrink">
                 "
@@ -32,10 +32,10 @@
             </div>
           </div>
           <section class="mt-8">
-            <h3 class="text-2xl font-semibold leading-tight">
+            <h3 class="text-gray-400 text-2xl font-semibold leading-tight">
               The most important part in your career is to inform yourself. Research companies
             </h3>
-            <ol class="mt-4">
+            <ol class="mt-4 text-gray-500">
               <NumBullet index="1">
                 A Chat - invitation only. 
                 We arrange jobs for each other, give each other tips and earn 
@@ -50,26 +50,26 @@
         <section class="ml-24 w-7/12">
           <section id="services">
             <div>
-              <h1 class="text-3xl font-semibold">Our services: free as in beer</h1>
+              <h1 class="text-gray-400 text-3xl font-semibold">Our services: free as in beer</h1>
             </div>
-            <div class="bg-gray-900 mt-8 p-4">
-              <h2 class="text-2xl font-semibold">Protection</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis commodi corporis suscipit ea unde eaque vero optio sunt. Quasi, ipsa quisquam! Eos autem aperiam dolor, quam alias debitis ipsa optio.</p>
+            <div class="bg-gray-900 transform duration-500 transition hover:z-50 hover:bg-gray-800 shadow-primary shadow-2xl md:hover:scale-110 my-2 p-6">
+              <h2 class="text-gray-400 text-2xl font-semibold">Protection</h2>
+              <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis commodi corporis suscipit ea unde eaque vero optio sunt. Quasi, ipsa quisquam! Eos autem aperiam dolor, quam alias debitis ipsa optio.</p>
             </div>
-            <div class="bg-gray-900 mt-8 p-4">
+            <div class="bg-gray-900 transform duration-500 transition hover:z-50 hover:bg-gray-800 shadow-primary shadow-2xl md:hover:scale-110 my-2 p-6">
               <h2 class="text-2xl font-semibold">Coaching</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis commodi corporis suscipit ea unde eaque vero optio sunt. Quasi, ipsa quisquam! Eos autem aperiam dolor, quam alias debitis ipsa optio.</p>
             </div>
-            <div class="bg-gray-900 mt-8 p-4">
+            <div class="bg-gray-900 transform duration-500 transition hover:z-50 hover:bg-gray-800 shadow-primary shadow-2xl md:hover:scale-110 my-2 p-6">
               <h2 class="text-2xl font-semibold">Thinking outside the box</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis commodi corporis suscipit ea unde eaque vero optio sunt. Quasi, ipsa quisquam! Eos autem aperiam dolor, quam alias debitis ipsa optio.</p>
             </div>
           </section>
           <section class="mt-8">
-            <h2 class="text-2xl font-semibold leading-tight">
+            <h2 class="text-2xl text-gray-400 font-semibold leading-tight">
               Join us and get loads of help totally free of charge:
             </h2>
-            <ol class="mt-4">
+            <ol class="mt-4 text-gray-500">
               <NumBullet index="1">
                 Sign up for the newsletter or contact Jan Prill (Founder of Inviado) directly (XING, LinkedIn)
               </NumBullet>
@@ -84,9 +84,9 @@
               </NumBullet>
             </ol>
           </section>
-          <div class="button bg-teal-500 p-3 mt-12">
-            button
-          </div>
+          <button class="mt-8 w-full bg-teal-700 hover:bg-teal-800 text-gray-800 font-semibold py-2 px-4 border border-teal-900 rounded shadow">
+            Button
+          </button>
         </section>
       </section>
 
