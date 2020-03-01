@@ -86,3 +86,23 @@ where
   and (regexp_replace(features.raw ->> 'mitarbeiter', '[\,\.]', '', 'g'))::int >= 10
 order by
   REGEXP_REPLACE(features.raw ->> 'personalaufwand_pro_mitarbeiter_eur', '[\,\.]', '', 'g')::float desc;
+
+-- calculate and cast personalaufwand
+SELECT
+  organizations.name,
+  features.path,
+  features.raw ->> 'personalaufwand_pro_mitarbeiter_eur',
+  (REGEXP_REPLACE(features.raw ->> 'personalaufwand_pro_mitarbeiter_eur', '[\,\.]', '', 'g')::float / 100) as perso
+FROM 
+  features
+JOIN
+  featurings on (featurings.feature_id = features.id)
+JOIN
+  organizations on (featurings.featurable_id = organizations.id)
+where
+  key = 'kpi'
+  and features.raw ->> 'personalaufwand_pro_mitarbeiter_eur' is not null
+  and features.raw ->> 'mitarbeiter' is not null
+  and (regexp_replace(features.raw ->> 'mitarbeiter', '[\,\.]', '', 'g'))::int >= 10
+order by
+  REGEXP_REPLACE(features.raw ->> 'personalaufwand_pro_mitarbeiter_eur', '[\,\.]', '', 'g')::float desc;

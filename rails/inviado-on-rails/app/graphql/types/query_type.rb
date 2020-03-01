@@ -26,7 +26,7 @@ module Types
     end
 
     def active_organizations
-      Organization.where(is_active: true).order("created_at desc").limit(20)
+      Organization.joins(:features).where(is_active: true).where("features.raw ->> 'personalaufwand_pro_mitarbeiter_eur' > ?", '80.000').order("features.raw ->> 'personalaufwand_pro_mitarbeiter_eur' DESC").limit(20)
     end
   end
 end
