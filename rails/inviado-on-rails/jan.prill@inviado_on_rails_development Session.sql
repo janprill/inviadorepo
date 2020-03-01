@@ -67,3 +67,22 @@ where
   and features.raw ->> 'personalaufwand_pro_mitarbeiter_eur' is not null
 order by
   REGEXP_REPLACE(features.raw ->> 'personalaufwand_pro_mitarbeiter_eur', '[\,\.]', '', 'g')::float desc;
+
+-- all currently persisted orgs with more than 10 employees ordered by personalaufwand_pro_mitarbeiter_eur desc
+SELECT
+  organizations.name,
+  features.path,
+  features.raw ->> 'personalaufwand_pro_mitarbeiter_eur'
+FROM 
+  features
+JOIN
+  featurings on (featurings.feature_id = features.id)
+JOIN
+  organizations on (featurings.featurable_id = organizations.id)
+where
+  key = 'kpi'
+  and features.raw ->> 'personalaufwand_pro_mitarbeiter_eur' is not null
+  and features.raw ->> 'mitarbeiter' is not null
+  and (regexp_replace(features.raw ->> 'mitarbeiter', '[\,\.]', '', 'g'))::int >= 10
+order by
+  REGEXP_REPLACE(features.raw ->> 'personalaufwand_pro_mitarbeiter_eur', '[\,\.]', '', 'g')::float desc;

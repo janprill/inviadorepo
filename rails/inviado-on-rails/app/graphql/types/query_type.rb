@@ -26,7 +26,7 @@ module Types
     end
 
     def active_organizations
-      Organization.where(is_active: true).all
+      Organization.where(is_active: true).order("created_at desc").limit(20)
     end
   end
 end

@@ -6,5 +6,6 @@ module Types
     field :uri, String, null: true
     field :is_active, Boolean, null: true
     field :links, [Types::LinkType], null: true
+    field :features, [Types::FeatureType], null: true
   end
 end
