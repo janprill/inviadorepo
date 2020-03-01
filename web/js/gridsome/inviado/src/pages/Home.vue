@@ -19,10 +19,10 @@
           <div class="mt-8">
             <h2 class="text-gray-400 text-3xl font-semibold">Career due diligence</h2>
             <div class="flex">
-              <div class="flex-shrink">
+              <div class="flex-shrink font-bold text-4xl italic text-teal-700 mt-0">
                 "
               </div>
-              <div class="flex-grow italic text-pink-700">
+              <div class="ml-2 flex-grow italic text-teal-700 mt-6">
                 An outstanding career consists of a series of right decisions. 
                 Starting with choosing the right employer at the right time. 
                 With our career due diligence we help you to make the right 
