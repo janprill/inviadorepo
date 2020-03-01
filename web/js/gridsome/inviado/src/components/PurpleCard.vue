@@ -3,8 +3,8 @@
     <div class="text-white mt-6">
       <em class="font-bold"># {{index}}</em>
     </div>
-    <div class="shadow shadow-primary pt-8 mt-4">
-      <section class="flex -ml-4">
+    <div class="p-3 pb-5 bg-gray-900 shadow shadow-primary pt-8 mt-4">
+      <section class="flex -ml-6">
         <div class="flex-shrink bg-gray-200 border bg-gray-800">
           <img src="/images/hoyer_150.png" style="width:120px" />
         </div>
@@ -17,7 +17,7 @@
       <section class="mt-4 p-2 text-gray-100">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perspiciatis! Qui rem iusto aliquid ut, expedita culpa nemo amet beatae libero at ipsam ex quasi quis! Atque neque libero inventore.
       </section>
-      <section class="flex m-3 shadow-inner p-2 bg-gray-900 rounded text-gray-100 p2">
+      <section class="flex m-3 shadow-inner bg-gray-800 p-2 rounded-sm text-gray-100 p2">
         <div class="flex-shrink pr-2">
           <em class="text-3xl font-extrabold text-red-700">!</em>
         </div>

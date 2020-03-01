@@ -46,7 +46,7 @@ module.exports = {
       },
       boxShadow: {
         'primary': '5px 19px 38px rgba(0,0,0,.3), 0 1px 12px rgba(0,0,0,.22)',
-        inner: 'inset 0 2px 4px 0 rgba(0,0,0,0.06)',
+        'inner': 'inset 0 2px 4px 0 rgba(0,0,0,0.3)',
         service: '5px 19px 38px rgba(0,0,0,.3), 0 1px 12px rgba(0,0,0,.22), inset 5px 6px 5px rgba(0, 0, 0, 0.25)'
       },
       margin: {
