@@ -251,7 +251,7 @@ import SalaryRange from '@/components/SalaryRange'
 
 export default {
   metaInfo: {
-    title: 'janprill.com | Players Agent for 2sigma Devs (and better)*'
+    title: 'janprill.com | Players agent for IT talents'
   },
   components: {
     SalaryRange

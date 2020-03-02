@@ -5,8 +5,11 @@
       <div class="md:flex md:flex-row">
         <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 pb-32 md:pr-20 mb-auto">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl tracking-wide">
-            I help IT talents earn more money and build assets.
+            I help IT talents earn more money and build assets.<span class="">*</span>
           </h1>
+          <p class="text-sm">
+            <span class="text-sm inline">*</span>currently in Hamburg and Berlin only
+          </p>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
               <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
@@ -26,7 +29,7 @@
           <div class="text-lg">
             <p>We analyze your personal decisions together:</p>
             <ul class="list-disc my-6 ml-8">
-              <li>Are you in the right company to get paid, like your dentist?</li>
+              <li>Are you in the right company to be paid what you are worth?</li>
               <li>Are you in the right position?</li>
               <li>Does your career run in such a way that you are on your ideal career path?</li>
               <li>Are you more of an entrepreneur than an employee?</li>
@@ -136,7 +139,7 @@
       <section class="md:flex md:flex-row mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 mb-auto">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
-            Maybe you're in the wrong position to earn like your dentist.
+            Maybe you're in the wrong position to be paid what you are worth.
           </h1>
           <h2 class="mt-8 text-lg font-light font-myriad">
             <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
@@ -229,7 +232,7 @@ import SalaryRange from '@/components/SalaryRange'
 
 export default {
   metaInfo: {
-    title: 'janprill.com | Players Agent for 2sigma Devs (and better)*'
+    title: 'janprill.com | Players agent for IT talents'
   },
   components: {
     SalaryRange
