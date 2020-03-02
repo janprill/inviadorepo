@@ -38,8 +38,8 @@
             <p>From now on I will help you to make the choices that will ensure that money is no more part of your problems.</p>
             <p>When I coach you, you no longer make avoidable mistakes in the due diligence of your career. My service is completely free for you. How is that possible? Contact me, and I will explain it to you.</p>
             <div class="mt-8">
-              <a class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl" target="_blank" href="https://calendly.com/inviado/free-consulting-call">
-                Schedule a call with me
+              <a class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl" target="_blank" href="https://keybase.io/team/inviado">
+                Join my end-to-end encrypted chat on keybase
               </a>
             </div>
           </div>
@@ -63,8 +63,8 @@
               Arrange a free call with me, then I will explain to you what I will do for you - completely free of charge:
             </p>
             <div class="mt-8">
-              <a class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl" target="_blank" href="https://calendly.com/inviado/free-consulting-call">
-                Schedule a call with me
+              <a class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl" target="_blank" href="https://keybase.io/team/inviado">
+                Join my end-to-end encrypted chat on keybase
               </a>
             </div>
           </div>
@@ -220,7 +220,7 @@
         I try out ideas on inviado.com. I provide tools that help developers, devleads and software departments build teams. They help you as a developer to get to the companies that value your skills. The Software Engineering Managers help you to raise your development department to a whole new level with the best employees.
       </p>  
       <p class="mt-6">
-        My first tool, a database of the companies in which you earn the most as a top talent in Germany, is under construction. Join the mailing list and I'll let you know as soon as it starts.
+        My first tool, a database of the companies in which you earn the most as a top talent in Germany, is under construction. 
       </p>  
     </section>
 
