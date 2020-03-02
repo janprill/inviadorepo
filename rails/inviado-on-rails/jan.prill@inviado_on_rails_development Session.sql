@@ -141,5 +141,7 @@ select
   umsatz_pro_mitarbeiter_eur
 from
   features
+where
+  personalaufwand_pro_mitarbeiter_eur is not null
 order by
   personalaufwand_pro_mitarbeiter_eur desc; 
