@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full bg-primary font-copy antialiased">
+  <div class="min-h-full bg-primary font-copy text-gray-100 antialiased">
     <header class="mt-3">
       <div class="text-white container mx-auto text-2xl">
         inviado
