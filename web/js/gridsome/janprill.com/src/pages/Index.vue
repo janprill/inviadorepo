@@ -162,11 +162,7 @@ You won't believe how quickly you can have a perfectly onboarded, integrated tea
             My service for IT talents
           </h2>
           <p>
-            I value crystal clear communication. 
-            I have no problem demanding from other people what I myself am willing to give: 
-            The best performance I can get and the willingness to learn at all times. 
-            In this way I encourage the desire to perform and maintain it until the goal is reached. 
-            In order to then directly strive for the next success.
+You are an IT talent and are in a transition in your career? Would you like to become self-employed, for example? Want to earn more money? Become a Software Engineering Manager or have other ideas for a career change? Then you can benefit from my coaching. Get in touch! And we will have an absolutely no obligation, free first conversation: TODO.
           </p>
           <div class="my-8">
             <g-image src="/career-path.png" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
@@ -175,30 +171,13 @@ You won't believe how quickly you can have a perfectly onboarded, integrated tea
       </section>
     </section>
 
-    <section id="lab" class="p-6 text-lg shadow-primary mb-8 mt-16">
-      <h1 class="max-w-xl leading-tight font-myriad font-light text-4xl tracking-wide">
-        Allow me to introduce: Inviado. My lab.
-      </h1>
-      <p class="mt-6">
-        My playground is called Inviado. This stands for "invitatio ad offerendum", i.e. it is an invitation to submit offers. What does that even mean?
-      </p>
-      <p class="mt-6">
-        I try out ideas on inviado.com. I provide tools that help developers, devleads and software departments build teams. They help you as a developer to get to the companies that value your skills. The Software Engineering Managers help you to raise your development department to a whole new level with the best employees.
-      </p>  
-      <p class="mt-6">
-        My first tool, a database of the companies in which you earn the most as a top talent in Germany, is under construction. 
-      </p>  
-    </section>
-
   </Layout>
 </template>
 
 <script>
-import SalaryRange from '@/components/SalaryRange'
-
 export default {
   metaInfo: {
-    title: 'janprill.com | Players agent for IT talents'
+    title: 'janprill.com | Software Engineering Manager | Interim CTO/CIO'
   },
   components: {
     SalaryRange
