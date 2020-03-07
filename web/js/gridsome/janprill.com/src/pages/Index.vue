@@ -4,39 +4,35 @@
     <section id="hero" class="mt-6 md:mt-48 container mx-auto">
       <div class="md:flex md:flex-row">
         <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 pb-32 md:pr-20 mb-auto">
-          <h1 class="max-w-lg leading-tight font-myriad font-light text-4xl tracking-wide">
-            I help IT talents earn more money and build assets.<span class="">*</span>
+          <h1 class="max-w-lg leading-tight font-myriad font-bold text-4xl tracking-wide">
+            I help your business to reach the next level faster.
           </h1>
-          <p class="text-sm">
-            <span class="text-sm inline">*</span>currently in Hamburg and Berlin only
-          </p>
-          <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
-              <div class="">Problem:</div>
-            </div>
-          </h2>
-          <div class="font-neu text-lg">
-            You are not paid according to the value you create. And that is why, 
-            month after month, you leave money on the table and lose a fortune in the long run.
-          </div>
-          <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
-              <div class="">Solution:</div>
-            </div>
-          </h2>
-          <div class="text-lg">
-            <p>We analyze your personal decisions together:</p>
+          <div class="text-lg mt-6 leading-snug">
+            <p>
+              I can massively increase your development capacities through remote work and freelancers.
+              Through my own freelancing, but also by building complete teams. 
+            </p>
+            <p class="mt-4">
+              Things are not going efficiently, well and fast enough for you? 
+              I can help! I am a doer myself. And at the same time a Software Engineering Manager or Interim CTO/CIO. 
+              Depending on where you are with your team. 
+            </p>
+            <p class="mt-4">
+              Your project is in trouble? That gets me going even more! Together we can do the job.
+            </p>
+            <p class="mt-4">
+              I work hands-off, as a manager, as well as hands-on in early phases of team integration, 
+              as well as for MVPs or your first eCommerce project. My technical expertise is broad. Among other things I work with:
+            </p>
             <ul class="list-disc my-6 ml-8">
-              <li>Are you in the right company to be paid what you are worth?</li>
-              <li>Are you in the right position?</li>
-              <li>Does your career run in such a way that you are on your ideal career path?</li>
-              <li>Are you more of an entrepreneur than an employee?</li>
-              <li>Did you negotiate your salary regularly and in an ideal way?</li>
+              <li>Programming languages: I'm a pragmatic polyglot with Java, Kotlin, Ruby, Python, Swift and others</li>
+              <li>Frameworks: Spring Boot, Ruby on Rails</li>
+              <li>Frontend Frameworks: React, Vue</li>
+              <li>DevOps / Serverless / Kubernetes</li>
+              <li>Postgres / Oracle / MongoDB / Neo4j / dgraph</li>
+              <li>SolR / Elasticsearch / ELK</li>
+              <li>PyTorch, TensorFlow, fast.ai</li>
             </ul>
-            <p>From now on I will help you to make the choices that will ensure that money is no more part of your problems.</p>
-            <p>When I coach you, you no longer make avoidable mistakes in the due diligence of your career. My service is completely free for you. How is that possible? Contact me, and I will explain it to you.</p>
             <div class="mt-8">
               <a class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl" target="_blank" href="https://keybase.io/team/inviado">
                 Join my end-to-end encrypted chat on keybase
@@ -51,18 +47,23 @@
           </div>
           <div class="text-md">
             <h2 class="text-2xl text-center font-myriad font-light my-6">
-              Do you really want to afford to leave several 100,000 EUR on the table?
+              Hello! I am Jan Prill. 
             </h2>
-            <p class="mt-8">
-              For the perfect career you need a first class training plan. To win the competition for the most wanted positions.
+            <p class="mt-4">
+              I am an extremely experienced, entrepreneurially minded and competitive software engineering manager and coder. 
+              With a total of over 10 years of experience in development management in three companies and almost 20 years of hands-on development experience, 
+              I am the right person to lead even the most challenging projects to success. 
             </p>
-            <p class="mt-8">
-              I will create such a career plan for you. And it starts with an analysis of the status quo. A due diligence of your previous decisions regarding the selection of your company and your colleagues. I'll tell you if it's time to change teams and if you're playing in the right position.
+            <p class="mt-4">
+              And just by the way: I am your Coding Lawyer. Your IT-implementer with admission to the bar. 
+              This will help you especially when you build your business/MVP together with me. 
+              Because I diligently take care of compliance and legal matters. In the area of my legal advice, 
+              I am covered by professional liability insurance.
             </p>
-            <p class="my-8">
+            <p class="my-4">
               Arrange a free call with me, then I will explain to you what I will do for you - completely free of charge:
             </p>
-            <div class="mt-8">
+            <div class="mt-4">
               <a class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl" target="_blank" href="https://keybase.io/team/inviado">
                 Join my end-to-end encrypted chat on keybase
               </a>
@@ -72,103 +73,65 @@
       </div>
     </section>
 
-
     <section id="hero" class="min-h-screen container mx-auto">
 
       <section class="md:flex md:flex-row-reverse mt-32 w-full">
         <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 md:pl-16 mb-auto">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
-            Maybe you're in the wrong organization. I'll tell you where you earn more.
+            I create solutions, for which I gladly take responsibility, since I have skin in the game.
           </h1>
-          <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
-              <div class="">Problem:</div>
-            </div>
-          </h2>
-          <div>
-            If you work in a company that has a low salary level, you can go on for as long as you want and perform at your best. Nevertheless, you will get less than the worst employee in the company who pays more to each and every employee at your level.
-          </div>
-          <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
-              <div class="">Solution:</div>
-            </div>
-          </h2>
-          <div>
-            In the same city, in the same position, you suddenly get over 20% more for more interesting and more challenging work. I' ll tell you exactly which companies these are, how you will be recruited there and what your dream career will be. You should consider carefully whether you can justify to yourself and your loved ones not to switch.
+          <div class="text-lg mt-6 leading-snug">
+Without nagging, with the pure conscience of a person who gives his best, I build within a team, or alone Minimum Viable Products, start your eCommerce, or am your kick starter in the digitalization of your business. Occasionally when an internal team is no longer properly motivated, it needs an impulse from outside. I love being that impulse. I build up islands of good behavior and before your team realizes it's working at full power again.
+
+Side: Maybe your team is missing a clear direction.
+
+I value crystal clear communication. I have no problem demanding from other people what I myself am willing to give: The best performance I can get and the willingness to learn at all times. In this way I encourage the desire to perform and maintain it until the goal is reached. In order to then directly strive for the next success.
           </div>
         </article>
 
-        <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-mr-8 p-6 mb-auto text-base text-gray-800">
+        <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-ml-8 p-6 mb-auto text-base text-gray-800">
           <h2 class="text-2xl text-center font-myriad font-light my-6">
-            Where would you rather work?
+            Maybe your team is missing a clear direction.
           </h2>
           <p>
-            Both companies are based in Hamburg, Germany. Both have software development as their corporate goal. If you look at these figures, where would you rather work?
+            I value crystal clear communication. 
+            I have no problem demanding from other people what I myself am willing to give: 
+            The best performance I can get and the willingness to learn at all times. 
+            In this way I encourage the desire to perform and maintain it until the goal is reached. 
+            In order to then directly strive for the next success.
           </p>
-          <table class="table-auto shadow-xl border-collapse border border-teal-600 w-full my-8">
-            <thead>
-              <tr class="text-left">
-                <th class="px-4 py-2">Personnel expenses</th>
-                <th class="px-4 py-2">Pays little</th>
-                <th class="px-4 py-2">Pays well</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="border border-teal-600 px-4 py-2">Wages and salaries</td>
-                <td class="border border-teal-600 px-4 py-2">10,080,758.33 EUR</td>
-                <td class="border border-teal-600 px-4 py-2">20,740,512.12 EUR</td>
-              </tr>
-              <tr class="bg-gray-100">
-                <td class="border border-teal-600 px-4 py-2">Number of employees</td>
-                <td class="border border-teal-600 px-4 py-2">262</td>
-                <td class="border border-teal-600 px-4 py-2">134</td>
-              </tr>
-              <tr>
-                <td class="border border-teal-600 px-4 py-2">Salary per employee</td>
-                <td class="border border-teal-600 px-4 py-2">38,476.18 EUR</td>
-                <td class="border border-teal-600 px-4 py-2">154,779.94 EUR</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="my-8">
+            <g-image src="/career-path.png" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
+          </div>
         </article>
       </section>
 
       <section class="md:flex md:flex-row mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 mb-auto">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
-            Maybe you're in the wrong position to be paid what you are worth.
+            I hit the ground running, in every technology, but with special speed in DAM, PIM and MDM.
           </h1>
-          <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
-              <div class="">Problem:</div>
-            </div>
-          </h2>
           <div>
-            You are treading water on your career path. Maybe you don't even have a perspective. Probably the louder colleague will be considered.
-          </div>
-          <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
-              <div class="">Solution:</div>
-            </div>
-          </h2>
-          <div>
-            <p>
-              For your salary development it is essential that you have a career. This could, but doesn't necessarily, mean that you are moving to management. It is important that you make steady progress on your career path. Stagnation is death. I'll show you how to sell your performance in such a way that you see every opportunity for advancement early on and are considered when opportunities arise.
-            </p>
+
+I have the expertise of the IT specialist in retail. 
+
+In the field of Digital Asset Management (DAM), Product Information Management (PIM) and Master Data Management (MDM) 
+(including GS1 and GDSN) you will hardly find more profound know-how than with me. 
+
+From many years of experience as development manager of an integrator for Digital Asset Management, 
+I am particularly familiar with the food retail, furniture retail and DIY market. 
+
           </div>
         </article>
 
         <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-ml-8 p-6 mb-auto text-base text-gray-800">
           <h2 class="text-2xl text-center font-myriad font-light my-6">
-            If you don't make a career, someone else will.
+            Direct, empathic integration into your team
           </h2>
           <p>
-            Embrace the unknown. Together, we will make sure that you take the best possible career path for you as quickly as possible. Whether you get to the top of your career or just move sideways makes all the difference.
+            I take the time to find out what really moves your company and your customers and find the problems as well as the opportunities. 
+            Then I go straight to work. You will be amazed at how quickly I anticipate what is important, 
+            ask the right questions and how quickly success is achieved.
           </p>
           <div class="my-8">
             <g-image src="/career-path.png" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
@@ -179,32 +142,35 @@
       <section class="md:flex md:flex-row-reverse mt-32">
         <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 mb-auto md:pl-16">
           <h1 class="max-w-lg leading-tight font-myriad font-light text-3xl">
-            Maybe you non-negotiated yourself to the southern end of your pay range.
+            I love recruiting and speak the language of the top developers you need for your business,
           </h1>
-          <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-purple-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-5 h-5 rounded-full bg-purple-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
-              <div class="">Problem:</div>
-            </div>
-          </h2>
           <div>
-            Many are afraid of salary negotiations and personnel interviews. Even more people make terrible mistakes when it comes to negotiating their first salary, a salary increase or a bonus. This then ensures that they find themselves - regardless of their performance - at the southern end of the range.
-          </div>
-          <h2 class="mt-8 text-lg font-light font-myriad">
-            <div class="text-teal-400 text-xl font-bold flex flex-row items-center mb-2">
-              <div class="w-5 h-5 rounded-full bg-teal-400 mr-2 border-2 border-gray-400 shadow-inner"></div>
-              <div class="">Solution:</div>
-            </div>
-          </h2>
-          <div>
-            <p>
-              Two things have to be distinguished: You can work in a certain position, on a certain level. And you can stand in this position at a certain position in the salary range. At the top or bottom. As a junior developer you can earn significantly less than your colleague at the same level, or significantly more. You get step by step action plans from me how to improve your salary so that you stay at the top of the range. And while you're doing that, you're also preparing to advance to the next level.
-            </p>
+I speak their language, not just as a hollow catch phrase, but from real, practical, sometimes hard acquired experience. 
+
+The best developers notice that. I get trusted faster than the best recruiter. And you know how valuable that trust is. 
+I build up entire teams, whether in-house, remote or freelance.  
+I have the network and the ability to build and empower entire integrated teams in your company. 
+Alternatively, we can build a remote development team together.
+
+I can also handle the technical onboarding. 
+You won't believe how quickly you can have a perfectly onboarded, integrated team in your ranks to drive your digitalization forward.
           </div>
         </article>
 
-        <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-mr-8 p-6 mb-auto text-base text-gray-800">
-          <SalaryRange />
+        <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-ml-8 p-6 mb-auto text-base text-gray-800">
+          <h2 class="text-2xl text-center font-myriad font-light my-6">
+            My service for IT talents
+          </h2>
+          <p>
+            I value crystal clear communication. 
+            I have no problem demanding from other people what I myself am willing to give: 
+            The best performance I can get and the willingness to learn at all times. 
+            In this way I encourage the desire to perform and maintain it until the goal is reached. 
+            In order to then directly strive for the next success.
+          </p>
+          <div class="my-8">
+            <g-image src="/career-path.png" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
+          </div>
         </article>
       </section>
     </section>
