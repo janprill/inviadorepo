@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="font-neuzeit">
-      <section id="headline" class="m-4 max-w-xl text-gray-300">
+      <section id="headline" class="m-4 max-w-xl">
         <h1 class="mt-10 text-5xl font-bold leading-none">
           I help you to get your projects on track and successfully over the finish line.
         </h1> 
@@ -9,37 +9,38 @@
           As an entrepreneurial thinking, extremely experienced Software Engineering Manager and Coder I work as Freelancer or Interim CTO to make your projects a complete success.
         </h2>
       </section>
-      <section id="hero" class="mt-6 md:mt-48 container mx-auto">
+      <section id="hero" class="mt-24 md:mt-48 container mx-auto">
         <div class="md:flex md:flex-row">
           <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 pb-32 md:pr-20 mb-auto">
             <h1 class="max-w-lg leading-tight font-myriad font-normal text-4xl tracking-wide">
-              Your business is going to reach the next level faster.
+              Hello, I'm Jan Prill.
             </h1>
             <div class="text-lg mt-6 text-gray-400">
-              <p>
-                I can massively increase your development capacities through remote work and freelancers. Through my own freelancing, but also by building complete teams.
+              <p class="mt-4">
+                For 
+                <span class="text-gray-200 font-bold">over 10 years I have been leading software development teams</span>
+                with up to 12 developers. 
+                Most recently as head of development at MSP AG, an integrator of the Universal Content Management System censhare. 
+                Previously as head of software development for the classic car platform carsablanca. 
+                And far earlier, I had already assumed great responsibility, for example in a flagship project of the legal information service provider Wolters Kluwer. 
               </p>
               <p class="mt-4">
-                Things are not going efficiently, well and fast enough for you? I can help! I am a doer myself. And at the same time a Software Engineering Manager or Interim CTO/CIO. Depending on
-                where you are with your team.
+                I am 
+                <span class="text-gray-200 font-bold">proud of the demonstrable successes in numerous projects</span>
+                that have been successfully completed under my development leadership.
               </p>
               <p class="mt-4">
-                Your project is in trouble? That gets me going even more! Together we can do the job.
+                And just by the way: 
+                <span class="text-gray-200 font-bold">I am your Coding Lawyer. Your IT-implementer with admission to the bar.</span>
+                This will help you especially when you are just starting out 
+                and build your business/MVP together with me. Because I diligently take care of compliance and legal matters. 
+                In the area of my legal advice, I am covered by professional liability insurance.
               </p>
-              <p class="mt-4">
-                I work hands-off, as a manager, as well as hands-on in early phases of team integration, as well as for MVPs or your first eCommerce project. My technical expertise is broad. Among
-                other things I work with:
+              <p class="my-4">
+                Arrange a 
+                <span class="text-gray-200 font-bold">free call</span>
+                with me, then I will explain to you what I will do for you - completely free of charge:
               </p>
-              <ul class="list-disc my-6 ml-8">
-                <li>Software design: Domain Driven Design, Event Driven Architecture, Functional programming, Object orientation</li>
-                <li>Programming languages: I'm a pragmatic polyglot with Java, Kotlin, Ruby, Python, Swift and others</li>
-                <li>Frameworks: Spring Boot, Ruby on Rails</li>
-                <li>Frontend Frameworks: React, Vue</li>
-                <li>DevOps / Serverless / Kubernetes</li>
-                <li>Postgres / Oracle / MongoDB / Neo4j / dgraph</li>
-                <li>SolR / Elasticsearch / ELK</li>
-                <li>PyTorch, TensorFlow, fast.ai</li>
-              </ul>
               <div class="mt-8">
                 <a
                   class="button rounded-full bg-transparent hover:bg-teal-4y-500 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl"
@@ -57,21 +58,27 @@
               <g-image src="/jan.gif" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
             </div>
             <div class="text-md">
-              <h2 class="text-2xl text-center font-myriad font-bold my-6">
-                Hello! I am Jan Prill.
+              <h2 class="text-2xl text-center font-myriad my-6">
+                I help your business to reach the next level faster.
               </h2>
               <p class="mt-4">
-                I am an experienced, entrepreneurially minded and competitive software engineering manager and coder. With a total of over 10 years of experience in development management in
-                three companies and almost 20 years of hands-on development experience, I am the right person to lead even the most challenging projects to success.
+                Things are not going efficiently, well and fast enough for you? Your project is in trouble? That gets me going even more! Together we can do the job.
               </p>
               <p class="mt-4">
-                And just by the way: I am your Coding Lawyer. Your IT-implementer with admission to the bar. This will help you especially when you are just starting out 
-                and build your business/MVP together with me. Because I diligently take care of compliance and legal matters. 
-                In the area of my legal advice, I am covered by professional liability insurance.
+                I work hands-off, as a manager, as well as hands-on in early phases of team integration, as well as for MVPs or your first eCommerce project. 
+                <span class="font-bold">My technical expertise is broad.</span>
+                Among other things I work with:
               </p>
-              <p class="my-4">
-                Arrange a free call with me, then I will explain to you what I will do for you - completely free of charge:
-              </p>
+              <ul class="list-disc my-6 ml-8">
+                <li>Software design: Domain Driven Design, Event Driven Design, Functional concepts, Object orientation</li>
+                <li>Programming languages: I'm a pragmatic polyglot with Java, Kotlin, Ruby, Python, Swift and others</li>
+                <li>Frameworks: Spring Boot, Ruby on Rails</li>
+                <li>Frontend Frameworks: React, Vue</li>
+                <li>DevOps / Serverless / Kubernetes</li>
+                <li>Postgres / Oracle / MongoDB / Neo4j / dgraph</li>
+                <li>SolR / Elasticsearch / ELK</li>
+                <li>PyTorch, TensorFlow, fast.ai</li>
+              </ul>
               <div class="mt-4">
                 <a
                   class="button rounded-full bg-transparent hover:bg-teal-400 font-semibold hover:text-gray-300 py-2 px-4 border border-white hover:border-transparent rounded-3xl"
@@ -104,7 +111,7 @@
             </div>
           </article>
 
-          <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-ml-8 p-6 mb-auto text-base text-gray-800">
+          <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-mr-8 p-6 mb-auto text-base text-gray-800">
             <h2 class="text-2xl text-center font-myriad font-light my-6">
               Maybe your team is missing a clear direction.
             </h2>
@@ -178,7 +185,7 @@
             </div>
           </article>
 
-          <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-ml-8 p-6 mb-auto text-base text-gray-800">
+          <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-mr-8 p-6 mb-auto text-base text-gray-800">
             <h2 class="text-2xl text-center font-myriad font-light my-6">
               My service for IT talents
             </h2>
