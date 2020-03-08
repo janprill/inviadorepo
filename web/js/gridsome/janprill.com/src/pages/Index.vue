@@ -1,11 +1,19 @@
 <template>
   <Layout>
     <div class="font-neuzeit">
+      <section id="headline" class="m-4 max-w-xl text-gray-300">
+        <h1 class="mt-10 text-5xl font-bold leading-none">
+          I help you to get your projects on track and successfully over the finish line.
+        </h1> 
+        <h2 class="mt-4 text-2xl font-bold leading-tight">
+          As an entrepreneurial thinking, extremely experienced Software Engineering Manager and Coder I work as Freelancer or Interim CTO to make your projects a complete success.
+        </h2>
+      </section>
       <section id="hero" class="mt-6 md:mt-48 container mx-auto">
         <div class="md:flex md:flex-row">
           <article class="bg-primary flex flex-col w-full shadow-primary mt-0 p-6 pb-32 md:pr-20 mb-auto">
             <h1 class="max-w-lg leading-tight font-myriad font-normal text-4xl tracking-wide">
-              I help your business to reach the next level faster.
+              Your business is going to reach the next level faster.
             </h1>
             <div class="text-lg mt-6 text-gray-400">
               <p>
@@ -23,7 +31,7 @@
                 other things I work with:
               </p>
               <ul class="list-disc my-6 ml-8">
-                <li>Software design: Domain Driven Design, Event Driven Design, Functional concepts, Object orientation</li>
+                <li>Software design: Domain Driven Design, Event Driven Architecture, Functional programming, Object orientation</li>
                 <li>Programming languages: I'm a pragmatic polyglot with Java, Kotlin, Ruby, Python, Swift and others</li>
                 <li>Frameworks: Spring Boot, Ruby on Rails</li>
                 <li>Frontend Frameworks: React, Vue</li>
@@ -49,11 +57,11 @@
               <g-image src="/jan.gif" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
             </div>
             <div class="text-md">
-              <h2 class="text-2xl text-center font-myriad font-light my-6">
+              <h2 class="text-2xl text-center font-myriad font-bold my-6">
                 Hello! I am Jan Prill.
               </h2>
               <p class="mt-4">
-                I am an extremely experienced, entrepreneurially minded and competitive software engineering manager and coder. With a total of over 10 years of experience in development management in
+                I am an experienced, entrepreneurially minded and competitive software engineering manager and coder. With a total of over 10 years of experience in development management in
                 three companies and almost 20 years of hands-on development experience, I am the right person to lead even the most challenging projects to success.
               </p>
               <p class="mt-4">
@@ -115,7 +123,7 @@
 
         <section class="md:flex md:flex-row mt-32">
           <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 mb-auto">
-            <h1 class="max-w-lg font-myriad font-light text-3xl">
+            <h1 class="max-w-lg font-myriad font-light text-3xl leading-tight">
               Direct, empathic integration into your team
             </h1>
             <div class="text-lg mt-6">
@@ -137,7 +145,10 @@
             </h2>
             <p class="mt-4">
               I have the expertise of the IT specialist in retail. In the field of Digital Asset Management (DAM), Product Information Management (PIM) and Master Data Management (MDM) (including GS1
-              and GDSN) you will hardly find more profound know-how than with me. From many years of experience as development manager of an integrator for Digital Asset Management, I am particularly
+              and GDSN) you will hardly find more profound know-how than with me. 
+            </p>
+            <p class="mt-4">
+              From many years of experience as development manager of an integrator for Digital Asset Management, I am particularly
               familiar with the food retail, furniture retail and DIY market.
             </p>
             <div class="my-8">
@@ -148,14 +159,22 @@
 
         <section class="md:flex md:flex-row-reverse mt-32">
           <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 mb-auto md:pl-16">
-            <h1 class="max-w-lg font-myriad font-light text-3xl">
+            <h1 class="max-w-lg font-myriad font-light text-3xl leading-tight">
               I love recruiting and speak the language of the top developers you need for your business,
             </h1>
-            <div>
-              I speak their language, not just as a hollow catch phrase, but from real, practical, sometimes hard acquired experience. The best developers notice that. I get trusted faster than the
-              best recruiter. And you know how valuable that trust is. I build up entire teams, whether in-house, remote or freelance. I have the network and the ability to build and empower entire
-              integrated teams in your company. Alternatively, we can build a remote development team together. I can also handle the technical onboarding. You won't believe how quickly you can have a
-              perfectly onboarded, integrated team in your ranks to drive your digitalization forward.
+            <div class="text-lg mt-6">
+              <p class="mt-4">
+                I speak their language, not just as a hollow catch phrase, but from real, practical, sometimes hard acquired experience. 
+                The best developers notice that. I get trusted faster than even the most sophisticated recruiter. And you know how valuable that trust is, right?
+              </p>
+              <p class="mt-4">
+                I build up entire teams, whether in-house, remote or freelance. I have the network and the ability to build and empower entire
+                integrated teams in your company. 
+              </p>
+              <p class="mt-4">
+                Alternatively, we can build a remote development team together. I can also handle the technical onboarding. You won't believe how quickly you can have a
+                perfectly onboarded, integrated team in your ranks to drive your digitalization forward.
+              </p>
             </div>
           </article>
 
@@ -163,7 +182,7 @@
             <h2 class="text-2xl text-center font-myriad font-light my-6">
               My service for IT talents
             </h2>
-            <p>
+            <p class="mt-4">
               You are an IT talent and are in a transition in your career? Would you like to become self-employed, for example? Want to earn more money? Become a Software Engineering Manager or have
               other ideas for a career change? Then you can benefit from my coaching. Get in touch! And we will have an absolutely no obligation, free first conversation: TODO.
             </p>
