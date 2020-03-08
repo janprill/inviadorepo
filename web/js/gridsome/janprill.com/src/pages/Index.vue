@@ -116,22 +116,29 @@
         <section class="md:flex md:flex-row mt-32">
           <article class="bg-primary w-full max-w-xl shadow-primary m-0 p-6 md:p-12 mb-auto">
             <h1 class="max-w-lg font-myriad font-light text-3xl">
-              I hit the ground running, in every technology, but with special speed in DAM, PIM and MDM.
+              Direct, empathic integration into your team
             </h1>
-            <div>
-              I have the expertise of the IT specialist in retail. In the field of Digital Asset Management (DAM), Product Information Management (PIM) and Master Data Management (MDM) (including GS1
-              and GDSN) you will hardly find more profound know-how than with me. From many years of experience as development manager of an integrator for Digital Asset Management, I am particularly
-              familiar with the food retail, furniture retail and DIY market.
+            <div class="text-lg mt-6">
+              <p class="mt-4">
+                As a technologically polyglot and emphatic senior software engineering manager, I can be your translator 
+                if you are not at home in the depths of software development. 
+                Because I can convey my knowledge in a language that everyone understands.
+              </p>
+              <p class="mt-4">
+                I take the time to find out what really moves your company and your customers and find the problems as well as the opportunities. Then I go straight to work. You will be amazed at how
+                quickly I anticipate what is important, ask the right questions and how quickly success is achieved.
+              </p>
             </div>
           </article>
 
           <article class="bg-saint flex flex-col w-full rounded-sm lg:max-w-xl shadow-primary h-auto md:mt-16 md:-ml-8 p-6 mb-auto text-base text-gray-800">
             <h2 class="text-2xl text-center font-myriad font-light my-6">
-              Direct, empathic integration into your team
+              I hit the ground running, in every technology, but with special speed in DAM, PIM and MDM.
             </h2>
-            <p>
-              I take the time to find out what really moves your company and your customers and find the problems as well as the opportunities. Then I go straight to work. You will be amazed at how
-              quickly I anticipate what is important, ask the right questions and how quickly success is achieved.
+            <p class="mt-4">
+              I have the expertise of the IT specialist in retail. In the field of Digital Asset Management (DAM), Product Information Management (PIM) and Master Data Management (MDM) (including GS1
+              and GDSN) you will hardly find more profound know-how than with me. From many years of experience as development manager of an integrator for Digital Asset Management, I am particularly
+              familiar with the food retail, furniture retail and DIY market.
             </p>
             <div class="my-8">
               <g-image src="/running.png" class="bg-animate rounded shadow-primary border-2 border-gray-500" />
